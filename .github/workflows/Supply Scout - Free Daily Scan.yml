@@ -26,6 +26,7 @@ jobs:
       - name: Collect RSS news evidence and diagnostics
         shell: bash
         run: |
+          python - <<'PY'
           import datetime as dt
           import email.utils
           import html
@@ -171,6 +172,7 @@ jobs:
               print('FEED WARNING:', err['theme'], err['provider'], err['error'])
           if not status['themes_fetched']:
               print('ERROR: No feeds available. Workflow should fail after saving diagnostics, not claim success.')
+          PY
       - name: Commit evidence and diagnostics (do not change PWA)
         if: always()
         shell: bash
