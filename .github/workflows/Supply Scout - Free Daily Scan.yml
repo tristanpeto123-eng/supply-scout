@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: supply-scout-evidence
+  group: supply-scout-rss-scan
   cancel-in-progress: false
 
 jobs:
@@ -23,97 +23,179 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Search public news and update archive
+      - name: Collect RSS news evidence and diagnostics
         shell: bash
         run: |
-          python - <<'PY'
           import datetime as dt
+          import email.utils
+          import html
           import json
           import re
           import time
+          import xml.etree.ElementTree as ET
           from pathlib import Path
-          from urllib.parse import urlencode, urlparse
+          from urllib.parse import urlencode, urlparse, quote_plus
           from urllib.request import Request, urlopen
-
-          now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
+          from urllib.error import HTTPError
+          
+          # Public headline discovery. No scraping behind logins, no trading, no predictions.
           WATCH = {
-              'Memory chips': '(DRAM OR HBM OR NAND) (shortage OR "capacity constrained" OR backlog)',
-              'Optical networks': '(optical OR transceiver OR photonics) (shortage OR "capacity constrained" OR backlog)',
-              'Grid equipment': '(transformer OR switchgear) (shortage OR "lead time" OR backlog)',
-              'Copper': 'copper (shortage OR "supply deficit" OR "mine disruption")',
-              'Shipping': '(shipping OR freight OR container) (shortage OR congestion OR "rates surge")',
+              'Memory chips': '(DRAM OR HBM OR NAND) (shortage OR backlog OR "price increase" OR "capacity constrained") when:14d',
+              'Optical networks': '("optical transceiver" OR photonics OR "optical networking") (shortage OR backlog OR demand) when:14d',
+              'Grid equipment': '(transformer OR switchgear) (shortage OR backlog OR "lead time") when:14d',
+              'Copper': 'copper ("supply deficit" OR shortage OR disruption) when:14d',
+              'Shipping': '(shipping OR containers OR freight) (congestion OR shortage OR "rates rise") when:14d',
           }
-          TERMS = re.compile(
-              r'\b(shortage|scarcity|shortfall|backlog|capacity constrain\w*|'
-              r'supply constrain\w*|supply deficit|lead.time\w*|sold.out|'
-              r'congestion|freight rates|prices? surge\w*)\b', re.I)
-          EASING = re.compile(
-              r'\b(oversupply|shortage eases|supply normaliz\w*|'
-              r'prices? (?:fall|decline))\b', re.I)
-          path = Path('data/archive.json')
+          SIGNALS = {
+              'Scarcity': re.compile(r'\b(shortage|scarcity|shortfall|supply deficit|capacity constrain\w*|supply constrain\w*|sold out|tight supply)\b', re.I),
+              'Backlog': re.compile(r'\b(backlog|lead.time\w*|delivery delay\w*|fully booked|fully allocated)\b', re.I),
+              'Pricing': re.compile(r'\b(price\w* (?:surge|spike|rise|increase)|higher prices|cost\w* (?:surge|spike)|price increase)\b', re.I),
+              'Demand': re.compile(r'\b(demand (?:surge|jump|boom|outpace)|orders? (?:surge|jump)|capacity expansion)\b', re.I),
+          }
+          EASING = re.compile(r'\b(oversupply|shortage eases|supply normaliz\w*|prices? (?:fall|decline)|lead times? (?:fall|shorten))\b', re.I)
+          ARCHIVE = Path('data/archive.json')
+          STATUS = Path('data/scan_status.json')
+          MAX_ARCHIVE = 1500
+          started = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
+          
+          
+          def feeds(query):
+              # Two independent free providers, no API key. These may also rate-limit.
+              q = quote_plus(query)
+              yield ('Google News RSS', 'https://news.google.com/rss/search?q=' + q + '&hl=en-GB&gl=GB&ceid=GB:en')
+              # Bing doesn't use Google's "when:" operator.
+              fallback_query = query.replace(' when:14d', '')
+              yield ('Bing News RSS', 'https://www.bing.com/news/search?' + urlencode({'q': fallback_query, 'format': 'rss'}))
+          
+          
+          def get_items(url):
+              headers = {
+                  'User-Agent': 'Mozilla/5.0 (compatible; SupplyScoutResearch/0.3; iPhoneWebApp)',
+                  'Accept': 'application/rss+xml, application/xml, text/xml; q=0.9, */*; q=0.5'
+              }
+              req = Request(url, headers=headers)
+              with urlopen(req, timeout=30) as resp:
+                  if resp.status != 200:
+                      raise RuntimeError('HTTP ' + str(resp.status))
+                  body = resp.read(3_000_000)
+              root = ET.fromstring(body)
+              items = root.findall('.//channel/item')
+              if not items:
+                  raise ValueError('No RSS items in response')
+              return items
+          
+          
+          def record(item, theme, provider):
+              title = html.unescape(' '.join((item.findtext('title') or '').split()))
+              url = (item.findtext('link') or '').strip()
+              if not title or not url.startswith(('https://', 'http://')):
+                  return None
+              source = item.find('source')
+              publisher = ((source.text or '').strip() if source is not None else '')
+              source_domain = urlparse((source.attrib.get('url') or url) if source is not None else url).netloc
+              flags = [k for k, pat in SIGNALS.items() if pat.search(title)]
+              # Search hits without explicit title evidence remain research leads, not asserted shortages.
+              if not flags:
+                  flags = ['Watchlist search match - unverified']
+              posted = (item.findtext('pubDate') or '').strip()
+              published_in_feed = None
+              if posted:
+                  try:
+                      published_in_feed = email.utils.parsedate_to_datetime(posted).astimezone(dt.timezone.utc).isoformat(timespec='seconds')
+                  except (TypeError, ValueError, OverflowError):
+                      pass
+              return {
+                  'theme': theme, 'headline': title, 'url': url,
+                  'domain': publisher or source_domain or urlparse(url).netloc,
+                  'source_domain': source_domain,
+                  'news_provider': provider,
+                  'first_seen_by_agent_at': started,
+                  'feed_publication_at': published_in_feed,
+                  'published_at_verified': None,
+                  'flags': flags,
+                  'easing': bool(EASING.search(title)),
+                  'classification': 'unverified search result - verify primary report and timing',
+              }
+          
+          
           try:
-              archive = json.loads(path.read_text(encoding='utf-8')) if path.exists() else []
+              archive = json.loads(ARCHIVE.read_text(encoding='utf-8')) if ARCHIVE.exists() else []
               if not isinstance(archive, list):
                   archive = []
           except (ValueError, OSError):
               archive = []
-          seen = {(item.get('theme'), item.get('url')) for item in archive}
-          added, errors = 0, []
+          seen = {(a.get('theme'), a.get('url')) for a in archive if isinstance(a, dict)}
+          counts, errors, added, successes = {}, [], 0, 0
+          
           for theme, query in WATCH.items():
-              params = urlencode({
-                  'query': query, 'mode': 'artlist', 'format': 'json',
-                  'timespan': '7d', 'maxrecords': 75})
-              try:
-                  request = Request(
-                      'https://api.gdeltproject.org/api/v2/doc/doc?' + params,
-                      headers={'User-Agent': 'SupplyScout/0.2 PublicResearch'})
-                  with urlopen(request, timeout=35) as response:
-                      payload = json.loads(response.read(3000000).decode('utf-8'))
-                  articles = payload.get('articles', [])
-                  if not isinstance(articles, list):
-                      raise ValueError('GDELT returned no article list')
-                  for item in articles:
-                      title = str(item.get('title') or '').strip()
-                      url = str(item.get('url') or '').strip()
-                      if not title or not url.startswith(('https://', 'http://')):
-                          continue
-                      if not TERMS.search(title) and not EASING.search(title):
-                          continue
-                      key = (theme, url)
-                      if key in seen:
-                          continue
-                      seen.add(key)
-                      archive.append({
-                          'theme': theme,
-                          'headline': title,
-                          'url': url,
-                          'domain': urlparse(url).netloc,
-                          'first_seen_by_agent_at': now,
-                          'gdelt_seen_at': item.get('seendate'),
-                          'published_at_verified': None,
-                          'flags': ['Headline scarcity signal'],
-                          'easing': bool(EASING.search(title)),
-                          'classification': 'unverified headline - research only'
-                      })
-                      added += 1
-              except Exception as exc:
-                  errors.append(theme + ': ' + type(exc).__name__ + ': ' + str(exc))
-              time.sleep(1)
-          path.parent.mkdir(parents=True, exist_ok=True)
-          path.write_text(json.dumps(archive[-2000:], indent=2, ensure_ascii=False), encoding='utf-8')
-          print('Archived:', len(archive[-2000:]), 'new:', added, 'feed errors:', len(errors))
-          for error in errors:
-              print('FEED WARNING:', error)
-          if errors and added == 0:
-              print('No new headlines: feed may be unavailable; no results fabricated.')
-          PY
-      - name: Commit evidence without replacing PWA website
+              count = 0
+              for provider, url in feeds(query):
+                  try:
+                      items = get_items(url)
+                      successes += 1
+                      for item in items:
+                          a = record(item, theme, provider)
+                          if not a:
+                              continue
+                          key = (theme, a['url'])
+                          if key not in seen:
+                              seen.add(key)
+                              archive.append(a)
+                              count += 1
+                              added += 1
+                      counts[theme] = {'provider': provider, 'items_returned': len(items), 'new_articles': count}
+                      # We have a functioning provider for this theme; don't duplicate with fallback.
+                      break
+                  except (HTTPError, TimeoutError, OSError, ValueError, ET.ParseError) as exc:
+                      errors.append({'theme': theme, 'provider': provider, 'error': type(exc).__name__ + ': ' + str(exc)})
+                      time.sleep(3)
+              if theme not in counts:
+                  counts[theme] = {'provider': None, 'items_returned': 0, 'new_articles': 0}
+              time.sleep(2)  # Avoid hammering public RSS servers.
+          
+          ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
+          archive = archive[-MAX_ARCHIVE:]
+          ARCHIVE.write_text(json.dumps(archive, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          status = {
+              'last_attempt_at': started, 'mode': 'public_rss_headline_discovery',
+              'providers_attempted': ['Google News RSS', 'Bing News RSS'],
+              'themes_fetched': sum(1 for c in counts.values() if c['provider']),
+              'themes_total': len(WATCH),
+              'new_articles': added, 'archive_total': len(archive),
+              'themes': counts, 'errors': errors,
+              'caveat': 'Headlines are unverified. This is not a trained predictive model, shortage confirmation or investment recommendation.'
+          }
+          STATUS.write_text(json.dumps(status, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          print('RSS SCAN:', status['themes_fetched'], 'themes fetched,', added, 'new articles,', len(archive), 'archived')
+          for err in errors:
+              print('FEED WARNING:', err['theme'], err['provider'], err['error'])
+          if not status['themes_fetched']:
+              print('ERROR: No feeds available. Workflow should fail after saving diagnostics, not claim success.')
+      - name: Commit evidence and diagnostics (do not change PWA)
+        if: always()
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/archive.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Supply Scout: archive new public signals'
-            git push
+          if [ -f data/archive.json ] && [ -f data/scan_status.json ]; then
+            git add data/archive.json data/scan_status.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Supply Scout: refresh public news evidence'
+              git push
+            fi
+          else
+            echo 'No evidence files to commit; check scanner error above.'
           fi
+      - name: Fail clearly if all public feeds failed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/scan_status.json')
+          if not p.exists():
+              raise SystemExit('ERROR: Scanner did not produce diagnostics')
+          status = json.loads(p.read_text())
+          if status['themes_fetched'] == 0:
+              raise SystemExit('ERROR: All public RSS feeds failed - see FEED WARNING logs and scan_status.json')
+          print('OK: fetched', status['themes_fetched'], 'of', status['themes_total'], 'themes')
+          PY
