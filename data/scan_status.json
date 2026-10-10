@@ -1,0 +1,41 @@
+{
+  "last_attempt_at": "2026-10-10T19:18:47+00:00",
+  "mode": "public_rss_headline_discovery",
+  "providers_attempted": [
+    "Google News RSS",
+    "Bing News RSS"
+  ],
+  "themes_fetched": 5,
+  "themes_total": 5,
+  "new_articles": 258,
+  "archive_total": 258,
+  "themes": {
+    "Memory chips": {
+      "provider": "Google News RSS",
+      "items_returned": 65,
+      "new_articles": 65
+    },
+    "Optical networks": {
+      "provider": "Google News RSS",
+      "items_returned": 53,
+      "new_articles": 53
+    },
+    "Grid equipment": {
+      "provider": "Google News RSS",
+      "items_returned": 17,
+      "new_articles": 17
+    },
+    "Copper": {
+      "provider": "Google News RSS",
+      "items_returned": 58,
+      "new_articles": 58
+    },
+    "Shipping": {
+      "provider": "Google News RSS",
+      "items_returned": 65,
+      "new_articles": 65
+    }
+  },
+  "errors": [],
+  "caveat": "Headlines are unverified. This is not a trained predictive model, shortage confirmation or investment recommendation."
+}
