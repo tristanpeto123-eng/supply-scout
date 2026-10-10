@@ -1,0 +1,295 @@
+name: Supply Scout - Learning Lab
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Supply Scout - Daily Evidence Scan
+    types:
+      - completed
+  schedule:
+    - cron: '57 9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: supply-scout-learning
+  cancel-in-progress: false
+
+jobs:
+  learn:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout live evidence archive
+        uses: actions/checkout@v4
+      - name: Install Python (standard library only)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build independent story clusters, historical research queue and training status
+        shell: bash
+        run: |
+          python - <<'PY'
+          #!/usr/bin/env python3
+          """Supply Scout: evidence-first learning desk, runs on Python stdlib and Github Actions.
+          
+          The agent learns *patterns and time trends* prospectively, but cannot train a return
+          predictor until 80+ independent, point-in-time verified, matured historical episodes.
+          """
+          import csv
+          import datetime as dt
+          import html
+          import json
+          import math
+          import re
+          import statistics
+          from collections import Counter, defaultdict
+          from pathlib import Path
+          from urllib.parse import urlparse
+          
+          ROOT=Path('.')
+          ARCHIVE=ROOT/'data/archive.json'
+          OUT=ROOT/'data/learning'
+          SITE=ROOT/'learning.html'
+          CAS=OUT/'verified_events.csv'
+          MODEL=OUT/'trained_model.json'
+          UTC=dt.timezone.utc
+          NOW=dt.datetime.now(UTC)
+          
+          THEMES=['Memory chips','Optical networks','Grid equipment','Copper','Shipping']
+          KEYWORDS={
+           'physical_shortage':r'\b(shortages?|shortfall|scarcity|supply deficit|constrained capacity|capacity constrained|supply constrained|production bottleneck|unavailable|supply squeeze)\b',
+           'lead_time':r'\b(lead times?|delivery delays?|backlog|order book|fully booked|allocation|sold out)\b',
+           'price_power':r'\b(price increase|prices? (?:surge|spike|jump|rises?|rose|climb)|contract prices?|higher prices|price hike)\b',
+           'demand_accel':r'\b(demand (?:surges?|booms?|jumps?|outstrips?|increases?)|orders? (?:surge|jump)|ai investment|data centre demand)\b',
+           'supply_relief':r'\b(oversupply|prices? (?:fall|decline|drop)|shortage eases?|supply normali[sz]|lead times? (?:shorten|fall)|capacity catches up)\b',
+           'capacity_additions':r'\b(new fab|new factory|capacity expansion|increased output|ramp(?:ed|ing) up production|new mine|new supply)\b'
+          }
+          PATTERNS={k:re.compile(p,re.I) for k,p in KEYWORDS.items()}
+          STOP={'the','a','an','is','are','in','of','for','on','and','to','or','with','at','as','it','up','by','from','this','that','their','amid','after','report','reports','latest','why','how','be','will','could','what','who','news','says','say','today','through','market','industry','outlook','update','2026','2025'}
+          TRAIN_COLS=['event_id','as_of_date','theme','ticker','verified_source_url','source_published_at','publicly_available_at','research_verified','share_price_evidence_source','features_verified','physical_shortage','lead_time','price_power','demand_accel','supply_relief','capacity_additions','independent_source_count','prior_excess_return_30d','future_excess_return_90d','label_known_at']
+          NUMERIC=['physical_shortage','lead_time','price_power','demand_accel','supply_relief','capacity_additions','independent_source_count','prior_excess_return_30d']
+          MIN_EPISODES=80
+          
+          RESEARCH_HISTORIES=[
+           {'topic':'Semiconductor lead times and automotive output in 2021','source':'Federal Reserve July 2021 Monetary Policy Report','url':'https://www.federalreserve.gov/monetarypolicy/2021-07-mpr-part1.htm','report_date':'2021-07','status':'CONTEMPORANEOUS PUBLIC MILESTONE — not first-ever shortage signal; no verified stock label'},
+           {'topic':'Lumber demand outstripping sawmill capacity','source':'Federal Reserve July 2021 Monetary Policy Report','url':'https://www.federalreserve.gov/monetarypolicy/2021-07-mpr-part1.htm','report_date':'2021-07','status':'CONTEMPORANEOUS PUBLIC MILESTONE — not earliest bottleneck; no verified stock label'},
+           {'topic':'Steel production restarting slower than orders','source':'Federal Reserve July 2021 Monetary Policy Report','url':'https://www.federalreserve.gov/monetarypolicy/2021-07-mpr-part1.htm','report_date':'2021-07','status':'CONTEMPORANEOUS PUBLIC MILESTONE — no verified stock label'},
+           {'topic':'Container freight capacity crunch and later easing','source':'UNCTAD Review of Maritime Transport 2022','url':'https://unctad.org/rmt2022','report_date':'2022-11','status':'RETROSPECTIVE SOURCE — unusable as a 2021 predictive feature'},
+           {'topic':'Lithium boom followed by oversupply and falling prices','source':'IEA Global Critical Minerals Outlook 2024','url':'https://www.iea.org/reports/global-critical-minerals-outlook-2024/market-review','report_date':'2024-05','status':'RETROSPECTIVE NEGATIVE-CASE RESEARCH LEAD — unusable as pre-2023 signal'},
+          ]
+          
+          def parse_date(value):
+           if not value:return None
+           s=str(value)
+           try:
+            d=dt.datetime.fromisoformat(s.replace('Z','+00:00'))
+            return d.replace(tzinfo=UTC) if d.tzinfo is None else d.astimezone(UTC)
+           except ValueError:return None
+          
+          def esc(v):return html.escape(str(v if v is not None else ''),quote=True)
+          def tokenise(title):
+           title=re.sub(r'\s+[-–—]\s+[^-–—]+$','',title.lower())
+           return set(t for t in re.findall(r'[a-z0-9]{3,}',title) if t not in STOP)
+          def similarity(a,b):
+           if not a or not b:return 0
+           return len(a&b)/len(a|b)
+          
+          def load_archive():
+           if not ARCHIVE.exists():return []
+           try:raw=json.loads(ARCHIVE.read_text(encoding='utf-8'))
+           except (ValueError,OSError):return []
+           if not isinstance(raw,list):return []
+           rows=[];seen=set()
+           for x in raw:
+            if not isinstance(x,dict):continue
+            title=str(x.get('headline') or '').strip()
+            theme=str(x.get('theme') or '')
+            url=str(x.get('url') or '')
+            if not title or theme not in THEMES or not url.startswith(('https://','http://')):continue
+            if (theme,url) in seen:continue
+            seen.add((theme,url))
+            first=parse_date(x.get('first_seen_by_agent_at'))
+            pub=parse_date(x.get('feed_publication_at'))
+            evidence=[k for k,p in PATTERNS.items() if p.search(title)]
+            rows.append({'headline':title,'theme':theme,'url':url,'publisher':str(x.get('domain') or x.get('source_domain') or urlparse(url).netloc),'first_seen':first,'feed_published':pub,'flags':evidence,'tokens':tokenise(title)})
+           return rows
+          
+          def make_clusters(rows):
+           clusters=[]
+           for row in sorted(rows,key=lambda x:x['headline']):
+            matched=None;mx=0
+            for c in clusters:
+             if c['theme']!=row['theme']:continue
+             s=similarity(row['tokens'],c['tokens'])
+             if s>=.56 and s>mx:matched=c;mx=s
+            if matched is None:
+             clusters.append({'theme':row['theme'],'tokens':row['tokens'],'rows':[row],'headline':row['headline']})
+            else:matched['rows'].append(row)
+           return clusters
+          
+          def relative_pub_age_days(row):
+           if not row['feed_published'] or not row['first_seen']:return None
+           return max(0,(row['first_seen']-row['feed_published']).total_seconds()/86400)
+          
+          def summary(rows,clusters):
+           out=[]
+           for theme in THEMES:
+            t=[x for x in rows if x['theme']==theme]
+            tc=[x for x in clusters if x['theme']==theme]
+            publishers={x['publisher'].lower() for x in t}
+            named_flags=Counter(flag for r in t for flag in r['flags'])
+            discovery_days={r['first_seen'].date() for r in t if r['first_seen']}
+            rec=[r for r in t if r['first_seen'] and 0<=(NOW-r['first_seen']).total_seconds()<=7*86400]
+            prev=[r for r in t if r['first_seen'] and 7*86400<(NOW-r['first_seen']).total_seconds()<=30*86400]
+            old=sum(1 for r in t if relative_pub_age_days(r) is not None and relative_pub_age_days(r)>7)
+            repeats=max(0,len(t)-len(tc))
+            evidence=sum(1 for r in t if any(f in r['flags'] for f in ['physical_shortage','lead_time','price_power']))
+            # Research priority only: never interpreted as probability or model confidence.
+            score=min(75,8 +min(20,len(tc)*2)+min(15,len(publishers)*2)+min(20,evidence*2)+min(12,named_flags.get('price_power',0)*2) -min(15,named_flags.get('supply_relief',0)*3)) if t else 0
+            if len(discovery_days)<14:
+             momentum='UNKNOWN — fewer than 14 separate collection days'
+            else:
+             momentum=('RISING' if len(rec)>len(prev)*7/23*1.5 else 'FLAT/LOWER')
+            tcs=sorted(tc,key=lambda c:(-len({r['publisher'].lower() for r in c['rows']}),-len(c['rows'])))
+            groups=[]
+            for c in tcs[:7]:
+             x=min(c['rows'],key=lambda r:relative_pub_age_days(r) if relative_pub_age_days(r) is not None else 100000)
+             groups.append({'headline':x['headline'],'url':x['url'],'reports':len(c['rows']),'publishers':len({r['publisher'].lower() for r in c['rows']}),'signal_tags':sorted({f for r in c['rows'] for f in r['flags']}),'feed_published_at':x['feed_published'].isoformat() if x['feed_published'] else None,'first_seen_at':x['first_seen'].isoformat() if x['first_seen'] else None,'source':x['publisher']})
+            out.append({'theme':theme,'articles':len(t),'unique_report_clusters':len(tc),'estimated_duplicate_headlines':repeats,'publishers':len(publishers),'early_signal_strength':score,'evidence_headlines':evidence,'general_headlines':len(t)-evidence,'older_than_7_days_on_first_seen':old,'first_seen_days':len(discovery_days),'momentum':momentum,'flags':dict(named_flags),'stories':groups,'note':'Research priority only. The score does not test valuations or future stock returns.'})
+           return out
+          
+          def load_verified():
+           OUT.mkdir(parents=True,exist_ok=True)
+           if not CAS.exists():
+            with CAS.open('w',encoding='utf-8',newline='') as f:
+             w=csv.DictWriter(f,fieldnames=TRAIN_COLS);w.writeheader()
+            return [],[]
+           with CAS.open(encoding='utf-8',newline='') as f:raw=list(csv.DictReader(f))
+           passed=[];rejected=[]
+           for i,r in enumerate(raw,2):
+            try:
+             if str(r.get('research_verified','')).lower() not in ['yes','true','1']:raise ValueError('not verified')
+             if str(r.get('features_verified','')).lower() not in ['yes','true','1']:raise ValueError('features not verified')
+             event=str(r['event_id']).strip();ticker=str(r['ticker']).strip().upper()
+             if not event or not ticker:raise ValueError('event or ticker missing')
+             d=dt.date.fromisoformat(r['as_of_date'])
+             pub=parse_date(r.get('source_published_at'))
+             known=parse_date(r.get('publicly_available_at'))
+             label_known=parse_date(r.get('label_known_at'))
+             if not all([pub,known,label_known]):raise ValueError('unverified timing')
+             if known.date()>d or pub.date()>d:raise ValueError('future publication or availability')
+             if label_known.date() < d+dt.timedelta(days=90):raise ValueError('label too early')
+             if label_known > NOW:raise ValueError('label not yet observable')
+             if not str(r.get('verified_source_url','')).startswith('https://'):raise ValueError('missing source URL')
+             if not str(r.get('share_price_evidence_source','')).startswith('https://'):raise ValueError('missing price source URL')
+             feats=[float(r[k]) for k in NUMERIC]
+             if not all(math.isfinite(v) for v in feats):raise ValueError('non-finite feature')
+             if not all(0<=v<=1 for v in feats[:6]):raise ValueError('evidence features must be 0..1')
+             if feats[6]<1:raise ValueError('source count must be positive')
+             y=float(r['future_excess_return_90d'])
+             if not math.isfinite(y) or y<-1 or y>100:raise ValueError('implausible forward return decimal')
+             passed.append({'event_id':event,'date':d,'ticker':ticker,'theme':str(r.get('theme') or ''),'features':feats,'excess_return_90d':y,'label':int(y-0.004>.05)})
+            except (KeyError,TypeError,ValueError) as exc:rejected.append({'line':i,'reason':str(exc)})
+           return passed,rejected
+          
+          def sigmoid(x):
+           if x < -25:return 1e-11
+           if x > 25:return 1-1e-11
+           return 1/(1+math.exp(-x))
+          
+          def train_if_ready(examples, rejected):
+           episodes={r['event_id'] for r in examples}
+           pos_eps={r['event_id'] for r in examples if r['label']==1}
+           neg_eps={r['event_id'] for r in examples if r['label']==0}
+           meta={'labelled_rows':len(examples),'independent_episodes':len(episodes),'positive_episodes':len(pos_eps),'negative_episodes':len(neg_eps),'invalid_rows':rejected[:12], 'min_episodes':MIN_EPISODES,'prediction_model':'NOT TRAINED'}
+           if len(episodes)<MIN_EPISODES or len(pos_eps)<20 or len(neg_eps)<20:
+            meta['blocker']='Require 80+ independently verified shortage events, 20+ positive and 20+ negative episodes with matured 90-day outcomes.';return meta
+           sorted_episodes=sorted({(r['date'],r['event_id']) for r in examples})
+           split_date=sorted_episodes[int(len(sorted_episodes)*.75)][0]
+           train=[x for x in examples if x['date']<=split_date-dt.timedelta(days=97)]
+           test=[x for x in examples if x['date']>=split_date]
+           train_eps={r['event_id'] for r in train};test_eps={r['event_id'] for r in test}
+           train=[r for r in train if r['event_id'] not in test_eps]
+           test=[r for r in test if r['event_id'] not in train_eps]
+           if len({r['event_id'] for r in train})<50 or len({r['event_id'] for r in test})<15 or len({r['label'] for r in train})<2 or len({r['label'] for r in test})<2:
+            meta['blocker']='After chronological holdout, 97-day embargo and episode grouping, not enough independent cases in both classes.';return meta
+           # Standardize ONLY on train; heldout data is never used in feature scaling.
+           means=[statistics.mean(r['features'][j] for r in train) for j in range(len(NUMERIC))]
+           stds=[max(1e-6,statistics.pstdev(r['features'][j] for r in train)) for j in range(len(NUMERIC))]
+           def z(row):return [(row['features'][j]-means[j])/stds[j] for j in range(len(NUMERIC))]
+           # Deterministic ridge-regularised binary logistic regression (standard library only).
+           w=[0.]*(len(NUMERIC)+1)
+           for iteration in range(1500):
+            grad=[0.]*len(w)
+            for r in train:
+             x=[1.]+z(r); err=sigmoid(sum(xj*wj for xj,wj in zip(x,w)))-r['label']
+             for j in range(len(w)):grad[j]+=err*x[j]
+            for j in range(len(w)):
+             regularization=0 if j==0 else .05*w[j]
+             w[j]-=.03*(grad[j]/len(train)+regularization)
+           p=[sigmoid(sum(xj*wj for xj,wj in zip([1.]+z(r),w))) for r in test]
+           base=statistics.mean(r['label'] for r in train)
+           brier=statistics.mean((v-r['label'])**2 for v,r in zip(p,test))
+           base_brier=statistics.mean((base-r['label'])**2 for r in test)
+           meta.update({'prediction_model':'EXPERIMENTAL TRAINED (not validated for trading)','holdout_episodes':len({x['event_id'] for x in test}),'train_episodes':len({x['event_id'] for x in train}),'holdout_base_rate':round(statistics.mean(r['label'] for r in test),3),'holdout_brier':round(brier,4),'baseline_brier':round(base_brier,4),'split_date':str(split_date),'trading_enabled':False})
+           MODEL.write_text(json.dumps({'version':'experimental','trained_at':NOW.isoformat(),'features':NUMERIC,'means':means,'stds':stds,'weights':w,'metrics':meta},indent=2)+'\n',encoding='utf-8')
+           return meta
+          
+          def make_html(state):
+           tbl=''.join('<div class="row"><span>'+esc(t['theme'])+'</span><strong>'+str(t['early_signal_strength'])+'<small>/75</small></strong></div><div class="metrics">'+str(t['unique_report_clusters'])+' story clusters · '+str(t['evidence_headlines'])+' evidence-keyword headlines · '+str(t['publishers'])+' publisher labels</div>'+'<div class="sub">'+esc(t['momentum'])+'</div>' for t in state['themes'])
+           stories=''
+           for t in state['themes']:
+            cards=''.join('<div class="story"><a href="'+esc(s['url'])+'" target="_blank" rel="noopener noreferrer">'+esc(s['headline'])+'</a><span>'+esc(s['source'])+' · '+str(s['reports'])+' related headline(s) · '+esc(', '.join(s['signal_tags']) or 'General mention')+'</span><button type="button" class="annotate" data-theme="'+esc(t['theme'])+'" data-headline="'+esc(s['headline'])+'" data-url="'+esc(s['url'])+'" data-published="'+esc(s['feed_published_at'])+'">Teach this example</button></div>' for s in t['stories'][:4])
+            stories+='<details><summary>'+esc(t['theme'])+' · '+str(t['unique_report_clusters'])+' clusters</summary>'+cards+'</details>'
+           milestones=''.join('<div class="story"><a href="'+esc(c['url'])+'" target="_blank" rel="noopener noreferrer">'+esc(c['topic'])+'</a><span>'+esc(c['source'])+' ('+esc(c['report_date'])+') — '+esc(c['status'])+'</span></div>' for c in RESEARCH_HISTORIES)
+           meta=state['model'];badge='Training BLOCKED until verified cases exist' if meta['prediction_model']=='NOT TRAINED' else 'EXPERIMENTAL MODEL — NO TRADING'
+           page='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#09121d"><title>Supply Scout · Learning</title><style>
+           body{background:#09121d;color:#eaf3fc;font-family:-apple-system,system-ui,sans-serif;margin:0}main{max-width:850px;margin:auto;padding:25px 16px 60px}.ey{letter-spacing:2px;color:#71eac5;font-size:11px;font-weight:750}h1{font-size:36px;letter-spacing:-1px}h2{font-size:19px;margin:25px 0 12px}.muted,p{color:#a3b8c9;line-height:1.55}.tag{display:inline-block;background:#19374a;padding:9px 12px;border-radius:40px;color:#8be4ca;font-size:12px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:20px 0}.num{padding:15px;background:#112338;border:1px solid #294158;border-radius:15px}.num b{font-size:27px;display:block}.num span{font-size:11px;color:#97adc1}.panel{padding:19px;background:#122135;border:1px solid #2b425a;border-radius:15px;margin:13px 0}.row{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #294053;padding:11px 0}.row strong{color:#71eac5}.row small{color:#93adbc;font-size:11px}.metrics,.sub{font-size:12px;color:#91a8bb;margin:5px 0 13px}.sub{color:#efbe7d}details{border-bottom:1px solid #2d4661;padding:12px 0}summary{font-weight:650;cursor:pointer}.story{padding:12px 0;border-bottom:1px solid #2a4055}.story a{color:#d8f5ff;font-weight:620;text-decoration:none;line-height:1.4;display:block;font-size:14px;overflow-wrap:anywhere}.story span{font-size:11px;color:#94aec0;display:block;margin-top:6px}a.home{color:#71eac5}footer{font-size:11px;color:#879caf;margin-top:30px}li{padding:3px 0;color:#abc1d0}@media(max-width:500px){.num{padding:12px}.num b{font-size:22px}}</style></head><body><main><div class="ey">SUPPLY SCOUT / LEARNING LAB</div><h1>Teach the signal.<br>Reject the hype.</h1><span class="tag">'''+esc(badge)+'''</span><p>The agent compares dated signals and groups repeated stories before exploring historical investment outcomes. These are research leads, not trading recommendations.</p><div class="stats"><div class="num"><b>'''+str(state['archive_count'])+'''</b><span>News records</span></div><div class="num"><b>'''+str(state['cluster_count'])+'''</b><span>Story clusters</span></div><div class="num"><b>'''+str(meta['independent_episodes'])+'''/80</b><span>Verified episodes</span></div></div><div class="panel"><h2>Research pressure · not a forecast</h2>'''+tbl+'''</div><div class="panel"><h2>Historical model readiness</h2><p>'''+esc(meta.get('blocker','The prototype model is experimental and requires independent validation.'))+'''</p><p>Positive episodes: '''+str(meta['positive_episodes'])+''' · Negative episodes: '''+str(meta['negative_episodes'])+'''. All labelled outcomes must mature at least 90 days after their original as-of date, with a 97-day embargo before the final holdout.</p><p>Historical backfill is <b>not</b> the same as evidence first seen by the live agent. The classifier will not be trained using invented labels.</p></div><div class="panel"><h2>What to investigate now</h2>'''+stories+'''</div><div class="panel"><h2>Historical case research queue</h2><p>These are source anchors, not completed labelled examples. Retrospective sources are explicitly excluded from point-in-time predictive features.</p>'''+milestones+'''</div><div class="panel"><h2>What the agent learns next</h2><ol><li>Verify whether scarcity reflects actual supply limits rather than generic search matches.</li><li>Watch changes in independent evidence over multiple collection dates.</li><li>Map producers, equipment suppliers and affected customers; check both benefits and cost exposure.</li><li>Compare forward 90-day stock returns against a currency-appropriate benchmark, after costs.</li><li>Score new candidates only after a leakage-controlled chronological holdout and paper testing.</li></ol></div><p><a class="home" href="./">← Return to Supply Scout radar</a></p><footer>Latest learning run: '''+esc(state['built_at'])+''' UTC · Research only · No automated trades · All articles unverified until primary-source review.</footer></main></body></html>'''
+           # Teacher notes are local only. They are never treated as verified returns or as training data.
+           teacher_ui='''<div class="panel" id="teach"><h2>Teach the agent · Your evidence labels</h2><p>Tag a story from this page, or enter one yourself. Labels help build a research casebook; they are not stock-return outcomes. Saved only in this browser until you export them.</p><form id="teachForm"><p><label for="labTheme">Industry</label><select id="labTheme" required><option>Memory chips</option><option>Optical networks</option><option>Grid equipment</option><option>Copper</option><option>Shipping</option></select></p><p><label for="labTitle">Headline / claim</label><textarea id="labTitle" required maxlength="700" rows="3" placeholder="What did the company or report say?"></textarea></p><p><label for="labType">Evidence classification</label><select id="labType" required><option value="scarcity_claim">Reported physical shortage — needs verification</option><option value="demand_claim">Demand accelerating — needs verification</option><option value="pricing_claim">Evidence of higher prices — needs verification</option><option value="capacity_claim">New capacity / expansion</option><option value="easing_claim">Evidence that shortage is easing</option><option value="irrelevant">Irrelevant or duplicate noise</option></select></p><p><label for="labTicker">Potential affected company (optional)</label><input id="labTicker" maxlength="20" placeholder="e.g. MU"></p><p><label for="labSource">Public supporting source</label><input id="labSource" type="url" placeholder="https://..."></p><p><label for="labAsOf">Date information was public</label><input id="labAsOf" type="date"></p><p><label for="labNotes">Why does this matter?</label><textarea id="labNotes" rows="3" placeholder="Capacity, inventories, lead times, reliability, already priced in?"></textarea></p><div class="teachbtn"><button type="submit">Save teaching note</button><button type="button" id="exportTeaching">Export annotations</button></div></form><p id="teacherStatus" class="muted">No labels saved yet.</p><p class="muted">Important: Browser notes are not uploaded automatically and do not train the return model. Export them for source verification and historical labelling.</p></div>'''
+           teacher_js=r'''<script>
+          (()=>{'use strict';const k='supply-scout-teacher-notes-v1';const form=document.getElementById('teachForm');const status=document.getElementById('teacherStatus');const get=()=>{try{const x=JSON.parse(localStorage.getItem(k)||'[]');return Array.isArray(x)?x:[]}catch{return []}};const say=()=>status.textContent=get().length+' local teaching notes saved (not yet training data).';say();
+           document.querySelectorAll('button.annotate').forEach(b=>b.addEventListener('click',()=>{document.getElementById('labTheme').value=b.dataset.theme;document.getElementById('labTitle').value=b.dataset.headline;document.getElementById('labSource').value=b.dataset.url;document.getElementById('labAsOf').value=(b.dataset.published||'').slice(0,10);document.getElementById('teach').scrollIntoView({behavior:'smooth'});}));
+           form.addEventListener('submit',e=>{e.preventDefault();const a={theme:document.getElementById('labTheme').value,headline:document.getElementById('labTitle').value,signal_type:document.getElementById('labType').value,ticker:document.getElementById('labTicker').value.trim().toUpperCase(),source_url:document.getElementById('labSource').value,public_as_of_claim:document.getElementById('labAsOf').value,notes:document.getElementById('labNotes').value,annotated_at:new Date().toISOString(),verified:false,financial_label:null};const all=get();all.push(a);try{localStorage.setItem(k,JSON.stringify(all));say();form.reset();status.textContent='Saved locally. '+all.length+' teaching note(s).';}catch{status.textContent='Local storage is unavailable. Export any previous annotations.';}});
+           document.getElementById('exportTeaching').addEventListener('click',()=>{const all=get();if(!all.length){status.textContent='There are no notes to export.';return;}const blob=new Blob([JSON.stringify({version:1,mode:'UNVERIFIED_USER_NOTES',annotations:all},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='supply-scout-teaching-notes.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),5000);});
+          })();
+          </script>'''
+           page=page.replace('<p><a class="home" href="./">',teacher_ui+'<p><a class="home" href="./">')
+           page=page.replace('</body></html>',teacher_js+'</body></html>')
+           page=page.replace('a.home{color:#71eac5}', 'a.home{color:#71eac5}label{display:block;font-size:12px;color:#acc5d5;margin-bottom:6px}input,textarea,select{width:100%;box-sizing:border-box;border:1px solid #385a72;background:#081827;color:#ecf7fb;border-radius:9px;padding:10px;font:inherit}button{padding:11px 14px;border:0;background:#1b625f;color:#f1ffff;border-radius:10px;font:inherit;cursor:pointer}.teachbtn{display:flex;flex-wrap:wrap;gap:8px}button.annotate{margin-top:8px;padding:5px 9px;background:#1b4057;color:#a9ece0;font-size:11px}')
+           SITE.write_text(page,encoding='utf-8')
+          
+          def main():
+           OUT.mkdir(parents=True,exist_ok=True)
+           rows=load_archive()
+           clusters=make_clusters(rows)
+           themes=summary(rows,clusters)
+           data,rejected=load_verified()
+           meta=train_if_ready(data,rejected)
+           state={'built_at':NOW.isoformat(timespec='seconds'),'archive_count':len(rows),'cluster_count':len(clusters),'dates_first_seen':len({r['first_seen'].date() for r in rows if r['first_seen']}),'data_quality':{'all_current_archive_unverified':True,'historical_dates_are_not_agent_first_seen':True,'model_is_not_return_probability':True},'themes':themes,'model':meta,'historical_case_research_leads':RESEARCH_HISTORIES}
+           (OUT/'learning_state.json').write_text(json.dumps(state,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+           make_html(state)
+           print('Learning:',len(rows),'headlines,',len(clusters),'clusters,',meta['independent_episodes'],'verified episodes; model:',meta['prediction_model'])
+           if not rows:print('WARNING: no article archive. Check the daily RSS scanner before interpreting any score.')
+           return state
+          
+          if __name__=='__main__':main()
+          PY
+      - name: Commit learning data and Learning Lab web page
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add learning.html data/learning/learning_state.json data/learning/verified_events.csv
+          if [ -f data/learning/trained_model.json ]; then
+            git add data/learning/trained_model.json
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Supply Scout: update learning lab and training readiness'
+            git pull --rebase origin main
+            git push
+          fi
