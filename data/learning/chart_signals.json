@@ -1,0 +1,357 @@
+[
+  {
+    "id": "Copper|FCX|2026-W41",
+    "ticker": "FCX",
+    "theme": "Copper",
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "headline": "Global copper market braces for ‘big shortfall’ - Mining.com.au",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53Nk9NdGNxOG12VnlJVXUtdE1MVzk1dFdvc21NcG9qdTladERiVUFEYVcycFVqQk9OTGQyRGxEd215bzhUTDV0bV9IV2labXNja3NmUEdaV2dTSk4zZnNremw2ZWp6al94VzUxc1FJTzBjWDZyZHJB?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 4,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 73.690002,
+        "sma20": 71.4875,
+        "sma50": 71.5648,
+        "sma200": 64.042979,
+        "rsi14": 55.08,
+        "atr14_pct": 3.43,
+        "volume_vs_20d": 0.64,
+        "relative_strength_20d_pct": 3.28,
+        "relative_strength_60d_pct": 22.93,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 74.349998,
+        "distance_above_sma20_pct": 3.08,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-11T17:45:19+00:00",
+      "historically_backfilled": true
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W41",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "headline": "Marsons’ US expansion: Indian power transformer maker to form JV with Cleanhill Partners amid North America supply shortage - ET Now",
+    "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPNk9KQWJFdUh2YVgtTUpPWWtSaDVQY2xHb0ZQYzVoRXptY1Y3RmdsU2VwblUzWHhnR0d5ZzczcldsZWI3alBnbl8taXA0Vm02SDgySFFEcURaZE0xTXFZeEg0LS1RWDNMTmQ0c0ExY0k0b1NwdXVHM1dBeEpyNlkxdzdVd2tYZ1dreENYcWJtNWMwVnEwWTQ0YmxMeDVFMVFOY0ttZHlrZ0Q2a1NoZWlfX1l2d0FueDdVcXE0T3A5NEJXQmtEc2lYanB2OXdLczNfcEV0Tng3c1dyeExNNmdZWVROaHBrVFY5QjF1NC1ybzUxOVE1YlF2LTNqVkNVYUhjdHNSU1dn0gGLAkFVX3lxTE5vaWhIbF9HY1JjZWVhb2RoSVdrXzQzYWlqV2N4Z1ZHM1pBS0Y0S0ZLVkp1Z1JOd1dMa2pOcFR1NVhKaS1rbG5wOGRWY0hkVHcwenJVZ0x6Nk9NaDV1VnAtTHVrVE5PbG40YjRFXzFzTXdyc09QZ1VsZGNJOEZ0M1c5UENyaFJ2Z2libkJtZkM5ODR6c2lySWZNWFREYzAxR2lYMXJ1ZEtZUWtIajloQ2dNZXl6TzJDOEp3LW5RTlo4d0pDbndUT3Z4aWZCSFJpSEE4c2tDYXozUVZGNk1JQkFKb1RFLVBrMTdqRGpmTWRsNGNZenVwWVJ3OXFJYW9nWlhJZ3RQT2N3NTNaVQ?oc=5",
+    "chart_indication": {
+      "status": "TECHNICAL_INDICATION",
+      "strength": 5,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 429.649994,
+        "sma20": 427.260497,
+        "sma50": 426.330519,
+        "sma200": 390.459577,
+        "rsi14": 46.22,
+        "atr14_pct": 3.01,
+        "volume_vs_20d": 0.77,
+        "relative_strength_20d_pct": 0.6,
+        "relative_strength_60d_pct": 5.79,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 445.089996,
+        "distance_above_sma20_pct": 0.56,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-11T17:45:19+00:00",
+      "historically_backfilled": true
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W41",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "headline": "Micron's $50 Billion Quarter Hinges on a Memory Shortage That Won't Quit - AD HOC NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ0JwMXlveVRZQ0lSNk9kUlp1WjY5UGFGU0Z0cDJSNFl6cmdBbW9uVExOdER4MlFLM3dsazRMN1BVMmR5Qjh3QWIzOWZvSzYxU2VxME1VV3kzckFXQjN6bEFfM3lrTWgySGJoVEgyb3dvbDhiZ0JkRTNEZHo4dm5zM1Q4d2ZWVER1NFRYS2xoZkZOcjRKTUhkTktwV2F1bE1GVlBOa0l0a2c0Mll2SkxPdUFMWndoSk9XVk0yUHd2dmdCNnc0bGhUZ3FWSUZoVDVkTmhBWHJsZjdLNHM?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 4,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 1029.0,
+        "sma20": 1038.254999,
+        "sma50": 976.1862,
+        "sma200": 701.569565,
+        "rsi14": 47.6,
+        "atr14_pct": 4.27,
+        "volume_vs_20d": 0.77,
+        "relative_strength_20d_pct": 5.1,
+        "relative_strength_60d_pct": 17.7,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1097.390015,
+        "distance_above_sma20_pct": -0.89,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-11T17:45:19+00:00",
+      "historically_backfilled": true
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Shipping|ZIM|2026-W41",
+    "ticker": "ZIM",
+    "theme": "Shipping",
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "headline": "ICT: Hapag-Lloyd suspends Philippine bookings amid port congestion - Philstar.com",
+    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSnBDSGZBZVpiWlk1d01VelFUUmRpM3NiaW1XdzdGZm5HOWZERjJaLXVqTEM4UVpYeEUtcWE3ZFNMUHo5YlB5VmxXOWowN3ROdGNfTF8zWDliM1FEaFQ1TmpyYXJRTXpuN3FVRGNmMnZKR29fdThweVNwN1NqVjI0ZGoyMTM2M0pZb1pURnZ3RmNzd0FWZk9OekFodlEyMTE3c0VZQVQ4TGpfaVpRX2JwV250MXNQQjFtdjFhcENPUFhtbG56RTdocTRwV3NHLS1q0gHXAUFVX3lxTE5BRjVhSnNXbTlhUWlOcWtBdU5ITlU5Z2ZsUlI2Z3hONllQUFBZUGFERXlfVUJuai1zaTRqYnRLWFVzaWxvOGVOLVFWbUMzenZfdC1oNHlFQm5kNUlNTzI0Ny1PM1VFYXl6My1fa0RPcklnRTA5NHNqOFhyNlVLSDYyb3JrQWVYQnVjcVJXVm1ndVdnR1UtOVRZNXdPTWQzNGZYSlhrY3pmdGVMbmVZVU44eEpqczBVN25laEVXcWZzY2xlQmZOSlhFWF9uUDZ5RTRzVEp0a2Uw?oc=5",
+    "chart_indication": {
+      "status": "TECHNICAL_INDICATION",
+      "strength": 5,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 29.99,
+        "sma20": 29.646,
+        "sma50": 28.3596,
+        "sma200": 25.663071,
+        "rsi14": 46.05,
+        "atr14_pct": 3.19,
+        "volume_vs_20d": 0.52,
+        "relative_strength_20d_pct": 1.01,
+        "relative_strength_60d_pct": 19.45,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 30.51,
+        "distance_above_sma20_pct": 1.16,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-11T17:45:19+00:00",
+      "historically_backfilled": true
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Optical networks|LITE|2026-W41",
+    "ticker": "LITE",
+    "theme": "Optical networks",
+    "signal_time": "2026-10-11T14:54:19+00:00",
+    "headline": "Nvidia-backed Lumentum sold out of AI server parts till 2029 - The Japan Times",
+    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTDl6S3NsNDdOa2l2WW9pZDNIem9NdnM1aUsyTTJDbU5NeHlsb1NxQmY4dFFQaVhaSXhudWxEUjRZZHZES3NRTjdoa1k5R191Yy0ycEZvc0xNMHMzQ3czOTZxVDB0YVlKZTY1TmQtNS1fVDFBSVljVUhwN3Z3SFJfdm5GbFR6bGVlYkRzdmNSeDA?oc=5",
+    "chart_indication": {
+      "status": "TECHNICAL_INDICATION",
+      "strength": 5,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 1103.35498,
+        "sma20": 980.556253,
+        "sma50": 920.338003,
+        "sma200": 764.194301,
+        "rsi14": 67.96,
+        "atr14_pct": 5.91,
+        "volume_vs_20d": 1.11,
+        "relative_strength_20d_pct": 18.61,
+        "relative_strength_60d_pct": 53.33,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1133.400024,
+        "distance_above_sma20_pct": 12.52,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-11T17:45:19+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  }
+]

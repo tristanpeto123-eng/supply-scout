@@ -1,0 +1,23 @@
+{
+  "status": "LOCKED",
+  "eligible_matured_90d": 0,
+  "winners": 0,
+  "losers": 0,
+  "minimum_cohorts": 80,
+  "predictor_features": [
+    "close_over_sma50",
+    "distance_above_sma20_pct",
+    "rsi14",
+    "atr14_pct",
+    "volume_vs_20d",
+    "relative_strength_20d_pct",
+    "relative_strength_60d_pct",
+    "breakout_20d_close",
+    "scarcity",
+    "lead_times",
+    "pricing",
+    "publisher_count"
+  ],
+  "rule": "Use only pre-signal chart + headline features to predict NEXT-session-entry 90-day excess return.",
+  "reason": "Need 80+ independent sector-week observations, 20 winners and 20 losers, with matured 90d outcomes across three themes."
+}
