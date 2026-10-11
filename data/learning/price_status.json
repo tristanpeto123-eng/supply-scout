@@ -1,0 +1,17 @@
+{
+  "last_attempt_at": "2026-10-11T17:27:29+00:00",
+  "tracked_cohorts": 5,
+  "market_data_errors": [],
+  "symbols_with_adjusted_prices": [
+    "ACWI",
+    "ETN",
+    "FCX",
+    "LITE",
+    "MU",
+    "ZIM"
+  ],
+  "outcomes_90d_resolved": 0,
+  "pipeline_status": "OK",
+  "prediction_model": "LOCKED",
+  "warning": "A positive share-price return does not verify a physical shortage. No trades are made."
+}

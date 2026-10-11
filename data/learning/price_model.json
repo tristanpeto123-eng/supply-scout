@@ -1,0 +1,10 @@
+{
+  "status": "LOCKED",
+  "matured_90d_non_neutral": 0,
+  "distinct_cohorts": 0,
+  "positive": 0,
+  "negative": 0,
+  "min_required": 80,
+  "note": "Outcome labels are market performance, not shortage truth or proof of causality.",
+  "reason": "Require at least 80 distinct, matured sector-week outcomes, 20 winners, 20 losers, across at least 3 themes."
+}

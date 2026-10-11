@@ -1,0 +1,137 @@
+[
+  {
+    "id": "Copper|FCX|2026-W41",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "snapshot_locked": true,
+    "headline": "Global copper market braces for ‘big shortfall’ - Mining.com.au",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53Nk9NdGNxOG12VnlJVXUtdE1MVzk1dFdvc21NcG9qdTladERiVUFEYVcycFVqQk9OTGQyRGxEd215bzhUTDV0bV9IV2labXNja3NmUEdaV2dTSk4zZnNremw2ZWp6al94VzUxc1FJTzBjWDZyZHJB?oc=5",
+    "source_domain": "Mining.com.au",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 10,
+      "publisher_count": 9,
+      "publication_lag": 0.26,
+      "prior_excess_30d": -0.038003
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W41",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "snapshot_locked": true,
+    "headline": "Marsons’ US expansion: Indian power transformer maker to form JV with Cleanhill Partners amid North America supply shortage - ET Now",
+    "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPNk9KQWJFdUh2YVgtTUpPWWtSaDVQY2xHb0ZQYzVoRXptY1Y3RmdsU2VwblUzWHhnR0d5ZzczcldsZWI3alBnbl8taXA0Vm02SDgySFFEcURaZE0xTXFZeEg0LS1RWDNMTmQ0c0ExY0k0b1NwdXVHM1dBeEpyNlkxdzdVd2tYZ1dreENYcWJtNWMwVnEwWTQ0YmxMeDVFMVFOY0ttZHlrZ0Q2a1NoZWlfX1l2d0FueDdVcXE0T3A5NEJXQmtEc2lYanB2OXdLczNfcEV0Tng3c1dyeExNNmdZWVROaHBrVFY5QjF1NC1ybzUxOVE1YlF2LTNqVkNVYUhjdHNSU1dn0gGLAkFVX3lxTE5vaWhIbF9HY1JjZWVhb2RoSVdrXzQzYWlqV2N4Z1ZHM1pBS0Y0S0ZLVkp1Z1JOd1dMa2pOcFR1NVhKaS1rbG5wOGRWY0hkVHcwenJVZ0x6Nk9NaDV1VnAtTHVrVE5PbG40YjRFXzFzTXdyc09QZ1VsZGNJOEZ0M1c5UENyaFJ2Z2libkJtZkM5ODR6c2lySWZNWFREYzAxR2lYMXJ1ZEtZUWtIajloQ2dNZXl6TzJDOEp3LW5RTlo4d0pDbndUT3Z4aWZCSFJpSEE4c2tDYXozUVZGNk1JQkFKb1RFLVBrMTdqRGpmTWRsNGNZenVwWVJ3OXFJYW9nWlhJZ3RQT2N3NTNaVQ?oc=5",
+    "source_domain": "ET Now",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 3.44,
+      "prior_excess_30d": 0.03007
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W41",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "snapshot_locked": true,
+    "headline": "Micron's $50 Billion Quarter Hinges on a Memory Shortage That Won't Quit - AD HOC NEWS",
+    "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ0JwMXlveVRZQ0lSNk9kUlp1WjY5UGFGU0Z0cDJSNFl6cmdBbW9uVExOdER4MlFLM3dsazRMN1BVMmR5Qjh3QWIzOWZvSzYxU2VxME1VV3kzckFXQjN6bEFfM3lrTWgySGJoVEgyb3dvbDhiZ0JkRTNEZHo4dm5zM1Q4d2ZWVER1NFRYS2xoZkZOcjRKTUhkTktwV2F1bE1GVlBOa0l0a2c0Mll2SkxPdUFMWndoSk9XVk0yUHd2dmdCNnc0bGhUZ3FWSUZoVDVkTmhBWHJsZjdLNHM?oc=5",
+    "source_domain": "AD HOC NEWS",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 1,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 36,
+      "publisher_count": 28,
+      "publication_lag": 0.44,
+      "prior_excess_30d": -0.003486
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W41",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-10T19:18:47+00:00",
+    "snapshot_locked": true,
+    "headline": "ICT: Hapag-Lloyd suspends Philippine bookings amid port congestion - Philstar.com",
+    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSnBDSGZBZVpiWlk1d01VelFUUmRpM3NiaW1XdzdGZm5HOWZERjJaLXVqTEM4UVpYeEUtcWE3ZFNMUHo5YlB5VmxXOWowN3ROdGNfTF8zWDliM1FEaFQ1TmpyYXJRTXpuN3FVRGNmMnZKR29fdThweVNwN1NqVjI0ZGoyMTM2M0pZb1pURnZ3RmNzd0FWZk9OekFodlEyMTE3c0VZQVQ4TGpfaVpRX2JwV250MXNQQjFtdjFhcENPUFhtbG56RTdocTRwV3NHLS1q0gHXAUFVX3lxTE5BRjVhSnNXbTlhUWlOcWtBdU5ITlU5Z2ZsUlI2Z3hONllQUFBZUGFERXlfVUJuai1zaTRqYnRLWFVzaWxvOGVOLVFWbUMzenZfdC1oNHlFQm5kNUlNTzI0Ny1PM1VFYXl6My1fa0RPcklnRTA5NHNqOFhyNlVLSDYyb3JrQWVYQnVjcVJXVm1ndVdnR1UtOVRZNXdPTWQzNGZYSlhrY3pmdGVMbmVZVU44eEpqczBVN25laEVXcWZzY2xlQmZOSlhFWF9uUDZ5RTRzVEp0a2Uw?oc=5",
+    "source_domain": "Philstar.com",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 1,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 27,
+      "publisher_count": 24,
+      "publication_lag": 0.71,
+      "prior_excess_30d": 0.016079
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Optical networks|LITE|2026-W41",
+    "theme": "Optical networks",
+    "ticker": "LITE",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-11T14:54:19+00:00",
+    "snapshot_locked": true,
+    "headline": "Nvidia-backed Lumentum sold out of AI server parts till 2029 - The Japan Times",
+    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTDl6S3NsNDdOa2l2WW9pZDNIem9NdnM1aUsyTTJDbU5NeHlsb1NxQmY4dFFQaVhaSXhudWxEUjRZZHZES3NRTjdoa1k5R191Yy0ycEZvc0xNMHMzQ3czOTZxVDB0YVlKZTY1TmQtNS1fVDFBSVljVUhwN3Z3SFJfdm5GbFR6bGVlYkRzdmNSeDA?oc=5",
+    "source_domain": "The Japan Times",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 2,
+      "publisher_count": 2,
+      "publication_lag": 2.47,
+      "prior_excess_30d": 0.165888
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  }
+]
