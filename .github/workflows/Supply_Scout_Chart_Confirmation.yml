@@ -1,0 +1,531 @@
+# Supply Scout OHLCV Chart Indication + Confirmation — research only.
+# One-file, free GitHub Actions workflow. Does not edit the existing working PWA.
+# Reads data/learning/price_events.json produced by Automatic Price Learning.
+name: Supply Scout - Chart Indication and Confirmation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 10 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: supply-scout-chart-indication
+  cancel-in-progress: false
+
+jobs:
+  chart:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install market OHLCV reader
+        run: python -m pip install -q 'yfinance>=0.2.58,<1.0'
+      - name: Evaluate frozen chart indications and post-signal confirmations
+        shell: bash
+        run: |
+          python - <<'PY'
+          #!/usr/bin/env python3
+          """Supply Scout: point-in-time OHLCV indication and delayed price confirmation.
+          Independent companion to existing price-outcome GitHub Action. No trades.
+          """
+          import datetime as dt
+          import html
+          import json
+          import math
+          import re
+          import statistics
+          from pathlib import Path
+
+          ARCHIVE_EVENTS = Path('data/learning/price_events.json')
+          OUTPUT = Path('data/learning/chart_signals.json')
+          STATUS = Path('data/learning/chart_status.json')
+          MODEL = Path('data/learning/chart_model.json')
+          PAGE = Path('chart-learning.html')
+          INDEX = 'ACWI'
+          COST = 0.006
+          NOW = dt.datetime.now(dt.timezone.utc)
+
+
+          def read_json(path, fallback):
+              try:
+                  a = json.loads(path.read_text(encoding='utf-8'))
+                  return a if isinstance(a, type(fallback)) else fallback
+              except (OSError, ValueError):
+                  return fallback
+
+
+          def write_json(path, obj):
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_text(json.dumps(obj, indent=2, ensure_ascii=False, allow_nan=False) + '\n', encoding='utf-8')
+
+
+          def get_date(s):
+              try:
+                  v = dt.datetime.fromisoformat(str(s).replace('Z', '+00:00'))
+                  if v.tzinfo is None:
+                      v = v.replace(tzinfo=dt.timezone.utc)
+                  return v.astimezone(dt.timezone.utc).date()
+              except (TypeError, ValueError):
+                  return None
+
+
+          def fetch_history(symbol, first_day, until):
+              import yfinance as yf
+              frame = yf.Ticker(symbol).history(start=first_day.isoformat(),
+                                               end=until.isoformat(), interval='1d',
+                                               auto_adjust=True, actions=False, timeout=20)
+              if frame is None or frame.empty:
+                  raise ValueError('No adjusted OHLCV rows returned')
+              result = {}
+              for stamp, row in frame.iterrows():
+                  day = stamp.date()
+                  # Daily OHLCV for the current session may be incomplete (including volume).
+                  if day >= NOW.date():
+                      continue
+                  try:
+                      record = {key: float(row[key]) for key in ('Open', 'High', 'Low', 'Close', 'Volume')}
+                      if not all(math.isfinite(v) for v in record.values()):
+                          continue
+                      if not 0 < record['Low'] <= record['High'] and record['Open'] > 0 and record['Close'] > 0:
+                          continue
+                      if record['Volume'] < 0:
+                          continue
+                      result[day] = dict(open=record['Open'], high=record['High'], low=record['Low'],
+                                         close=record['Close'], volume=record['Volume'])
+                  except (KeyError, TypeError, ValueError):
+                      pass
+              if len(result) < 56:
+                  raise ValueError(f'Insufficient fully completed OHLCV bars ({len(result)} found)')
+              return result
+
+
+          def sma(v, n):
+              return sum(v[-n:]) / n if len(v) >= n else None
+
+
+          def rsi(values, length=14):
+              if len(values) <= length:
+                  return None
+              dif = [values[i] - values[i - 1] for i in range(len(values) - length, len(values))]
+              gains = sum(max(x, 0) for x in dif) / length
+              losses = sum(max(-x, 0) for x in dif) / length
+              if not gains and not losses:
+                  return 50.0
+              if losses == 0:
+                  return 100.0
+              return 100 - (100 / (1 + gains / losses))
+
+
+          def atr(rows, length=14):
+              if len(rows) < length + 1:
+                  return None
+              trs = []
+              for i in range(len(rows) - length, len(rows)):
+                  r, prev = rows[i], rows[i - 1]
+                  trs.append(max(r['high'] - r['low'], abs(r['high'] - prev['close']), abs(r['low'] - prev['close'])))
+              return sum(trs) / length
+
+
+          def nr(value, digits=4):
+              return round(value, digits) if value is not None and math.isfinite(value) else None
+
+
+          def metric_view(series, benchmark, ending):
+              """Use ONLY OHLCV bars on or before an explicitly dated, COMPLETED session."""
+              common = sorted(d for d in series.keys() & benchmark.keys() if d <= ending and d < NOW.date())
+              if len(common) < 56:
+                  return None
+              bars = [series[d] for d in common]
+              bmark = [benchmark[d] for d in common]
+              cl = [r['close'] for r in bars]
+              bcl = [r['close'] for r in bmark]
+              close = cl[-1]
+              a = atr(bars)
+              avg_vol = sma([r['volume'] for r in bars[-21:-1]], 20)
+              breakout_ref = max(cl[-21:-1])
+              ma20 = sma(cl, 20)
+              ma50 = sma(cl, 50)
+              ma200 = sma(cl, 200)
+              rs20 = (close / cl[-21] - 1) - (bcl[-1] / bcl[-21] - 1)
+              rs60 = ((close / cl[-61] - 1) - (bcl[-1] / bcl[-61] - 1)) if len(cl) >= 61 else None
+              r = rsi(cl)
+              volr = bars[-1]['volume'] / avg_vol if avg_vol and avg_vol > 0 else None
+              return {
+                  'price_date': common[-1].isoformat(), 'close': nr(close, 6),
+                  'sma20': nr(ma20, 6), 'sma50': nr(ma50, 6), 'sma200': nr(ma200, 6),
+                  'rsi14': nr(r, 2), 'atr14_pct': nr(100 * a / close if a else None, 2),
+                  'volume_vs_20d': nr(volr, 2), 'relative_strength_20d_pct': nr(rs20 * 100, 2),
+                  'relative_strength_60d_pct': nr(rs60 * 100 if rs60 is not None else None, 2),
+                  'breakout_20d_close': bool(close > breakout_ref),
+                  'prior_20d_high_close': nr(breakout_ref, 6),
+                  'distance_above_sma20_pct': nr(100 * (close / ma20 - 1), 2),
+                  'completed_bars_available': len(bars),
+              }
+
+
+          def classify_indication(metric, event):
+              if metric is None:
+                  return {'status': 'INSUFFICIENT_CHART_DATA', 'reasons': [], 'chart': None}
+              close, ma20, ma50 = metric['close'], metric['sma20'], metric['sma50']
+              rsi14, strength, volume = metric['rsi14'], metric['relative_strength_20d_pct'], metric['volume_vs_20d']
+              stretched = (rsi14 is not None and rsi14 >= 80) or (strength is not None and strength >= 20)
+              if metric['atr14_pct'] and metric['distance_above_sma20_pct'] >= 3 * metric['atr14_pct']:
+                  stretched = True
+              evidence = [
+                  ('Price above 20-day average', bool(ma20 and close > ma20)),
+                  ('Price above 50-day average', bool(ma50 and close > ma50)),
+                  ('20-day average above 50-day', bool(ma20 and ma50 and ma20 > ma50)),
+                  ('Relative strength positive vs ACWI', bool(strength is not None and strength > 0)),
+                  ('RSI between 45 and 75', bool(rsi14 is not None and 45 <= rsi14 <= 75)),
+                  ('Breakout above previous 20 daily closes', metric['breakout_20d_close']),
+                  ('Daily volume at least 1.2x previous 20 days', bool(volume is not None and volume >= 1.2)),
+              ]
+              passed = sum(bool(y) for _, y in evidence)
+              if stretched:
+                  status = 'POSSIBLY_PRICED_IN'
+              elif passed >= 5:
+                  status = 'TECHNICAL_INDICATION'
+              elif passed >= 3:
+                  status = 'MIXED_WATCH'
+              else:
+                  status = 'WEAK_CHART'
+              if metric['completed_bars_available'] < 200:
+                  extra = ['200-day moving average unavailable; long-term trend not assessed']
+              else:
+                  extra = []
+              return {
+                  'status': status, 'strength': passed, 'max_strength': len(evidence),
+                  'reasons': [{'criterion': name, 'met': flag} for name, flag in evidence],
+                  'cautions': (['Rapid pre-signal price advance or high RSI: may already be priced in'] if stretched else []) + extra,
+                  'chart': metric, 'as_of': metric['price_date'],
+                  'source': 'Adjusted daily historical OHLCV via yfinance, after-session candles only',
+                  'reconstructed_at': NOW.isoformat(timespec='seconds'),
+                  'historically_backfilled': get_date(event['signal_time']) < NOW.date(),
+              }
+
+
+          def confirmation_on(event, stock, bench):
+              signal = get_date(event.get('signal_time'))
+              if not signal:
+                  return {'status': 'INVALID_SIGNAL_TIME'}
+              common = sorted(d for d in stock.keys() & bench.keys() if d < NOW.date())
+              subsequent = [d for d in common if d > signal]  # all dates already < NOW.date()
+              if len(subsequent) < 3:
+                  return {'status': 'PENDING_3_SESSIONS', 'completed_sessions': len(subsequent)}
+              original = event.get('chart_indication', {})
+              chart = original.get('chart') or {}
+              ref_high = chart.get('prior_20d_high_close')
+              if ref_high is None:
+                  return {'status': 'INSUFFICIENT_INDICATION_DATA'}
+              tests = []
+              for n in (3, 5):
+                  if len(subsequent) < n:
+                      continue
+                  testdate = subsequent[n - 1]
+                  m = metric_view(stock, bench, testdate)
+                  if not m:
+                      continue
+                  first = subsequent[0]
+                  # Uses only stock and benchmark price bars observable through testdate.
+                  stock_return = stock[testdate]['close'] / stock[first]['open'] - 1
+                  bench_return = bench[testdate]['close'] / bench[first]['open'] - 1
+                  excess_pct = (stock_return - bench_return) * 100
+                  past_bar = [stock[d] for d in subsequent[:n]]
+                  # At least one completed post-signal bar must show >=1.25x 20-session trailing volume.
+                  confirmed_vol = False
+                  for d in subsequent[:n]:
+                      p = metric_view(stock, bench, d)
+                      if p and p['volume_vs_20d'] is not None and p['volume_vs_20d'] >= 1.25:
+                          confirmed_vol = True
+                  prior_break = m['close'] > ref_high * 1.005
+                  above_average = bool(m['sma20'] and m['sma50'] and m['close'] > m['sma20'] and m['sma20'] >= m['sma50'])
+                  rsi_ok = bool(m['rsi14'] is not None and 45 <= m['rsi14'] < 82)
+                  condition = prior_break and confirmed_vol and above_average and excess_pct > 1 and rsi_ok
+                  tests.append({'sessions': n, 'as_of': testdate.isoformat(), 'chart': m,
+                                'post_signal_excess_pct': nr(excess_pct, 2),
+                                'new_breakout': prior_break, 'volume_confirmed': confirmed_vol,
+                                'trend_confirmed': above_average, 'rsi_ok': rsi_ok, 'passes': condition})
+                  if condition:
+                      return {'status': 'CONFIRMED', 'confirmation_date': testdate.isoformat(),
+                              'sessions_required': n, 'test': tests[-1],
+                              'reason': 'Post-signal breakout, volume, trend and ACWI relative-strength confirmation',
+                              'frozen': True}
+              if len(subsequent) < 5:
+                  return {'status': 'PENDING_5_SESSIONS', 'completed_sessions': len(subsequent),
+                          'initial_check': tests[-1] if tests else None}
+              return {'status': 'NOT_CONFIRMED', 'confirmation_date': subsequent[4].isoformat(),
+                      'sessions_required': 5, 'test': tests[-1] if tests else None,
+                      'reason': 'Specified technical confirmation conditions not satisfied within five sessions',
+                      'frozen': True}
+
+
+          def simulate_chart_strategy(event, stock, bench):
+              confirmation = event.get('chart_confirmation', {})
+              if confirmation.get('status') != 'CONFIRMED':
+                  return {'status': 'NO_CONFIRMED_ENTRY'}
+              date = get_date(confirmation.get('confirmation_date'))
+              if not date:
+                  return {'status': 'NO_CONFIRMATION_DATE'}
+              days = sorted(d for d in stock.keys() & bench.keys() if d < NOW.date())
+              future_days = [d for d in days if d > date]
+              if not future_days:
+                  return {'status': 'WAITING_NEXT_SESSION_OPEN'}
+              entry = future_days[0]
+              result = {'status': 'TRACKING', 'entry_date': entry.isoformat(),
+                        'entry_stock_adjusted_open': nr(stock[entry]['open'], 6),
+                        'confirmation_date': date.isoformat(),
+                        'method': 'Next fully recorded session adjusted open, after chart confirmation close',
+                        'horizons': {}}
+              for h in (7, 30, 90):
+                  target = entry + dt.timedelta(days=h)
+                  if NOW.date() < target + dt.timedelta(days=5):
+                      result['horizons'][str(h)] = {'status': 'PENDING', 'target_date': target.isoformat()}
+                      continue
+                  exitdays = [d for d in days if target <= d <= target + dt.timedelta(days=7)]
+                  if not exitdays:
+                      result['horizons'][str(h)] = {'status': 'MISSING_EXIT_PRICE'}
+                      continue
+                  exitday = exitdays[0]
+                  rs = stock[exitday]['close'] / stock[entry]['open'] - 1
+                  rb = bench[exitday]['close'] / bench[entry]['open'] - 1
+                  excess = rs - rb - COST
+                  label = 'OUTPERFORM' if excess > 0.05 else 'UNDERPERFORM' if excess <= 0 else 'NEUTRAL'
+                  result['horizons'][str(h)] = {
+                      'status': 'RESOLVED', 'stock_return_pct': nr(100 * rs, 2),
+                      'benchmark_return_pct': nr(100 * rb, 2),
+                      'excess_after_cost_pct': nr(100 * excess, 2), 'exit_date': exitday.isoformat(),
+                      'label': label, 'known_after': exitday.isoformat()}
+              return result
+
+
+          def build(all_events, prior_records, prices):
+              previous = {x.get('id'): x for x in prior_records if isinstance(x, dict) and x.get('id')}
+              out = []
+              for event in all_events:
+                  if not isinstance(event, dict) or not event.get('id') or not event.get('ticker'):
+                      continue
+                  record = previous.get(event['id'], {})
+                  if not record:
+                      record = {k: event.get(k) for k in ('id', 'ticker', 'theme', 'signal_time', 'headline', 'source_url')}
+                  stock, bench = prices.get(event['ticker']), prices.get(INDEX)
+                  if not stock or not bench:
+                      record.setdefault('chart_indication', {'status': 'MISSING_OHLCV'})
+                      record.setdefault('chart_confirmation', {'status': 'MISSING_OHLCV'})
+                      record['last_price_check_error'] = 'Adjusted OHLCV unavailable for stock or benchmark'
+                      out.append(record)
+                      continue
+                  record.pop('last_price_check_error', None)
+                  if record.get('chart_indication', {}).get('status') in (None, 'MISSING_OHLCV', 'INSUFFICIENT_CHART_DATA'):
+                      before = [d for d in stock.keys() & bench.keys() if d < get_date(event.get('signal_time'))] if get_date(event.get('signal_time')) else []
+                      indication = metric_view(stock, bench, max(before)) if before else None
+                      record['chart_indication'] = classify_indication(indication, event)
+                  # Once a confirmation resolves, never change that historical result on future scans.
+                  if record.get('chart_confirmation', {}).get('status') not in ('CONFIRMED', 'NOT_CONFIRMED'):
+                      record['chart_confirmation'] = confirmation_on(record, stock, bench)
+                  record['chart_strategy'] = simulate_chart_strategy(record, stock, bench)
+                  out.append(record)
+              return sorted(out, key=lambda x: (str(x.get('signal_time')), str(x.get('id'))))
+
+
+
+          # A separate, embargoed *indication-time* learner. Confirmation candles are NEVER
+          # input features here: they did not exist when the first news signal was recorded.
+          CHART_FEATURES = ('close_over_sma50', 'distance_above_sma20_pct', 'rsi14',
+                            'atr14_pct', 'volume_vs_20d', 'relative_strength_20d_pct',
+                            'relative_strength_60d_pct', 'breakout_20d_close',
+                            'scarcity', 'lead_times', 'pricing', 'publisher_count')
+
+
+          def chart_vector(record, source):
+              ind = record.get('chart_indication', {})
+              c = ind.get('chart') or {}
+              f = source.get('features') or {}
+              if ind.get('status') == 'INSUFFICIENT_CHART_DATA' or not c:
+                  return None
+              vals = [int(c['close'] > c['sma50']) if c.get('sma50') else 0,
+                      c.get('distance_above_sma20_pct'), c.get('rsi14'), c.get('atr14_pct'),
+                      c.get('volume_vs_20d'), c.get('relative_strength_20d_pct'),
+                      c.get('relative_strength_60d_pct'), int(bool(c.get('breakout_20d_close'))),
+                      f.get('scarcity'), f.get('lead_times'), f.get('pricing'), f.get('publisher_count')]
+              if any(v is None for v in vals):
+                  return None
+              return [float(v) for v in vals]
+
+
+          def train_outcome_model(source_events, chart_records):
+              lookup = {x['id']:x for x in chart_records}
+              rows = []
+              for e in source_events:
+                  if not isinstance(e, dict) or e.get('id') not in lookup:
+                      continue
+                  o = (e.get('outcomes') or {}).get('90') or {}
+                  if o.get('status') != 'RESOLVED' or o.get('label') not in ('OUTPERFORM', 'UNDERPERFORM'):
+                      continue
+                  if get_date(o.get('known_after')) and get_date(o['known_after']) >= NOW.date():
+                      continue
+                  v = chart_vector(lookup[e['id']], e)
+                  if v is None:continue
+                  rows.append((e, v, int(o['label'] == 'OUTPERFORM')))
+              rows.sort(key=lambda x: x[0]['signal_time'])
+              pos=sum(x[2] for x in rows)
+              meta = {'status':'LOCKED', 'eligible_matured_90d':len(rows), 'winners':pos,
+                      'losers':len(rows)-pos, 'minimum_cohorts':80,
+                      'predictor_features':list(CHART_FEATURES),
+                      'rule':'Use only pre-signal chart + headline features to predict NEXT-session-entry 90-day excess return.'}
+              if len(rows)<80 or pos<20 or len(rows)-pos<20 or len({x[0]['theme'] for x in rows})<3:
+                  meta['reason']='Need 80+ independent sector-week observations, 20 winners and 20 losers, with matured 90d outcomes across three themes.'
+                  return meta
+              cutoff = int(len(rows)*.8)
+              holdout=rows[cutoff:]
+              holdout_begin=get_date(holdout[0][0]['signal_time'])
+              sample=[x for x in rows[:cutoff] if get_date(x[0]['signal_time']) < holdout_begin-dt.timedelta(days=90)]
+              if len(sample)<50 or len({x[2] for x in sample})<2 or len({x[2] for x in holdout})<2:
+                  meta['reason']='Not enough observations on both sides of the 90-day-embargoed chronological holdout.'
+                  return meta
+              xs=[r[1] for r in sample];ys=[r[2] for r in sample]
+              means=[statistics.mean(col) for col in zip(*xs)]
+              scale=[statistics.pstdev(col) or 1 for col in zip(*xs)]
+              z=[[max(-6,min(6,(v-m)/std)) for v,m,std in zip(row,means,scale)] for row in xs]
+              w=[0.0]*len(means); b=math.log((sum(ys)+1)/(len(ys)-sum(ys)+1))
+              sigmoid=lambda x:1/(1+math.exp(-max(-25,min(25,x))))
+              for _ in range(850):
+                  gw=[0.0]*len(w);gb=0.0
+                  for x,y in zip(z,ys):
+                      delta=sigmoid(sum(a*t for a,t in zip(w,x))+b)-y
+                      gb+=delta
+                      for i,v in enumerate(x):gw[i]+=delta*v
+                  for i in range(len(w)):w[i]-=.09*(gw[i]/len(z)+.15*w[i])
+                  b-=.09*gb/len(z)
+              probs=[sigmoid(sum(t*max(-6,min(6,(v-m)/std)) for t,v,m,std in zip(w,vec,means,scale))+b) for _,vec,_ in holdout]
+              lab=[x[2] for x in holdout]
+              brier=sum((v-y)**2 for v,y in zip(probs,lab))/len(lab)
+              baseline=sum(ys)/len(ys)
+              base_brier=sum((baseline-y)**2 for y in lab)/len(lab)
+              # AUC probability independent of threshold.
+              positive=[v for v,y in zip(probs,lab) if y==1]
+              negative=[v for v,y in zip(probs,lab) if y==0]
+              auc=sum(1 if a>b0 else .5 if a==b0 else 0 for a in positive for b0 in negative)/(len(positive)*len(negative))
+              passed = auc>=.55 and brier<base_brier
+              meta.update({'status':'EVALUATED_RESEARCH_ONLY' if passed else 'REJECTED_UNPROVEN',
+                           'training_rows':len(sample), 'holdout_rows':len(holdout), 'embargo_days':90,
+                           'holdout_auc':round(auc,3), 'holdout_brier':round(brier,4),
+                           'constant_baseline_brier':round(base_brier,4),
+                           'parameters':{'mean':means,'scale':scale,'coefficients':w,'intercept':b},
+                           'warning':'Not calibrated or production-ready; no broker orders or investment recommendations.'})
+              return meta
+
+
+          def sparkline(stock, bench, as_of, width=325, height=125):
+              dates = sorted(d for d in stock if d <= as_of)[-70:]
+              if len(dates) < 6:
+                  return '<span class="dim">Not enough completed candles to chart.</span>'
+              y = [stock[d]['close'] for d in dates]
+              ymin, ymax = min(y), max(y)
+              if ymax <= ymin:
+                  ymax = ymin + 1
+              points = []
+              for i, value in enumerate(y):
+                  x = 8 + i * (width - 16) / (len(y) - 1)
+                  yy = height - 12 - (value - ymin) * (height - 26) / (ymax - ymin)
+                  points.append(f'{x:.1f},{yy:.1f}')
+              # Visually show price history available today; historical signal indicators stay frozen separately.
+              return (f'<svg viewBox="0 0 {width} {height}" role="img" aria-label="Recent 70-session '
+                      f'adjusted daily closing-price trend" style="width:100%;height:auto">'
+                      f'<path d="M8,{height - 10} H{width - 8}" stroke="#39546b" opacity=".7"/>'
+                      f'<polyline fill="none" stroke="#69e8c6" stroke-width="2.2" points="{" ".join(points)}"/>'
+                      '</svg>')
+
+
+          def page_html(records, prices, status, model):
+              esc = lambda x: html.escape(str(x), quote=True)
+              confirmed = sum(r.get('chart_confirmation', {}).get('status') == 'CONFIRMED' for r in records)
+              awaiting = sum(str(r.get('chart_confirmation', {}).get('status', '')).startswith('PENDING') for r in records)
+              bits = []
+              for event in reversed(records[-40:]):
+                  ticker = str(event['ticker']); stock = prices.get(ticker)
+                  indication = event.get('chart_indication') or {}
+                  confirm = event.get('chart_confirmation') or {}
+                  m = indication.get('chart') or {}
+                  snapshot = f"RSI {m.get('rsi14', '—')} · 20d relative strength {m.get('relative_strength_20d_pct', '—')}% · volume {m.get('volume_vs_20d', '—')}x"
+                  chart = sparkline(stock, prices.get(INDEX), max(stock)) if stock else '<p>No market OHLCV today.</p>'
+                  color = 'good' if confirm.get('status') == 'CONFIRMED' else 'bad' if confirm.get('status') == 'NOT_CONFIRMED' else 'dim'
+                  strategy = event.get('chart_strategy') or {}
+                  bits.append(f'''<article class="card"><div class="line"><strong>{esc(event.get('theme'))} · {esc(ticker)}</strong><b class="{color}">{esc(confirm.get('status', 'PENDING'))}</b></div>
+                  <p>{esc(str(event.get('headline') or '')[:170])}</p>
+                  <div class="plot">{chart}</div>
+                  <p class="small">Chart at detection: <b>{esc(indication.get('status', 'PENDING'))}</b> · as of {esc(indication.get('as_of', 'pending'))}</p>
+                  <p class="small">{esc(snapshot)}</p>
+                  <p class="small">Confirmation: {esc(confirm.get('reason') or ('Awaiting completed post-signal candles'))}</p>
+                  <p class="small">Confirmed strategy: {esc(strategy.get('status', 'NOT_TRACKING'))} · 90-day outcome: {esc(strategy.get('horizons', {}).get('90', {}).get('label', 'pending'))}</p>
+                  <a href="{esc(event.get('source_url') or '#')}" target="_blank" rel="noopener noreferrer">News source ↗</a></article>''')
+              errors = ' | '.join(status.get('market_data_errors', [])) or 'None'
+              css = '''*{box-sizing:border-box}body{margin:0;background:#09121d;color:#eaf5fd;font-family:-apple-system,system-ui,sans-serif}main{max-width:980px;margin:auto;padding:26px 16px 70px}.ey{color:#70e3bf;font-size:11px;letter-spacing:1.8px;font-weight:750}h1{font-size:clamp(30px,7vw,50px);margin:12px 0 7px;letter-spacing:-1.5px}p{color:#abc0d1;line-height:1.52}.info{padding:17px;border:1px solid #37516a;border-radius:14px;background:#102135}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:20px 0}.card{background:#112238;border:1px solid #28445d;padding:20px;border-radius:16px;overflow:hidden}.line{display:flex;align-items:center;justify-content:space-between;gap:8px}.line strong{font-size:16px}.line b{font-size:11px}.small{font-size:12px;margin:8px 0}.good{color:#65e7be}.bad{color:#f6a8ac}.dim{color:#a7bed0}.plot{background:#0c1b2b;padding:3px;border-radius:10px;margin-top:14px}a{color:#83ead4;text-decoration:none} .stat{display:inline-block;margin:12px 9px 7px 0;padding:8px 14px;background:#17374c;border-radius:10px}.stat b{color:white}footer{font-size:12px;line-height:1.55;color:#95aabc;margin-top:20px}@media(max-width:690px){.grid{grid-template-columns:1fr}.card{padding:16px}}'''
+              return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09121d"><title>Supply Scout — Chart Confirmation</title><style>{css}</style></head><body><main><div class="ey">SUPPLY SCOUT / OHLCV SIGNAL ENGINE</div><h1>Indication → Confirmation</h1><p>Objective price-chart evidence alongside physical supply signals. Pre-signal indication uses only completed daily candles from BEFORE the first seen timestamp. Post-signal confirmation waits for 3–5 completed sessions. No orders.</p><div class="stat">Tracked <b>{len(records)}</b></div><div class="stat">Confirmed <b>{confirmed}</b></div><div class="stat">Pending <b>{awaiting}</b></div><div class="info"><strong>Pre-signal model: {esc(model.get("status"))}</strong><p class="small">{esc(model.get("reason", model.get("warning", "No matured model outcomes yet.")))}</p></div><div class="info"><strong>Research-only technical rules</strong><p class="small">Indication: moving averages, RSI, 20-session price breakout, volume acceleration and strength versus ACWI. Confirmation: post-signal breakout + ≥1.25× trading volume + upward averages + >1 percentage point relative strength within five trading sessions.</p><p class="small">Confirmation is NOT proof of a supply shortage and is not a forecast of profitable trades. The market chart shown is today's recent history; frozen signal-date statistics are presented underneath.</p></div><section class="grid">{''.join(bits) if bits else '<div class="info">No archived price-signal events yet.</div>'}</section><div class="info"><b>Monitoring diagnostics</b><p class="small">Last run {esc(status.get('last_attempt_at'))} · Price-feed errors: {esc(errors)}</p><p class="small">Missing prices never count as successful signals. Chart confirmations use later data and MUST NOT become features for an earlier prediction. A confirmed hypothetical strategy only begins at the next session OPEN after the confirmation CLOSE.</p><a href="data/learning/chart_signals.json">Raw chart snapshots and tests</a> · <a href="data/learning/chart_status.json">Diagnostics</a> · <a href="price-learning.html">Price Outcome Lab</a> · <a href="learning.html">Learning Lab</a> · <a href="index.html">Radar</a></div><footer>Adjusted OHLCV: Yahoo Finance via yfinance (free, unofficial, availability not guaranteed) · ACWI: benchmark ETF proxy · £0 funds traded · Model not validated · Technical thresholds are initial hypotheses, not optimised.</footer></main></body></html>'''
+
+
+          def run():
+              original = read_json(ARCHIVE_EVENTS, [])
+              old = read_json(OUTPUT, [])
+              symbols = sorted({e.get('ticker') for e in original if isinstance(e, dict) and e.get('ticker')} | {INDEX})
+              first_candidates = [get_date(e.get('signal_time')) for e in original if isinstance(e, dict)]
+              valid_dates = [x for x in first_candidates if x]
+              # Obtain enough bars for 200-day average, 30/60d strength and ATR.
+              start = (min(valid_dates) if valid_dates else NOW.date()) - dt.timedelta(days=430)
+              start = max(start, NOW.date() - dt.timedelta(days=900))
+              end = NOW.date() + dt.timedelta(days=2)
+              prices, errors = {}, []
+              for sym in symbols:
+                  try:
+                      prices[sym] = fetch_history(sym, start, end)
+                  except Exception as ex:
+                      errors.append(f'{sym}: {type(ex).__name__}: {str(ex)[:180]}')
+              records = build(original, old, prices)
+              model = train_outcome_model(original, records)
+              confirmed = sum(x.get('chart_confirmation', {}).get('status') == 'CONFIRMED' for x in records)
+              status = {
+                  'last_attempt_at': NOW.isoformat(timespec='seconds'),
+                  'market_data_errors': errors, 'symbols_with_ohlcv': sorted(prices),
+                  'tracked_events': len(records),
+                  'indications': {t: sum(e.get('chart_indication', {}).get('status') == t for e in records)
+                                  for t in ('TECHNICAL_INDICATION', 'POSSIBLY_PRICED_IN', 'MIXED_WATCH', 'WEAK_CHART', 'INSUFFICIENT_CHART_DATA')},
+                  'confirmation_status': {t: sum(e.get('chart_confirmation', {}).get('status') == t for e in records)
+                                          for t in ('CONFIRMED', 'NOT_CONFIRMED', 'PENDING_3_SESSIONS', 'PENDING_5_SESSIONS', 'MISSING_OHLCV')},
+                  'confirmed_chart_entries': sum(e.get('chart_strategy', {}).get('status') == 'TRACKING' for e in records),
+                  'model_status': model['status'],
+                  'price_source': 'yfinance adjusted daily OHLCV; no intraday decisions',
+                  'warning': 'Chart momentum validates price action; it does not establish physical shortage causality or profitability.'
+              }
+              write_json(OUTPUT, records)
+              write_json(STATUS, status)
+              write_json(MODEL, model)
+              PAGE.write_text(page_html(records, prices, status, model), encoding='utf-8')
+              print(json.dumps(status, indent=2))
+
+
+          if __name__ == '__main__':
+              run()
+          PY
+      - name: Preserve historical chart evidence and chart dashboard
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for f in data/learning/chart_signals.json data/learning/chart_status.json data/learning/chart_model.json chart-learning.html; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Supply Scout: update OHLCV chart indication and confirmation'
+            git pull --rebase origin main
+            git push
+          fi
