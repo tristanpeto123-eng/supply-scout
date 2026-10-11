@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-10T21:01:15+00:00",
-  "archive_count": 263,
-  "cluster_count": 256,
-  "dates_first_seen": 1,
+  "built_at": "2026-10-11T14:54:43+00:00",
+  "archive_count": 300,
+  "cluster_count": 288,
+  "dates_first_seen": 2,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,15 +11,15 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 67,
-      "unique_report_clusters": 66,
+      "articles": 70,
+      "unique_report_clusters": 69,
       "estimated_duplicate_headlines": 1,
       "publishers": 42,
       "early_signal_strength": 75,
       "evidence_headlines": 48,
-      "general_headlines": 19,
+      "general_headlines": 22,
       "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 1,
+      "first_seen_days": 2,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "physical_shortage": 38,
@@ -114,21 +114,32 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 55,
-      "unique_report_clusters": 54,
-      "estimated_duplicate_headlines": 1,
-      "publishers": 32,
-      "early_signal_strength": 47,
-      "evidence_headlines": 2,
-      "general_headlines": 53,
-      "older_than_7_days_on_first_seen": 18,
-      "first_seen_days": 1,
+      "articles": 67,
+      "unique_report_clusters": 64,
+      "estimated_duplicate_headlines": 3,
+      "publishers": 36,
+      "early_signal_strength": 51,
+      "evidence_headlines": 4,
+      "general_headlines": 63,
+      "older_than_7_days_on_first_seen": 21,
+      "first_seen_days": 2,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 2,
-        "demand_accel": 1
+        "lead_time": 3,
+        "demand_accel": 1,
+        "physical_shortage": 1
       },
       "stories": [
+        {
+          "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-07T15:07:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "TradingView"
+        },
         {
           "headline": "Fujitsu’s 1Finity eyes India expansion as AI, data centre boom drives optical networking demand: Global CEO- Moneycontrol.com - LinkedIn",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNek1yb21GbHd3UG02M0piNlpiSWdyMFZfcnF5cjhuVHlpMzJVQzNiXzRmSW1GWGRtY0M2QndIN2ZEVmZYSHNnRlk0R05xY3lhZTAzbkhNakswamFKRVBFc1hMVndnWmtDSE9idm5fM3k2QkVzQUwwblJFRVRZVmIzY0lNdGNDQXFSQkc5NGx1dEVmV1ROVkJkeC1oQy1BelRRQ29iTU1oZTlwQ2JuNTJMS19xZ25FR1VmN1E?oc=5",
@@ -142,7 +153,7 @@
         {
           "headline": "3 AI Chip Stocks To Watch As Samsung And TSMC Signal Demand - Simply Wall Street",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVzAwMVB3emozSVktWE12QUVQa1ZKYmhNbFUwOHYydXRNT2RLanN2TEdjS1d1c29JV3RuX19zQUxQRUcwazVnRkZRUEtFMjA3VEFyNEczblVKdXBwMVZ0VjVDTVZUNGtnRWZLYm1oZS1KSVVEcTdUTFNfMDlkRTY4UnBKSG5hRUdrU05LLU5Vd0N3UXZYak5tbk5CaFFCYlpfeFVEOWlBaUtoMGl0QVlIOVNYWUIyOHRaT1hfZ3VrZUtsMTlBWnpYVFhvRmVLSlnSAc8BQVVfeXFMT1cwMDFQd3pqM0lZLVhNdkFFUGtWSmJoTWxVMDh2MnV0TU9kS2pzdkxHY0tXdXNvSVd0bl9fc0FMUEVHMGs1Z0ZGUVBLRTIwN1RBcjRHM25VSnVwcDFWdFY1Q01WVDRrZ0VmS2JtaGUtSklVRHE3VExTXzA5ZEU2OFJwSkhuYUVHa1NOSy1OVXdDd1F2WGpObW5OQmhRQmJaX3hVRDlpQWlLaDBpdEFZSDlTWFlCMjh0Wk9YX2d1a2VLbDE5QVp6WFRYb0ZlS0pZ?oc=5",
-          "reports": 1,
+          "reports": 2,
           "publishers": 1,
           "signal_tags": [],
           "feed_published_at": "2026-10-08T16:48:20+00:00",
@@ -158,16 +169,6 @@
           "feed_published_at": "2026-10-04T07:35:26+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Simply Wall Street"
-        },
-        {
-          "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-07T15:07:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingView"
         },
         {
           "headline": "ABN AMRO supports growth ambitions of Dutch semiconductor company XIVER - ABN AMRO",
@@ -208,21 +209,31 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 17,
-      "unique_report_clusters": 17,
+      "articles": 21,
+      "unique_report_clusters": 21,
       "estimated_duplicate_headlines": 0,
-      "publishers": 15,
+      "publishers": 18,
       "early_signal_strength": 49,
       "evidence_headlines": 3,
-      "general_headlines": 14,
-      "older_than_7_days_on_first_seen": 3,
-      "first_seen_days": 1,
+      "general_headlines": 18,
+      "older_than_7_days_on_first_seen": 4,
+      "first_seen_days": 2,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 1,
         "physical_shortage": 2
       },
       "stories": [
+        {
+          "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUHNLTml5dTNQRmx4TmhNNTJDUnh5WThLeFZpcWZNMmVJcURXeGpYNHkyeUFtRVpBRmFncm9JclRPMmN2TG1YM1hPckwxZ202QkctU2RJQ191V1FkaGhGVWhCUjJkM1FzUVZPZE5mWlloYXRVWDJZczBLZTFWTkI0Um1BSE1VWjFpV0M5amtfanVxWHk2UzJsY3ZGZ1kwdDRBc2hzYW54RUpndFdSSW9LcTNpelVEQm1TVDRWU3F4QUVoLTc20gHKAUFVX3lxTE9sM1NIaG9PVXhKRjl1elpGQTVjU0VmaUlzZy1MX1IycXhfbDJaZFpGcEpLMF96VnJ2YVpZZzZ0ZDBua3o2SF9uSHR6SVVZbDVrclpKN0NITFJUaVQ3Q1ViVGxYeEM0eHRCSW1HY1UxLTRIN200OEl4TnRVQTFPZ3ZfcTh5M1RMZ3FnZXdxMXRDTDhPSHZySlhQYzFtSkpMY0RhbDVXeFNoUm9MNXpVa3d4SHNIbTZXX0tlNy1tbHI1aDRoMXh6UXpGRHc?oc=5",
+          "reports": 1,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-10T19:49:49+00:00",
+          "first_seen_at": "2026-10-11T14:54:19+00:00",
+          "source": "Simply Wall Street"
+        },
         {
           "headline": "Accelevation, Data Center Infrastructure Platform, Files for Nasdaq $540M IPO - TradingView",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb09uSEdwa1J3QUZnQ05sUUs1QTBDa2lwcUpkU1ktODV6SnBhbGxNYW9BOURKTC1yMENnc0prMUstY2VzQTh1SkN4cGFDVUdrUG1QVE1sWGF1by0xbFRMejdZVndSWnJyM2xVNWVDbXdqdkxkejFVdkxVV3dTUGdncW5kM2U5LXlDa0ZCU2twMUJ0ckNYYmYySXZKc1NEOTJMdko0LXFTamNTRDIydExBS3RTODdlVmVVT3JNSGxIVFJmT0ZIWFgySEZvZzRWWmFrQ3c?oc=5",
@@ -232,6 +243,16 @@
           "feed_published_at": "2026-10-01T10:19:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TradingView"
+        },
+        {
+          "headline": "Accord Transformer & Switchgear H1FY27 Results: Revenue up 90% YoY to ₹52.68 crore - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYl9xM2ZuNW9jX2xzbnFHRWpkSnFXdS1xbWdzelliNVVKQXNaejRVZDJndmEyZnczU3pPR3J6bTZlemwyMlEwOHA0X1RGRk9od1c3Y0JWY2RFUkJpeWR5YzNRMmFrS3plZHpyZWQ3enVPZEtvaEhfMVZMaGZLcnc0TXo1T0pvR0RJZ0t4ZHdIdlAxUUZNbjZHSVBlMzFKaTZKSXBRV2hxaXotVHBuTnRZLUdaaVdZYWNGMmtwWjA2MEZBdW8?oc=5",
+          "reports": 1,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-05T12:15:14+00:00",
+          "first_seen_at": "2026-10-11T14:54:19+00:00",
+          "source": "scanx.trade"
         },
         {
           "headline": "Belagavi water crisis deepens after transformer failure - The Times of India",
@@ -274,53 +295,43 @@
           "feed_published_at": "2026-10-09T02:30:05+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "BW Businessworld"
-        },
-        {
-          "headline": "How Investors May Respond To Schneider Electric (ENXTPA:SU) Software Defined Switchgear Launch - Simply Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTDMzMERSRnpMWld3a3ktVWtubW9pOEhjUkp5NE9TZ3ZOV0JmTjhpZG56MWRKOHVxTENTYzZsdWZkZksyU3EySHFCdWpvSlFra1I5YXluYVBnSzFPbENSWnBmZHN6NkxOZDZWVkFkbW56WlVvTHhVZWVlWkZ0QUpkMGd6dmJlTWprc0dsa3NSYjlWTHlyZmhiTGxhM21wRDF6d2huU1lWeXBWVFhTcFAwZzJQWHZ4M3dWQnMzZUNhY25VSnFFY29MdFVBMFZwSm5CQ1RmR0Q1SGZ4bWk00gHiAUFVX3lxTE9jMWFNTDlTTTFmNko5MGxpVlhKczJYYm5kX1F5cFI1WkpGdjBqNElkUS11Zi1RbDI3eTVtUHZCYWJBT3lsLVo5NElkMEtoN21nOEhOZk5NUnowYU1WRklET3dpcHpMeVVaQ19zQmFJbVphNTRFcWZkMXE1NXlWQ3E5amFQeTkySmJ2b0NPel81aVQxNDFxLS1BTEt6SHJXMUlZWEgwUHQ1U29PeGstTm1NZEc1clVOOVBSOUo5R3U4N29fa2JOSGNNYUY4WjB5MFFBYmFhNzh5TE1MRDdsSkNUR2c?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-04T11:11:34+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Simply Wall Street"
-        },
-        {
-          "headline": "Is the U.S. Grid Open for Cyber Attacks? Chinese Inverters, Hidden Radios and a Years-Long Wait for Transformers - Energy News Beat",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRDdQMDR1UHFPeXFHcll4bTc4MnpnaU1LNHJnNS14eGl3dkdQVDNtMjRVOEFvcWpwYXBjT2ViTDJ5NkVUaUgtaDVHb3JkRDJlUlVadkVFNGFpOU8xQ2lCOGtHLXFvVFY3ZWJ2MFcySnNxV3RoeWdQMzQ2NGlybXVwQU1KMjBXQ2JKSEJhSjFRZlpNMjFFaVZGbXFVOEE3NGFOTnAzVXduRGVsMTVMdVNzYTlJSk8xaVdmNXZzaURKY1NTbGd0d1RaZzVSRmxRT196ZE1wWUNLcTFVZjUzOTFEVzRPXzI?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-08T20:01:18+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Energy News Beat"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 59,
-      "unique_report_clusters": 57,
-      "estimated_duplicate_headlines": 2,
-      "publishers": 43,
+      "articles": 70,
+      "unique_report_clusters": 65,
+      "estimated_duplicate_headlines": 5,
+      "publishers": 49,
       "early_signal_strength": 63,
-      "evidence_headlines": 10,
-      "general_headlines": 49,
-      "older_than_7_days_on_first_seen": 26,
-      "first_seen_days": 1,
+      "evidence_headlines": 11,
+      "general_headlines": 59,
+      "older_than_7_days_on_first_seen": 34,
+      "first_seen_days": 2,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 10
+        "physical_shortage": 11
       },
       "stories": [
         {
           "headline": "Exclusive-China demands copper supply commitments for Anglo Teck merger approval, sources say - AOL.ca",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXNzUGRPSW5raHFLZWdvTms0LVl5bDBjSkEtbkxGZGJlcVhiSkQtOUdPME9fcGVEVHh4SlBQNElEM1EtTlhxM3BDLTFlSzJsX1U0VTBEejlSYlQ2aGJ6dUQzVUcybklvS2Q0QVRnX0NoajlzeEhIZV9PM2pXeE96TjlZeVlLZ00?oc=5",
+          "reports": 4,
+          "publishers": 4,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-02T12:04:42+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "AOL.ca"
+        },
+        {
+          "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EQ1dPcFMzaUJaQjVGOHBoWFF0VVhpSXJKb0NKNTV4QTlhRXZuS1N4Szc1dVBxS0lsYnR5NWsybDIxdUUyRmlDRFc4eXhOZ2RJN29pOGI1U1ZidTB0S0kxTlZJWjRxdjRQVVVGY2J2cWNrdmJtVjFjQWpR?oc=5",
           "reports": 2,
           "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-02T12:04:42+00:00",
+          "feed_published_at": "2026-10-03T19:50:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
         },
@@ -365,16 +376,6 @@
           "source": "Yahoo Finance"
         },
         {
-          "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EQ1dPcFMzaUJaQjVGOHBoWFF0VVhpSXJKb0NKNTV4QTlhRXZuS1N4Szc1dVBxS0lsYnR5NWsybDIxdUUyRmlDRFc4eXhOZ2RJN29pOGI1U1ZidTB0S0kxTlZJWjRxdjRQVVVGY2J2cWNrdmJtVjFjQWpR?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-03T19:50:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "AOL.ca"
-        },
-        {
           "headline": "5 Best Mining Stocks for 2026 and How to Invest - The Motley Fool",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeG10amNLd2k3X3ZMa19vUjVaT19venRMZWZGeUtDcmlMU2RmendaV18xQWg4Q0kxWU0wMkZISXB2R2Y2ZmhxZ0YtWFJWY3NXdUtTR3ZQZHl1WExoTWRlU3UtaDhhY1dMWWVfd1BoNHBuWnR6TjB1ZWlxc2t6WWlra2w4aEY5UklCMm9V?oc=5",
           "reports": 1,
@@ -389,18 +390,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 65,
-      "unique_report_clusters": 62,
+      "articles": 72,
+      "unique_report_clusters": 69,
       "estimated_duplicate_headlines": 3,
-      "publishers": 55,
+      "publishers": 61,
       "early_signal_strength": 65,
-      "evidence_headlines": 16,
-      "general_headlines": 49,
-      "older_than_7_days_on_first_seen": 32,
-      "first_seen_days": 1,
+      "evidence_headlines": 19,
+      "general_headlines": 53,
+      "older_than_7_days_on_first_seen": 34,
+      "first_seen_days": 2,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 15,
+        "physical_shortage": 18,
         "price_power": 1
       },
       "stories": [
