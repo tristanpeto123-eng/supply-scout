@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-11T15:59:12+00:00",
-  "archive_count": 300,
-  "cluster_count": 288,
-  "dates_first_seen": 2,
+  "built_at": "2026-10-12T17:53:20+00:00",
+  "archive_count": 341,
+  "cluster_count": 321,
+  "dates_first_seen": 3,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,22 +11,34 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 70,
-      "unique_report_clusters": 69,
-      "estimated_duplicate_headlines": 1,
-      "publishers": 42,
+      "articles": 76,
+      "unique_report_clusters": 73,
+      "estimated_duplicate_headlines": 3,
+      "publishers": 44,
       "early_signal_strength": 75,
-      "evidence_headlines": 48,
-      "general_headlines": 22,
-      "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 2,
+      "evidence_headlines": 49,
+      "general_headlines": 27,
+      "older_than_7_days_on_first_seen": 42,
+      "first_seen_days": 3,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 38,
+        "physical_shortage": 39,
         "price_power": 9,
         "lead_time": 3
       },
       "stories": [
+        {
+          "headline": "Memory executives expect RAM shortage to continue through 2028 - Adafruit",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV3UydXZpNWZuT1ZCd0FyNDdNdU5OZEdtbnVqTjRZSzBaYUV1VzFFeVFLcmtYZloxRUVLMU1MZURqa1Z6Y3Y3ZFBnYWlvVW1ieVJPZ0JFQWUzcWhBbFQ1dU45QW5MbS1VNERvT3Y4emgyZ0F6MDhOQVJKQjdrQnFHVDVCQVZiRXI0eFBoazZWWkFNWXFfNXVJdFEzYVFyUmVkQUE?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-12T14:29:18+00:00",
+          "first_seen_at": "2026-10-12T17:52:56+00:00",
+          "source": "Adafruit"
+        },
         {
           "headline": "Memory shortage could worsen through 2028: Micron CEO - NewsBytes",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb2ZyMnZvR3FCVjN4V0t6bW9qTVloTVE1cDBSVy1ZZHd3ZUl0ODdOQkQ0N1ZlQldWeFRUMlpxSWdQLXpfWlM5RGRRT2U4dTdKbmNBTGJSbjk5YV9tX2dmWk5kYmZsa3BQemphU3NnSFNVYmZaMjFveU1QczE2VDNVRUJ6XzJiYXVuZTVlMDJ1REZaUTVVSEZ3QzhfSjh5a1k4bEE?oc=5",
@@ -38,6 +50,18 @@
           "feed_published_at": "2026-10-02T05:22:29+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "NewsBytes"
+        },
+        {
+          "headline": "HBM Prices to More Than Double Next Year as Shortage Persists - Seoul Economic Daily",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUktMW9YQkZMSTdJVWdfSTJSWHFOMWEyXzByRjYzV0p1cVdYQUU3b0VRMVJqeGo5YkJNV0ZQM3BhN2ZYTkVkY1B1Y0RNU2M4S1B4SjVFVjgxOWZRQzlzclBQeEt6V0hjYVMzZGstM25FSWQ1QzEtRkQ5cWpkbGtZRmJpenlkbnR5akZZanBCQ09UcFlybExsYXJn?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-01T08:56:14+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "Seoul Economic Daily"
         },
         {
           "headline": "\"HBM average selling price to rise 121% next year amid supply shortage\" - 매일경제",
@@ -86,46 +110,24 @@
           "feed_published_at": "2026-09-29T09:12:05+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TechPowerUp"
-        },
-        {
-          "headline": "Are you ready for the RAM crisis to last another 3 years? We could see ''meaningful price increases' by the end of this year — and there's no light at the end of the tunnel - TechRadar",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMXh1OU1Vb1lpYUxQT3hPYjI2b1BOUmg2UlJCNVlIRElIRjQ1NzYzNndaSWg3UGVfLTkzelZRMmRmaWlSRnJQQlVJS2dwTVpyUzVZQ0UzeDNtbHdhaTRhd19fUHZCNlRpVVdvTXVweXAxdWJVTHB1em5kY2JqQlJjVExMRTVDT2tvSC1CR3Y5Wk44TG9xQTBxZUZLcGJ1ZmpmTUJCaVFLQTgxakZ3UmdaNXRhRjdZNmJCdjBsMG9IbE5xRVBsVGZZa0lIWnlpdlpDYnpzdTg3N2pmWUU3bGdNX2JVSmdqYUdKOVZmQ1JCVWgzS3BCSl90bndR?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-06T11:04:25+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TechRadar"
-        },
-        {
-          "headline": "China's AI chipmakers raise prices as high-bandwidth memory shortage bites - The Standard (HK)",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZXlCOUZPNGdYWEh1aU0tTGdxNHlkeDhlNHVscTdRNWhLVjltUS1NQ3EtT2diQmZidjVxVEZZYzlXUDNHdm9Xa1NPMW9jc3VOQmdmQXZtMDZxaGhrczlocjB0aEluS25QYmQ4cU1fWUVjZTc0SW1pandFeVVNWmE2bU4tLW11M0dPMlNOTTdHVzF5WTF5eVgyYi1mTXZoY245TkE3ZHhKNzRmbVd3X0tENWtkd24tMkI4THM5dFZPcnREcTZPcnc?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-08T15:00:20+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "The Standard (HK)"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 67,
-      "unique_report_clusters": 64,
-      "estimated_duplicate_headlines": 3,
-      "publishers": 36,
-      "early_signal_strength": 51,
-      "evidence_headlines": 4,
-      "general_headlines": 63,
-      "older_than_7_days_on_first_seen": 21,
-      "first_seen_days": 2,
+      "articles": 74,
+      "unique_report_clusters": 68,
+      "estimated_duplicate_headlines": 6,
+      "publishers": 38,
+      "early_signal_strength": 53,
+      "evidence_headlines": 5,
+      "general_headlines": 69,
+      "older_than_7_days_on_first_seen": 22,
+      "first_seen_days": 3,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 3,
+        "lead_time": 4,
         "demand_accel": 1,
         "physical_shortage": 1
       },
@@ -151,6 +153,18 @@
           "source": "LinkedIn"
         },
         {
+          "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzVscnFxaTA0MVA5U0x4VFJrcllpZW13SXBrRER6MWdUM0RMM3hnYmRndjlXVmRUSThMemtnVW5GN3Ntb3B4N3ZsdEZNQlpkM2dIalpnaTFFUTJITVpWSkFqMjlPWU1DN0Y0dUUxMzBYSDBqTkpEbDc4MEIxMkdBa1hwUHdFUmJlVEVic2tEYTRoV3JIWmR0S3pwZWpVNXVsOGxUTi14QjJOWWsyNWkxcHd5Z0Q?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "lead_time"
+          ],
+          "feed_published_at": "2026-10-09T12:41:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "TradingView"
+        },
+        {
           "headline": "3 AI Chip Stocks To Watch As Samsung And TSMC Signal Demand - Simply Wall Street",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVzAwMVB3emozSVktWE12QUVQa1ZKYmhNbFUwOHYydXRNT2RLanN2TEdjS1d1c29JV3RuX19zQUxQRUcwazVnRkZRUEtFMjA3VEFyNEczblVKdXBwMVZ0VjVDTVZUNGtnRWZLYm1oZS1KSVVEcTdUTFNfMDlkRTY4UnBKSG5hRUdrU05LLU5Vd0N3UXZYak5tbk5CaFFCYlpfeFVEOWlBaUtoMGl0QVlIOVNYWUIyOHRaT1hfZ3VrZUtsMTlBWnpYVFhvRmVLSlnSAc8BQVVfeXFMT1cwMDFQd3pqM0lZLVhNdkFFUGtWSmJoTWxVMDh2MnV0TU9kS2pzdkxHY0tXdXNvSVd0bl9fc0FMUEVHMGs1Z0ZGUVBLRTIwN1RBcjRHM25VSnVwcDFWdFY1Q01WVDRrZ0VmS2JtaGUtSklVRHE3VExTXzA5ZEU2OFJwSkhuYUVHa1NOSy1OVXdDd1F2WGpObW5OQmhRQmJaX3hVRDlpQWlLaDBpdEFZSDlTWFlCMjh0Wk9YX2d1a2VLbDE5QVp6WFRYb0ZlS0pZ?oc=5",
           "reports": 2,
@@ -161,6 +175,26 @@
           "source": "Simply Wall Street"
         },
         {
+          "headline": "Ciena's Openreach Deal: Can 1.6Tb/s Technology Drive Its Growth? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc2t1cGZMTXN4eW1xcjV1WnpLcEg5QVp4UkRLU192T3NYSlh6SUxfRV9lVTJwQldfSnUyMldpWllmMDlLMS1Bd0M5cDMzc3BJdnJ0NlpmOTVHblZuX0p5eWlDU2pld1ZsbkNST2tOLVdtTmplQjdCTXktN3ZkcTFlSUVYcmdrX0Zod2l4Slp6YUlvTHlZM1BIVmh5dEdzLURiSUdTSGN6eWNPazU1M1FvTXVUQlA4cC0zaFE?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-09T11:25:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "TradingView"
+        },
+        {
+          "headline": "Scaling infrastructure, all-in on NPO, and a “material-rich” road map: Themes and takeaways from Soitec’s 2026 Silicon Photonics Workshop - Photonics Spectra",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVR5Tmp2dS1WSHBiM0NOS1ZGRF9PYUtkVEhqd0VXX2lCNjlNcU5kUG8xTXg3U2JUd0tjVzJ6blBSODV5NHFQWUpxUm45b3dScVVZY1oyNHVldDlFRDVVTVh3YTF3djVGLXh0aHVudVMxcHdYdUZfcXg0OVJacDBZYXJzTW92clNoNUpJQg?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-09T07:00:00+00:00",
+          "first_seen_at": "2026-10-12T17:52:56+00:00",
+          "source": "Photonics Spectra"
+        },
+        {
           "headline": "3 Defense Tech Stocks Exposed To Counter Drone Demand Investors Should Watch - Simply Wall Street",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdHE5cmhzNWplV19rVHZmd3RDTjc0Sl9EOGZRNFVWbkRUNjBLRjEtS3FfUm83QmZrYi1tNmU2NHA2QzZMYlpjNGFySDBtakZTNk1aempqNklwNzFKY1ZYRUhvc01iOWM3RjdzcEN2MV9ncUZaV3dqZWQ0Y3B1d2xHQ1dvdVJwa1ZUUEZUUjlCTTJQYVd0QjRJYk1DbWdRWEQ3NElHZFZkUzRoVXpySWtpMFlBU2p4S09Pa0xXbFJfdDhTRU92c0ow0gHMAUFVX3lxTE5tdWtIemxTTlJuaVlmTkdZQWxoeF9GdjdhdDVPS3R3TC1YaUVYUnVOZHlMT3U2bE8xWTJFSHEzYnFZNTBBck9SLUg1T1l6aWhwUEJUcXNKQUMwTzZFWm0yWlUtbjZxWU5hdFA5X3NuMERUcDNsOXlIbXpXT243T0ZKdXAtaTNnZXRLMVNsbWhZTUVtTmFFLWQwZXhSbzZycTNvTDVXTklaM04zZmI5UHlJRm5EX3ZXZ2ZubjBTVUZxSHZFbFJfeUFZb25BOQ?oc=5",
           "reports": 1,
@@ -169,61 +203,39 @@
           "feed_published_at": "2026-10-04T07:35:26+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Simply Wall Street"
-        },
-        {
-          "headline": "ABN AMRO supports growth ambitions of Dutch semiconductor company XIVER - ABN AMRO",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS2NXcmVMZmwxTEpCY0ZvUEgzYXVaYlJJMXZNSkJtd1B5dkJQNVUxaWRBRndxeTJ1NkQzRENDT3FNY1R4N25YRW14NkVEXzgtX0Rxa2NXOXFPTGJBVUlndjJJQzBjTWJWSU81WlRlV2duUEx1Z2lzSkQzVnB6X19UVWhORElEOU1tSF9maGVMaXVNNGV3MUdxTk9XNVJhLVg2M3FEci13?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-01T10:42:37+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "ABN AMRO"
-        },
-        {
-          "headline": "AI Data Center Interconnect Demand Surges: Which Optical Communication Stocks Benefit Most? 5 US Stocks to Watch - TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQelNaTWRLcnBXbWFoZ3ZMa1RpNlptcjFlQVFiLTBVeFBtX0haY2dEeURaM185T1BORmxvNHN2aUt1Y0tENWRLUmtPVlVGVy1tdXFDWkQzdkZQd2J0U2pVaFBTODlBR25QTFAwWTZwcHVJczh0eW9nMURxNk1oVHBhRXN2UUNMSjlQUzM1cEt5RFpqMnltNkI0UWc5NzFoT3VZSEFhd0JmbjdZTkpmbENvSWRjOTVEbUI1VWNMdHdRLThMS3NkbHQ0?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "demand_accel"
-          ],
-          "feed_published_at": "2026-10-06T04:44:47+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingKey"
-        },
-        {
-          "headline": "Aehr Test Systems Rises as Investors Revisit AI Order Momentum and Backlog - Quiver Quantitative",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV0pJUmx2TDFfN0J5ZzB4aFo0S3pTTEx1X3RmVkQxc0IxTGN4UGNUWlN6Y2Rtd3lhSXdiQVoxV202cC1SWE9NRTZuNFpMa2FyOHJ1bVBpdkctQlcxNDBpSjAxVFF2Wk5mejdEbjZPenVUVnlWUUgyX1d6WGFUXzBsUktPZExHMVdpcDZ5Yk5SMVVGZDU2SEZVaC0zRzdKd0dta0hCZFVxSU45cE0?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "lead_time"
-          ],
-          "feed_published_at": "2026-10-02T21:20:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Quiver Quantitative"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 21,
-      "unique_report_clusters": 21,
-      "estimated_duplicate_headlines": 0,
-      "publishers": 18,
-      "early_signal_strength": 49,
-      "evidence_headlines": 3,
-      "general_headlines": 18,
+      "articles": 28,
+      "unique_report_clusters": 27,
+      "estimated_duplicate_headlines": 1,
+      "publishers": 25,
+      "early_signal_strength": 53,
+      "evidence_headlines": 5,
+      "general_headlines": 23,
       "older_than_7_days_on_first_seen": 4,
-      "first_seen_days": 2,
+      "first_seen_days": 3,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 1,
-        "physical_shortage": 2
+        "lead_time": 2,
+        "physical_shortage": 3
       },
       "stories": [
+        {
+          "headline": "Pakistan: Doctor shortage leaves Attock's Chhab Health Centre in crisis - www.irishsun.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmNvWWRsMC1acTVDTWJKREVGZXBsekZLTWxZN3N1Sk5YRy11dWhzbU5GQ1FjMFIybkxycWNkdENsYU1scW41RlEwNVFlako4dko1MVVzd0lvcnJDS2hxNWdhUFRKS0x0N3dPM3FGci14OEVZdXBpQUVGaTlsNlNabTNKZVZPLXp4ZDBTN0JOMGxVWGFtZ0NYaXJxNnpPaE8wbXh3aUM2dGgxMF92?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-09T12:03:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "www.irishsun.com"
+        },
         {
           "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUHNLTml5dTNQRmx4TmhNNTJDUnh5WThLeFZpcWZNMmVJcURXeGpYNHkyeUFtRVpBRmFncm9JclRPMmN2TG1YM1hPckwxZ202QkctU2RJQ191V1FkaGhGVWhCUjJkM1FzUVZPZE5mWlloYXRVWDJZczBLZTFWTkI0Um1BSE1VWjFpV0M5amtfanVxWHk2UzJsY3ZGZ1kwdDRBc2hzYW54RUpndFdSSW9LcTNpelVEQm1TVDRWU3F4QUVoLTc20gHKAUFVX3lxTE9sM1NIaG9PVXhKRjl1elpGQTVjU0VmaUlzZy1MX1IycXhfbDJaZFpGcEpLMF96VnJ2YVpZZzZ0ZDBua3o2SF9uSHR6SVVZbDVrclpKN0NITFJUaVQ3Q1ViVGxYeEM0eHRCSW1HY1UxLTRIN200OEl4TnRVQTFPZ3ZfcTh5M1RMZ3FnZXdxMXRDTDhPSHZySlhQYzFtSkpMY0RhbDVXeFNoUm9MNXpVa3d4SHNIbTZXX0tlNy1tbHI1aDRoMXh6UXpGRHc?oc=5",
@@ -233,6 +245,16 @@
           "feed_published_at": "2026-10-10T19:49:49+00:00",
           "first_seen_at": "2026-10-11T14:54:19+00:00",
           "source": "Simply Wall Street"
+        },
+        {
+          "headline": "AI is going to run out of power - by Kirsten Horton - Transformer | Substack",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GVTBPcEk0SW5HSVdBWldrSGpCemk1OHUwSVowZmRtWVlyTU80eTBfdVU3ODcwSG02UE0yaGhkcGtBVEVYU1NCSk9vWlhxQVI4Ti1pMEpjOFhkUjFBQzBiS240Ynp2WUU0?oc=5",
+          "reports": 1,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-06T15:02:11+00:00",
+          "first_seen_at": "2026-10-12T17:52:56+00:00",
+          "source": "Transformer | Substack"
         },
         {
           "headline": "Accelevation, Data Center Infrastructure Platform, Files for Nasdaq $540M IPO - TradingView",
@@ -275,44 +297,24 @@
           "feed_published_at": "2026-10-08T12:50:54+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "The Globe and Mail"
-        },
-        {
-          "headline": "Global Demand for Power is growing Faster Than Grids can support - Energy News Beat",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbGFKdWZ4MXBlTHJHQUdDeko1cG52dzIwcVpnZWdHNXNoSkwzb3BkQ2FsMUhYLXdzV0JIQU5QNmI2U3drbF80ckJJckpXNW15dW93c0Nla3pyYjRralg1TnlrRnlQajF3ME1RM1BMZU85VDNpSVRKYWpobUt6ck9OSDloYnc1STdMLUoxOFZYb0hvSFYySFpRdkRHRWFsV1g5Rkt2QmV3Tnk?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-03T14:42:28+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Energy News Beat"
-        },
-        {
-          "headline": "Global Transformer Demand Set To Rise 40% By 2035 As Supply Crunch Deepens - BW Businessworld",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWkhIazJGdEJPYy0zc295SW4wdFo4TURZMjdOSFFxOUs3MFFNYXVCS0N1Ynd4WWlKOGtIMzZyck9NX0liWUdDVU9yVUlGSTBHRDhWYmozNzdhUURqc2ZzMUF3M3VrMWItSjczeDNjWlNOU2FaNGdqNTAzbC1Nc0tEZGxzX1JSSERBVFg3d3FtcVFTX2p2aFVmamg0Wk1QUzlvc0lMTjlEV29Kd1JrbG9iajRZZzdFVjd2?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-09T02:30:05+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "BW Businessworld"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 70,
-      "unique_report_clusters": 65,
-      "estimated_duplicate_headlines": 5,
-      "publishers": 49,
+      "articles": 82,
+      "unique_report_clusters": 76,
+      "estimated_duplicate_headlines": 6,
+      "publishers": 54,
       "early_signal_strength": 63,
-      "evidence_headlines": 11,
-      "general_headlines": 59,
+      "evidence_headlines": 13,
+      "general_headlines": 69,
       "older_than_7_days_on_first_seen": 34,
-      "first_seen_days": 2,
+      "first_seen_days": 3,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 11
+        "physical_shortage": 13
       },
       "stories": [
         {
@@ -334,6 +336,16 @@
           "feed_published_at": "2026-10-03T19:50:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
+        },
+        {
+          "headline": "Chile copper mines disruptions: production-at-risk insights for planners - Geomechanics.io",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2xaTFlKX3BRUzBWQW5SVFFURC1iVGdNUUFXZ3BKUXotNVBaQkRRMjJGRWkxY2FRaFlYX3BxX0xaeXRSZjk2SGEtZmN4Vnp3SW40TWpuekRHZWdJSWNGSG9CUHJlZmI2THg1TDdVV1IzY3F5YzdzTDcyLUR5QVdPR1oyMkpMcVZMVDE2TW5vTTRQS3JDaU9aTnRmc2lUVWY2NXIzbDk1MjhoZGJiNDUyZl9B?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-08T12:01:05+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "Geomechanics.io"
         },
         {
           "headline": "Glencore sees electrification trend driving strong uptake for Australia listing - AOL.ca",
@@ -374,34 +386,24 @@
           "feed_published_at": "2026-10-06T13:45:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Yahoo Finance"
-        },
-        {
-          "headline": "5 Best Mining Stocks for 2026 and How to Invest - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeG10amNLd2k3X3ZMa19vUjVaT19venRMZWZGeUtDcmlMU2RmendaV18xQWg4Q0kxWU0wMkZISXB2R2Y2ZmhxZ0YtWFJWY3NXdUtTR3ZQZHl1WExoTWRlU3UtaDhhY1dMWWVfd1BoNHBuWnR6TjB1ZWlxc2t6WWlra2w4aEY5UklCMm9V?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-04T13:44:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "The Motley Fool"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 72,
-      "unique_report_clusters": 69,
-      "estimated_duplicate_headlines": 3,
-      "publishers": 61,
+      "articles": 81,
+      "unique_report_clusters": 77,
+      "estimated_duplicate_headlines": 4,
+      "publishers": 68,
       "early_signal_strength": 65,
-      "evidence_headlines": 19,
-      "general_headlines": 53,
-      "older_than_7_days_on_first_seen": 34,
-      "first_seen_days": 2,
+      "evidence_headlines": 22,
+      "general_headlines": 59,
+      "older_than_7_days_on_first_seen": 37,
+      "first_seen_days": 3,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 18,
+        "physical_shortage": 21,
         "price_power": 1
       },
       "stories": [
@@ -436,6 +438,16 @@
           "source": "Global Trade Magazine"
         },
         {
+          "headline": "Phl shippers brace for longer Asia port delays - Daily Tribune",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU21IUW5lelJYWWhpSmh1Q1J1T2JWWlF3b09ldDNzazloYUdyT2hmb05yY2JleW93UVZMbTI1UU9JaHdTejI2OWFjLVR0YzkzRzA1V3RZVkxIOWxNZDdvV0swWURZbU1nNFdtX2dpSUx6dGphLTRMTE56eDRSaHJTb0c0SVZ5alk?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-02T19:08:19+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "Daily Tribune"
+        },
+        {
           "headline": "A freight recession or a rigged game? Carriers sue major brokers - Land Line Media",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNczN1ODZnVGJFX3BnM3FYbUFGU1ZUc2h1Ny1PZDVCajBCVWM4RTU4dWkxRFpyNEYyV1pydUVkblY3NXl1Y3p4cE5JUlZuR054aXozWHhWY1BHcFhQMm1QZkJ4VEk0QXJ1NUM4a213R25DUk1JREdlcXJYaUF1R29GN3N3WnZHRUhKUWptckdjVVg?oc=5",
           "reports": 1,
@@ -464,16 +476,6 @@
           "feed_published_at": "2026-09-28T07:00:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Splash 24/7"
-        },
-        {
-          "headline": "Asian port congestion across Asia could linger into 2027 - Inquirer.net",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXVhOGh1cWx5SHBzUDVwcmExbWs5OGxKUElYV09XdUZwbTZFM0xqT2NqU04weXo4b0tSS3MxVWhMeHVoRVFqSERsMDNwOHl3VGV6S3VnaG5QeFZnTFlvcW5ua2s4R2FMaTEyLWxDWnlXM1RObnBDSDZIVW45UGp1eEZpWUtibmNHWWQ4ZWN2QlZTbWp3Zk9nedIBngFBVV95cUxOZDItUDlOX01ySUZDVF9acERKSDlBLXhCTk9NaENZMkpjTXh3ZGttc2JrT1ZMREhEQjJoSzNnOThPY3pZZ256aUpQS2pBMEpiSDU0X1pRSlNOZmpHZklKcFgzdDJVSjcxVDI2RHpXXzBUMDgyUDlZd29QYWNrSEtVWnFmQjBmQ29BcU5lSU14a1JqZFNOOXFDMEhXazFyQQ?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-03T05:38:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Inquirer.net"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
