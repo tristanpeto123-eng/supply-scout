@@ -353,5 +353,218 @@
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
     }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W42",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-10-12T17:52:56+00:00",
+    "headline": "Transformer Lead Times Hit 5 Years…Long-Term Contracts Become the Standard in Power Equipment Market - BigGo Finance",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54bFU2aEJ1cUVqRHFCOEtxV3E4a2NTQU54Qm1JaEs0cW11aXZnYXFQeGliaDJldF9zYlNNazNUZm83YmdPNExvNV96MjFRX1hWUjhNMzFidnRUOUFmaDRWNVdJZUNKdmVEdlZvdVJyOFRLSWxaOGc?oc=5",
+    "chart_indication": {
+      "status": "TECHNICAL_INDICATION",
+      "strength": 5,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 429.649994,
+        "sma20": 427.260497,
+        "sma50": 426.330519,
+        "sma200": 390.459576,
+        "rsi14": 46.22,
+        "atr14_pct": 3.01,
+        "volume_vs_20d": 0.77,
+        "relative_strength_20d_pct": 0.6,
+        "relative_strength_60d_pct": 5.79,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 445.089996,
+        "distance_above_sma20_pct": 0.56,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-12T19:53:00+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W42",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-10-12T17:52:56+00:00",
+    "headline": "Memory executives expect RAM shortage to continue through 2028 - Adafruit",
+    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV3UydXZpNWZuT1ZCd0FyNDdNdU5OZEdtbnVqTjRZSzBaYUV1VzFFeVFLcmtYZloxRUVLMU1MZURqa1Z6Y3Y3ZFBnYWlvVW1ieVJPZ0JFQWUzcWhBbFQ1dU45QW5MbS1VNERvT3Y4emgyZ0F6MDhOQVJKQjdrQnFHVDVCQVZiRXI0eFBoazZWWkFNWXFfNXVJdFEzYVFyUmVkQUE?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 4,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 1029.0,
+        "sma20": 1038.254999,
+        "sma50": 976.1862,
+        "sma200": 701.569566,
+        "rsi14": 47.6,
+        "atr14_pct": 4.27,
+        "volume_vs_20d": 0.77,
+        "relative_strength_20d_pct": 5.1,
+        "relative_strength_60d_pct": 17.7,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1097.390015,
+        "distance_above_sma20_pct": -0.89,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-12T19:53:00+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Shipping|ZIM|2026-W42",
+    "ticker": "ZIM",
+    "theme": "Shipping",
+    "signal_time": "2026-10-12T17:52:56+00:00",
+    "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
+    "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQdIB6gFBVV95cUxNTmZOby00TVFjYkhGUmhxS0NYYVZWSmlPMnVfdDJPMGhLdnBPMUhJU2JsOVBBeERleEJhZDRmM2p0blVwTUJheHB6TnY4WXVYelBqNEZpejQ0bmQwOWJ2ajdiYXNqNHd5M2FnamZiQUZGemdmR2tZUk9QWEtKdXB2djc5b0dlYU1ITkdRZDZROTBpbUJKMWVfTDEyZnBnbWUtU3hTdlViRFgyOGpUR2U4RFJEcExzaUlyZk5XMm5wVF9tVTJYOWpBNlE5b19hTVVBV05GaHpjd1hTWVFUeXQta3N4aTRkdnM5T2c?oc=5",
+    "chart_indication": {
+      "status": "TECHNICAL_INDICATION",
+      "strength": 5,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-09",
+        "close": 29.99,
+        "sma20": 29.646,
+        "sma50": 28.3596,
+        "sma200": 25.663071,
+        "rsi14": 46.05,
+        "atr14_pct": 3.19,
+        "volume_vs_20d": 0.52,
+        "relative_strength_20d_pct": 1.01,
+        "relative_strength_60d_pct": 19.45,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 30.51,
+        "distance_above_sma20_pct": 1.16,
+        "completed_bars_available": 297
+      },
+      "as_of": "2026-10-09",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-12T19:53:00+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
   }
 ]
