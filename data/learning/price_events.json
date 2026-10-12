@@ -21,9 +21,27 @@
       "prior_excess_30d": -0.038003
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-12",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-19"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-11"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-10"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -48,9 +66,27 @@
       "prior_excess_30d": 0.03007
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-12",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-19"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-11"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-10"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -75,9 +111,27 @@
       "prior_excess_30d": -0.003486
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-12",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-19"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-11"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-10"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -102,9 +156,27 @@
       "prior_excess_30d": 0.016079
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-12",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-19"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-11"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-10"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -127,6 +199,105 @@
       "publisher_count": 2,
       "publication_lag": 2.47,
       "prior_excess_30d": 0.165888
+    },
+    "market": {
+      "status": "TRACKING",
+      "entry_date": "2026-10-12",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
+    },
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-19"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-11"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-10"
+      }
+    },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W42",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-12T17:52:56+00:00",
+    "snapshot_locked": true,
+    "headline": "Transformer Lead Times Hit 5 Years…Long-Term Contracts Become the Standard in Power Equipment Market - BigGo Finance",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54bFU2aEJ1cUVqRHFCOEtxV3E4a2NTQU54Qm1JaEs0cW11aXZnYXFQeGliaDJldF9zYlNNazNUZm83YmdPNExvNV96MjFRX1hWUjhNMzFidnRUOUFmaDRWNVdJZUNKdmVEdlZvdVJyOFRLSWxaOGc?oc=5",
+    "source_domain": "BigGo Finance",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.28,
+      "prior_excess_30d": 0.006006
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W42",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-12T17:52:56+00:00",
+    "snapshot_locked": true,
+    "headline": "Memory executives expect RAM shortage to continue through 2028 - Adafruit",
+    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV3UydXZpNWZuT1ZCd0FyNDdNdU5OZEdtbnVqTjRZSzBaYUV1VzFFeVFLcmtYZloxRUVLMU1MZURqa1Z6Y3Y3ZFBnYWlvVW1ieVJPZ0JFQWUzcWhBbFQ1dU45QW5MbS1VNERvT3Y4emgyZ0F6MDhOQVJKQjdrQnFHVDVCQVZiRXI0eFBoazZWWkFNWXFfNXVJdFEzYVFyUmVkQUE?oc=5",
+    "source_domain": "Adafruit",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.14,
+      "prior_excess_30d": 0.051047
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W42",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-12T17:52:56+00:00",
+    "snapshot_locked": true,
+    "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
+    "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQdIB6gFBVV95cUxNTmZOby00TVFjYkhGUmhxS0NYYVZWSmlPMnVfdDJPMGhLdnBPMUhJU2JsOVBBeERleEJhZDRmM2p0blVwTUJheHB6TnY4WXVYelBqNEZpejQ0bmQwOWJ2ajdiYXNqNHd5M2FnamZiQUZGemdmR2tZUk9QWEtKdXB2djc5b0dlYU1ITkdRZDZROTBpbUJKMWVfTDEyZnBnbWUtU3hTdlViRFgyOGpUR2U4RFJEcExzaUlyZk5XMm5wVF9tVTJYOWpBNlE5b19hTVVBV05GaHpjd1hTWVFUeXQta3N4aTRkdnM5T2c?oc=5",
+    "source_domain": "BusinessLine",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 1,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 3,
+      "publisher_count": 3,
+      "publication_lag": 0.5,
+      "prior_excess_30d": 0.010147
     },
     "market": {
       "status": "WAITING_FOR_NEXT_TRADING_SESSION"
