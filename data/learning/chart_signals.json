@@ -64,7 +64,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -135,7 +135,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -206,7 +206,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -277,7 +277,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -348,7 +348,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -557,6 +557,77 @@
       "as_of": "2026-10-09",
       "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
       "reconstructed_at": "2026-10-12T19:53:00+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Copper|FCX|2026-W42",
+    "ticker": "FCX",
+    "theme": "Copper",
+    "signal_time": "2026-10-13T15:56:38+00:00",
+    "headline": "Exclusive: Giraffe Bio aims its bespoke biomolecules at the looming copper shortage - TechCrunch",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcmdYTjhNZmdxLTRNbVk3b2s3alU5UjdyVUlrWDdPUjRsMVZZeFJfeE5GdThDSXJyenF0dFRGMWxHemZ3NG5NcjhwNUNTTG5PVXdsTktmdUZIbERxdUhvcTFUREF1dW5kUWQ3UDVDaDRlQzlBRk56S2l2dFFIYWk5eXJfaGlxdnZIUWttVnVUUzIyN2RneTlDRndGZUZlWEtqVnpLeUZoNlZZZW8?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 4,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-12",
+        "close": 73.290001,
+        "sma20": 71.685,
+        "sma50": 71.778,
+        "sma200": 64.151768,
+        "rsi14": 46.0,
+        "atr14_pct": 3.27,
+        "volume_vs_20d": 0.81,
+        "relative_strength_20d_pct": 4.65,
+        "relative_strength_60d_pct": 21.91,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 74.349998,
+        "distance_above_sma20_pct": 2.24,
+        "completed_bars_available": 298
+      },
+      "as_of": "2026-10-12",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-13T17:40:11+00:00",
       "historically_backfilled": false
     },
     "chart_confirmation": {
