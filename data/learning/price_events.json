@@ -246,9 +246,27 @@
       "prior_excess_30d": 0.006006
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-13",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-20"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-12"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-11"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -273,9 +291,27 @@
       "prior_excess_30d": 0.051047
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-13",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-20"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-12"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-11"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -298,6 +334,51 @@
       "publisher_count": 3,
       "publication_lag": 0.5,
       "prior_excess_30d": 0.010147
+    },
+    "market": {
+      "status": "TRACKING",
+      "entry_date": "2026-10-13",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
+    },
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-20"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-12"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-11"
+      }
+    },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Copper|FCX|2026-W42",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-13T15:56:38+00:00",
+    "snapshot_locked": true,
+    "headline": "Exclusive: Giraffe Bio aims its bespoke biomolecules at the looming copper shortage - TechCrunch",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcmdYTjhNZmdxLTRNbVk3b2s3alU5UjdyVUlrWDdPUjRsMVZZeFJfeE5GdThDSXJyenF0dFRGMWxHemZ3NG5NcjhwNUNTTG5PVXdsTktmdUZIbERxdUhvcTFUREF1dW5kUWQ3UDVDaDRlQzlBRk56S2l2dFFIYWk5eXJfaGlxdnZIUWttVnVUUzIyN2RneTlDRndGZUZlWEtqVnpLeUZoNlZZZW8?oc=5",
+    "source_domain": "TechCrunch",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.14,
+      "prior_excess_30d": 0.028866
     },
     "market": {
       "status": "WAITING_FOR_NEXT_TRADING_SESSION"
