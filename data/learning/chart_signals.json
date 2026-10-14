@@ -64,7 +64,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -135,7 +135,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -206,7 +206,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -277,7 +277,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -348,7 +348,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -419,7 +419,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -490,7 +490,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -561,7 +561,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
