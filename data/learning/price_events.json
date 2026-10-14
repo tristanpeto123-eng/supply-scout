@@ -381,9 +381,27 @@
       "prior_excess_30d": 0.028866
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-10-14",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-10-21"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-13"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-12"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
