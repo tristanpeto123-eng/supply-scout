@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-13T17:10:57+00:00",
-  "archive_count": 385,
-  "cluster_count": 361,
-  "dates_first_seen": 4,
+  "built_at": "2026-10-14T13:42:50+00:00",
+  "archive_count": 429,
+  "cluster_count": 397,
+  "dates_first_seen": 5,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 86,
-      "unique_report_clusters": 83,
+      "articles": 99,
+      "unique_report_clusters": 96,
       "estimated_duplicate_headlines": 3,
-      "publishers": 52,
+      "publishers": 55,
       "early_signal_strength": 75,
-      "evidence_headlines": 57,
-      "general_headlines": 29,
-      "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 4,
+      "evidence_headlines": 60,
+      "general_headlines": 39,
+      "older_than_7_days_on_first_seen": 48,
+      "first_seen_days": 5,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 45,
+        "physical_shortage": 48,
         "price_power": 14,
         "lead_time": 3
       },
@@ -76,6 +76,16 @@
           "source": "매일경제"
         },
         {
+          "headline": "\"Memory Boom to Last 3–4 Years\"; China's Technological Catch-Up a Key Variable - THE ELEC, Korea Electronics Industry Media",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55ZzNBR1JiNjdlM3JKNGphUkpLWW5TQU55MmZpV3RBUTVtcTliV3k3SjBFRTM1N0xmR01wbW53bS1HcWwtem5qVmRmcnVwYV9taGpQTGMxdGNkWnJZUVkyRXVZM3pmWkU?oc=5",
+          "reports": 1,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-05T03:26:40+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
+          "source": "THE ELEC, Korea Electronics Industry Media"
+        },
+        {
           "headline": "AI Data Center Component Shortage to Persist Through 2028 - BigGo Finance",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ncUhVUDVQTUZLSjI1TmoyNE9wTmh3UUlNcEVTd1MxSUhUdXdXZXU4bjljbGxhaldYUklaRW1hUnRYdlA5X0FKR2E0SEJ1QmYtNG9iODQ3QUJ0TEJ1MXJyTnZqOW5pdnFCbTFIWUQzeUVHLXhGc0E?oc=5",
           "reports": 1,
@@ -98,33 +108,21 @@
           "feed_published_at": "2026-10-06T18:17:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "BigGo Finance"
-        },
-        {
-          "headline": "AMD GDDR6 Price Hike Oct. 1, Nvidia Holds GDDR7 [2026] - shattered.io",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xNTktWnR3V0kwUWI4ajZQenFNaWdfV2QxVXdqdXV2bk1iYWNlSDc2ZFZXMGZxb0Rlc3R2LWlMLUV5ZHV4N3N5blFxTEFNTk9OVHhyRlZSSnVpUmwxekcwZEx1cVBNSnk4Ny1mbQ?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "price_power"
-          ],
-          "feed_published_at": "2026-10-11T17:21:05+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "shattered.io"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 85,
-      "unique_report_clusters": 77,
-      "estimated_duplicate_headlines": 8,
-      "publishers": 42,
+      "articles": 94,
+      "unique_report_clusters": 83,
+      "estimated_duplicate_headlines": 11,
+      "publishers": 44,
       "early_signal_strength": 53,
       "evidence_headlines": 5,
-      "general_headlines": 80,
-      "older_than_7_days_on_first_seen": 25,
-      "first_seen_days": 4,
+      "general_headlines": 89,
+      "older_than_7_days_on_first_seen": 27,
+      "first_seen_days": 5,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 4,
@@ -185,42 +183,42 @@
           "source": "Simply Wall Street"
         },
         {
-          "headline": "Ciena's Openreach Deal: Can 1.6Tb/s Technology Drive Its Growth? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc2t1cGZMTXN4eW1xcjV1WnpLcEg5QVp4UkRLU192T3NYSlh6SUxfRV9lVTJwQldfSnUyMldpWllmMDlLMS1Bd0M5cDMzc3BJdnJ0NlpmOTVHblZuX0p5eWlDU2pld1ZsbkNST2tOLVdtTmplQjdCTXktN3ZkcTFlSUVYcmdrX0Zod2l4Slp6YUlvTHlZM1BIVmh5dEdzLURiSUdTSGN6eWNPazU1M1FvTXVUQlA4cC0zaFE?oc=5",
+          "headline": "AAOI, LITE, COHR Extend Sell-Off Overnight: AI Funding Fears Hit Optical Networking Trade, But Retail Bulls Eye Rebound - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUWt5M1lvTE5iVkdkSWVWVFlkTDZuZXNpMXZDamc2dklJaGgxWjFXV0lkMWg0WnF1MktuX211TmVSR0duekRTckZTRVJPNmdqNWtsSWJUbkVXQ3BwbXI4eGV0TU14MDBWVG9VOGhfZk8zR1hDNk5tNUVOTW1lb2djS2dGS0lQU05FYndOcHFSRkJlanlkcnJKRHA4U0w5Um1ZdGtldTBxUVhLVkxUWXF3eVJZVVdVRHZsNTdFbmdkQVpJdjN1MkpxT2xsVElxUmp3QTRzR09mRzhCbVdGbXVJSXBvVlpQOTQwRjUyWGlOMVVIcVRfajlOQWJ2Z2cwd1lOSmpjTXRzZw?oc=5",
           "reports": 2,
           "publishers": 1,
           "signal_tags": [],
-          "feed_published_at": "2026-10-09T11:25:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "feed_published_at": "2026-10-13T02:56:00+00:00",
+          "first_seen_at": "2026-10-13T15:56:38+00:00",
           "source": "TradingView"
         },
         {
-          "headline": "Scaling infrastructure, all-in on NPO, and a “material-rich” road map: Themes and takeaways from Soitec’s 2026 Silicon Photonics Workshop - Photonics Spectra",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYVR5Tmp2dS1WSHBiM0NOS1ZGRF9PYUtkVEhqd0VXX2lCNjlNcU5kUG8xTXg3U2JUd0tjVzJ6blBSODV5NHFQWUpxUm45b3dScVVZY1oyNHVldDlFRDVVTVh3YTF3djVGLXh0aHVudVMxcHdYdUZfcXg0OVJacDBZYXJzTW92clNoNUpJQg?oc=5",
+          "headline": "Can Ciena Sustain Margin Gains Despite Rising Component Demand? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0kwUnNuMW1EdUtvSHlYNUNOUWhQR2lDWFRETFE2SXpDS21zVXd4VjZtVmZiVS1LUzg2eWZjVTdaaXRDUE9YQk9qdm1ZeHM0MmRUNk5NdThneDdwOURxSjdXaGtqTUROTUlYa3FaNDVLQ01OcXl5MlJNOUtEU2VUbEYtdHg3ejJlYjZnQkFLYkRTbDlIa0pjV29Rekk3S0Q1ZEZMU2d2LVBEdzRHU0VhU0U2RjU3ekJjSnc?oc=5",
           "reports": 2,
           "publishers": 1,
           "signal_tags": [],
-          "feed_published_at": "2026-10-09T07:00:00+00:00",
+          "feed_published_at": "2026-10-12T12:05:00+00:00",
           "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "Photonics Spectra"
+          "source": "TradingView"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 34,
-      "unique_report_clusters": 33,
-      "estimated_duplicate_headlines": 1,
-      "publishers": 28,
-      "early_signal_strength": 53,
-      "evidence_headlines": 5,
-      "general_headlines": 29,
+      "articles": 38,
+      "unique_report_clusters": 36,
+      "estimated_duplicate_headlines": 2,
+      "publishers": 30,
+      "early_signal_strength": 57,
+      "evidence_headlines": 7,
+      "general_headlines": 31,
       "older_than_7_days_on_first_seen": 5,
-      "first_seen_days": 4,
+      "first_seen_days": 5,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 2,
+        "lead_time": 4,
         "physical_shortage": 3
       },
       "stories": [
@@ -235,6 +233,18 @@
           "feed_published_at": "2026-10-09T12:03:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "www.irishsun.com"
+        },
+        {
+          "headline": "Data Centers Are Running Out of Transformers. Here's the Industrial Stock With a 3-Year Backlog. - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUGQ5ZDkwR1BzMWVSSVBUSV9WRGYxMVBSRWZTbThyT0RYcUhuaEpmc09NdmVIUXgydk5LSDVsYTNwU1dibGQ1N1NKTnF1YWZucDRuS2VhZjBNbWNOQ1Y4SnpneDZnVjRtVmxxV3RuQXBEUFBTcWtWZ2NBZVVoaHJMcTFyU1NvYk81QnU3OHZnRkxoOUZ0WWpySUZhai1IWG5adHNqUm5RUGRMamloa2VVeWMzLWZ4NS1NeF9iUVpRVFlNYmVMNUJTRGdGc3M0ZmgwRG94M0xtQmd4anhLVkxlUkJyellpY1BOQ2l5dDNGNVVmNXN5S0VXUzFJbXA2RVFsa0l5TU5fT2pRZ3Fp?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [
+            "lead_time"
+          ],
+          "feed_published_at": "2026-10-08T12:50:54+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "The Globe and Mail"
         },
         {
           "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
@@ -285,34 +295,25 @@
           "feed_published_at": "2026-10-05T17:14:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "The Times of India"
-        },
-        {
-          "headline": "Beyond The AI Trade: Earnings, Infrastructure And A Broadening EM Opportunity - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGxxSXA0b2VIczNVUXZIdDl0Ni1sd0tmZWtmTkM0WXJaY3ByWENkajRkTlRiczBWRi0wMjZMYm1MRWdneXptMU5QZG44aDl3RTlkRzhSaTRyUWEtRFN3SlkwSEJmS2c5SllZVFRwaE9YdUNMSzItQ2tCckRMMVJaLWtXY0lTLVNTQzY4RGxDaGM3Q0VsTmJSMTdTbEQ1dU11aFZBTHJINmM0UQ?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-13T07:31:00+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "Seeking Alpha"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 93,
-      "unique_report_clusters": 86,
-      "estimated_duplicate_headlines": 7,
-      "publishers": 63,
+      "articles": 102,
+      "unique_report_clusters": 92,
+      "estimated_duplicate_headlines": 10,
+      "publishers": 68,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 79,
-      "older_than_7_days_on_first_seen": 34,
-      "first_seen_days": 4,
+      "general_headlines": 88,
+      "older_than_7_days_on_first_seen": 35,
+      "first_seen_days": 5,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 14
+        "physical_shortage": 14,
+        "demand_accel": 1
       },
       "stories": [
         {
@@ -324,6 +325,16 @@
           "feed_published_at": "2026-10-02T12:04:42+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
+        },
+        {
+          "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
+          "reports": 4,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-13T11:02:38+00:00",
+          "first_seen_at": "2026-10-13T15:56:38+00:00",
+          "source": "Business Recorder"
         },
         {
           "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
@@ -346,16 +357,6 @@
           "source": "Geomechanics.io"
         },
         {
-          "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-13T11:02:38+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "Business Recorder"
-        },
-        {
           "headline": "Glencore sees electrification trend driving strong uptake for Australia listing - AOL.ca",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXIwX3FpejFuanpxU3BpbmFkMWpxa00zX2JXRThSb05PYjFOak5lajEtMlByRG1MVmo0R1VWMGoyYWtZVFNDSjZvWWd6VzMzUlhfNkR2dlZrUWRTTDlnWmlYWVlwYk1HS1JVOEEzQno3aHpnSUFMR0dvVjNGV0NkWVVUX3NDWS1BXzNmWHJKNA?oc=5",
           "reports": 2,
@@ -366,6 +367,16 @@
           "source": "AOL.ca"
         },
         {
+          "headline": "Site near Batchawana Bay could become massive copper mine - SooToday.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmNFQkFvS0IzUHFNdEtmTUsxWGxnMk5ubHBkR2tXTUU4QTF5SXluNVY1QVV2d0FPMVBFSTdmemNsMy1HZkhCWC0xZ09Wdkw4R1R5bjQ4a2MtU1E1NWZFZFp2S2ZnaVM5a3pzUVdkQ3B1ZmMwRGZDUElnN1RoT2tOTWdlUlBCT3Q1M05NN2FIVGYxVDBEVDhmT2NheTlMV0ppNW4zQQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-12T20:16:21+00:00",
+          "first_seen_at": "2026-10-13T15:56:38+00:00",
+          "source": "SooToday.com"
+        },
+        {
           "headline": "20% substrate, 30% copper foil plate… The influence of Taiwan's chief of staff grows - 매일경제",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tc0JvbzRuQTIwWHNoOHNaeExjd2Fqa0tkbTZZdWxpMW9aQVRDQVFvZVVKUWVZTl9GdERCVGdiR2ppT1pDQU1FQjdvQUFUd2RtZ2ZV?oc=5",
           "reports": 1,
@@ -374,35 +385,26 @@
           "feed_published_at": "2026-10-09T08:31:15+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "매일경제"
-        },
-        {
-          "headline": "3 Great Copper Stocks To Own In October 2026 - Simply Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbjBneV9zb01PWTBBS2NiUnVvcnVaUTlmOURaQ25Cc3F4V0trRjcyV0hqX3RMZzN5ZUFvM3JsSy1sZXRrMDJIMUxxWi1iMU1RNXVRalFHTkZHZTNXLTNHY2JIMjFlWXZqTlBhd0pJTm5xeHhWWFd3UDFzWXVBa1Q1SUIzZDk0OU9zMXVMMURGMXlFY3pkUUx0dG1UMHNQVmhTMHllaHc4elhXU2xNMGZLeFo4d3NxNGMwVG44NVBySEtiR2Q20gHKAUFVX3lxTE9VYjVDNnVJRGs3ZzBaa1l6M2p6eWFiN2ItWmk1NnpHSEJWcm9oYUdIM2lZSnZnSWhtNUhsZzFYMFBkNVByTjRVR2M5Si1qU3Q0TkxsUldKQzJCSm5kS19ETXdXLUNGMTJKdXNUMXR5bjVaaTEwRkRaT0dDa0ZXN05vVkRhQW84amVLamtrZWlYOEJkMXVPcmR5LVEwUEtrZ2ZLblh3NzNKTmVBRHVmZmhCVUEtQjJaZmVSV1JOeGNGUWpHdXlNTFdoQlE?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-05T15:16:19+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Simply Wall Street"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 87,
-      "unique_report_clusters": 82,
-      "estimated_duplicate_headlines": 5,
-      "publishers": 71,
+      "articles": 96,
+      "unique_report_clusters": 90,
+      "estimated_duplicate_headlines": 6,
+      "publishers": 78,
       "early_signal_strength": 65,
-      "evidence_headlines": 23,
-      "general_headlines": 64,
+      "evidence_headlines": 26,
+      "general_headlines": 70,
       "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 4,
+      "first_seen_days": 5,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 22,
-        "price_power": 1
+        "physical_shortage": 24,
+        "price_power": 1,
+        "lead_time": 1
       },
       "stories": [
         {
@@ -446,6 +448,18 @@
           "source": "Global Trade Magazine"
         },
         {
+          "headline": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments - South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYVc2YXV4eHVUR0RGS09yRUVIUFRSa01ILWZ0R0ktRF9rODA1T3FscXAxOXhEa1ctM2stVjEwRGprQ0l5cTdLVG1LOExFaTV4em1wSTAtRmhRamZyVWZtSHFVSWRtMVFISTdicHcxcDlrUTZVS3NodC1qSUFPWl9MTHRjOGFQTEd1T1dUbUtLYVdBZHlsMDJNRWZZR1htOGtmZkllSS1SdlRWLVFwN3ZodnByWVdublhzeWRhYUVpdzN6MFV0REFta3doc2s1WDBPeXfSAdIBQVVfeXFMTThMSzN4OXJFSFpVdFI5MFlyb2p1MjloUHkzQVMtSUNIdklsaWo5UXk0MnRjdkZrLUlmRGIyd05UVEdLM1ItMmVKajRvQ1RsdXRyNzlYaW0yZzFZV1hROUt6STRyX21PeXlTTzF6azdrWTVVSzh6VTJOZjV2Z1MydUFrWm5vYVlwYjJ3Y3ViQXM0eTc4dm5iVG02VFUtMGItXzJVem1rR3ZYdGJjN2R2MktDRlFlYjdScWJqbDFKSHlIRFRHdWM3a2NBLS11Ql8xSVpB?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-12T11:00:08+00:00",
+          "first_seen_at": "2026-10-12T17:52:56+00:00",
+          "source": "South China Morning Post"
+        },
+        {
           "headline": "Phl shippers brace for longer Asia port delays - Daily Tribune",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU21IUW5lelJYWWhpSmh1Q1J1T2JWWlF3b09ldDNzazloYUdyT2hmb05yY2JleW93UVZMbTI1UU9JaHdTejI2OWFjLVR0YzkzRzA1V3RZVkxIOWxNZDdvV0swWURZbU1nNFdtX2dpSUx6dGphLTRMTE56eDRSaHJTb0c0SVZ5alk?oc=5",
           "reports": 2,
@@ -464,16 +478,6 @@
           "feed_published_at": "2026-09-29T07:00:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Land Line Media"
-        },
-        {
-          "headline": "Abbott declares disaster in Texas over diesel prices, waives restrictions on commercial shipping - The Texas Tribune",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMmVfNF9UelQxdGxzbTFwdEpVbTNYSF9aNjlTMFRQLW1nX0tieGd3cXlKRjFweEFjNnhMandDVFJ6b2VuNl81N3pYbUEzVWFjSFFPb25oU3B5MUd4LUZyRWZJRHJIV0ZuaHVqYkRkWWYtUGVJYWVWSjNBTm9iQk1zd0NBSy1XeGUyLTd4OUFtU3JJYnl4aG9zTXRfOXYwdw?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-09-28T07:00:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "The Texas Tribune"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
