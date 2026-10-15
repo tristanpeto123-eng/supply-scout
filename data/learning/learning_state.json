@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-14T14:44:13+00:00",
-  "archive_count": 429,
-  "cluster_count": 397,
-  "dates_first_seen": 5,
+  "built_at": "2026-10-15T13:24:47+00:00",
+  "archive_count": 475,
+  "cluster_count": 436,
+  "dates_first_seen": 6,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,19 +11,19 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 99,
-      "unique_report_clusters": 96,
-      "estimated_duplicate_headlines": 3,
-      "publishers": 55,
+      "articles": 113,
+      "unique_report_clusters": 109,
+      "estimated_duplicate_headlines": 4,
+      "publishers": 66,
       "early_signal_strength": 75,
-      "evidence_headlines": 60,
-      "general_headlines": 39,
-      "older_than_7_days_on_first_seen": 48,
-      "first_seen_days": 5,
+      "evidence_headlines": 66,
+      "general_headlines": 47,
+      "older_than_7_days_on_first_seen": 52,
+      "first_seen_days": 6,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 48,
-        "price_power": 14,
+        "physical_shortage": 53,
+        "price_power": 15,
         "lead_time": 3
       },
       "stories": [
@@ -50,6 +50,16 @@
           "feed_published_at": "2026-10-02T05:22:29+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "NewsBytes"
+        },
+        {
+          "headline": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026 - TechPowerUp",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOemJ6Y1J3LTY4Skx1ZmFiRDVmb2NZWG51MDlrY0ZvWldkZ21PSnZ0QV8yQWhOd3hSa0Ywbktfbl94cHd4MmhYMDdrcXhGSFRGZGFkQlpROERPOHQ1TUk1QTdNckFLWU1aOEVlNGpPV1VNMHBwMUtlMlEtNzZILUwzQzktWTZ1T3JUdndhb3U5dnQ0d254eGZPU3R5WGhmMjl3cmx1Q2kwVi15d1dXbGQ0YmV1akV4Z9IBuwFBVV95cUxOMWRwUWtRZW5rajB4Ml9EUXhsYVFfV3RCZnBvLXE2TXlNVlFFVlJzMmlSUGxVRkMyZFgwajlxOWlXSk41LThDODNKOTRPMHE3YlZmWTJyRld3aFAzcmxzaXdtQzF6WGRvZGlzU29FRm5fRDFZMl9iV25WMy05dXc5dnpGTFd6VHl2SlpVTU1FMHNkY1JZVmRYOHQyMTE1aTBtenRlblV5RVJqV3dYbXFYbWtwVEk2djBIWkxv?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-01T07:00:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "TechPowerUp"
         },
         {
           "headline": "HBM Prices to More Than Double Next Year as Shortage Persists - Seoul Economic Daily",
@@ -96,40 +106,40 @@
           "feed_published_at": "2026-10-02T10:25:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "BigGo Finance"
-        },
-        {
-          "headline": "AI Memory Shortage Could Last Years; Morgan Stanley Names Nvidia, Micron Among 6 Outperformers - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rVk1JalI4aEQ0WXpTNV9XLWFyWlJmNWU0OGRmREhCdDZTbTdLaEptNTFaczEwaU1xNGhrT3RnQ2pmVkF4SVpfQWFPVE9VcDBwdklKOG53T0NnaU0tMTBWYlp0SVlSaUozWjF2R0k3dG1yRERVd2c?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-06T18:17:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "BigGo Finance"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 94,
-      "unique_report_clusters": 83,
-      "estimated_duplicate_headlines": 11,
-      "publishers": 44,
-      "early_signal_strength": 53,
-      "evidence_headlines": 5,
-      "general_headlines": 89,
-      "older_than_7_days_on_first_seen": 27,
-      "first_seen_days": 5,
+      "articles": 103,
+      "unique_report_clusters": 90,
+      "estimated_duplicate_headlines": 13,
+      "publishers": 48,
+      "early_signal_strength": 55,
+      "evidence_headlines": 6,
+      "general_headlines": 97,
+      "older_than_7_days_on_first_seen": 28,
+      "first_seen_days": 6,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 4,
+        "lead_time": 5,
         "demand_accel": 1,
         "physical_shortage": 1
       },
       "stories": [
+        {
+          "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzVscnFxaTA0MVA5U0x4VFJrcllpZW13SXBrRER6MWdUM0RMM3hnYmRndjlXVmRUSThMemtnVW5GN3Ntb3B4N3ZsdEZNQlpkM2dIalpnaTFFUTJITVpWSkFqMjlPWU1DN0Y0dUUxMzBYSDBqTkpEbDc4MEIxMkdBa1hwUHdFUmJlVEVic2tEYTRoV3JIWmR0S3pwZWpVNXVsOGxUTi14QjJOWWsyNWkxcHd5Z0Q?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [
+            "lead_time"
+          ],
+          "feed_published_at": "2026-10-09T12:41:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "TradingView"
+        },
         {
           "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
@@ -161,16 +171,14 @@
           "source": "TradingView"
         },
         {
-          "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzVscnFxaTA0MVA5U0x4VFJrcllpZW13SXBrRER6MWdUM0RMM3hnYmRndjlXVmRUSThMemtnVW5GN3Ntb3B4N3ZsdEZNQlpkM2dIalpnaTFFUTJITVpWSkFqMjlPWU1DN0Y0dUUxMzBYSDBqTkpEbDc4MEIxMkdBa1hwUHdFUmJlVEVic2tEYTRoV3JIWmR0S3pwZWpVNXVsOGxUTi14QjJOWWsyNWkxcHd5Z0Q?oc=5",
+          "headline": "Why MaxLinear Stock Gained 50.7% Last Month - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1JwU2UxVGktUmlNcTB6TlNJOHpCeHZhbFpJT1UwVUlPSVZUbW1YWFR5QUhoZUNTY3Y3MC01c25uTnQ0VmlDaWFVX1pxMFdWY1FjRk5DX3Y0MW5KNl9XS2s3Q0xHRWpQYm5vdUxSYlVObkkzYXVWMHphRENFcG1yMTJPZ3ZyTmNvaVJXbjdlaVhBOEdKYjEyRG5HMkxGVFlIby1HZFV1WHhIUGdOaU5aXzl4dzdUR0VZTGdfQ2hhZG8yS1k?oc=5",
           "reports": 2,
           "publishers": 2,
-          "signal_tags": [
-            "lead_time"
-          ],
-          "feed_published_at": "2026-10-09T12:41:00+00:00",
+          "signal_tags": [],
+          "feed_published_at": "2026-10-02T20:27:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingView"
+          "source": "The Globe and Mail"
         },
         {
           "headline": "3 AI Chip Stocks To Watch As Samsung And TSMC Signal Demand - Simply Wall Street",
@@ -191,31 +199,21 @@
           "feed_published_at": "2026-10-13T02:56:00+00:00",
           "first_seen_at": "2026-10-13T15:56:38+00:00",
           "source": "TradingView"
-        },
-        {
-          "headline": "Can Ciena Sustain Margin Gains Despite Rising Component Demand? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0kwUnNuMW1EdUtvSHlYNUNOUWhQR2lDWFRETFE2SXpDS21zVXd4VjZtVmZiVS1LUzg2eWZjVTdaaXRDUE9YQk9qdm1ZeHM0MmRUNk5NdThneDdwOURxSjdXaGtqTUROTUlYa3FaNDVLQ01OcXl5MlJNOUtEU2VUbEYtdHg3ejJlYjZnQkFLYkRTbDlIa0pjV29Rekk3S0Q1ZEZMU2d2LVBEdzRHU0VhU0U2RjU3ekJjSnc?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-12T12:05:00+00:00",
-          "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "TradingView"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 38,
-      "unique_report_clusters": 36,
+      "articles": 41,
+      "unique_report_clusters": 39,
       "estimated_duplicate_headlines": 2,
-      "publishers": 30,
+      "publishers": 31,
       "early_signal_strength": 57,
       "evidence_headlines": 7,
-      "general_headlines": 31,
+      "general_headlines": 34,
       "older_than_7_days_on_first_seen": 5,
-      "first_seen_days": 5,
+      "first_seen_days": 6,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 4,
@@ -301,18 +299,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 102,
-      "unique_report_clusters": 92,
-      "estimated_duplicate_headlines": 10,
-      "publishers": 68,
+      "articles": 112,
+      "unique_report_clusters": 100,
+      "estimated_duplicate_headlines": 12,
+      "publishers": 71,
       "early_signal_strength": 63,
-      "evidence_headlines": 14,
-      "general_headlines": 88,
-      "older_than_7_days_on_first_seen": 35,
-      "first_seen_days": 5,
+      "evidence_headlines": 15,
+      "general_headlines": 97,
+      "older_than_7_days_on_first_seen": 36,
+      "first_seen_days": 6,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 14,
+        "physical_shortage": 15,
         "demand_accel": 1
       },
       "stories": [
@@ -329,7 +327,7 @@
         {
           "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
-          "reports": 4,
+          "reports": 5,
           "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-10-13T11:02:38+00:00",
@@ -377,32 +375,32 @@
           "source": "SooToday.com"
         },
         {
-          "headline": "20% substrate, 30% copper foil plate… The influence of Taiwan's chief of staff grows - 매일경제",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tc0JvbzRuQTIwWHNoOHNaeExjd2Fqa0tkbTZZdWxpMW9aQVRDQVFvZVVKUWVZTl9GdERCVGdiR2ppT1pDQU1FQjdvQUFUd2RtZ2ZV?oc=5",
-          "reports": 1,
+          "headline": "Copper Wire Thief Pleads Guilty - GantNews.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQUNUUl9yYTdYazA3MXdGUnhFTkZJdmRsT1dxamlqSU5FeDFCMGFfalVxd3lha1ZrXzRTMmtlNlcxZUwyMi1aa2NJVWRpZzFpbHVmdlB1QjlWbjdmcXlQcmxDcUNnVHB1dTVFZzgtMkNDaDJPeFFn0gF3QVVfeXFMUEFBQ1RSX3JhN1hrMDcxd0ZSeEVORkl2ZGxPV3FqaWpJTkV4MUIwYV9qVXF3eWFrVmtfNFMya2U2VzFlTDIyLVprY0lVZGlnMWlsdWZ2UHVCOVZuN2ZxeVBybENxQ2dUcHV1NUVnOC0yQ0NoMk94UWc?oc=5",
+          "reports": 2,
           "publishers": 1,
           "signal_tags": [],
-          "feed_published_at": "2026-10-09T08:31:15+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "매일경제"
+          "feed_published_at": "2026-10-14T10:00:00+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
+          "source": "GantNews.com"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 96,
-      "unique_report_clusters": 90,
-      "estimated_duplicate_headlines": 6,
-      "publishers": 78,
+      "articles": 106,
+      "unique_report_clusters": 98,
+      "estimated_duplicate_headlines": 8,
+      "publishers": 86,
       "early_signal_strength": 65,
-      "evidence_headlines": 26,
-      "general_headlines": 70,
+      "evidence_headlines": 29,
+      "general_headlines": 77,
       "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 5,
+      "first_seen_days": 6,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 24,
+        "physical_shortage": 27,
         "price_power": 1,
         "lead_time": 1
       },
@@ -428,6 +426,16 @@
           "source": "BusinessLine"
         },
         {
+          "headline": "DAT: Truckload rates rise in September as diesel tops $6 a gallon - TheTrucker.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjVsenBRbFJ0NlZQaGFZbnhhQlhxMGN2b3MzLW1PdTl0RlhrME0zVHl4V0ZqSmVKdHRTOVN2WVVYNTVtUWZYZWRodlhQSnVLaUFoSUY5RnNCdjYwUWJlbktoeGZNbm5aQUpPTGlFTnJRVHhzcF9VSkoxZ1dyOEZEblZwT2txYklMWnlYOFozRi1BLWNPdWxwbkRhUnJ6dkNHUnljUl9xNHZDdDBrQXQxUzZEdw?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-14T19:12:51+00:00",
+          "first_seen_at": "2026-10-15T13:24:22+00:00",
+          "source": "TheTrucker.com"
+        },
+        {
           "headline": "Peak season runs long as AI demand and port congestion keep capacity tight - DC Velocity",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTFRHODJOekpxOGVXQUt2Zlp2bnlMdXVfRU5VUkc5ajdfeU05T2dsOEN0VWVDbmRhN3FfcXZNTXBBYmRyMVZwejNVMFFvdTBEdDJpNkFOSmhkeXBMaS1WazFYNm9fcm1haXdaeDh3ZGxBS3RHZmF6dTZDbDBsbVZmNnRLWTE1RVBjOGpleG05M1pCSGpEeVhvRWpYZXpvMW5RNVA2T0loamVWZFl4U2VOOWpzS0tvS21EdWp5ejlzU1BXYXUyYVJtbVEyZlZqT1RRclUzQkx2blhaQWExX05z?oc=5",
           "reports": 2,
@@ -448,6 +456,16 @@
           "source": "Global Trade Magazine"
         },
         {
+          "headline": "GRDA Hauls 220 Containers Daily as It Moves to Ease Tema Port Congestion - Modern Ghana",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGeTVIM2I4ZXFuWHVRTktNakp4TG1OYkplaml5NlZaOHZ3Q09CVUJrRXdmTi1najlvTlZVT2V1a1BhZThLVVItMkEzd2J1V1ZYa2VFRjlOcDdXbG90NVRYTGRFUdIBXEFVX3lxTFBtWDI4cEJTNmFDZFU4OTdqQmpoRS1yeGRqZGUyU3VYT05rN1hCOFpGMzg4QTVTQ0pMT0xQeTRfRUR0YTg1WTRYakRRdlJwSHN3bEM1OUdGVHp5b3R2?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-13T16:03:48+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
+          "source": "Modern Ghana"
+        },
+        {
           "headline": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments - South China Morning Post",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYVc2YXV4eHVUR0RGS09yRUVIUFRSa01ILWZ0R0ktRF9rODA1T3FscXAxOXhEa1ctM2stVjEwRGprQ0l5cTdLVG1LOExFaTV4em1wSTAtRmhRamZyVWZtSHFVSWRtMVFISTdicHcxcDlrUTZVS3NodC1qSUFPWl9MTHRjOGFQTEd1T1dUbUtLYVdBZHlsMDJNRWZZR1htOGtmZkllSS1SdlRWLVFwN3ZodnByWVdublhzeWRhYUVpdzN6MFV0REFta3doc2s1WDBPeXfSAdIBQVVfeXFMTThMSzN4OXJFSFpVdFI5MFlyb2p1MjloUHkzQVMtSUNIdklsaWo5UXk0MnRjdkZrLUlmRGIyd05UVEdLM1ItMmVKajRvQ1RsdXRyNzlYaW0yZzFZV1hROUt6STRyX21PeXlTTzF6azdrWTVVSzh6VTJOZjV2Z1MydUFrWm5vYVlwYjJ3Y3ViQXM0eTc4dm5iVG02VFUtMGItXzJVem1rR3ZYdGJjN2R2MktDRlFlYjdScWJqbDFKSHlIRFRHdWM3a2NBLS11Ql8xSVpB?oc=5",
           "reports": 2,
@@ -458,26 +476,6 @@
           "feed_published_at": "2026-10-12T11:00:08+00:00",
           "first_seen_at": "2026-10-12T17:52:56+00:00",
           "source": "South China Morning Post"
-        },
-        {
-          "headline": "Phl shippers brace for longer Asia port delays - Daily Tribune",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU21IUW5lelJYWWhpSmh1Q1J1T2JWWlF3b09ldDNzazloYUdyT2hmb05yY2JleW93UVZMbTI1UU9JaHdTejI2OWFjLVR0YzkzRzA1V3RZVkxIOWxNZDdvV0swWURZbU1nNFdtX2dpSUx6dGphLTRMTE56eDRSaHJTb0c0SVZ5alk?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-02T19:08:19+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Daily Tribune"
-        },
-        {
-          "headline": "A freight recession or a rigged game? Carriers sue major brokers - Land Line Media",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNczN1ODZnVGJFX3BnM3FYbUFGU1ZUc2h1Ny1PZDVCajBCVWM4RTU4dWkxRFpyNEYyV1pydUVkblY3NXl1Y3p4cE5JUlZuR054aXozWHhWY1BHcFhQMm1QZkJ4VEk0QXJ1NUM4a213R25DUk1JREdlcXJYaUF1R29GN3N3WnZHRUhKUWptckdjVVg?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-09-29T07:00:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Land Line Media"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
