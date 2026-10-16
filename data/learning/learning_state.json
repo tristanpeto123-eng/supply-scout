@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-15T14:29:37+00:00",
-  "archive_count": 475,
-  "cluster_count": 436,
-  "dates_first_seen": 6,
+  "built_at": "2026-10-16T13:14:47+00:00",
+  "archive_count": 525,
+  "cluster_count": 484,
+  "dates_first_seen": 7,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 113,
-      "unique_report_clusters": 109,
+      "articles": 129,
+      "unique_report_clusters": 125,
       "estimated_duplicate_headlines": 4,
-      "publishers": 66,
+      "publishers": 69,
       "early_signal_strength": 75,
-      "evidence_headlines": 66,
-      "general_headlines": 47,
-      "older_than_7_days_on_first_seen": 52,
-      "first_seen_days": 6,
+      "evidence_headlines": 71,
+      "general_headlines": 58,
+      "older_than_7_days_on_first_seen": 59,
+      "first_seen_days": 7,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 53,
+        "physical_shortage": 58,
         "price_power": 15,
         "lead_time": 3
       },
@@ -112,15 +112,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 103,
-      "unique_report_clusters": 90,
+      "articles": 110,
+      "unique_report_clusters": 97,
       "estimated_duplicate_headlines": 13,
-      "publishers": 48,
+      "publishers": 52,
       "early_signal_strength": 55,
       "evidence_headlines": 6,
-      "general_headlines": 97,
-      "older_than_7_days_on_first_seen": 28,
-      "first_seen_days": 6,
+      "general_headlines": 104,
+      "older_than_7_days_on_first_seen": 30,
+      "first_seen_days": 7,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 5,
@@ -205,19 +205,19 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 41,
-      "unique_report_clusters": 39,
+      "articles": 48,
+      "unique_report_clusters": 46,
       "estimated_duplicate_headlines": 2,
-      "publishers": 31,
-      "early_signal_strength": 57,
-      "evidence_headlines": 7,
-      "general_headlines": 34,
-      "older_than_7_days_on_first_seen": 5,
-      "first_seen_days": 6,
+      "publishers": 35,
+      "early_signal_strength": 59,
+      "evidence_headlines": 8,
+      "general_headlines": 40,
+      "older_than_7_days_on_first_seen": 6,
+      "first_seen_days": 7,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 4,
-        "physical_shortage": 3
+        "physical_shortage": 4
       },
       "stories": [
         {
@@ -255,6 +255,16 @@
           "source": "Simply Wall Street"
         },
         {
+          "headline": "AI data centres are generating their own power. How does that affect the wider grid? - ORF Middle East",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTXJRcWhhUS05VUpNa0hRd1VWR05vaG40SXg4dEtiNnIxREpTdm9qTEtIM3Y3R2p5NTFaTHlQODZOamEtTmhSbGFYUkJZZzlZNGFpMDdaeG15SGVaX0VtZEg3U1pOc05JcVBuZmFldUFPV0lNUmlQZDAwWkdJcE5zU1B3OTNUTEtQUDN1M2VVZFFfSjdxSTJyVXVnbkV0WW5faXN6c2g1cHFoUFVGelM4?oc=5",
+          "reports": 1,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-08T11:56:29+00:00",
+          "first_seen_at": "2026-10-16T13:14:22+00:00",
+          "source": "ORF Middle East"
+        },
+        {
           "headline": "AI is going to run out of power - by Kirsten Horton - Transformer | Substack",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GVTBPcEk0SW5HSVdBWldrSGpCemk1OHUwSVowZmRtWVlyTU80eTBfdVU3ODcwSG02UE0yaGhkcGtBVEVYU1NCSk9vWlhxQVI4Ti1pMEpjOFhkUjFBQzBiS240Ynp2WUU0?oc=5",
           "reports": 1,
@@ -283,34 +293,24 @@
           "feed_published_at": "2026-10-05T12:15:14+00:00",
           "first_seen_at": "2026-10-11T14:54:19+00:00",
           "source": "scanx.trade"
-        },
-        {
-          "headline": "Belagavi water crisis deepens after transformer failure - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM1BoeHlxdnV0UUVHbVVkcEo5UDRWRlI5T1NKQzFRNVFwTjl0NmZJOVBJVEdxU0Fyc05qaFhpLXRhX0s3aU1MRVI3bk42OHdKQ2oxbmIzWEhXeTFFVDJ6Tldwdi13OVhHTUZLQjdlSW53UWtYd1pPMmlEYmJTOEFZdFRSbThkbnBDNjZyNEtfTUljYWRxNlFCS24tRUxjYm5wZ253SGhma29qWXB0TG5qMDgzMElrdmZVdG5ZMzdYMDJ0S0JuZHNWTDE0VdIB0AFBVV95cUxNZFJNcjhkd3hZa3dYOVJZMHU5OUE0LXJ4TjFJWWIwUHF5MTAtSkZZRmJMV21rWGJBbWp5RzNGZ3A2NFBjdG02MGpTTkVVbXlMdzJNVkxla0lXaU5laDVLaXFqb0xOeVlmWWRLSVdZY2pQdkdKRlR3T3A3dm5wbHdCYjhaQmlOUXJiN2tjMVBIWVhfa2hzWGlLb3UzVHNxVDFwOFpMaDdyQjZpeXVxRmh1VlB0VGNPeUV2VE1OT1FtT1RIQ0VERWw4d3MwM09xRWtt?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-05T17:14:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "The Times of India"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 112,
-      "unique_report_clusters": 100,
-      "estimated_duplicate_headlines": 12,
-      "publishers": 71,
+      "articles": 123,
+      "unique_report_clusters": 109,
+      "estimated_duplicate_headlines": 14,
+      "publishers": 78,
       "early_signal_strength": 63,
-      "evidence_headlines": 15,
-      "general_headlines": 97,
-      "older_than_7_days_on_first_seen": 36,
-      "first_seen_days": 6,
+      "evidence_headlines": 20,
+      "general_headlines": 103,
+      "older_than_7_days_on_first_seen": 37,
+      "first_seen_days": 7,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 15,
+        "physical_shortage": 20,
         "demand_accel": 1
       },
       "stories": [
@@ -327,7 +327,7 @@
         {
           "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
-          "reports": 5,
+          "reports": 6,
           "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-10-13T11:02:38+00:00",
@@ -375,32 +375,32 @@
           "source": "SooToday.com"
         },
         {
-          "headline": "Copper Wire Thief Pleads Guilty - GantNews.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBQUNUUl9yYTdYazA3MXdGUnhFTkZJdmRsT1dxamlqSU5FeDFCMGFfalVxd3lha1ZrXzRTMmtlNlcxZUwyMi1aa2NJVWRpZzFpbHVmdlB1QjlWbjdmcXlQcmxDcUNnVHB1dTVFZzgtMkNDaDJPeFFn0gF3QVVfeXFMUEFBQ1RSX3JhN1hrMDcxd0ZSeEVORkl2ZGxPV3FqaWpJTkV4MUIwYV9qVXF3eWFrVmtfNFMya2U2VzFlTDIyLVprY0lVZGlnMWlsdWZ2UHVCOVZuN2ZxeVBybENxQ2dUcHV1NUVnOC0yQ0NoMk94UWc?oc=5",
+          "headline": "Suspected copper thieves cause major internet outage in Bay of Islands - RNZ",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORktnNWZGZUdRM0lfSk9SZGhpTDBsNkNKbVVEa3dQUmp3WmsxWm5BWlVmcjBQOG43UTNWZHJYVm41bGJGTVBtQXBkcVFhM1RXSUY4dmpibmQyemcybXlkbHVFOUU1THMweExpSlJUWjhUdUduWTZfRzlTOUo0VjhsSlJIRTJodWtFQzBJVjlSc250YkgtTFRHdjB4MURSUTNnb1NHUk5qaHlTU3FnSVF4dGJ2dlhxMFBlbUphYWhPODI?oc=5",
           "reports": 2,
-          "publishers": 1,
+          "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-14T10:00:00+00:00",
-          "first_seen_at": "2026-10-14T13:42:23+00:00",
-          "source": "GantNews.com"
+          "feed_published_at": "2026-10-16T03:01:05+00:00",
+          "first_seen_at": "2026-10-16T13:14:22+00:00",
+          "source": "RNZ"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 106,
-      "unique_report_clusters": 98,
+      "articles": 115,
+      "unique_report_clusters": 107,
       "estimated_duplicate_headlines": 8,
-      "publishers": 86,
+      "publishers": 93,
       "early_signal_strength": 65,
-      "evidence_headlines": 29,
-      "general_headlines": 77,
+      "evidence_headlines": 33,
+      "general_headlines": 82,
       "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 6,
+      "first_seen_days": 7,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 27,
+        "physical_shortage": 31,
         "price_power": 1,
         "lead_time": 1
       },
