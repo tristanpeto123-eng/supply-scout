@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-16T14:22:00+00:00",
-  "archive_count": 525,
-  "cluster_count": 484,
-  "dates_first_seen": 7,
+  "built_at": "2026-10-17T12:10:47+00:00",
+  "archive_count": 548,
+  "cluster_count": 502,
+  "dates_first_seen": 8,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,19 +11,19 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 129,
-      "unique_report_clusters": 125,
+      "articles": 135,
+      "unique_report_clusters": 131,
       "estimated_duplicate_headlines": 4,
-      "publishers": 69,
+      "publishers": 72,
       "early_signal_strength": 75,
-      "evidence_headlines": 71,
-      "general_headlines": 58,
+      "evidence_headlines": 75,
+      "general_headlines": 60,
       "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 7,
+      "first_seen_days": 8,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 58,
-        "price_power": 15,
+        "physical_shortage": 62,
+        "price_power": 16,
         "lead_time": 3
       },
       "stories": [
@@ -112,15 +112,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 110,
-      "unique_report_clusters": 97,
-      "estimated_duplicate_headlines": 13,
-      "publishers": 52,
+      "articles": 114,
+      "unique_report_clusters": 100,
+      "estimated_duplicate_headlines": 14,
+      "publishers": 53,
       "early_signal_strength": 55,
       "evidence_headlines": 6,
-      "general_headlines": 104,
-      "older_than_7_days_on_first_seen": 30,
-      "first_seen_days": 7,
+      "general_headlines": 108,
+      "older_than_7_days_on_first_seen": 31,
+      "first_seen_days": 8,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 5,
@@ -128,6 +128,16 @@
         "physical_shortage": 1
       },
       "stories": [
+        {
+          "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-07T15:07:00+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "TradingView"
+        },
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzVscnFxaTA0MVA5U0x4VFJrcllpZW13SXBrRER6MWdUM0RMM3hnYmRndjlXVmRUSThMemtnVW5GN3Ntb3B4N3ZsdEZNQlpkM2dIalpnaTFFUTJITVpWSkFqMjlPWU1DN0Y0dUUxMzBYSDBqTkpEbDc4MEIxMkdBa1hwUHdFUmJlVEVic2tEYTRoV3JIWmR0S3pwZWpVNXVsOGxUTi14QjJOWWsyNWkxcHd5Z0Q?oc=5",
@@ -137,16 +147,6 @@
             "lead_time"
           ],
           "feed_published_at": "2026-10-09T12:41:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingView"
-        },
-        {
-          "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-07T15:07:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TradingView"
         },
@@ -205,21 +205,31 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 48,
-      "unique_report_clusters": 46,
-      "estimated_duplicate_headlines": 2,
-      "publishers": 35,
-      "early_signal_strength": 59,
-      "evidence_headlines": 8,
-      "general_headlines": 40,
+      "articles": 52,
+      "unique_report_clusters": 49,
+      "estimated_duplicate_headlines": 3,
+      "publishers": 37,
+      "early_signal_strength": 61,
+      "evidence_headlines": 9,
+      "general_headlines": 43,
       "older_than_7_days_on_first_seen": 6,
-      "first_seen_days": 7,
+      "first_seen_days": 8,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 4,
-        "physical_shortage": 4
+        "physical_shortage": 5
       },
       "stories": [
+        {
+          "headline": "Hitachi announces $479M plan to build transformer insulation factory in London, Ont. - BNN Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeXhtSHdLazNXMldPajZXQW1HZjZkTVhyb0hBa1BuTWNNcGVsNks1R3k4cjJOWVl3YUJVSEc2YnBLYVhXS1ZUN2hFNG5oU3VhWEVhWEVjc1dIX3M5Zmh2TC1nSC11amVHUnl6SkZvcW5KY25MSzdWSmt0TVA2ZDdrZVNfRERoRGZjZkQ3cW90SWpQR09iUm5NU2VtUjhZWnktOFZxSW9KenNqNGFmN0o2R3lvNWk2Rmx1RFp6WG4yWjU0S1ViVG1aVUtJUF9qRjFSTWdqMmVQU1dMbTQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-16T12:39:35+00:00",
+          "first_seen_at": "2026-10-16T13:14:22+00:00",
+          "source": "BNN Bloomberg"
+        },
         {
           "headline": "Pakistan: Doctor shortage leaves Attock's Chhab Health Centre in crisis - www.irishsun.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmNvWWRsMC1acTVDTWJKREVGZXBsekZLTWxZN3N1Sk5YRy11dWhzbU5GQ1FjMFIybkxycWNkdENsYU1scW41RlEwNVFlako4dko1MVVzd0lvcnJDS2hxNWdhUFRKS0x0N3dPM3FGci14OEVZdXBpQUVGaTlsNlNabTNKZVZPLXp4ZDBTN0JOMGxVWGFtZ0NYaXJxNnpPaE8wbXh3aUM2dGgxMF92?oc=5",
@@ -283,34 +293,24 @@
           "feed_published_at": "2026-10-01T10:19:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TradingView"
-        },
-        {
-          "headline": "Accord Transformer & Switchgear H1FY27 Results: Revenue up 90% YoY to ₹52.68 crore - scanx.trade",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYl9xM2ZuNW9jX2xzbnFHRWpkSnFXdS1xbWdzelliNVVKQXNaejRVZDJndmEyZnczU3pPR3J6bTZlemwyMlEwOHA0X1RGRk9od1c3Y0JWY2RFUkJpeWR5YzNRMmFrS3plZHpyZWQ3enVPZEtvaEhfMVZMaGZLcnc0TXo1T0pvR0RJZ0t4ZHdIdlAxUUZNbjZHSVBlMzFKaTZKSXBRV2hxaXotVHBuTnRZLUdaaVdZYWNGMmtwWjA2MEZBdW8?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-05T12:15:14+00:00",
-          "first_seen_at": "2026-10-11T14:54:19+00:00",
-          "source": "scanx.trade"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 123,
-      "unique_report_clusters": 109,
-      "estimated_duplicate_headlines": 14,
-      "publishers": 78,
+      "articles": 128,
+      "unique_report_clusters": 113,
+      "estimated_duplicate_headlines": 15,
+      "publishers": 79,
       "early_signal_strength": 63,
-      "evidence_headlines": 20,
-      "general_headlines": 103,
+      "evidence_headlines": 22,
+      "general_headlines": 106,
       "older_than_7_days_on_first_seen": 37,
-      "first_seen_days": 7,
+      "first_seen_days": 8,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 20,
+        "physical_shortage": 22,
         "demand_accel": 1
       },
       "stories": [
@@ -389,18 +389,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 115,
-      "unique_report_clusters": 107,
-      "estimated_duplicate_headlines": 8,
-      "publishers": 93,
+      "articles": 119,
+      "unique_report_clusters": 109,
+      "estimated_duplicate_headlines": 10,
+      "publishers": 95,
       "early_signal_strength": 65,
-      "evidence_headlines": 33,
-      "general_headlines": 82,
+      "evidence_headlines": 35,
+      "general_headlines": 84,
       "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 7,
+      "first_seen_days": 8,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 31,
+        "physical_shortage": 33,
         "price_power": 1,
         "lead_time": 1
       },
@@ -458,7 +458,7 @@
         {
           "headline": "GRDA Hauls 220 Containers Daily as It Moves to Ease Tema Port Congestion - Modern Ghana",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGeTVIM2I4ZXFuWHVRTktNakp4TG1OYkplaml5NlZaOHZ3Q09CVUJrRXdmTi1najlvTlZVT2V1a1BhZThLVVItMkEzd2J1V1ZYa2VFRjlOcDdXbG90NVRYTGRFUdIBXEFVX3lxTFBtWDI4cEJTNmFDZFU4OTdqQmpoRS1yeGRqZGUyU3VYT05rN1hCOFpGMzg4QTVTQ0pMT0xQeTRfRUR0YTg1WTRYakRRdlJwSHN3bEM1OUdGVHp5b3R2?oc=5",
-          "reports": 2,
+          "reports": 3,
           "publishers": 1,
           "signal_tags": [],
           "feed_published_at": "2026-10-13T16:03:48+00:00",
@@ -466,16 +466,16 @@
           "source": "Modern Ghana"
         },
         {
-          "headline": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments - South China Morning Post",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYVc2YXV4eHVUR0RGS09yRUVIUFRSa01ILWZ0R0ktRF9rODA1T3FscXAxOXhEa1ctM2stVjEwRGprQ0l5cTdLVG1LOExFaTV4em1wSTAtRmhRamZyVWZtSHFVSWRtMVFISTdicHcxcDlrUTZVS3NodC1qSUFPWl9MTHRjOGFQTEd1T1dUbUtLYVdBZHlsMDJNRWZZR1htOGtmZkllSS1SdlRWLVFwN3ZodnByWVdublhzeWRhYUVpdzN6MFV0REFta3doc2s1WDBPeXfSAdIBQVVfeXFMTThMSzN4OXJFSFpVdFI5MFlyb2p1MjloUHkzQVMtSUNIdklsaWo5UXk0MnRjdkZrLUlmRGIyd05UVEdLM1ItMmVKajRvQ1RsdXRyNzlYaW0yZzFZV1hROUt6STRyX21PeXlTTzF6azdrWTVVSzh6VTJOZjV2Z1MydUFrWm5vYVlwYjJ3Y3ViQXM0eTc4dm5iVG02VFUtMGItXzJVem1rR3ZYdGJjN2R2MktDRlFlYjdScWJqbDFKSHlIRFRHdWM3a2NBLS11Ql8xSVpB?oc=5",
+          "headline": "Global Fuel Oil Shortage Deepens as Middle East and Russia Supplies Collapse - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTG9ZY09QVFN6a3RteGxJM1Q5cWFKUkZQUGtJYzVXdUNyOVJFMlIxRDJQdk1FQm9weGIyYTVOVFlhaENXM0hoZkRtQ1lGWjNlNTRDejRQYWE2Q3VENkRocEthSkZaYjdvRFFzMXl5UWVDeVVjLTJudmlNRWE3RGR6eEgwN2ExZGNmZl9DMUYtZkx4N1hVZlRzaHJCdDFyb29yN1hkSEN4cUZ1dTRwYWxtV2NaaGhPWWZ2ZUIzVC1fWXhxZjBpMFJuWTNvOWhUNFFfQ1HSAdIBQVVfeXFMTkxvWWNPUFRTemt0bXhsSTNUOXFhSlJGUFBrSWM1V3VDcjlSRTJSMUQyUHZNRUJvcHhiMmE1TlRZYWhDVzNIaGZEbUNZRlozZTU0Q3o0UGFhNkN1RDZEaHBLYUpGWmI3b0RRczF5eVFlQ3lVYy0ybnZpTUVhN0RkenhIMDdhMWRjZmZfQzFGLWZMeDdYVWZUc2hyQnQxcm9vcjdYZEhDeHFGdXU0cGFsbVdjWmhoT1lmdmVCM1QtX1l4cWYwaTBSblkzbzloVDRRX0NR?oc=5",
           "reports": 2,
           "publishers": 1,
           "signal_tags": [
             "physical_shortage"
           ],
-          "feed_published_at": "2026-10-12T11:00:08+00:00",
-          "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "South China Morning Post"
+          "feed_published_at": "2026-10-16T07:00:00+00:00",
+          "first_seen_at": "2026-10-16T13:14:22+00:00",
+          "source": "Crude Oil Prices Today | OilPrice.com"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
