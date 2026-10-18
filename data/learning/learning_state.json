@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-17T13:17:47+00:00",
-  "archive_count": 548,
-  "cluster_count": 502,
-  "dates_first_seen": 8,
+  "built_at": "2026-10-18T12:36:39+00:00",
+  "archive_count": 569,
+  "cluster_count": 516,
+  "dates_first_seen": 9,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,19 +11,19 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 135,
-      "unique_report_clusters": 131,
+      "articles": 140,
+      "unique_report_clusters": 136,
       "estimated_duplicate_headlines": 4,
-      "publishers": 72,
+      "publishers": 74,
       "early_signal_strength": 75,
-      "evidence_headlines": 75,
-      "general_headlines": 60,
+      "evidence_headlines": 78,
+      "general_headlines": 62,
       "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 8,
+      "first_seen_days": 9,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 62,
-        "price_power": 16,
+        "physical_shortage": 64,
+        "price_power": 17,
         "lead_time": 3
       },
       "stories": [
@@ -112,15 +112,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 114,
-      "unique_report_clusters": 100,
-      "estimated_duplicate_headlines": 14,
+      "articles": 118,
+      "unique_report_clusters": 101,
+      "estimated_duplicate_headlines": 17,
       "publishers": 53,
       "early_signal_strength": 55,
       "evidence_headlines": 6,
-      "general_headlines": 108,
-      "older_than_7_days_on_first_seen": 31,
-      "first_seen_days": 8,
+      "general_headlines": 112,
+      "older_than_7_days_on_first_seen": 33,
+      "first_seen_days": 9,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 5,
@@ -205,21 +205,33 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 52,
-      "unique_report_clusters": 49,
-      "estimated_duplicate_headlines": 3,
-      "publishers": 37,
-      "early_signal_strength": 61,
-      "evidence_headlines": 9,
-      "general_headlines": 43,
-      "older_than_7_days_on_first_seen": 6,
-      "first_seen_days": 8,
+      "articles": 54,
+      "unique_report_clusters": 50,
+      "estimated_duplicate_headlines": 4,
+      "publishers": 38,
+      "early_signal_strength": 63,
+      "evidence_headlines": 10,
+      "general_headlines": 44,
+      "older_than_7_days_on_first_seen": 7,
+      "first_seen_days": 9,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 4,
+        "lead_time": 5,
         "physical_shortage": 5
       },
       "stories": [
+        {
+          "headline": "Data Centers Are Running Out of Transformers. Here's the Industrial Stock With a 3-Year Backlog. - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUGQ5ZDkwR1BzMWVSSVBUSV9WRGYxMVBSRWZTbThyT0RYcUhuaEpmc09NdmVIUXgydk5LSDVsYTNwU1dibGQ1N1NKTnF1YWZucDRuS2VhZjBNbWNOQ1Y4SnpneDZnVjRtVmxxV3RuQXBEUFBTcWtWZ2NBZVVoaHJMcTFyU1NvYk81QnU3OHZnRkxoOUZ0WWpySUZhai1IWG5adHNqUm5RUGRMamloa2VVeWMzLWZ4NS1NeF9iUVpRVFlNYmVMNUJTRGdGc3M0ZmgwRG94M0xtQmd4anhLVkxlUkJyellpY1BOQ2l5dDNGNVVmNXN5S0VXUzFJbXA2RVFsa0l5TU5fT2pRZ3Fp?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [
+            "lead_time"
+          ],
+          "feed_published_at": "2026-10-08T12:50:54+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "The Globe and Mail"
+        },
         {
           "headline": "Hitachi announces $479M plan to build transformer insulation factory in London, Ont. - BNN Bloomberg",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeXhtSHdLazNXMldPajZXQW1HZjZkTVhyb0hBa1BuTWNNcGVsNks1R3k4cjJOWVl3YUJVSEc2YnBLYVhXS1ZUN2hFNG5oU3VhWEVhWEVjc1dIX3M5Zmh2TC1nSC11amVHUnl6SkZvcW5KY25MSzdWSmt0TVA2ZDdrZVNfRERoRGZjZkQ3cW90SWpQR09iUm5NU2VtUjhZWnktOFZxSW9KenNqNGFmN0o2R3lvNWk2Rmx1RFp6WG4yWjU0S1ViVG1aVUtJUF9qRjFSTWdqMmVQU1dMbTQ?oc=5",
@@ -241,18 +253,6 @@
           "feed_published_at": "2026-10-09T12:03:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "www.irishsun.com"
-        },
-        {
-          "headline": "Data Centers Are Running Out of Transformers. Here's the Industrial Stock With a 3-Year Backlog. - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUGQ5ZDkwR1BzMWVSSVBUSV9WRGYxMVBSRWZTbThyT0RYcUhuaEpmc09NdmVIUXgydk5LSDVsYTNwU1dibGQ1N1NKTnF1YWZucDRuS2VhZjBNbWNOQ1Y4SnpneDZnVjRtVmxxV3RuQXBEUFBTcWtWZ2NBZVVoaHJMcTFyU1NvYk81QnU3OHZnRkxoOUZ0WWpySUZhai1IWG5adHNqUm5RUGRMamloa2VVeWMzLWZ4NS1NeF9iUVpRVFlNYmVMNUJTRGdGc3M0ZmgwRG94M0xtQmd4anhLVkxlUkJyellpY1BOQ2l5dDNGNVVmNXN5S0VXUzFJbXA2RVFsa0l5TU5fT2pRZ3Fp?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [
-            "lead_time"
-          ],
-          "feed_published_at": "2026-10-08T12:50:54+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "The Globe and Mail"
         },
         {
           "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
@@ -299,21 +299,31 @@
     },
     {
       "theme": "Copper",
-      "articles": 128,
-      "unique_report_clusters": 113,
-      "estimated_duplicate_headlines": 15,
-      "publishers": 79,
+      "articles": 134,
+      "unique_report_clusters": 117,
+      "estimated_duplicate_headlines": 17,
+      "publishers": 82,
       "early_signal_strength": 63,
       "evidence_headlines": 22,
-      "general_headlines": 106,
-      "older_than_7_days_on_first_seen": 37,
-      "first_seen_days": 8,
+      "general_headlines": 112,
+      "older_than_7_days_on_first_seen": 39,
+      "first_seen_days": 9,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "physical_shortage": 22,
         "demand_accel": 1
       },
       "stories": [
+        {
+          "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
+          "reports": 7,
+          "publishers": 4,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-13T11:02:38+00:00",
+          "first_seen_at": "2026-10-13T15:56:38+00:00",
+          "source": "Business Recorder"
+        },
         {
           "headline": "Exclusive-China demands copper supply commitments for Anglo Teck merger approval, sources say - AOL.ca",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXNzUGRPSW5raHFLZWdvTms0LVl5bDBjSkEtbkxGZGJlcVhiSkQtOUdPME9fcGVEVHh4SlBQNElEM1EtTlhxM3BDLTFlSzJsX1U0VTBEejlSYlQ2aGJ6dUQzVUcybklvS2Q0QVRnX0NoajlzeEhIZV9PM2pXeE96TjlZeVlLZ00?oc=5",
@@ -323,16 +333,6 @@
           "feed_published_at": "2026-10-02T12:04:42+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
-        },
-        {
-          "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
-          "reports": 6,
-          "publishers": 3,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-13T11:02:38+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "Business Recorder"
         },
         {
           "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
@@ -389,22 +389,32 @@
     },
     {
       "theme": "Shipping",
-      "articles": 119,
-      "unique_report_clusters": 109,
-      "estimated_duplicate_headlines": 10,
-      "publishers": 95,
+      "articles": 123,
+      "unique_report_clusters": 112,
+      "estimated_duplicate_headlines": 11,
+      "publishers": 97,
       "early_signal_strength": 65,
-      "evidence_headlines": 35,
-      "general_headlines": 84,
-      "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 8,
+      "evidence_headlines": 37,
+      "general_headlines": 86,
+      "older_than_7_days_on_first_seen": 39,
+      "first_seen_days": 9,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 33,
+        "physical_shortage": 35,
         "price_power": 1,
         "lead_time": 1
       },
       "stories": [
+        {
+          "headline": "DAT: Truckload rates rise in September as diesel tops $6 a gallon - TheTrucker.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjVsenBRbFJ0NlZQaGFZbnhhQlhxMGN2b3MzLW1PdTl0RlhrME0zVHl4V0ZqSmVKdHRTOVN2WVVYNTVtUWZYZWRodlhQSnVLaUFoSUY5RnNCdjYwUWJlbktoeGZNbm5aQUpPTGlFTnJRVHhzcF9VSkoxZ1dyOEZEblZwT2txYklMWnlYOFozRi1BLWNPdWxwbkRhUnJ6dkNHUnljUl9xNHZDdDBrQXQxUzZEdw?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-14T19:12:51+00:00",
+          "first_seen_at": "2026-10-15T13:24:22+00:00",
+          "source": "TheTrucker.com"
+        },
         {
           "headline": "Asian port congestion may prolong shipping crunch into 2027 - Newswav",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM2o0RGk0c3JWb0hVd1pjYktXeFowX0U2eHRObk9DRDc1VnFvMk9jNzRkcXNrREd1RWg1TWZOOHVOWk82bHpwY1FWVlh4WjJRcThBM3BLX3JPdEdtd0FxOHZxbUhlNENfRlVibFh0WGdkaXgwczlRcmFmenNBZjVueS1mT2ZMUGlNNW9SejVzajRFYXJpcjBSd2taRjh4VmFKa3c?oc=5",
@@ -424,16 +434,6 @@
           "feed_published_at": "2026-10-12T05:49:05+00:00",
           "first_seen_at": "2026-10-12T17:52:56+00:00",
           "source": "BusinessLine"
-        },
-        {
-          "headline": "DAT: Truckload rates rise in September as diesel tops $6 a gallon - TheTrucker.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjVsenBRbFJ0NlZQaGFZbnhhQlhxMGN2b3MzLW1PdTl0RlhrME0zVHl4V0ZqSmVKdHRTOVN2WVVYNTVtUWZYZWRodlhQSnVLaUFoSUY5RnNCdjYwUWJlbktoeGZNbm5aQUpPTGlFTnJRVHhzcF9VSkoxZ1dyOEZEblZwT2txYklMWnlYOFozRi1BLWNPdWxwbkRhUnJ6dkNHUnljUl9xNHZDdDBrQXQxUzZEdw?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-14T19:12:51+00:00",
-          "first_seen_at": "2026-10-15T13:24:22+00:00",
-          "source": "TheTrucker.com"
         },
         {
           "headline": "Peak season runs long as AI demand and port congestion keep capacity tight - DC Velocity",
