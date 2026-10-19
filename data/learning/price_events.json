@@ -403,5 +403,86 @@
       }
     },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Copper|FCX|2026-W43",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-19T15:34:50+00:00",
+    "snapshot_locked": true,
+    "headline": "LS MnM weighs output adjustments as copper concentrate shortage squeezes smelters - The Korea Times",
+    "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUWxJcEplUUgxa211ZXZoLU4zanJKeWJrb2MxRmJ1cmlCVklRam1hX0lPYTdoazVqODhFTl9aNmN1T2N5eXc4RUV2cUNJeE4waXRGTlJLbWdVSGJ1alY3Z3hTWVRFd3duTHRkYlJxUWV1Szduc2JLeDdGQnFSNEgybDRtQ1NlQXZZNWRYMi1VczZGci0yMUtna1ZLdERGTGc1djhkME5hTVhjM25EUkVZeE1zZktXVWctNFdkbW84cUtWSmtMZmlXd2daX2Q4S0k5T2MtX3huMnZTQdIB2gFBVV95cUxQUWxJcEplUUgxa211ZXZoLU4zanJKeWJrb2MxRmJ1cmlCVklRam1hX0lPYTdoazVqODhFTl9aNmN1T2N5eXc4RUV2cUNJeE4waXRGTlJLbWdVSGJ1alY3Z3hTWVRFd3duTHRkYlJxUWV1Szduc2JLeDdGQnFSNEgybDRtQ1NlQXZZNWRYMi1VczZGci0yMUtna1ZLdERGTGc1djhkME5hTVhjM25EUkVZeE1zZktXVWctNFdkbW84cUtWSmtMZmlXd2daX2Q4S0k5T2MtX3huMnZTQQ?oc=5",
+    "source_domain": "The Korea Times",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.14,
+      "prior_excess_30d": -0.016127
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W43",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-19T15:34:50+00:00",
+    "snapshot_locked": true,
+    "headline": "CXMT Is Expected To Add Over 100,000 DRAM Wafers Per Month Within A Year, Aiming At Consumer Electronics Squeezed By The Memory Shortage - Wccftech",
+    "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlVtVTg4SkxvSmktdG9ocDZud3dKcEhZTmdlNng3c1pmbmdYY1VBVFBtNjY0MkJqUUZuVExMYmw4Q0hlb3BYTmZIa1BQMFlkQkNkcTBubVJDYmp4LTZVOGlESzVqSHpSdV9ZNkhqR3k5bTNIaXpxVVlTcEhaQWw3UEMxTW5hWDdQV0tvUkNzSm05UHJucFlwWUZ1aEhOQWg1YnNOdHZWQnVRVldHLWxIb0luYW5OWWM1X0paR0tjc2xNOVBjZGNfTWI3cEdPbFI2cVl3TUhmX0FWMTRzbjVwS0FpSkpfQ2tMeHJadNIB8gFBVV95cUxQanVPcVZaUGxGQVVfSm01T3pBNDNBdHB2bUdaanlvblZ5aWF6Z0FGVXF2QWVuVFBraFUtSkNpWEpTQ2RZRkgzb29MMi1IZHlvTzVDLXJuRHB5Nm4wNFgxRTJvWkhoclpMQUJoRXl1RWtNc2pUVjBVRkdOUlhBaDA3WGpSNUR4UVh5ZEt5OTVZU2ZCMHlMZVVUNjU2dW1lZW5tRDlRbEVLelliYzllWjQwenB6RVlmcW9YZXIwOWJLdUMxYnRzSE9sWUNteHlCX0UxU2lleEtmUHZiVW9SajIwQUpKV2RVUUQ2WXNfbF9TN1k2dw?oc=5",
+    "source_domain": "Wccftech",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 5,
+      "publisher_count": 4,
+      "publication_lag": 0.13,
+      "prior_excess_30d": -0.124963
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W43",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-19T15:34:50+00:00",
+    "snapshot_locked": true,
+    "headline": "Global Container Freight Rates Rise 130% Since February on Middle East Tensions: Jefferies - KNN India",
+    "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaEc1c1NxT0lxTjFaWUtYMzdpczNINWVuWDl5MnNjQXRwTExlYVlNaVhmMDlJX1RqN0JGVVUtTnlabEpwMEtuRnRUaTVLeFUyTkdrNGIzZ3kwakVzOG43Vk5lOUY3WXBCZ0dxUi0wOHpjU1U1TF95ZThIUUllSnpIdC01MG4yTWJubG1tOFVRU3VOeXRSQjlzV2Z3eTM0aGs4bWkzaElERkVTZHFIaE9LR0prUTBQMzJZanNXTUd6OUI0WTNVdmwxTlVOR1hIR0twU0E?oc=5",
+    "source_domain": "KNN India",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 0,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 3,
+      "publisher_count": 3,
+      "publication_lag": 0.11,
+      "prior_excess_30d": -0.019838
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
