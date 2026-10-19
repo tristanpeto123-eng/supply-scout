@@ -573,7 +573,7 @@
           "close": 402.480011,
           "sma20": 430.935999,
           "sma50": 424.833199,
-          "sma200": 392.394239,
+          "sma200": 392.394238,
           "rsi14": 30.23,
           "atr14_pct": 3.71,
           "volume_vs_20d": 2.29,
@@ -882,6 +882,219 @@
         "rsi_ok": false,
         "passes": false
       }
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Copper|FCX|2026-W43",
+    "ticker": "FCX",
+    "theme": "Copper",
+    "signal_time": "2026-10-19T15:34:50+00:00",
+    "headline": "LS MnM weighs output adjustments as copper concentrate shortage squeezes smelters - The Korea Times",
+    "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUWxJcEplUUgxa211ZXZoLU4zanJKeWJrb2MxRmJ1cmlCVklRam1hX0lPYTdoazVqODhFTl9aNmN1T2N5eXc4RUV2cUNJeE4waXRGTlJLbWdVSGJ1alY3Z3hTWVRFd3duTHRkYlJxUWV1Szduc2JLeDdGQnFSNEgybDRtQ1NlQXZZNWRYMi1VczZGci0yMUtna1ZLdERGTGc1djhkME5hTVhjM25EUkVZeE1zZktXVWctNFdkbW84cUtWSmtMZmlXd2daX2Q4S0k5T2MtX3huMnZTQdIB2gFBVV95cUxQUWxJcEplUUgxa211ZXZoLU4zanJKeWJrb2MxRmJ1cmlCVklRam1hX0lPYTdoazVqODhFTl9aNmN1T2N5eXc4RUV2cUNJeE4waXRGTlJLbWdVSGJ1alY3Z3hTWVRFd3duTHRkYlJxUWV1Szduc2JLeDdGQnFSNEgybDRtQ1NlQXZZNWRYMi1VczZGci0yMUtna1ZLdERGTGc1djhkME5hTVhjM25EUkVZeE1zZktXVWctNFdkbW84cUtWSmtMZmlXd2daX2Q4S0k5T2MtX3huMnZTQQ?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-16",
+        "close": 69.540001,
+        "sma20": 71.577024,
+        "sma50": 71.891402,
+        "sma200": 64.390559,
+        "rsi14": 42.53,
+        "atr14_pct": 3.79,
+        "volume_vs_20d": 1.1,
+        "relative_strength_20d_pct": -1.61,
+        "relative_strength_60d_pct": 7.55,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 74.189812,
+        "distance_above_sma20_pct": -2.85,
+        "completed_bars_available": 302
+      },
+      "as_of": "2026-10-16",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-19T17:02:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W43",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-10-19T15:34:50+00:00",
+    "headline": "CXMT Is Expected To Add Over 100,000 DRAM Wafers Per Month Within A Year, Aiming At Consumer Electronics Squeezed By The Memory Shortage - Wccftech",
+    "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlVtVTg4SkxvSmktdG9ocDZud3dKcEhZTmdlNng3c1pmbmdYY1VBVFBtNjY0MkJqUUZuVExMYmw4Q0hlb3BYTmZIa1BQMFlkQkNkcTBubVJDYmp4LTZVOGlESzVqSHpSdV9ZNkhqR3k5bTNIaXpxVVlTcEhaQWw3UEMxTW5hWDdQV0tvUkNzSm05UHJucFlwWUZ1aEhOQWg1YnNOdHZWQnVRVldHLWxIb0luYW5OWWM1X0paR0tjc2xNOVBjZGNfTWI3cEdPbFI2cVl3TUhmX0FWMTRzbjVwS0FpSkpfQ2tMeHJadNIB8gFBVV95cUxQanVPcVZaUGxGQVVfSm01T3pBNDNBdHB2bUdaanlvblZ5aWF6Z0FGVXF2QWVuVFBraFUtSkNpWEpTQ2RZRkgzb29MMi1IZHlvTzVDLXJuRHB5Nm4wNFgxRTJvWkhoclpMQUJoRXl1RWtNc2pUVjBVRkdOUlhBaDA3WGpSNUR4UVh5ZEt5OTVZU2ZCMHlMZVVUNjU2dW1lZW5tRDlRbEVLelliYzllWjQwenB6RVlmcW9YZXIwOWJLdUMxYnRzSE9sWUNteHlCX0UxU2lleEtmUHZiVW9SajIwQUpKV2RVUUQ2WXNfbF9TN1k2dw?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-16",
+        "close": 878.840027,
+        "sma20": 1032.861877,
+        "sma50": 982.971674,
+        "sma200": 717.623096,
+        "rsi14": 27.03,
+        "atr14_pct": 5.38,
+        "volume_vs_20d": 1.11,
+        "relative_strength_20d_pct": -12.5,
+        "relative_strength_60d_pct": -13.44,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1097.217285,
+        "distance_above_sma20_pct": -14.91,
+        "completed_bars_available": 302
+      },
+      "as_of": "2026-10-16",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-19T17:02:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Shipping|ZIM|2026-W43",
+    "ticker": "ZIM",
+    "theme": "Shipping",
+    "signal_time": "2026-10-19T15:34:50+00:00",
+    "headline": "Global Container Freight Rates Rise 130% Since February on Middle East Tensions: Jefferies - KNN India",
+    "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaEc1c1NxT0lxTjFaWUtYMzdpczNINWVuWDl5MnNjQXRwTExlYVlNaVhmMDlJX1RqN0JGVVUtTnlabEpwMEtuRnRUaTVLeFUyTkdrNGIzZ3kwakVzOG43Vk5lOUY3WXBCZ0dxUi0wOHpjU1U1TF95ZThIUUllSnpIdC01MG4yTWJubG1tOFVRU3VOeXRSQjlzV2Z3eTM0aGs4bWkzaElERkVTZHFIaE9LR0prUTBQMzJZanNXTUd6OUI0WTNVdmwxTlVOR1hIR0twU0E?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 3,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": true
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-16",
+        "close": 29.209999,
+        "sma20": 29.688,
+        "sma50": 28.7278,
+        "sma200": 25.901566,
+        "rsi14": 56.43,
+        "atr14_pct": 2.84,
+        "volume_vs_20d": 0.61,
+        "relative_strength_20d_pct": -1.98,
+        "relative_strength_60d_pct": 11.94,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 30.9,
+        "distance_above_sma20_pct": -1.61,
+        "completed_bars_available": 302
+      },
+      "as_of": "2026-10-16",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-19T17:02:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
