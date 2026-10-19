@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-18T13:38:26+00:00",
-  "archive_count": 569,
-  "cluster_count": 516,
-  "dates_first_seen": 9,
+  "built_at": "2026-10-19T16:05:58+00:00",
+  "archive_count": 600,
+  "cluster_count": 542,
+  "dates_first_seen": 10,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 140,
-      "unique_report_clusters": 136,
-      "estimated_duplicate_headlines": 4,
-      "publishers": 74,
+      "articles": 150,
+      "unique_report_clusters": 145,
+      "estimated_duplicate_headlines": 5,
+      "publishers": 75,
       "early_signal_strength": 75,
-      "evidence_headlines": 78,
-      "general_headlines": 62,
+      "evidence_headlines": 83,
+      "general_headlines": 67,
       "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 9,
+      "first_seen_days": 10,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 64,
+        "physical_shortage": 69,
         "price_power": 17,
         "lead_time": 3
       },
@@ -74,6 +74,16 @@
           "source": "Seoul Economic Daily"
         },
         {
+          "headline": "Memory prices set to rise further in fourth quarter, boosting earnings at Korean chipmakers - 머니투데이",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zNDlPdU9IcTJSQUFtSkVHa2k2eUlNYlU0TFBRTG1lWnQ5SkRKaVE3eFpwQkc3OUNTNllvcHNvUHRiVTVHUlYySy1iWXFoY1R3TlFnN3NPS1hzVXNpRDZXYzdleV9fMXBqbHByUVJ2Zm5fY1ZnX0FxYmN4Q3l5UQ?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-15T08:30:00+00:00",
+          "first_seen_at": "2026-10-15T13:24:22+00:00",
+          "source": "머니투데이"
+        },
+        {
           "headline": "\"HBM average selling price to rise 121% next year amid supply shortage\" - 매일경제",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xQUFVb08xbDRCdWhpamc2eFBLeFNlZE9qVGZGb2hrX05IRld6UTNPbDdBeFhqVVFaNVVoRjBmM2RKdFVSYUdRc2ZqREtZYXo4djJN?oc=5",
           "reports": 1,
@@ -94,44 +104,32 @@
           "feed_published_at": "2026-10-05T03:26:40+00:00",
           "first_seen_at": "2026-10-14T13:42:23+00:00",
           "source": "THE ELEC, Korea Electronics Industry Media"
-        },
-        {
-          "headline": "AI Data Center Component Shortage to Persist Through 2028 - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ncUhVUDVQTUZLSjI1TmoyNE9wTmh3UUlNcEVTd1MxSUhUdXdXZXU4bjljbGxhaldYUklaRW1hUnRYdlA5X0FKR2E0SEJ1QmYtNG9iODQ3QUJ0TEJ1MXJyTnZqOW5pdnFCbTFIWUQzeUVHLXhGc0E?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-02T10:25:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "BigGo Finance"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 118,
-      "unique_report_clusters": 101,
-      "estimated_duplicate_headlines": 17,
+      "articles": 120,
+      "unique_report_clusters": 102,
+      "estimated_duplicate_headlines": 18,
       "publishers": 53,
       "early_signal_strength": 55,
       "evidence_headlines": 6,
-      "general_headlines": 112,
-      "older_than_7_days_on_first_seen": 33,
-      "first_seen_days": 9,
+      "general_headlines": 114,
+      "older_than_7_days_on_first_seen": 34,
+      "first_seen_days": 10,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 5,
-        "demand_accel": 1,
+        "demand_accel": 2,
         "physical_shortage": 1
       },
       "stories": [
         {
           "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
-          "reports": 3,
+          "reports": 4,
           "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-10-07T15:07:00+00:00",
@@ -205,18 +203,18 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 54,
-      "unique_report_clusters": 50,
-      "estimated_duplicate_headlines": 4,
-      "publishers": 38,
+      "articles": 59,
+      "unique_report_clusters": 54,
+      "estimated_duplicate_headlines": 5,
+      "publishers": 39,
       "early_signal_strength": 63,
-      "evidence_headlines": 10,
-      "general_headlines": 44,
-      "older_than_7_days_on_first_seen": 7,
-      "first_seen_days": 9,
+      "evidence_headlines": 11,
+      "general_headlines": 48,
+      "older_than_7_days_on_first_seen": 9,
+      "first_seen_days": 10,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 5,
+        "lead_time": 6,
         "physical_shortage": 5
       },
       "stories": [
@@ -255,6 +253,16 @@
           "source": "www.irishsun.com"
         },
         {
+          "headline": "PE firm Cleanhill, transformer maker Marsons plan North America joint venture - VCCircle",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWNwTmhQNUN3THBSQ2lTMDJOT1NiQWIwUUpOeFVRSGpsTVB4Ulo5UW52U3lwOHJ5WHdKb2dBWGwyYmEyeWRUMTdfcUEwbGo5LTJsUjRaa2lqVElFeURxNkZjanNwdkFaa2ZreGF2c3ZwNzhoWTdBMFFtbGFmUVI5Wjg1eUxWb2dZbFNxVVFtSFhBNXZBeVZCOVFMWE9wTWt3cFE?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-06T14:05:05+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "VCCircle"
+        },
+        {
           "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUHNLTml5dTNQRmx4TmhNNTJDUnh5WThLeFZpcWZNMmVJcURXeGpYNHkyeUFtRVpBRmFncm9JclRPMmN2TG1YM1hPckwxZ202QkctU2RJQ191V1FkaGhGVWhCUjJkM1FzUVZPZE5mWlloYXRVWDJZczBLZTFWTkI0Um1BSE1VWjFpV0M5amtfanVxWHk2UzJsY3ZGZ1kwdDRBc2hzYW54RUpndFdSSW9LcTNpelVEQm1TVDRWU3F4QUVoLTc20gHKAUFVX3lxTE9sM1NIaG9PVXhKRjl1elpGQTVjU0VmaUlzZy1MX1IycXhfbDJaZFpGcEpLMF96VnJ2YVpZZzZ0ZDBua3o2SF9uSHR6SVVZbDVrclpKN0NITFJUaVQ3Q1ViVGxYeEM0eHRCSW1HY1UxLTRIN200OEl4TnRVQTFPZ3ZfcTh5M1RMZ3FnZXdxMXRDTDhPSHZySlhQYzFtSkpMY0RhbDVXeFNoUm9MNXpVa3d4SHNIbTZXX0tlNy1tbHI1aDRoMXh6UXpGRHc?oc=5",
           "reports": 1,
@@ -283,34 +291,24 @@
           "feed_published_at": "2026-10-06T15:02:11+00:00",
           "first_seen_at": "2026-10-12T17:52:56+00:00",
           "source": "Transformer | Substack"
-        },
-        {
-          "headline": "Accelevation, Data Center Infrastructure Platform, Files for Nasdaq $540M IPO - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb09uSEdwa1J3QUZnQ05sUUs1QTBDa2lwcUpkU1ktODV6SnBhbGxNYW9BOURKTC1yMENnc0prMUstY2VzQTh1SkN4cGFDVUdrUG1QVE1sWGF1by0xbFRMejdZVndSWnJyM2xVNWVDbXdqdkxkejFVdkxVV3dTUGdncW5kM2U5LXlDa0ZCU2twMUJ0ckNYYmYySXZKc1NEOTJMdko0LXFTamNTRDIydExBS3RTODdlVmVVT3JNSGxIVFJmT0ZIWFgySEZvZzRWWmFrQ3c?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-01T10:19:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingView"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 134,
-      "unique_report_clusters": 117,
-      "estimated_duplicate_headlines": 17,
-      "publishers": 82,
+      "articles": 140,
+      "unique_report_clusters": 122,
+      "estimated_duplicate_headlines": 18,
+      "publishers": 85,
       "early_signal_strength": 63,
-      "evidence_headlines": 22,
-      "general_headlines": 112,
+      "evidence_headlines": 23,
+      "general_headlines": 117,
       "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 9,
+      "first_seen_days": 10,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 22,
+        "physical_shortage": 23,
         "demand_accel": 1
       },
       "stories": [
@@ -333,6 +331,16 @@
           "feed_published_at": "2026-10-02T12:04:42+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
+        },
+        {
+          "headline": "Suspected copper thieves cause major internet outage in Bay of Islands - RNZ",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORktnNWZGZUdRM0lfSk9SZGhpTDBsNkNKbVVEa3dQUmp3WmsxWm5BWlVmcjBQOG43UTNWZHJYVm41bGJGTVBtQXBkcVFhM1RXSUY4dmpibmQyemcybXlkbHVFOUU1THMweExpSlJUWjhUdUduWTZfRzlTOUo0VjhsSlJIRTJodWtFQzBJVjlSc250YkgtTFRHdjB4MURSUTNnb1NHUk5qaHlTU3FnSVF4dGJ2dlhxMFBlbUphYWhPODI?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-16T03:01:05+00:00",
+          "first_seen_at": "2026-10-16T13:14:22+00:00",
+          "source": "RNZ"
         },
         {
           "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
@@ -373,34 +381,24 @@
           "feed_published_at": "2026-10-12T20:16:21+00:00",
           "first_seen_at": "2026-10-13T15:56:38+00:00",
           "source": "SooToday.com"
-        },
-        {
-          "headline": "Suspected copper thieves cause major internet outage in Bay of Islands - RNZ",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORktnNWZGZUdRM0lfSk9SZGhpTDBsNkNKbVVEa3dQUmp3WmsxWm5BWlVmcjBQOG43UTNWZHJYVm41bGJGTVBtQXBkcVFhM1RXSUY4dmpibmQyemcybXlkbHVFOUU1THMweExpSlJUWjhUdUduWTZfRzlTOUo0VjhsSlJIRTJodWtFQzBJVjlSc250YkgtTFRHdjB4MURSUTNnb1NHUk5qaHlTU3FnSVF4dGJ2dlhxMFBlbUphYWhPODI?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-16T03:01:05+00:00",
-          "first_seen_at": "2026-10-16T13:14:22+00:00",
-          "source": "RNZ"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 123,
-      "unique_report_clusters": 112,
-      "estimated_duplicate_headlines": 11,
-      "publishers": 97,
+      "articles": 131,
+      "unique_report_clusters": 119,
+      "estimated_duplicate_headlines": 12,
+      "publishers": 103,
       "early_signal_strength": 65,
-      "evidence_headlines": 37,
-      "general_headlines": 86,
+      "evidence_headlines": 39,
+      "general_headlines": 92,
       "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 9,
+      "first_seen_days": 10,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 35,
+        "physical_shortage": 37,
         "price_power": 1,
         "lead_time": 1
       },
@@ -466,16 +464,14 @@
           "source": "Modern Ghana"
         },
         {
-          "headline": "Global Fuel Oil Shortage Deepens as Middle East and Russia Supplies Collapse - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTG9ZY09QVFN6a3RteGxJM1Q5cWFKUkZQUGtJYzVXdUNyOVJFMlIxRDJQdk1FQm9weGIyYTVOVFlhaENXM0hoZkRtQ1lGWjNlNTRDejRQYWE2Q3VENkRocEthSkZaYjdvRFFzMXl5UWVDeVVjLTJudmlNRWE3RGR6eEgwN2ExZGNmZl9DMUYtZkx4N1hVZlRzaHJCdDFyb29yN1hkSEN4cUZ1dTRwYWxtV2NaaGhPWWZ2ZUIzVC1fWXhxZjBpMFJuWTNvOWhUNFFfQ1HSAdIBQVVfeXFMTkxvWWNPUFRTemt0bXhsSTNUOXFhSlJGUFBrSWM1V3VDcjlSRTJSMUQyUHZNRUJvcHhiMmE1TlRZYWhDVzNIaGZEbUNZRlozZTU0Q3o0UGFhNkN1RDZEaHBLYUpGWmI3b0RRczF5eVFlQ3lVYy0ybnZpTUVhN0RkenhIMDdhMWRjZmZfQzFGLWZMeDdYVWZUc2hyQnQxcm9vcjdYZEhDeHFGdXU0cGFsbVdjWmhoT1lmdmVCM1QtX1l4cWYwaTBSblkzbzloVDRRX0NR?oc=5",
+          "headline": "Drewry WCI rebounds 3.1% as Asia-Europe freight rates rise - Fibre2Fashion",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzNkd016LXlqZ3RzQTNsYUc2a0F3Q05fVzdnQk04MzBBOElFcm1DQWVTa3BKY3JQS3Z2SmU2M0FubGtEMWE3ckZaYkt5OTNGcXVfTHlfZVB3alNKQ1ktUHZHbi1PbWplSG9mbU0xM2s1ajdpOExhcHhJaEJfVUtEcEtZbW52VWRfcXpsVVhCMk5iMm9fTlQtNjhIelh0TTBQNEptWmk4Y25yZmNjWHJTMVFNbVV0ams1ZUtnZkFhaTdSX01XN3o4?oc=5",
           "reports": 2,
           "publishers": 1,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-16T07:00:00+00:00",
+          "signal_tags": [],
+          "feed_published_at": "2026-10-16T08:49:59+00:00",
           "first_seen_at": "2026-10-16T13:14:22+00:00",
-          "source": "Crude Oil Prices Today | OilPrice.com"
+          "source": "Fibre2Fashion"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
