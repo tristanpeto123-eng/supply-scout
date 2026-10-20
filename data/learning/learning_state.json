@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-19T16:39:32+00:00",
-  "archive_count": 600,
-  "cluster_count": 542,
-  "dates_first_seen": 10,
+  "built_at": "2026-10-20T13:33:38+00:00",
+  "archive_count": 633,
+  "cluster_count": 568,
+  "dates_first_seen": 11,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 150,
-      "unique_report_clusters": 145,
+      "articles": 158,
+      "unique_report_clusters": 153,
       "estimated_duplicate_headlines": 5,
-      "publishers": 75,
+      "publishers": 78,
       "early_signal_strength": 75,
-      "evidence_headlines": 83,
-      "general_headlines": 67,
-      "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 10,
+      "evidence_headlines": 87,
+      "general_headlines": 71,
+      "older_than_7_days_on_first_seen": 61,
+      "first_seen_days": 11,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 69,
+        "physical_shortage": 73,
         "price_power": 17,
         "lead_time": 3
       },
@@ -110,15 +110,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 120,
-      "unique_report_clusters": 102,
-      "estimated_duplicate_headlines": 18,
-      "publishers": 53,
+      "articles": 128,
+      "unique_report_clusters": 108,
+      "estimated_duplicate_headlines": 20,
+      "publishers": 57,
       "early_signal_strength": 55,
       "evidence_headlines": 6,
-      "general_headlines": 114,
-      "older_than_7_days_on_first_seen": 34,
-      "first_seen_days": 10,
+      "general_headlines": 122,
+      "older_than_7_days_on_first_seen": 36,
+      "first_seen_days": 11,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 5,
@@ -129,7 +129,7 @@
         {
           "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
-          "reports": 4,
+          "reports": 5,
           "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-10-07T15:07:00+00:00",
@@ -147,6 +147,16 @@
           "feed_published_at": "2026-10-09T12:41:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TradingView"
+        },
+        {
+          "headline": "Ari Alastalo appointed Vice President of VTT’s Microelectronics and Photonics research area - www.vttresearch.com",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjY0OEQ3RzlveEF5ekdocDBDem0yX0VkWWpVTHNuWmxhQ2kxM1dGTGFnQmFhcHo0NVVqYm0tRXdEdWgxdVFKU2RWSW1mb2NoX1Uxb1RubXVkZXlXTlNON0Z6ckNvT2pYSHZLdWJ2YVc3MGVhQTNRME5HbGFEV3FYYTNpWjN3UEZfdjhMdFBmYURETklvWEtuSDBIdXhXTWlKNzd1N1k5VjlwM2dMcjg2MktiTmxLNmZQdW1CMl82VkhwMlpYQUM4?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-07T10:25:01+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
+          "source": "www.vttresearch.com"
         },
         {
           "headline": "Fujitsu’s 1Finity eyes India expansion as AI, data centre boom drives optical networking demand: Global CEO- Moneycontrol.com - LinkedIn",
@@ -187,34 +197,24 @@
           "feed_published_at": "2026-10-08T16:48:20+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Simply Wall Street"
-        },
-        {
-          "headline": "AAOI, LITE, COHR Extend Sell-Off Overnight: AI Funding Fears Hit Optical Networking Trade, But Retail Bulls Eye Rebound - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUWt5M1lvTE5iVkdkSWVWVFlkTDZuZXNpMXZDamc2dklJaGgxWjFXV0lkMWg0WnF1MktuX211TmVSR0duekRTckZTRVJPNmdqNWtsSWJUbkVXQ3BwbXI4eGV0TU14MDBWVG9VOGhfZk8zR1hDNk5tNUVOTW1lb2djS2dGS0lQU05FYndOcHFSRkJlanlkcnJKRHA4U0w5Um1ZdGtldTBxUVhLVkxUWXF3eVJZVVdVRHZsNTdFbmdkQVpJdjN1MkpxT2xsVElxUmp3QTRzR09mRzhCbVdGbXVJSXBvVlpQOTQwRjUyWGlOMVVIcVRfajlOQWJ2Z2cwd1lOSmpjTXRzZw?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-13T02:56:00+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "TradingView"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 59,
-      "unique_report_clusters": 54,
+      "articles": 60,
+      "unique_report_clusters": 55,
       "estimated_duplicate_headlines": 5,
-      "publishers": 39,
+      "publishers": 40,
       "early_signal_strength": 63,
-      "evidence_headlines": 11,
+      "evidence_headlines": 12,
       "general_headlines": 48,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 10,
+      "first_seen_days": 11,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 6,
+        "lead_time": 7,
         "physical_shortage": 5
       },
       "stories": [
@@ -297,25 +297,25 @@
     },
     {
       "theme": "Copper",
-      "articles": 140,
-      "unique_report_clusters": 122,
-      "estimated_duplicate_headlines": 18,
-      "publishers": 85,
+      "articles": 153,
+      "unique_report_clusters": 132,
+      "estimated_duplicate_headlines": 21,
+      "publishers": 93,
       "early_signal_strength": 63,
-      "evidence_headlines": 23,
-      "general_headlines": 117,
-      "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 10,
+      "evidence_headlines": 30,
+      "general_headlines": 123,
+      "older_than_7_days_on_first_seen": 40,
+      "first_seen_days": 11,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 23,
+        "physical_shortage": 30,
         "demand_accel": 1
       },
       "stories": [
         {
           "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
-          "reports": 7,
+          "reports": 8,
           "publishers": 4,
           "signal_tags": [],
           "feed_published_at": "2026-10-13T11:02:38+00:00",
@@ -363,6 +363,16 @@
           "source": "Geomechanics.io"
         },
         {
+          "headline": "Copper price slips on chip selloff; supply disruption lends support - Mining.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM096SnNId1pKMWJSMGxkOXVRdHRfQU9MaVRSZlhBOXJ6V0ticjZDdkVFVlhJdTRBZHRkZ195bWxSeThQR0JDOVpkT0FTcXZjXzNXVGpaN2RHVlZyT0V0X2JNZ2Y2QnljVFJfS1M1dlprLU9zejg4VEZtR2JodW5MSXJ1aUlKVlE3aUE?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-13T18:41:51+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
+          "source": "Mining.com.au"
+        },
+        {
           "headline": "Glencore sees electrification trend driving strong uptake for Australia listing - AOL.ca",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXIwX3FpejFuanpxU3BpbmFkMWpxa00zX2JXRThSb05PYjFOak5lajEtMlByRG1MVmo0R1VWMGoyYWtZVFNDSjZvWWd6VzMzUlhfNkR2dlZrUWRTTDlnWmlYWVlwYk1HS1JVOEEzQno3aHpnSUFMR0dvVjNGV0NkWVVUX3NDWS1BXzNmWHJKNA?oc=5",
           "reports": 2,
@@ -371,34 +381,24 @@
           "feed_published_at": "2026-10-09T05:09:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
-        },
-        {
-          "headline": "Site near Batchawana Bay could become massive copper mine - SooToday.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmNFQkFvS0IzUHFNdEtmTUsxWGxnMk5ubHBkR2tXTUU4QTF5SXluNVY1QVV2d0FPMVBFSTdmemNsMy1HZkhCWC0xZ09Wdkw4R1R5bjQ4a2MtU1E1NWZFZFp2S2ZnaVM5a3pzUVdkQ3B1ZmMwRGZDUElnN1RoT2tOTWdlUlBCT3Q1M05NN2FIVGYxVDBEVDhmT2NheTlMV0ppNW4zQQ?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-12T20:16:21+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "SooToday.com"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 131,
-      "unique_report_clusters": 119,
-      "estimated_duplicate_headlines": 12,
-      "publishers": 103,
+      "articles": 134,
+      "unique_report_clusters": 120,
+      "estimated_duplicate_headlines": 14,
+      "publishers": 104,
       "early_signal_strength": 65,
-      "evidence_headlines": 39,
-      "general_headlines": 92,
+      "evidence_headlines": 40,
+      "general_headlines": 94,
       "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 10,
+      "first_seen_days": 11,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 37,
+        "physical_shortage": 38,
         "price_power": 1,
         "lead_time": 1
       },
@@ -422,6 +422,16 @@
           "feed_published_at": "2026-10-04T02:42:38+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Newswav"
+        },
+        {
+          "headline": "Global Container Freight Rates Rise 130% Since February on Middle East Tensions: Jefferies - KNN India",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaEc1c1NxT0lxTjFaWUtYMzdpczNINWVuWDl5MnNjQXRwTExlYVlNaVhmMDlJX1RqN0JGVVUtTnlabEpwMEtuRnRUaTVLeFUyTkdrNGIzZ3kwakVzOG43Vk5lOUY3WXBCZ0dxUi0wOHpjU1U1TF95ZThIUUllSnpIdC01MG4yTWJubG1tOFVRU3VOeXRSQjlzV2Z3eTM0aGs4bWkzaElERkVTZHFIaE9LR0prUTBQMzJZanNXTUd6OUI0WTNVdmwxTlVOR1hIR0twU0E?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-19T12:31:35+00:00",
+          "first_seen_at": "2026-10-19T15:34:50+00:00",
+          "source": "KNN India"
         },
         {
           "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
@@ -456,22 +466,12 @@
         {
           "headline": "GRDA Hauls 220 Containers Daily as It Moves to Ease Tema Port Congestion - Modern Ghana",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGeTVIM2I4ZXFuWHVRTktNakp4TG1OYkplaml5NlZaOHZ3Q09CVUJrRXdmTi1najlvTlZVT2V1a1BhZThLVVItMkEzd2J1V1ZYa2VFRjlOcDdXbG90NVRYTGRFUdIBXEFVX3lxTFBtWDI4cEJTNmFDZFU4OTdqQmpoRS1yeGRqZGUyU3VYT05rN1hCOFpGMzg4QTVTQ0pMT0xQeTRfRUR0YTg1WTRYakRRdlJwSHN3bEM1OUdGVHp5b3R2?oc=5",
-          "reports": 3,
+          "reports": 4,
           "publishers": 1,
           "signal_tags": [],
           "feed_published_at": "2026-10-13T16:03:48+00:00",
           "first_seen_at": "2026-10-14T13:42:23+00:00",
           "source": "Modern Ghana"
-        },
-        {
-          "headline": "Drewry WCI rebounds 3.1% as Asia-Europe freight rates rise - Fibre2Fashion",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzNkd016LXlqZ3RzQTNsYUc2a0F3Q05fVzdnQk04MzBBOElFcm1DQWVTa3BKY3JQS3Z2SmU2M0FubGtEMWE3ckZaYkt5OTNGcXVfTHlfZVB3alNKQ1ktUHZHbi1PbWplSG9mbU0xM2s1ajdpOExhcHhJaEJfVUtEcEtZbW52VWRfcXpsVVhCMk5iMm9fTlQtNjhIelh0TTBQNEptWmk4Y25yZmNjWHJTMVFNbVV0ams1ZUtnZkFhaTdSX01XN3o4?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-16T08:49:59+00:00",
-          "first_seen_at": "2026-10-16T13:14:22+00:00",
-          "source": "Fibre2Fashion"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
