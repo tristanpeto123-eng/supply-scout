@@ -1,5 +1,5 @@
 {
-  "last_attempt_at": "2026-10-19T17:02:05+00:00",
+  "last_attempt_at": "2026-10-20T15:12:01+00:00",
   "market_data_errors": [],
   "symbols_with_ohlcv": [
     "ACWI",
@@ -19,9 +19,9 @@
   },
   "confirmation_status": {
     "CONFIRMED": 0,
-    "NOT_CONFIRMED": 5,
+    "NOT_CONFIRMED": 8,
     "PENDING_3_SESSIONS": 3,
-    "PENDING_5_SESSIONS": 4,
+    "PENDING_5_SESSIONS": 1,
     "MISSING_OHLCV": 0
   },
   "confirmed_chart_entries": 0,
