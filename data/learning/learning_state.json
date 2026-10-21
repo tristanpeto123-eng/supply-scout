@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-20T14:32:20+00:00",
-  "archive_count": 633,
-  "cluster_count": 568,
-  "dates_first_seen": 11,
+  "built_at": "2026-10-21T13:46:31+00:00",
+  "archive_count": 678,
+  "cluster_count": 608,
+  "dates_first_seen": 12,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 158,
-      "unique_report_clusters": 153,
-      "estimated_duplicate_headlines": 5,
-      "publishers": 78,
+      "articles": 169,
+      "unique_report_clusters": 163,
+      "estimated_duplicate_headlines": 6,
+      "publishers": 82,
       "early_signal_strength": 75,
-      "evidence_headlines": 87,
-      "general_headlines": 71,
-      "older_than_7_days_on_first_seen": 61,
-      "first_seen_days": 11,
+      "evidence_headlines": 93,
+      "general_headlines": 76,
+      "older_than_7_days_on_first_seen": 63,
+      "first_seen_days": 12,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 73,
+        "physical_shortage": 79,
         "price_power": 17,
         "lead_time": 3
       },
@@ -62,6 +62,18 @@
           "source": "TechPowerUp"
         },
         {
+          "headline": "Dell CEO Says the Memory Shortage Will Get Worse in 2027 - TechPowerUp",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpva9IBmwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpvaw?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-21T00:33:20+00:00",
+          "first_seen_at": "2026-10-21T13:46:06+00:00",
+          "source": "TechPowerUp"
+        },
+        {
           "headline": "HBM Prices to More Than Double Next Year as Shortage Persists - Seoul Economic Daily",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUktMW9YQkZMSTdJVWdfSTJSWHFOMWEyXzByRjYzV0p1cVdYQUU3b0VRMVJqeGo5YkJNV0ZQM3BhN2ZYTkVkY1B1Y0RNU2M4S1B4SjVFVjgxOWZRQzlzclBQeEt6V0hjYVMzZGstM25FSWQ1QzEtRkQ5cWpkbGtZRmJpenlkbnR5akZZanBCQ09UcFlybExsYXJn?oc=5",
           "reports": 2,
@@ -94,34 +106,24 @@
           "feed_published_at": "2026-09-29T10:02:42+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "매일경제"
-        },
-        {
-          "headline": "\"Memory Boom to Last 3–4 Years\"; China's Technological Catch-Up a Key Variable - THE ELEC, Korea Electronics Industry Media",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55ZzNBR1JiNjdlM3JKNGphUkpLWW5TQU55MmZpV3RBUTVtcTliV3k3SjBFRTM1N0xmR01wbW53bS1HcWwtem5qVmRmcnVwYV9taGpQTGMxdGNkWnJZUVkyRXVZM3pmWkU?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-05T03:26:40+00:00",
-          "first_seen_at": "2026-10-14T13:42:23+00:00",
-          "source": "THE ELEC, Korea Electronics Industry Media"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 128,
-      "unique_report_clusters": 108,
-      "estimated_duplicate_headlines": 20,
-      "publishers": 57,
-      "early_signal_strength": 55,
-      "evidence_headlines": 6,
-      "general_headlines": 122,
-      "older_than_7_days_on_first_seen": 36,
-      "first_seen_days": 11,
+      "articles": 140,
+      "unique_report_clusters": 116,
+      "estimated_duplicate_headlines": 24,
+      "publishers": 64,
+      "early_signal_strength": 57,
+      "evidence_headlines": 7,
+      "general_headlines": 133,
+      "older_than_7_days_on_first_seen": 38,
+      "first_seen_days": 12,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "lead_time": 5,
+        "lead_time": 6,
         "demand_accel": 2,
         "physical_shortage": 1
       },
@@ -139,7 +141,7 @@
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzVscnFxaTA0MVA5U0x4VFJrcllpZW13SXBrRER6MWdUM0RMM3hnYmRndjlXVmRUSThMemtnVW5GN3Ntb3B4N3ZsdEZNQlpkM2dIalpnaTFFUTJITVpWSkFqMjlPWU1DN0Y0dUUxMzBYSDBqTkpEbDc4MEIxMkdBa1hwUHdFUmJlVEVic2tEYTRoV3JIWmR0S3pwZWpVNXVsOGxUTi14QjJOWWsyNWkxcHd5Z0Q?oc=5",
-          "reports": 3,
+          "reports": 4,
           "publishers": 2,
           "signal_tags": [
             "lead_time"
@@ -179,6 +181,16 @@
           "source": "TradingView"
         },
         {
+          "headline": "This French AI stock is up 570% in 2026: Analysts see a further 90% upside - Yahoo Finance UK",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sOXNLZFZwb0lMYm4zdldOdkpGRjRKQW9tWFNqRm8zeWdtc2NZNXJXR0ZXTi1vYnRvUTZ2aFQtR1lSWjBjNGIwa21KSW1ocmUzaXVHanlDWk5udjVpMGNZZ09xY2VGU3Q1QVpuU3JWU0pUbUhHMG16alNZYnhTQQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-13T08:10:09+00:00",
+          "first_seen_at": "2026-10-13T15:56:38+00:00",
+          "source": "Yahoo Finance UK"
+        },
+        {
           "headline": "Why MaxLinear Stock Gained 50.7% Last Month - The Globe and Mail",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1JwU2UxVGktUmlNcTB6TlNJOHpCeHZhbFpJT1UwVUlPSVZUbW1YWFR5QUhoZUNTY3Y3MC01c25uTnQ0VmlDaWFVX1pxMFdWY1FjRk5DX3Y0MW5KNl9XS2s3Q0xHRWpQYm5vdUxSYlVObkkzYXVWMHphRENFcG1yMTJPZ3ZyTmNvaVJXbjdlaVhBOEdKYjEyRG5HMkxGVFlIby1HZFV1WHhIUGdOaU5aXzl4dzdUR0VZTGdfQ2hhZG8yS1k?oc=5",
           "reports": 2,
@@ -187,31 +199,21 @@
           "feed_published_at": "2026-10-02T20:27:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "The Globe and Mail"
-        },
-        {
-          "headline": "3 AI Chip Stocks To Watch As Samsung And TSMC Signal Demand - Simply Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVzAwMVB3emozSVktWE12QUVQa1ZKYmhNbFUwOHYydXRNT2RLanN2TEdjS1d1c29JV3RuX19zQUxQRUcwazVnRkZRUEtFMjA3VEFyNEczblVKdXBwMVZ0VjVDTVZUNGtnRWZLYm1oZS1KSVVEcTdUTFNfMDlkRTY4UnBKSG5hRUdrU05LLU5Vd0N3UXZYak5tbk5CaFFCYlpfeFVEOWlBaUtoMGl0QVlIOVNYWUIyOHRaT1hfZ3VrZUtsMTlBWnpYVFhvRmVLSlnSAc8BQVVfeXFMT1cwMDFQd3pqM0lZLVhNdkFFUGtWSmJoTWxVMDh2MnV0TU9kS2pzdkxHY0tXdXNvSVd0bl9fc0FMUEVHMGs1Z0ZGUVBLRTIwN1RBcjRHM25VSnVwcDFWdFY1Q01WVDRrZ0VmS2JtaGUtSklVRHE3VExTXzA5ZEU2OFJwSkhuYUVHa1NOSy1OVXdDd1F2WGpObW5OQmhRQmJaX3hVRDlpQWlLaDBpdEFZSDlTWFlCMjh0Wk9YX2d1a2VLbDE5QVp6WFRYb0ZlS0pZ?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-08T16:48:20+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Simply Wall Street"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 60,
-      "unique_report_clusters": 55,
+      "articles": 67,
+      "unique_report_clusters": 62,
       "estimated_duplicate_headlines": 5,
-      "publishers": 40,
+      "publishers": 45,
       "early_signal_strength": 63,
       "evidence_headlines": 12,
-      "general_headlines": 48,
+      "general_headlines": 55,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 11,
+      "first_seen_days": 12,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 7,
@@ -297,19 +299,20 @@
     },
     {
       "theme": "Copper",
-      "articles": 153,
-      "unique_report_clusters": 132,
+      "articles": 165,
+      "unique_report_clusters": 144,
       "estimated_duplicate_headlines": 21,
-      "publishers": 93,
-      "early_signal_strength": 63,
-      "evidence_headlines": 30,
-      "general_headlines": 123,
-      "older_than_7_days_on_first_seen": 40,
-      "first_seen_days": 11,
+      "publishers": 99,
+      "early_signal_strength": 65,
+      "evidence_headlines": 33,
+      "general_headlines": 132,
+      "older_than_7_days_on_first_seen": 41,
+      "first_seen_days": 12,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 30,
-        "demand_accel": 1
+        "physical_shortage": 33,
+        "demand_accel": 1,
+        "price_power": 1
       },
       "stories": [
         {
@@ -387,18 +390,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 134,
-      "unique_report_clusters": 120,
+      "articles": 137,
+      "unique_report_clusters": 123,
       "estimated_duplicate_headlines": 14,
-      "publishers": 104,
+      "publishers": 105,
       "early_signal_strength": 65,
-      "evidence_headlines": 40,
-      "general_headlines": 94,
+      "evidence_headlines": 41,
+      "general_headlines": 96,
       "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 11,
+      "first_seen_days": 12,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 38,
+        "physical_shortage": 39,
         "price_power": 1,
         "lead_time": 1
       },
