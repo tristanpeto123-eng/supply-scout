@@ -863,34 +863,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-10-16",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-10-20",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-10-20",
         "chart": {
-          "price_date": "2026-10-16",
-          "close": 69.540001,
-          "sma20": 71.577024,
-          "sma50": 71.891402,
-          "sma200": 64.39056,
-          "rsi14": 42.53,
-          "atr14_pct": 3.79,
-          "volume_vs_20d": 1.1,
-          "relative_strength_20d_pct": -1.61,
-          "relative_strength_60d_pct": 7.55,
+          "price_date": "2026-10-20",
+          "close": 68.870003,
+          "sma20": 71.198307,
+          "sma50": 71.86724,
+          "sma200": 64.574798,
+          "rsi14": 46.57,
+          "atr14_pct": 3.61,
+          "volume_vs_20d": 0.83,
+          "relative_strength_20d_pct": -5.06,
+          "relative_strength_60d_pct": 7.35,
           "breakout_20d_close": false,
           "prior_20d_high_close": 74.189812,
-          "distance_above_sma20_pct": -2.85,
-          "completed_bars_available": 302
+          "distance_above_sma20_pct": -3.27,
+          "completed_bars_available": 304
         },
-        "post_signal_excess_pct": -0.55,
+        "post_signal_excess_pct": -2.14,
         "new_breakout": false,
         "volume_confirmed": true,
         "trend_confirmed": false,
-        "rsi_ok": false,
+        "rsi_ok": true,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -961,7 +964,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1032,7 +1035,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1103,7 +1106,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
