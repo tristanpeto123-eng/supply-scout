@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-21T14:43:04+00:00",
-  "archive_count": 678,
-  "cluster_count": 608,
-  "dates_first_seen": 12,
+  "built_at": "2026-10-22T13:47:02+00:00",
+  "archive_count": 719,
+  "cluster_count": 645,
+  "dates_first_seen": 13,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,20 +11,20 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 169,
-      "unique_report_clusters": 163,
+      "articles": 179,
+      "unique_report_clusters": 173,
       "estimated_duplicate_headlines": 6,
-      "publishers": 82,
+      "publishers": 86,
       "early_signal_strength": 75,
-      "evidence_headlines": 93,
-      "general_headlines": 76,
+      "evidence_headlines": 98,
+      "general_headlines": 81,
       "older_than_7_days_on_first_seen": 63,
-      "first_seen_days": 12,
+      "first_seen_days": 13,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 79,
+        "physical_shortage": 84,
         "price_power": 17,
-        "lead_time": 3
+        "lead_time": 4
       },
       "stories": [
         {
@@ -112,15 +112,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 140,
-      "unique_report_clusters": 116,
-      "estimated_duplicate_headlines": 24,
-      "publishers": 64,
+      "articles": 146,
+      "unique_report_clusters": 120,
+      "estimated_duplicate_headlines": 26,
+      "publishers": 65,
       "early_signal_strength": 57,
       "evidence_headlines": 7,
-      "general_headlines": 133,
-      "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 12,
+      "general_headlines": 139,
+      "older_than_7_days_on_first_seen": 40,
+      "first_seen_days": 13,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 6,
@@ -205,19 +205,19 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 67,
-      "unique_report_clusters": 62,
+      "articles": 72,
+      "unique_report_clusters": 67,
       "estimated_duplicate_headlines": 5,
-      "publishers": 45,
+      "publishers": 48,
       "early_signal_strength": 63,
-      "evidence_headlines": 12,
-      "general_headlines": 55,
+      "evidence_headlines": 13,
+      "general_headlines": 59,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 12,
+      "first_seen_days": 13,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
         "lead_time": 7,
-        "physical_shortage": 5
+        "physical_shortage": 6
       },
       "stories": [
         {
@@ -299,18 +299,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 165,
-      "unique_report_clusters": 144,
-      "estimated_duplicate_headlines": 21,
-      "publishers": 99,
+      "articles": 172,
+      "unique_report_clusters": 150,
+      "estimated_duplicate_headlines": 22,
+      "publishers": 104,
       "early_signal_strength": 65,
-      "evidence_headlines": 33,
-      "general_headlines": 132,
+      "evidence_headlines": 35,
+      "general_headlines": 137,
       "older_than_7_days_on_first_seen": 41,
-      "first_seen_days": 12,
+      "first_seen_days": 13,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 33,
+        "physical_shortage": 35,
         "demand_accel": 1,
         "price_power": 1
       },
@@ -366,6 +366,16 @@
           "source": "Geomechanics.io"
         },
         {
+          "headline": "Copper Miners Face a $332 Billion Hole They Can’t Dig Out Of - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmdHVTZweU9SbmtfY21uajNEU0pyTjdBZUVSeWN0R3lKTkpVcHBYTWxab3A3NXJDSjRCUXptQW0tSWJmNFBCRUU2ZG1meEw2WXpnMXpnTjlaVjRoTVVacUo2TkMxcWpGQTFEVjh4d2hxOHRwNE9LQk0xTFZsMnk0YXN5dTRTeXRNcFVRRlB2UjBZWGl0SkNwb3Y5VzVOYmVJX2xHUU4wUjZMakpLUV9UXy0xbnBJWHNUMHc?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-21T11:00:09+00:00",
+          "first_seen_at": "2026-10-21T13:46:06+00:00",
+          "source": "TradingView"
+        },
+        {
           "headline": "Copper price slips on chip selloff; supply disruption lends support - Mining.com.au",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM096SnNId1pKMWJSMGxkOXVRdHRfQU9MaVRSZlhBOXJ6V0ticjZDdkVFVlhJdTRBZHRkZ195bWxSeThQR0JDOVpkT0FTcXZjXzNXVGpaN2RHVlZyT0V0X2JNZ2Y2QnljVFJfS1M1dlprLU9zejg4VEZtR2JodW5MSXJ1aUlKVlE3aUE?oc=5",
           "reports": 2,
@@ -374,34 +384,24 @@
           "feed_published_at": "2026-10-13T18:41:51+00:00",
           "first_seen_at": "2026-10-14T13:42:23+00:00",
           "source": "Mining.com.au"
-        },
-        {
-          "headline": "Glencore sees electrification trend driving strong uptake for Australia listing - AOL.ca",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXIwX3FpejFuanpxU3BpbmFkMWpxa00zX2JXRThSb05PYjFOak5lajEtMlByRG1MVmo0R1VWMGoyYWtZVFNDSjZvWWd6VzMzUlhfNkR2dlZrUWRTTDlnWmlYWVlwYk1HS1JVOEEzQno3aHpnSUFMR0dvVjNGV0NkWVVUX3NDWS1BXzNmWHJKNA?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-09T05:09:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "AOL.ca"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 137,
-      "unique_report_clusters": 123,
-      "estimated_duplicate_headlines": 14,
-      "publishers": 105,
+      "articles": 150,
+      "unique_report_clusters": 135,
+      "estimated_duplicate_headlines": 15,
+      "publishers": 118,
       "early_signal_strength": 65,
-      "evidence_headlines": 41,
-      "general_headlines": 96,
-      "older_than_7_days_on_first_seen": 39,
-      "first_seen_days": 12,
+      "evidence_headlines": 48,
+      "general_headlines": 102,
+      "older_than_7_days_on_first_seen": 42,
+      "first_seen_days": 13,
       "momentum": "UNKNOWN — fewer than 14 separate collection days",
       "flags": {
-        "physical_shortage": 39,
+        "physical_shortage": 46,
         "price_power": 1,
         "lead_time": 1
       },
@@ -409,8 +409,8 @@
         {
           "headline": "DAT: Truckload rates rise in September as diesel tops $6 a gallon - TheTrucker.com",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjVsenBRbFJ0NlZQaGFZbnhhQlhxMGN2b3MzLW1PdTl0RlhrME0zVHl4V0ZqSmVKdHRTOVN2WVVYNTVtUWZYZWRodlhQSnVLaUFoSUY5RnNCdjYwUWJlbktoeGZNbm5aQUpPTGlFTnJRVHhzcF9VSkoxZ1dyOEZEblZwT2txYklMWnlYOFozRi1BLWNPdWxwbkRhUnJ6dkNHUnljUl9xNHZDdDBrQXQxUzZEdw?oc=5",
-          "reports": 3,
-          "publishers": 2,
+          "reports": 4,
+          "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-10-14T19:12:51+00:00",
           "first_seen_at": "2026-10-15T13:24:22+00:00",
