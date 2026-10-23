@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-22T14:43:16+00:00",
-  "archive_count": 719,
-  "cluster_count": 645,
-  "dates_first_seen": 13,
+  "built_at": "2026-10-23T13:24:54+00:00",
+  "archive_count": 758,
+  "cluster_count": 677,
+  "dates_first_seen": 14,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,22 +11,34 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 179,
-      "unique_report_clusters": 173,
-      "estimated_duplicate_headlines": 6,
-      "publishers": 86,
+      "articles": 183,
+      "unique_report_clusters": 176,
+      "estimated_duplicate_headlines": 7,
+      "publishers": 88,
       "early_signal_strength": 75,
-      "evidence_headlines": 98,
-      "general_headlines": 81,
+      "evidence_headlines": 101,
+      "general_headlines": 82,
       "older_than_7_days_on_first_seen": 63,
-      "first_seen_days": 13,
-      "momentum": "UNKNOWN — fewer than 14 separate collection days",
+      "first_seen_days": 14,
+      "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 84,
+        "physical_shortage": 87,
         "price_power": 17,
         "lead_time": 4
       },
       "stories": [
+        {
+          "headline": "Chinese smartphone makers adopt recycled DRAM chips amid memory shortage - Global Sources",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWGZWakx1QTI4TXliZ2JZNDRzWmdzbFhva0FIVkU0OVJua3pXTFVxQU9XbGt5U2NtRTN0X2syOG9aWTNUdEkxWC1kUjc0bTRrREt4X3RDakkySTlpZk13LUNmRGR4SWVBOEpsRU1FTkJ0eHdRT3ZCMEpRYVIzVVZKZnlUcFNsZ3NCbktWV0dYUGh1WVZSX19XN18zeEM5YlhxNUVVMmZQRDBrR0NDT1NVS1ZySE1YNFdDYnN4Tm1ZdUpzTTdhcEsxMnZIYVUzZ3lVeTdDUWVR?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-23T02:29:58+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "Global Sources"
+        },
         {
           "headline": "Memory executives expect RAM shortage to continue through 2028 - Adafruit",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV3UydXZpNWZuT1ZCd0FyNDdNdU5OZEdtbnVqTjRZSzBaYUV1VzFFeVFLcmtYZloxRUVLMU1MZURqa1Z6Y3Y3ZFBnYWlvVW1ieVJPZ0JFQWUzcWhBbFQ1dU45QW5MbS1VNERvT3Y4emgyZ0F6MDhOQVJKQjdrQnFHVDVCQVZiRXI0eFBoazZWWkFNWXFfNXVJdFEzYVFyUmVkQUE?oc=5",
@@ -94,34 +106,22 @@
           "feed_published_at": "2026-10-15T08:30:00+00:00",
           "first_seen_at": "2026-10-15T13:24:22+00:00",
           "source": "머니투데이"
-        },
-        {
-          "headline": "\"HBM average selling price to rise 121% next year amid supply shortage\" - 매일경제",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xQUFVb08xbDRCdWhpamc2eFBLeFNlZE9qVGZGb2hrX05IRld6UTNPbDdBeFhqVVFaNVVoRjBmM2RKdFVSYUdRc2ZqREtZYXo4djJN?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-09-29T10:02:42+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "매일경제"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 146,
-      "unique_report_clusters": 120,
-      "estimated_duplicate_headlines": 26,
-      "publishers": 65,
+      "articles": 156,
+      "unique_report_clusters": 129,
+      "estimated_duplicate_headlines": 27,
+      "publishers": 70,
       "early_signal_strength": 57,
       "evidence_headlines": 7,
-      "general_headlines": 139,
-      "older_than_7_days_on_first_seen": 40,
-      "first_seen_days": 13,
-      "momentum": "UNKNOWN — fewer than 14 separate collection days",
+      "general_headlines": 149,
+      "older_than_7_days_on_first_seen": 41,
+      "first_seen_days": 14,
+      "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 6,
         "demand_accel": 2,
@@ -181,6 +181,16 @@
           "source": "TradingView"
         },
         {
+          "headline": "Soitec SA (SOI.PA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RWjF3Uk9RZlRVNHBhWklqU0pzR2lranJoc3UzVjk5NzdLVmdMalVHNUZlUjJLd2Y1NllNUjJaZTdCalZDbnFORkxySTRjamQxbEdnRw?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-09T13:42:05+00:00",
+          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "source": "Yahoo! Finance Canada"
+        },
+        {
           "headline": "This French AI stock is up 570% in 2026: Analysts see a further 90% upside - Yahoo Finance UK",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sOXNLZFZwb0lMYm4zdldOdkpGRjRKQW9tWFNqRm8zeWdtc2NZNXJXR0ZXTi1vYnRvUTZ2aFQtR1lSWjBjNGIwa21KSW1ocmUzaXVHanlDWk5udjVpMGNZZ09xY2VGU3Q1QVpuU3JWU0pUbUhHMG16alNZYnhTQQ?oc=5",
           "reports": 2,
@@ -189,32 +199,22 @@
           "feed_published_at": "2026-10-13T08:10:09+00:00",
           "first_seen_at": "2026-10-13T15:56:38+00:00",
           "source": "Yahoo Finance UK"
-        },
-        {
-          "headline": "Why MaxLinear Stock Gained 50.7% Last Month - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1JwU2UxVGktUmlNcTB6TlNJOHpCeHZhbFpJT1UwVUlPSVZUbW1YWFR5QUhoZUNTY3Y3MC01c25uTnQ0VmlDaWFVX1pxMFdWY1FjRk5DX3Y0MW5KNl9XS2s3Q0xHRWpQYm5vdUxSYlVObkkzYXVWMHphRENFcG1yMTJPZ3ZyTmNvaVJXbjdlaVhBOEdKYjEyRG5HMkxGVFlIby1HZFV1WHhIUGdOaU5aXzl4dzdUR0VZTGdfQ2hhZG8yS1k?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-02T20:27:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "The Globe and Mail"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 72,
-      "unique_report_clusters": 67,
-      "estimated_duplicate_headlines": 5,
-      "publishers": 48,
+      "articles": 76,
+      "unique_report_clusters": 70,
+      "estimated_duplicate_headlines": 6,
+      "publishers": 50,
       "early_signal_strength": 63,
       "evidence_headlines": 13,
-      "general_headlines": 59,
+      "general_headlines": 63,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 13,
-      "momentum": "UNKNOWN — fewer than 14 separate collection days",
+      "first_seen_days": 14,
+      "momentum": "RISING",
       "flags": {
         "lead_time": 7,
         "physical_shortage": 6
@@ -265,6 +265,16 @@
           "source": "VCCircle"
         },
         {
+          "headline": "UEDCL Boss Explains Why Power Outages Persist And How They Are Fixing It - Nilepost",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUY4eDFIYUY4ZmplU0pibmFpSzJhblBQVWY0YmsteFkwLTdhM0p2c1dUbU1MMWtaZlFqTjhJd1daOFYxZVBHZHlGVXo0eTh4N19uWlhMZEhLLTdtYlFIaVJwVzdBU1NKOGd5WWV2bVVYemExYnRDMUhJY0VwTW51RGZjNHFGbzA4YXUwTzBjR05CS19Uempwa2VVR1VpZzNHWDFpTDZTd2FlYU3SAbMBQVVfeXFMTmpTTFJRX0VYaXVjcjJwdlhiZXBiN29PQldBTXkybDJTQ1FxdFlwT2VBdUp1TUZ3eG1sbUM2QmpOWkhTN1F4TFlTY0h6eGh5N084MTlEajFwMmhkMUtYNVgtalh6dktGRWFYT0VQcHJ0TjRnY210eW1Ec3VpYVpqWE50aG1YcktzWW4wekpKZFBXQVdYblgzczZvTlhFQUM4ZDNJRzJUdWpJbzhTSGhyNUtySm8?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-22T12:18:24+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "Nilepost"
+        },
+        {
           "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUHNLTml5dTNQRmx4TmhNNTJDUnh5WThLeFZpcWZNMmVJcURXeGpYNHkyeUFtRVpBRmFncm9JclRPMmN2TG1YM1hPckwxZ202QkctU2RJQ191V1FkaGhGVWhCUjJkM1FzUVZPZE5mWlloYXRVWDJZczBLZTFWTkI0Um1BSE1VWjFpV0M5amtfanVxWHk2UzJsY3ZGZ1kwdDRBc2hzYW54RUpndFdSSW9LcTNpelVEQm1TVDRWU3F4QUVoLTc20gHKAUFVX3lxTE9sM1NIaG9PVXhKRjl1elpGQTVjU0VmaUlzZy1MX1IycXhfbDJaZFpGcEpLMF96VnJ2YVpZZzZ0ZDBua3o2SF9uSHR6SVVZbDVrclpKN0NITFJUaVQ3Q1ViVGxYeEM0eHRCSW1HY1UxLTRIN200OEl4TnRVQTFPZ3ZfcTh5M1RMZ3FnZXdxMXRDTDhPSHZySlhQYzFtSkpMY0RhbDVXeFNoUm9MNXpVa3d4SHNIbTZXX0tlNy1tbHI1aDRoMXh6UXpGRHc?oc=5",
           "reports": 1,
@@ -283,34 +293,24 @@
           "feed_published_at": "2026-10-08T11:56:29+00:00",
           "first_seen_at": "2026-10-16T13:14:22+00:00",
           "source": "ORF Middle East"
-        },
-        {
-          "headline": "AI is going to run out of power - by Kirsten Horton - Transformer | Substack",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GVTBPcEk0SW5HSVdBWldrSGpCemk1OHUwSVowZmRtWVlyTU80eTBfdVU3ODcwSG02UE0yaGhkcGtBVEVYU1NCSk9vWlhxQVI4Ti1pMEpjOFhkUjFBQzBiS240Ynp2WUU0?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-06T15:02:11+00:00",
-          "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "Transformer | Substack"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 172,
-      "unique_report_clusters": 150,
-      "estimated_duplicate_headlines": 22,
-      "publishers": 104,
+      "articles": 186,
+      "unique_report_clusters": 160,
+      "estimated_duplicate_headlines": 26,
+      "publishers": 112,
       "early_signal_strength": 65,
-      "evidence_headlines": 35,
-      "general_headlines": 137,
-      "older_than_7_days_on_first_seen": 41,
-      "first_seen_days": 13,
-      "momentum": "UNKNOWN — fewer than 14 separate collection days",
+      "evidence_headlines": 36,
+      "general_headlines": 150,
+      "older_than_7_days_on_first_seen": 42,
+      "first_seen_days": 14,
+      "momentum": "RISING",
       "flags": {
-        "physical_shortage": 35,
+        "physical_shortage": 36,
         "demand_accel": 1,
         "price_power": 1
       },
@@ -338,7 +338,7 @@
         {
           "headline": "Suspected copper thieves cause major internet outage in Bay of Islands - RNZ",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORktnNWZGZUdRM0lfSk9SZGhpTDBsNkNKbVVEa3dQUmp3WmsxWm5BWlVmcjBQOG43UTNWZHJYVm41bGJGTVBtQXBkcVFhM1RXSUY4dmpibmQyemcybXlkbHVFOUU1THMweExpSlJUWjhUdUduWTZfRzlTOUo0VjhsSlJIRTJodWtFQzBJVjlSc250YkgtTFRHdjB4MURSUTNnb1NHUk5qaHlTU3FnSVF4dGJ2dlhxMFBlbUphYWhPODI?oc=5",
-          "reports": 3,
+          "reports": 4,
           "publishers": 2,
           "signal_tags": [],
           "feed_published_at": "2026-10-16T03:01:05+00:00",
@@ -366,6 +366,16 @@
           "source": "Geomechanics.io"
         },
         {
+          "headline": "Coface Warns Copper and Nickel Prices Could Nearly Double by 2035 - CEO Magazyn",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zME5kR2tRdlpWcEJZcFZmYkRFVU1QY2ozX04xOVlVRlh3aHJPQnJXb1RYR2FyaEVkdUNWcXRPdC1XTXBQSmtSMHdoaDVidHUtckRzOWJvb3h5bjI0M2J6UnJvLXdWSVJEMmd6TjJNMEMyQmtzQ25KR2RrQkVaOEU?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-22T18:11:06+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "CEO Magazyn"
+        },
+        {
           "headline": "Copper Miners Face a $332 Billion Hole They Can’t Dig Out Of - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmdHVTZweU9SbmtfY21uajNEU0pyTjdBZUVSeWN0R3lKTkpVcHBYTWxab3A3NXJDSjRCUXptQW0tSWJmNFBCRUU2ZG1meEw2WXpnMXpnTjlaVjRoTVVacUo2TkMxcWpGQTFEVjh4d2hxOHRwNE9LQk0xTFZsMnk0YXN5dTRTeXRNcFVRRlB2UjBZWGl0SkNwb3Y5VzVOYmVJX2xHUU4wUjZMakpLUV9UXy0xbnBJWHNUMHc?oc=5",
           "reports": 2,
@@ -374,34 +384,24 @@
           "feed_published_at": "2026-10-21T11:00:09+00:00",
           "first_seen_at": "2026-10-21T13:46:06+00:00",
           "source": "TradingView"
-        },
-        {
-          "headline": "Copper price slips on chip selloff; supply disruption lends support - Mining.com.au",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM096SnNId1pKMWJSMGxkOXVRdHRfQU9MaVRSZlhBOXJ6V0ticjZDdkVFVlhJdTRBZHRkZ195bWxSeThQR0JDOVpkT0FTcXZjXzNXVGpaN2RHVlZyT0V0X2JNZ2Y2QnljVFJfS1M1dlprLU9zejg4VEZtR2JodW5MSXJ1aUlKVlE3aUE?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-13T18:41:51+00:00",
-          "first_seen_at": "2026-10-14T13:42:23+00:00",
-          "source": "Mining.com.au"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 150,
-      "unique_report_clusters": 135,
+      "articles": 157,
+      "unique_report_clusters": 142,
       "estimated_duplicate_headlines": 15,
-      "publishers": 118,
+      "publishers": 119,
       "early_signal_strength": 65,
-      "evidence_headlines": 48,
-      "general_headlines": 102,
-      "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 13,
-      "momentum": "UNKNOWN — fewer than 14 separate collection days",
+      "evidence_headlines": 50,
+      "general_headlines": 107,
+      "older_than_7_days_on_first_seen": 43,
+      "first_seen_days": 14,
+      "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 46,
+        "physical_shortage": 48,
         "price_power": 1,
         "lead_time": 1
       },
