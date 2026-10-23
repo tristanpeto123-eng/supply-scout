@@ -963,8 +963,34 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 2
+      "status": "PENDING_5_SESSIONS",
+      "completed_sessions": 3,
+      "initial_check": {
+        "sessions": 3,
+        "as_of": "2026-10-22",
+        "chart": {
+          "price_date": "2026-10-22",
+          "close": 64.589996,
+          "sma20": 70.65539,
+          "sma50": 71.78119,
+          "sma200": 64.694548,
+          "rsi14": 25.94,
+          "atr14_pct": 3.94,
+          "volume_vs_20d": 1.25,
+          "relative_strength_20d_pct": -8.53,
+          "relative_strength_60d_pct": 4.66,
+          "breakout_20d_close": false,
+          "prior_20d_high_close": 73.531235,
+          "distance_above_sma20_pct": -8.58,
+          "completed_bars_available": 306
+        },
+        "post_signal_excess_pct": -4.72,
+        "new_breakout": false,
+        "volume_confirmed": true,
+        "trend_confirmed": false,
+        "rsi_ok": false,
+        "passes": false
+      }
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1034,8 +1060,34 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 2
+      "status": "PENDING_5_SESSIONS",
+      "completed_sessions": 3,
+      "initial_check": {
+        "sessions": 3,
+        "as_of": "2026-10-22",
+        "chart": {
+          "price_date": "2026-10-22",
+          "close": 856.48999,
+          "sma20": 996.825653,
+          "sma50": 984.037745,
+          "sma200": 729.201284,
+          "rsi14": 24.3,
+          "atr14_pct": 5.74,
+          "volume_vs_20d": 1.21,
+          "relative_strength_20d_pct": -19.05,
+          "relative_strength_60d_pct": 12.68,
+          "breakout_20d_close": false,
+          "prior_20d_high_close": 1097.217285,
+          "distance_above_sma20_pct": -14.08,
+          "completed_bars_available": 306
+        },
+        "post_signal_excess_pct": -2.77,
+        "new_breakout": false,
+        "volume_confirmed": false,
+        "trend_confirmed": false,
+        "rsi_ok": false,
+        "passes": false
+      }
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1105,8 +1157,34 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 2
+      "status": "PENDING_5_SESSIONS",
+      "completed_sessions": 3,
+      "initial_check": {
+        "sessions": 3,
+        "as_of": "2026-10-22",
+        "chart": {
+          "price_date": "2026-10-22",
+          "close": 29.08,
+          "sma20": 29.4835,
+          "sma50": 29.0166,
+          "sma200": 26.065611,
+          "rsi14": 44.88,
+          "atr14_pct": 2.26,
+          "volume_vs_20d": 0.52,
+          "relative_strength_20d_pct": 0.65,
+          "relative_strength_60d_pct": 15.07,
+          "breakout_20d_close": false,
+          "prior_20d_high_close": 30.9,
+          "distance_above_sma20_pct": -1.37,
+          "completed_bars_available": 306
+        },
+        "post_signal_excess_pct": 1.44,
+        "new_breakout": false,
+        "volume_confirmed": false,
+        "trend_confirmed": false,
+        "rsi_ok": false,
+        "passes": false
+      }
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
