@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-23T14:29:38+00:00",
-  "archive_count": 758,
-  "cluster_count": 677,
-  "dates_first_seen": 14,
+  "built_at": "2026-10-24T12:40:30+00:00",
+  "archive_count": 781,
+  "cluster_count": 696,
+  "dates_first_seen": 15,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,15 +11,15 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 183,
-      "unique_report_clusters": 176,
+      "articles": 187,
+      "unique_report_clusters": 180,
       "estimated_duplicate_headlines": 7,
-      "publishers": 88,
+      "publishers": 91,
       "early_signal_strength": 75,
       "evidence_headlines": 101,
-      "general_headlines": 82,
-      "older_than_7_days_on_first_seen": 63,
-      "first_seen_days": 14,
+      "general_headlines": 86,
+      "older_than_7_days_on_first_seen": 65,
+      "first_seen_days": 15,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 87,
@@ -112,15 +112,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 156,
-      "unique_report_clusters": 129,
-      "estimated_duplicate_headlines": 27,
+      "articles": 161,
+      "unique_report_clusters": 133,
+      "estimated_duplicate_headlines": 28,
       "publishers": 70,
       "early_signal_strength": 57,
       "evidence_headlines": 7,
-      "general_headlines": 149,
-      "older_than_7_days_on_first_seen": 41,
-      "first_seen_days": 14,
+      "general_headlines": 154,
+      "older_than_7_days_on_first_seen": 42,
+      "first_seen_days": 15,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 6,
@@ -161,6 +161,16 @@
           "source": "www.vttresearch.com"
         },
         {
+          "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-23T12:19:07+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "Zacks Investment Research"
+        },
+        {
           "headline": "Fujitsu’s 1Finity eyes India expansion as AI, data centre boom drives optical networking demand: Global CEO- Moneycontrol.com - LinkedIn",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNek1yb21GbHd3UG02M0piNlpiSWdyMFZfcnF5cjhuVHlpMzJVQzNiXzRmSW1GWGRtY0M2QndIN2ZEVmZYSHNnRlk0R05xY3lhZTAzbkhNakswamFKRVBFc1hMVndnWmtDSE9idm5fM3k2QkVzQUwwblJFRVRZVmIzY0lNdGNDQXFSQkc5NGx1dEVmV1ROVkJkeC1oQy1BelRRQ29iTU1oZTlwQ2JuNTJMS19xZ25FR1VmN1E?oc=5",
           "reports": 2,
@@ -189,34 +199,24 @@
           "feed_published_at": "2026-10-09T13:42:05+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Yahoo! Finance Canada"
-        },
-        {
-          "headline": "This French AI stock is up 570% in 2026: Analysts see a further 90% upside - Yahoo Finance UK",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sOXNLZFZwb0lMYm4zdldOdkpGRjRKQW9tWFNqRm8zeWdtc2NZNXJXR0ZXTi1vYnRvUTZ2aFQtR1lSWjBjNGIwa21KSW1ocmUzaXVHanlDWk5udjVpMGNZZ09xY2VGU3Q1QVpuU3JWU0pUbUhHMG16alNZYnhTQQ?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-13T08:10:09+00:00",
-          "first_seen_at": "2026-10-13T15:56:38+00:00",
-          "source": "Yahoo Finance UK"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 76,
-      "unique_report_clusters": 70,
-      "estimated_duplicate_headlines": 6,
+      "articles": 78,
+      "unique_report_clusters": 71,
+      "estimated_duplicate_headlines": 7,
       "publishers": 50,
       "early_signal_strength": 63,
-      "evidence_headlines": 13,
-      "general_headlines": 63,
+      "evidence_headlines": 14,
+      "general_headlines": 64,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 14,
+      "first_seen_days": 15,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 7,
+        "lead_time": 8,
         "physical_shortage": 6
       },
       "stories": [
@@ -255,6 +255,16 @@
           "source": "www.irishsun.com"
         },
         {
+          "headline": "UEDCL Boss Explains Why Power Outages Persist And How They Are Fixing It - Nilepost",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUY4eDFIYUY4ZmplU0pibmFpSzJhblBQVWY0YmsteFkwLTdhM0p2c1dUbU1MMWtaZlFqTjhJd1daOFYxZVBHZHlGVXo0eTh4N19uWlhMZEhLLTdtYlFIaVJwVzdBU1NKOGd5WWV2bVVYemExYnRDMUhJY0VwTW51RGZjNHFGbzA4YXUwTzBjR05CS19Uempwa2VVR1VpZzNHWDFpTDZTd2FlYU3SAbMBQVVfeXFMTmpTTFJRX0VYaXVjcjJwdlhiZXBiN29PQldBTXkybDJTQ1FxdFlwT2VBdUp1TUZ3eG1sbUM2QmpOWkhTN1F4TFlTY0h6eGh5N084MTlEajFwMmhkMUtYNVgtalh6dktGRWFYT0VQcHJ0TjRnY210eW1Ec3VpYVpqWE50aG1YcktzWW4wekpKZFBXQVdYblgzczZvTlhFQUM4ZDNJRzJUdWpJbzhTSGhyNUtySm8?oc=5",
+          "reports": 3,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-22T12:18:24+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "Nilepost"
+        },
+        {
           "headline": "PE firm Cleanhill, transformer maker Marsons plan North America joint venture - VCCircle",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWNwTmhQNUN3THBSQ2lTMDJOT1NiQWIwUUpOeFVRSGpsTVB4Ulo5UW52U3lwOHJ5WHdKb2dBWGwyYmEyeWRUMTdfcUEwbGo5LTJsUjRaa2lqVElFeURxNkZjanNwdkFaa2ZreGF2c3ZwNzhoWTdBMFFtbGFmUVI5Wjg1eUxWb2dZbFNxVVFtSFhBNXZBeVZCOVFMWE9wTWt3cFE?oc=5",
           "reports": 2,
@@ -263,16 +273,6 @@
           "feed_published_at": "2026-10-06T14:05:05+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "VCCircle"
-        },
-        {
-          "headline": "UEDCL Boss Explains Why Power Outages Persist And How They Are Fixing It - Nilepost",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUY4eDFIYUY4ZmplU0pibmFpSzJhblBQVWY0YmsteFkwLTdhM0p2c1dUbU1MMWtaZlFqTjhJd1daOFYxZVBHZHlGVXo0eTh4N19uWlhMZEhLLTdtYlFIaVJwVzdBU1NKOGd5WWV2bVVYemExYnRDMUhJY0VwTW51RGZjNHFGbzA4YXUwTzBjR05CS19Uempwa2VVR1VpZzNHWDFpTDZTd2FlYU3SAbMBQVVfeXFMTmpTTFJRX0VYaXVjcjJwdlhiZXBiN29PQldBTXkybDJTQ1FxdFlwT2VBdUp1TUZ3eG1sbUM2QmpOWkhTN1F4TFlTY0h6eGh5N084MTlEajFwMmhkMUtYNVgtalh6dktGRWFYT0VQcHJ0TjRnY210eW1Ec3VpYVpqWE50aG1YcktzWW4wekpKZFBXQVdYblgzczZvTlhFQUM4ZDNJRzJUdWpJbzhTSGhyNUtySm8?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-22T12:18:24+00:00",
-          "first_seen_at": "2026-10-23T13:24:27+00:00",
-          "source": "Nilepost"
         },
         {
           "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
@@ -299,18 +299,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 186,
-      "unique_report_clusters": 160,
-      "estimated_duplicate_headlines": 26,
-      "publishers": 112,
+      "articles": 193,
+      "unique_report_clusters": 166,
+      "estimated_duplicate_headlines": 27,
+      "publishers": 117,
       "early_signal_strength": 65,
-      "evidence_headlines": 36,
-      "general_headlines": 150,
+      "evidence_headlines": 40,
+      "general_headlines": 153,
       "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 14,
+      "first_seen_days": 15,
       "momentum": "RISING",
       "flags": {
-        "physical_shortage": 36,
+        "physical_shortage": 40,
         "demand_accel": 1,
         "price_power": 1
       },
@@ -390,18 +390,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 157,
-      "unique_report_clusters": 142,
-      "estimated_duplicate_headlines": 15,
-      "publishers": 119,
+      "articles": 162,
+      "unique_report_clusters": 146,
+      "estimated_duplicate_headlines": 16,
+      "publishers": 121,
       "early_signal_strength": 65,
-      "evidence_headlines": 50,
-      "general_headlines": 107,
+      "evidence_headlines": 51,
+      "general_headlines": 111,
       "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 14,
+      "first_seen_days": 15,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 48,
+        "physical_shortage": 49,
         "price_power": 1,
         "lead_time": 1
       },
