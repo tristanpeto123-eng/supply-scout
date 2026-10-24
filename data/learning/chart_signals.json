@@ -964,7 +964,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 3,
+      "completed_sessions": 4,
       "initial_check": {
         "sessions": 3,
         "as_of": "2026-10-22",
@@ -973,7 +973,7 @@
           "close": 64.589996,
           "sma20": 70.65539,
           "sma50": 71.78119,
-          "sma200": 64.694548,
+          "sma200": 64.694549,
           "rsi14": 25.94,
           "atr14_pct": 3.94,
           "volume_vs_20d": 1.25,
@@ -1061,7 +1061,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 3,
+      "completed_sessions": 4,
       "initial_check": {
         "sessions": 3,
         "as_of": "2026-10-22",
@@ -1070,10 +1070,10 @@
           "close": 856.48999,
           "sma20": 996.825653,
           "sma50": 984.037745,
-          "sma200": 729.201284,
+          "sma200": 729.201287,
           "rsi14": 24.3,
           "atr14_pct": 5.74,
-          "volume_vs_20d": 1.21,
+          "volume_vs_20d": 1.22,
           "relative_strength_20d_pct": -19.05,
           "relative_strength_60d_pct": 12.68,
           "breakout_20d_close": false,
@@ -1158,7 +1158,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 3,
+      "completed_sessions": 4,
       "initial_check": {
         "sessions": 3,
         "as_of": "2026-10-22",
