@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-24T13:40:28+00:00",
-  "archive_count": 781,
-  "cluster_count": 696,
-  "dates_first_seen": 15,
+  "built_at": "2026-10-25T13:11:11+00:00",
+  "archive_count": 802,
+  "cluster_count": 710,
+  "dates_first_seen": 16,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,19 +11,19 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 187,
-      "unique_report_clusters": 180,
-      "estimated_duplicate_headlines": 7,
-      "publishers": 91,
+      "articles": 193,
+      "unique_report_clusters": 183,
+      "estimated_duplicate_headlines": 10,
+      "publishers": 92,
       "early_signal_strength": 75,
-      "evidence_headlines": 101,
-      "general_headlines": 86,
+      "evidence_headlines": 104,
+      "general_headlines": 89,
       "older_than_7_days_on_first_seen": 65,
-      "first_seen_days": 15,
+      "first_seen_days": 16,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 87,
-        "price_power": 17,
+        "physical_shortage": 89,
+        "price_power": 19,
         "lead_time": 4
       },
       "stories": [
@@ -112,18 +112,18 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 161,
-      "unique_report_clusters": 133,
-      "estimated_duplicate_headlines": 28,
-      "publishers": 70,
-      "early_signal_strength": 57,
-      "evidence_headlines": 7,
-      "general_headlines": 154,
+      "articles": 167,
+      "unique_report_clusters": 136,
+      "estimated_duplicate_headlines": 31,
+      "publishers": 71,
+      "early_signal_strength": 59,
+      "evidence_headlines": 8,
+      "general_headlines": 159,
       "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 15,
+      "first_seen_days": 16,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 6,
+        "lead_time": 7,
         "demand_accel": 2,
         "physical_shortage": 1
       },
@@ -137,6 +137,16 @@
           "feed_published_at": "2026-10-07T15:07:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TradingView"
+        },
+        {
+          "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-23T12:19:07+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "Zacks Investment Research"
         },
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
@@ -161,16 +171,6 @@
           "source": "www.vttresearch.com"
         },
         {
-          "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-23T12:19:07+00:00",
-          "first_seen_at": "2026-10-23T13:24:27+00:00",
-          "source": "Zacks Investment Research"
-        },
-        {
           "headline": "Fujitsu’s 1Finity eyes India expansion as AI, data centre boom drives optical networking demand: Global CEO- Moneycontrol.com - LinkedIn",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNek1yb21GbHd3UG02M0piNlpiSWdyMFZfcnF5cjhuVHlpMzJVQzNiXzRmSW1GWGRtY0M2QndIN2ZEVmZYSHNnRlk0R05xY3lhZTAzbkhNakswamFKRVBFc1hMVndnWmtDSE9idm5fM3k2QkVzQUwwblJFRVRZVmIzY0lNdGNDQXFSQkc5NGx1dEVmV1ROVkJkeC1oQy1BelRRQ29iTU1oZTlwQ2JuNTJMS19xZ25FR1VmN1E?oc=5",
           "reports": 2,
@@ -191,29 +191,29 @@
           "source": "TradingView"
         },
         {
-          "headline": "Soitec SA (SOI.PA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RWjF3Uk9RZlRVNHBhWklqU0pzR2lranJoc3UzVjk5NzdLVmdMalVHNUZlUjJLd2Y1NllNUjJaZTdCalZDbnFORkxySTRjamQxbEdnRw?oc=5",
+          "headline": "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2% - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORGhHUjJsbHdnSDc2RTl4ZE1CeE9CdDlEU01lZFVVcjVMOFVpRUNoMl91S1dUQ2w3dmVEU1hWdWtrSmtPelVXZ0JtZUkxSEhYVUFQaGNkeml3M283R0ExRmJYWlNCR1FrYWY3NTlCVjNmQXdmUTAySWJvTXlySXFveDB3UnRvbFlsNUlMSmctUml5ZUl5UXh5M2pTZ1J1Tkg3Tjl2Tnl0Q2E3TGk5ZWpfcGRmWm1ZS2lDWjk5S1hpcU5Ec3V0YTBUZHVEVXNMVE5vbWRTUHdlWGd1cjAxSFVz?oc=5",
           "reports": 2,
           "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-09T13:42:05+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Yahoo! Finance Canada"
+          "feed_published_at": "2026-10-19T17:05:00+00:00",
+          "first_seen_at": "2026-10-20T13:33:04+00:00",
+          "source": "24/7 Wall St."
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 78,
-      "unique_report_clusters": 71,
-      "estimated_duplicate_headlines": 7,
-      "publishers": 50,
+      "articles": 80,
+      "unique_report_clusters": 72,
+      "estimated_duplicate_headlines": 8,
+      "publishers": 51,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 64,
+      "general_headlines": 66,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 15,
+      "first_seen_days": 16,
       "momentum": "RISING",
       "flags": {
         "lead_time": 8,
@@ -265,6 +265,16 @@
           "source": "Nilepost"
         },
         {
+          "headline": "LS Electric logs record quarter as AI power boom lifts profits and orders - CHOSUNBIZ - Chosunbiz",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVG1lTUhpSmZyODAzb3hwZUhXcVlJeXJXQURsZm9VdS1hLW9xMmJfN01Bc3J3VG5ELW5lSDNOek5fZWVMTndJVTFMRGMtMDJ1U3k4d3FNX0pNMEFueHpsNmtnanJCNnlIcDFTdExzLTk4UzZIbWg4VG1oQkFvZTZka0pKY3gtUXdFT1pERFJaUkt5TmpKSGfSAZYBQVVfeXFMTlRtZU1IaUpmcjgwM294cGVIV3FZSXlyV0FEbGZvVXUtYS1vcTJiXzdNQXNyd1RuRC1uZUgzTnpOX2VlTE53SVUxTERjLTAydVN5OHdxTV9KTTBBbnh6bDZrZ2pyQjZ5SHAxU3RMcy05OFM2SG1oOFRtaEJBb2U2ZGtKSmN4LVF3RU9aRERSWlJLeU5qSkhn?oc=5",
+          "reports": 2,
+          "publishers": 1,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-21T06:05:00+00:00",
+          "first_seen_at": "2026-10-21T13:46:06+00:00",
+          "source": "Chosunbiz"
+        },
+        {
           "headline": "PE firm Cleanhill, transformer maker Marsons plan North America joint venture - VCCircle",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWNwTmhQNUN3THBSQ2lTMDJOT1NiQWIwUUpOeFVRSGpsTVB4Ulo5UW52U3lwOHJ5WHdKb2dBWGwyYmEyeWRUMTdfcUEwbGo5LTJsUjRaa2lqVElFeURxNkZjanNwdkFaa2ZreGF2c3ZwNzhoWTdBMFFtbGFmUVI5Wjg1eUxWb2dZbFNxVVFtSFhBNXZBeVZCOVFMWE9wTWt3cFE?oc=5",
           "reports": 2,
@@ -283,32 +293,22 @@
           "feed_published_at": "2026-10-10T19:49:49+00:00",
           "first_seen_at": "2026-10-11T14:54:19+00:00",
           "source": "Simply Wall Street"
-        },
-        {
-          "headline": "AI data centres are generating their own power. How does that affect the wider grid? - ORF Middle East",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTXJRcWhhUS05VUpNa0hRd1VWR05vaG40SXg4dEtiNnIxREpTdm9qTEtIM3Y3R2p5NTFaTHlQODZOamEtTmhSbGFYUkJZZzlZNGFpMDdaeG15SGVaX0VtZEg3U1pOc05JcVBuZmFldUFPV0lNUmlQZDAwWkdJcE5zU1B3OTNUTEtQUDN1M2VVZFFfSjdxSTJyVXVnbkV0WW5faXN6c2g1cHFoUFVGelM4?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-08T11:56:29+00:00",
-          "first_seen_at": "2026-10-16T13:14:22+00:00",
-          "source": "ORF Middle East"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 193,
-      "unique_report_clusters": 166,
+      "articles": 195,
+      "unique_report_clusters": 168,
       "estimated_duplicate_headlines": 27,
-      "publishers": 117,
+      "publishers": 119,
       "early_signal_strength": 65,
       "evidence_headlines": 40,
-      "general_headlines": 153,
+      "general_headlines": 155,
       "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 15,
-      "momentum": "RISING",
+      "first_seen_days": 16,
+      "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 40,
         "demand_accel": 1,
@@ -390,18 +390,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 162,
-      "unique_report_clusters": 146,
+      "articles": 167,
+      "unique_report_clusters": 151,
       "estimated_duplicate_headlines": 16,
-      "publishers": 121,
+      "publishers": 122,
       "early_signal_strength": 65,
-      "evidence_headlines": 51,
-      "general_headlines": 111,
+      "evidence_headlines": 52,
+      "general_headlines": 115,
       "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 15,
+      "first_seen_days": 16,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 49,
+        "physical_shortage": 50,
         "price_power": 1,
         "lead_time": 1
       },
