@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-26T15:11:04+00:00",
+  "built_at": "2026-10-26T16:20:13+00:00",
   "archive_count": 828,
   "cluster_count": 732,
   "dates_first_seen": 17,
@@ -214,7 +214,7 @@
       "general_headlines": 68,
       "older_than_7_days_on_first_seen": 9,
       "first_seen_days": 17,
-      "momentum": "RISING",
+      "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 8,
         "physical_shortage": 6
@@ -308,7 +308,7 @@
       "general_headlines": 158,
       "older_than_7_days_on_first_seen": 42,
       "first_seen_days": 17,
-      "momentum": "RISING",
+      "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 40,
         "demand_accel": 1,
