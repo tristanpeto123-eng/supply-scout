@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-25T13:58:59+00:00",
-  "archive_count": 802,
-  "cluster_count": 710,
-  "dates_first_seen": 16,
+  "built_at": "2026-10-26T15:11:04+00:00",
+  "archive_count": 828,
+  "cluster_count": 732,
+  "dates_first_seen": 17,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,19 +11,19 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 193,
-      "unique_report_clusters": 183,
+      "articles": 198,
+      "unique_report_clusters": 188,
       "estimated_duplicate_headlines": 10,
-      "publishers": 92,
+      "publishers": 93,
       "early_signal_strength": 75,
-      "evidence_headlines": 104,
-      "general_headlines": 89,
+      "evidence_headlines": 105,
+      "general_headlines": 93,
       "older_than_7_days_on_first_seen": 65,
-      "first_seen_days": 16,
+      "first_seen_days": 17,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 89,
-        "price_power": 19,
+        "price_power": 20,
         "lead_time": 4
       },
       "stories": [
@@ -112,16 +112,16 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 167,
-      "unique_report_clusters": 136,
-      "estimated_duplicate_headlines": 31,
-      "publishers": 71,
+      "articles": 176,
+      "unique_report_clusters": 144,
+      "estimated_duplicate_headlines": 32,
+      "publishers": 75,
       "early_signal_strength": 59,
       "evidence_headlines": 8,
-      "general_headlines": 159,
-      "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 16,
-      "momentum": "FLAT/LOWER",
+      "general_headlines": 168,
+      "older_than_7_days_on_first_seen": 43,
+      "first_seen_days": 17,
+      "momentum": "RISING",
       "flags": {
         "lead_time": 7,
         "demand_accel": 2,
@@ -205,15 +205,15 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 80,
-      "unique_report_clusters": 72,
+      "articles": 82,
+      "unique_report_clusters": 74,
       "estimated_duplicate_headlines": 8,
       "publishers": 51,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 66,
+      "general_headlines": 68,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 16,
+      "first_seen_days": 17,
       "momentum": "RISING",
       "flags": {
         "lead_time": 8,
@@ -299,16 +299,16 @@
     },
     {
       "theme": "Copper",
-      "articles": 195,
-      "unique_report_clusters": 168,
-      "estimated_duplicate_headlines": 27,
-      "publishers": 119,
+      "articles": 198,
+      "unique_report_clusters": 169,
+      "estimated_duplicate_headlines": 29,
+      "publishers": 121,
       "early_signal_strength": 65,
       "evidence_headlines": 40,
-      "general_headlines": 155,
+      "general_headlines": 158,
       "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 16,
-      "momentum": "FLAT/LOWER",
+      "first_seen_days": 17,
+      "momentum": "RISING",
       "flags": {
         "physical_shortage": 40,
         "demand_accel": 1,
@@ -336,6 +336,16 @@
           "source": "AOL.ca"
         },
         {
+          "headline": "Why Chile's copper output is sinking despite booming demand - eNCA",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb0JMMk44U09QZWt5emlYWVE2S01YYlBQdTVHOS1xNFFvSjE3N3VFcEtjX19wN0Z4RnhBNExEOWF5cWsxREtPZGhRUV8wQnhPYXptbWJDWk9BXzFHd2RDcDJNMEZBWnphbUx4WDJxVzVFcVk3OVh4Y3hIX2d5LTNTX3dfaDBGMU12MExpQQ?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-22T08:34:29+00:00",
+          "first_seen_at": "2026-10-22T13:46:30+00:00",
+          "source": "eNCA"
+        },
+        {
           "headline": "Suspected copper thieves cause major internet outage in Bay of Islands - RNZ",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORktnNWZGZUdRM0lfSk9SZGhpTDBsNkNKbVVEa3dQUmp3WmsxWm5BWlVmcjBQOG43UTNWZHJYVm41bGJGTVBtQXBkcVFhM1RXSUY4dmpibmQyemcybXlkbHVFOUU1THMweExpSlJUWjhUdUduWTZfRzlTOUo0VjhsSlJIRTJodWtFQzBJVjlSc250YkgtTFRHdjB4MURSUTNnb1NHUk5qaHlTU3FnSVF4dGJ2dlhxMFBlbUphYWhPODI?oc=5",
           "reports": 4,
@@ -356,6 +366,16 @@
           "source": "AOL.ca"
         },
         {
+          "headline": "BOA prepares for Neds Creek copper drill push - The Australian",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd19HbXJCUGY1UG9EWFIzVnlxWXJzeVJfQWlrQmltTldIaDB1cEhTZjI0VGl4aGRVT2FhN2lyZGM3Z0VOTHNqSnVSbkJOcGR6V3B3OTV2QnViNGE4WlNCVVlld3kybHNQS3V0ZzlhSUhQcTRGNFlocENYekd4WGpoWjNsdVRtLTVjWjNYLXVlbEtlNTBfT1UzeEFES21SUTU2TzhsS0FKR2VhNVBOd0RXZ1ZveFlMT2QzM1dzbGQ2VzZaQmhCOGNiMmFQeGdrN3k1anFaWEFLVjZuOHZDSmc4MnRpd1VjREFkRU9FOGE0Z19QaGFXSi1n?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-23T03:58:07+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "The Australian"
+        },
+        {
           "headline": "Chile copper mines disruptions: production-at-risk insights for planners - Geomechanics.io",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2xaTFlKX3BRUzBWQW5SVFFURC1iVGdNUUFXZ3BKUXotNVBaQkRRMjJGRWkxY2FRaFlYX3BxX0xaeXRSZjk2SGEtZmN4Vnp3SW40TWpuekRHZWdJSWNGSG9CUHJlZmI2THg1TDdVV1IzY3F5YzdzTDcyLUR5QVdPR1oyMkpMcVZMVDE2TW5vTTRQS3JDaU9aTnRmc2lUVWY2NXIzbDk1MjhoZGJiNDUyZl9B?oc=5",
           "reports": 2,
@@ -364,44 +384,24 @@
           "feed_published_at": "2026-10-08T12:01:05+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Geomechanics.io"
-        },
-        {
-          "headline": "Coface Warns Copper and Nickel Prices Could Nearly Double by 2035 - CEO Magazyn",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zME5kR2tRdlpWcEJZcFZmYkRFVU1QY2ozX04xOVlVRlh3aHJPQnJXb1RYR2FyaEVkdUNWcXRPdC1XTXBQSmtSMHdoaDVidHUtckRzOWJvb3h5bjI0M2J6UnJvLXdWSVJEMmd6TjJNMEMyQmtzQ25KR2RrQkVaOEU?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-22T18:11:06+00:00",
-          "first_seen_at": "2026-10-23T13:24:27+00:00",
-          "source": "CEO Magazyn"
-        },
-        {
-          "headline": "Copper Miners Face a $332 Billion Hole They Can’t Dig Out Of - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUmdHVTZweU9SbmtfY21uajNEU0pyTjdBZUVSeWN0R3lKTkpVcHBYTWxab3A3NXJDSjRCUXptQW0tSWJmNFBCRUU2ZG1meEw2WXpnMXpnTjlaVjRoTVVacUo2TkMxcWpGQTFEVjh4d2hxOHRwNE9LQk0xTFZsMnk0YXN5dTRTeXRNcFVRRlB2UjBZWGl0SkNwb3Y5VzVOYmVJX2xHUU4wUjZMakpLUV9UXy0xbnBJWHNUMHc?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-21T11:00:09+00:00",
-          "first_seen_at": "2026-10-21T13:46:06+00:00",
-          "source": "TradingView"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 167,
-      "unique_report_clusters": 151,
-      "estimated_duplicate_headlines": 16,
-      "publishers": 122,
+      "articles": 174,
+      "unique_report_clusters": 157,
+      "estimated_duplicate_headlines": 17,
+      "publishers": 127,
       "early_signal_strength": 65,
-      "evidence_headlines": 52,
-      "general_headlines": 115,
-      "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 16,
+      "evidence_headlines": 54,
+      "general_headlines": 120,
+      "older_than_7_days_on_first_seen": 45,
+      "first_seen_days": 17,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 50,
+        "physical_shortage": 52,
         "price_power": 1,
         "lead_time": 1
       },
@@ -415,6 +415,16 @@
           "feed_published_at": "2026-10-14T19:12:51+00:00",
           "first_seen_at": "2026-10-15T13:24:22+00:00",
           "source": "TheTrucker.com"
+        },
+        {
+          "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQdIB6gFBVV95cUxNTmZOby00TVFjYkhGUmhxS0NYYVZWSmlPMnVfdDJPMGhLdnBPMUhJU2JsOVBBeERleEJhZDRmM2p0blVwTUJheHB6TnY4WXVYelBqNEZpejQ0bmQwOWJ2ajdiYXNqNHd5M2FnamZiQUZGemdmR2tZUk9QWEtKdXB2djc5b0dlYU1ITkdRZDZROTBpbUJKMWVfTDEyZnBnbWUtU3hTdlViRFgyOGpUR2U4RFJEcExzaUlyZk5XMm5wVF9tVTJYOWpBNlE5b19hTVVBV05GaHpjd1hTWVFUeXQta3N4aTRkdnM5T2c?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-12T05:49:05+00:00",
+          "first_seen_at": "2026-10-12T17:52:56+00:00",
+          "source": "BusinessLine"
         },
         {
           "headline": "Asian port congestion may prolong shipping crunch into 2027 - Newswav",
@@ -435,16 +445,6 @@
           "feed_published_at": "2026-10-19T12:31:35+00:00",
           "first_seen_at": "2026-10-19T15:34:50+00:00",
           "source": "KNN India"
-        },
-        {
-          "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQdIB6gFBVV95cUxNTmZOby00TVFjYkhGUmhxS0NYYVZWSmlPMnVfdDJPMGhLdnBPMUhJU2JsOVBBeERleEJhZDRmM2p0blVwTUJheHB6TnY4WXVYelBqNEZpejQ0bmQwOWJ2ajdiYXNqNHd5M2FnamZiQUZGemdmR2tZUk9QWEtKdXB2djc5b0dlYU1ITkdRZDZROTBpbUJKMWVfTDEyZnBnbWUtU3hTdlViRFgyOGpUR2U4RFJEcExzaUlyZk5XMm5wVF9tVTJYOWpBNlE5b19hTVVBV05GaHpjd1hTWVFUeXQta3N4aTRkdnM5T2c?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-12T05:49:05+00:00",
-          "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "BusinessLine"
         },
         {
           "headline": "Peak season runs long as AI demand and port congestion keep capacity tight - DC Velocity",
