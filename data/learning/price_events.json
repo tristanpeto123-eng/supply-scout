@@ -438,8 +438,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-10-21"
+        "status": "RESOLVED",
+        "exit_date": "2026-10-21",
+        "stock_return_pct": -2.72,
+        "benchmark_return_pct": -0.13,
+        "excess_after_cost_pct": -3.19,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-10-21",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -585,6 +591,33 @@
         "target_date": "2027-01-18"
       }
     },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W44",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-26T15:10:38+00:00",
+    "snapshot_locked": true,
+    "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
+    "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQQ?oc=5",
+    "source_domain": "BusinessLine",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 0,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 10.34,
+      "prior_excess_30d": 0.031871
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
