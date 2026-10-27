@@ -963,34 +963,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-10-22",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-10-26",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-10-26",
         "chart": {
-          "price_date": "2026-10-22",
-          "close": 64.589996,
-          "sma20": 70.65539,
-          "sma50": 71.78119,
-          "sma200": 64.694549,
-          "rsi14": 25.94,
-          "atr14_pct": 3.94,
-          "volume_vs_20d": 1.25,
-          "relative_strength_20d_pct": -8.53,
-          "relative_strength_60d_pct": 4.66,
+          "price_date": "2026-10-26",
+          "close": 65.160004,
+          "sma20": 69.974432,
+          "sma50": 71.727336,
+          "sma200": 64.80271,
+          "rsi14": 26.13,
+          "atr14_pct": 3.75,
+          "volume_vs_20d": 0.81,
+          "relative_strength_20d_pct": -7.93,
+          "relative_strength_60d_pct": 3.54,
           "breakout_20d_close": false,
           "prior_20d_high_close": 73.531235,
-          "distance_above_sma20_pct": -8.58,
-          "completed_bars_available": 306
+          "distance_above_sma20_pct": -6.88,
+          "completed_bars_available": 308
         },
-        "post_signal_excess_pct": -4.72,
+        "post_signal_excess_pct": -3.99,
         "new_breakout": false,
         "volume_confirmed": true,
         "trend_confirmed": false,
         "rsi_ok": false,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1060,34 +1063,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-10-22",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-10-26",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-10-26",
         "chart": {
-          "price_date": "2026-10-22",
-          "close": 856.48999,
-          "sma20": 996.825653,
-          "sma50": 984.037745,
-          "sma200": 729.201287,
-          "rsi14": 24.3,
-          "atr14_pct": 5.74,
-          "volume_vs_20d": 1.22,
-          "relative_strength_20d_pct": -19.05,
-          "relative_strength_60d_pct": 12.68,
+          "price_date": "2026-10-26",
+          "close": 903.700012,
+          "sma20": 979.091962,
+          "sma50": 981.238993,
+          "sma200": 734.777124,
+          "rsi14": 33.99,
+          "atr14_pct": 5.64,
+          "volume_vs_20d": 0.84,
+          "relative_strength_20d_pct": -12.92,
+          "relative_strength_60d_pct": 9.09,
           "breakout_20d_close": false,
           "prior_20d_high_close": 1097.217285,
-          "distance_above_sma20_pct": -14.08,
-          "completed_bars_available": 306
+          "distance_above_sma20_pct": -7.7,
+          "completed_bars_available": 308
         },
-        "post_signal_excess_pct": -2.77,
+        "post_signal_excess_pct": 2.47,
         "new_breakout": false,
         "volume_confirmed": false,
         "trend_confirmed": false,
         "rsi_ok": false,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1157,34 +1163,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-10-22",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-10-26",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-10-26",
         "chart": {
-          "price_date": "2026-10-22",
-          "close": 29.08,
-          "sma20": 29.4835,
-          "sma50": 29.0166,
-          "sma200": 26.065611,
-          "rsi14": 44.88,
-          "atr14_pct": 2.26,
-          "volume_vs_20d": 0.52,
-          "relative_strength_20d_pct": 0.65,
-          "relative_strength_60d_pct": 15.07,
+          "price_date": "2026-10-26",
+          "close": 29.540001,
+          "sma20": 29.549,
+          "sma50": 29.0952,
+          "sma200": 26.14313,
+          "rsi14": 53.5,
+          "atr14_pct": 2.14,
+          "volume_vs_20d": 0.49,
+          "relative_strength_20d_pct": 5.37,
+          "relative_strength_60d_pct": 16.54,
           "breakout_20d_close": false,
           "prior_20d_high_close": 30.9,
-          "distance_above_sma20_pct": -1.37,
-          "completed_bars_available": 306
+          "distance_above_sma20_pct": -0.03,
+          "completed_bars_available": 308
         },
-        "post_signal_excess_pct": 1.44,
+        "post_signal_excess_pct": 2.94,
         "new_breakout": false,
         "volume_confirmed": false,
         "trend_confirmed": false,
-        "rsi_ok": false,
+        "rsi_ok": true,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1251,6 +1260,77 @@
       "as_of": "2026-10-23",
       "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
       "reconstructed_at": "2026-10-26T16:50:07+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W44",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-10-27T14:29:30+00:00",
+    "headline": "Memory Chip Shortage Extends Into 2027 as SK Hynix Price Target Raised 40% - BigGo Finance",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KYjVuZEJabmRya3o3eEd5alUyLW4zTkNuWkV0WEw4OTRqOWpRYTJwa2Q2Z3lFRF8tMGJSME9QVkFEVDVOT1U3LXFIazdFNUpRV3dGVzJaMEJkamF3TFFaSnF0cVRKVGd2SHV2WVpFTXVJNURGeGc?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-26",
+        "close": 903.700012,
+        "sma20": 979.091962,
+        "sma50": 981.238993,
+        "sma200": 734.777124,
+        "rsi14": 33.99,
+        "atr14_pct": 5.64,
+        "volume_vs_20d": 0.84,
+        "relative_strength_20d_pct": -12.92,
+        "relative_strength_60d_pct": 9.09,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1097.217285,
+        "distance_above_sma20_pct": -7.7,
+        "completed_bars_available": 308
+      },
+      "as_of": "2026-10-26",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-27T15:55:13+00:00",
       "historically_backfilled": false
     },
     "chart_confirmation": {
