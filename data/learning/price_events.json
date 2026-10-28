@@ -660,6 +660,78 @@
       "prior_excess_30d": -0.143264
     },
     "market": {
+      "status": "TRACKING",
+      "entry_date": "2026-10-28",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
+    },
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-11-04"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-11-27"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-01-26"
+      }
+    },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Copper|FCX|2026-W44",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-28T15:05:24+00:00",
+    "snapshot_locked": true,
+    "headline": "Spot supply shortage continues to intensify, premiums climb to record highs [SMM Yangshan spot copper] - Shanghai Metals Market",
+    "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN1h5Y3pkZlRNU1BtMWI3NFRhVGlxTnJoR19UeURKNTRNSjJMTzNkNC1KdE8tLWRIdDc3YUN2RXdySkI2eUxoOUtMdkl6Vl8yOVVQVHZveTA5RE9rb3NyT2REZlhMWDl3Und4d2NWV250ck1OVXFtMDIyZGl0b0tlYmpjem5EQmhLZHlTWFJIdDg1cTdWWEV3d0E1Z2RZR1FFOTVIY1J0R3dDdm10dEM4UWdtVzBLRTluY2tZejN1Z3hfTUx6U2d1RGMtSjd1R0hpZWxQRGloRUF3N3Z2?oc=5",
+    "source_domain": "Shanghai Metals Market",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 2,
+      "publisher_count": 2,
+      "publication_lag": 0.45,
+      "prior_excess_30d": -0.070835
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W44",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-10-28T15:05:24+00:00",
+    "snapshot_locked": true,
+    "headline": "Zetwerk Manufacturing Businesses Ltd. (ZETWERK) Cuts US Transformer Lead Times to 12–15 Months - TradingView",
+    "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV1JMWjhhZDFHdzRVOHM2ejJRaFFMRVFENlpGc29VaUp6azlCS1pXYWV0VFgyNWI0VVI0aUdPZHBOaUFmV0pFUFhOZnYtREVlbnhrbkNURHEwZV9waVBBRHlBZ1poNlA5RVhYbk9GTEswU0VOYlpZNndSOUlsM1JLdWJORi1nWXZ1azhRbWNEa3F5djg5NG5qQUFVYlRPQ0xkcHdNUnp4a0lVUkx3VS1HcThwLVRieVVkeGNTN1RFZFhpU1hRSFNEbWluVFdCS2N3alRKWHZrWFMzLTZaTHpId3o5aWlmRTEw?oc=5",
+    "source_domain": "TradingView",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 2,
+      "publisher_count": 2,
+      "publication_lag": 0.98,
+      "prior_excess_30d": -0.111628
+    },
+    "market": {
       "status": "WAITING_FOR_NEXT_TRADING_SESSION"
     },
     "outcomes": {},
