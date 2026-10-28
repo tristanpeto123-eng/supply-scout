@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-27T15:34:46+00:00",
-  "archive_count": 848,
-  "cluster_count": 751,
-  "dates_first_seen": 18,
+  "built_at": "2026-10-28T15:05:54+00:00",
+  "archive_count": 895,
+  "cluster_count": 794,
+  "dates_first_seen": 19,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,20 +11,20 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 200,
-      "unique_report_clusters": 190,
-      "estimated_duplicate_headlines": 10,
-      "publishers": 93,
+      "articles": 213,
+      "unique_report_clusters": 202,
+      "estimated_duplicate_headlines": 11,
+      "publishers": 98,
       "early_signal_strength": 75,
-      "evidence_headlines": 107,
-      "general_headlines": 93,
-      "older_than_7_days_on_first_seen": 65,
-      "first_seen_days": 18,
+      "evidence_headlines": 115,
+      "general_headlines": 98,
+      "older_than_7_days_on_first_seen": 66,
+      "first_seen_days": 19,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 91,
-        "price_power": 20,
-        "lead_time": 4
+        "physical_shortage": 98,
+        "price_power": 21,
+        "lead_time": 5
       },
       "stories": [
         {
@@ -74,6 +74,16 @@
           "source": "TechPowerUp"
         },
         {
+          "headline": "Why a memory chip glut could be Korea's weapon against China - The Investor",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QZmNxZFp0VmFxVDBYdlRJODJULWRjVEJWWGFjaXpWcFdkN1Ywa2ZoTGxDTDhsZlhNNHRPanhPdTIxSnVpdXZkUG1ZaDc0a25HdlR3Zmh3TGZaQQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-15T06:06:09+00:00",
+          "first_seen_at": "2026-10-15T13:24:22+00:00",
+          "source": "The Investor"
+        },
+        {
           "headline": "Dell CEO Says the Memory Shortage Will Get Worse in 2027 - TechPowerUp",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpva9IBmwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpvaw?oc=5",
           "reports": 2,
@@ -96,31 +106,21 @@
           "feed_published_at": "2026-10-01T08:56:14+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Seoul Economic Daily"
-        },
-        {
-          "headline": "Memory prices set to rise further in fourth quarter, boosting earnings at Korean chipmakers - 머니투데이",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zNDlPdU9IcTJSQUFtSkVHa2k2eUlNYlU0TFBRTG1lWnQ5SkRKaVE3eFpwQkc3OUNTNllvcHNvUHRiVTVHUlYySy1iWXFoY1R3TlFnN3NPS1hzVXNpRDZXYzdleV9fMXBqbHByUVJ2Zm5fY1ZnX0FxYmN4Q3l5UQ?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-15T08:30:00+00:00",
-          "first_seen_at": "2026-10-15T13:24:22+00:00",
-          "source": "머니투데이"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 178,
-      "unique_report_clusters": 146,
-      "estimated_duplicate_headlines": 32,
-      "publishers": 76,
+      "articles": 191,
+      "unique_report_clusters": 156,
+      "estimated_duplicate_headlines": 35,
+      "publishers": 79,
       "early_signal_strength": 59,
       "evidence_headlines": 8,
-      "general_headlines": 170,
-      "older_than_7_days_on_first_seen": 44,
-      "first_seen_days": 18,
+      "general_headlines": 183,
+      "older_than_7_days_on_first_seen": 45,
+      "first_seen_days": 19,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 7,
@@ -205,19 +205,19 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 87,
-      "unique_report_clusters": 79,
+      "articles": 98,
+      "unique_report_clusters": 90,
       "estimated_duplicate_headlines": 8,
-      "publishers": 53,
+      "publishers": 60,
       "early_signal_strength": 63,
-      "evidence_headlines": 15,
-      "general_headlines": 72,
+      "evidence_headlines": 18,
+      "general_headlines": 80,
       "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 18,
-      "momentum": "FLAT/LOWER",
+      "first_seen_days": 19,
+      "momentum": "RISING",
       "flags": {
-        "lead_time": 8,
-        "physical_shortage": 7,
+        "lead_time": 9,
+        "physical_shortage": 9,
         "demand_accel": 1
       },
       "stories": [
@@ -286,13 +286,13 @@
           "source": "VCCircle"
         },
         {
-          "headline": "3 US Exporter Stocks Worth Watching As The Dollar Stays Strong - Simply Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUHNLTml5dTNQRmx4TmhNNTJDUnh5WThLeFZpcWZNMmVJcURXeGpYNHkyeUFtRVpBRmFncm9JclRPMmN2TG1YM1hPckwxZ202QkctU2RJQ191V1FkaGhGVWhCUjJkM1FzUVZPZE5mWlloYXRVWDJZczBLZTFWTkI0Um1BSE1VWjFpV0M5amtfanVxWHk2UzJsY3ZGZ1kwdDRBc2hzYW54RUpndFdSSW9LcTNpelVEQm1TVDRWU3F4QUVoLTc20gHKAUFVX3lxTE9sM1NIaG9PVXhKRjl1elpGQTVjU0VmaUlzZy1MX1IycXhfbDJaZFpGcEpLMF96VnJ2YVpZZzZ0ZDBua3o2SF9uSHR6SVVZbDVrclpKN0NITFJUaVQ3Q1ViVGxYeEM0eHRCSW1HY1UxLTRIN200OEl4TnRVQTFPZ3ZfcTh5M1RMZ3FnZXdxMXRDTDhPSHZySlhQYzFtSkpMY0RhbDVXeFNoUm9MNXpVa3d4SHNIbTZXX0tlNy1tbHI1aDRoMXh6UXpGRHc?oc=5",
+          "headline": "3 Stocks Retail Investors Are Watching As AI Data Centers Strain Power Grids - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN2NRY19aYWdJalF6emZxS2k4WmlsZTRhQ29uc2luTF9mX1U4b2JHR09nZ2pSaHBESk9CdWhmcFlKV1lPWTRGVVhhUUpET1VjYVpxeHVEeDBZWFlDc1BrNXlXM2M5ODFNZGMySHoxcWJ1dDVUc3JwSnR0TDAtQS1tZUxNVnJzbGxoZkFXYkNMemcycUJMV0FCWnRWMXN5UlRlNWs5N3hON0lNTW9mMVdiTEQxTTAxYmo4VVN4cU5ycVJsMDdkeVNKTURyTk15bnMwSl9z0gHTAUFVX3lxTE83Y1FjX1phZ0lqUXp6ZnFLaThaaWxlNGFDb25zaW5MX2ZfVThvYkdHT2dnalJocERKT0J1aGZwWUpXWU9ZNEZVWGFRSkRPVWNhWnF4dUR4MFlYWUNzUGs1eVczYzk4MU1kYzJIejFxYnV0NVRzcnBKdHRMMC1BLW1lTE1WcnNsbGhmQVdiQ0x6ZzJxQkxXQUJadFYxc3lSVGU1azk3eE43SU1Nb2YxV2JMRDFNMDFiajhVU3hxTnJxUmwwN2R5U0pNRHJOTXluczBKX3M?oc=5",
           "reports": 1,
           "publishers": 1,
           "signal_tags": [],
-          "feed_published_at": "2026-10-10T19:49:49+00:00",
-          "first_seen_at": "2026-10-11T14:54:19+00:00",
+          "feed_published_at": "2026-10-27T18:51:55+00:00",
+          "first_seen_at": "2026-10-28T15:05:24+00:00",
           "source": "Simply Wall Street"
         }
       ],
@@ -300,18 +300,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 205,
-      "unique_report_clusters": 175,
+      "articles": 208,
+      "unique_report_clusters": 178,
       "estimated_duplicate_headlines": 30,
-      "publishers": 124,
+      "publishers": 125,
       "early_signal_strength": 65,
-      "evidence_headlines": 41,
+      "evidence_headlines": 44,
       "general_headlines": 164,
       "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 18,
+      "first_seen_days": 19,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 41,
+        "physical_shortage": 44,
         "demand_accel": 1,
         "price_power": 1
       },
@@ -391,18 +391,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 178,
-      "unique_report_clusters": 161,
+      "articles": 185,
+      "unique_report_clusters": 168,
       "estimated_duplicate_headlines": 17,
-      "publishers": 129,
+      "publishers": 133,
       "early_signal_strength": 65,
-      "evidence_headlines": 56,
-      "general_headlines": 122,
-      "older_than_7_days_on_first_seen": 45,
-      "first_seen_days": 18,
+      "evidence_headlines": 59,
+      "general_headlines": 126,
+      "older_than_7_days_on_first_seen": 47,
+      "first_seen_days": 19,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 54,
+        "physical_shortage": 57,
         "price_power": 1,
         "lead_time": 1
       },
