@@ -1264,7 +1264,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -1331,6 +1331,148 @@
       "as_of": "2026-10-26",
       "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
       "reconstructed_at": "2026-10-27T15:55:13+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Copper|FCX|2026-W44",
+    "ticker": "FCX",
+    "theme": "Copper",
+    "signal_time": "2026-10-28T15:05:24+00:00",
+    "headline": "Spot supply shortage continues to intensify, premiums climb to record highs [SMM Yangshan spot copper] - Shanghai Metals Market",
+    "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN1h5Y3pkZlRNU1BtMWI3NFRhVGlxTnJoR19UeURKNTRNSjJMTzNkNC1KdE8tLWRIdDc3YUN2RXdySkI2eUxoOUtMdkl6Vl8yOVVQVHZveTA5RE9rb3NyT2REZlhMWDl3Und4d2NWV250ck1OVXFtMDIyZGl0b0tlYmpjem5EQmhLZHlTWFJIdDg1cTdWWEV3d0E1Z2RZR1FFOTVIY1J0R3dDdm10dEM4UWdtVzBLRTluY2tZejN1Z3hfTUx6U2d1RGMtSjd1R0hpZWxQRGloRUF3N3Z2?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-27",
+        "close": 65.949997,
+        "sma20": 69.740057,
+        "sma50": 71.681682,
+        "sma200": 64.852418,
+        "rsi14": 31.15,
+        "atr14_pct": 3.76,
+        "volume_vs_20d": 1.05,
+        "relative_strength_20d_pct": -6.1,
+        "relative_strength_60d_pct": 3.43,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 73.531235,
+        "distance_above_sma20_pct": -5.43,
+        "completed_bars_available": 309
+      },
+      "as_of": "2026-10-27",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-28T16:43:11+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W44",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-10-28T15:05:24+00:00",
+    "headline": "Zetwerk Manufacturing Businesses Ltd. (ZETWERK) Cuts US Transformer Lead Times to 12–15 Months - TradingView",
+    "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV1JMWjhhZDFHdzRVOHM2ejJRaFFMRVFENlpGc29VaUp6azlCS1pXYWV0VFgyNWI0VVI0aUdPZHBOaUFmV0pFUFhOZnYtREVlbnhrbkNURHEwZV9waVBBRHlBZ1poNlA5RVhYbk9GTEswU0VOYlpZNndSOUlsM1JLdWJORi1nWXZ1azhRbWNEa3F5djg5NG5qQUFVYlRPQ0xkcHdNUnp4a0lVUkx3VS1HcThwLVRieVVkeGNTN1RFZFhpU1hRSFNEbWluVFdCS2N3alRKWHZrWFMzLTZaTHpId3o5aWlmRTEw?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-27",
+        "close": 384.200012,
+        "sma20": 409.125,
+        "sma50": 413.4266,
+        "sma200": 394.802755,
+        "rsi14": 30.56,
+        "atr14_pct": 4.16,
+        "volume_vs_20d": 1.16,
+        "relative_strength_20d_pct": -10.79,
+        "relative_strength_60d_pct": -12.54,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 445.089996,
+        "distance_above_sma20_pct": -6.09,
+        "completed_bars_available": 309
+      },
+      "as_of": "2026-10-27",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-10-28T16:43:11+00:00",
       "historically_backfilled": false
     },
     "chart_confirmation": {
