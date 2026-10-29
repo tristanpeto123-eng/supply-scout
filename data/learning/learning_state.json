@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-28T16:18:29+00:00",
-  "archive_count": 895,
-  "cluster_count": 794,
-  "dates_first_seen": 19,
+  "built_at": "2026-10-29T15:13:21+00:00",
+  "archive_count": 958,
+  "cluster_count": 845,
+  "dates_first_seen": 20,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,26 +11,26 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 213,
-      "unique_report_clusters": 202,
-      "estimated_duplicate_headlines": 11,
-      "publishers": 98,
+      "articles": 230,
+      "unique_report_clusters": 213,
+      "estimated_duplicate_headlines": 17,
+      "publishers": 103,
       "early_signal_strength": 75,
-      "evidence_headlines": 115,
-      "general_headlines": 98,
-      "older_than_7_days_on_first_seen": 66,
-      "first_seen_days": 19,
+      "evidence_headlines": 130,
+      "general_headlines": 100,
+      "older_than_7_days_on_first_seen": 68,
+      "first_seen_days": 20,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 98,
+        "physical_shortage": 113,
         "price_power": 21,
-        "lead_time": 5
+        "lead_time": 8
       },
       "stories": [
         {
           "headline": "Chinese smartphone makers adopt recycled DRAM chips amid memory shortage - Global Sources",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWGZWakx1QTI4TXliZ2JZNDRzWmdzbFhva0FIVkU0OVJua3pXTFVxQU9XbGt5U2NtRTN0X2syOG9aWTNUdEkxWC1kUjc0bTRrREt4X3RDakkySTlpZk13LUNmRGR4SWVBOEpsRU1FTkJ0eHdRT3ZCMEpRYVIzVVZKZnlUcFNsZ3NCbktWV0dYUGh1WVZSX19XN18zeEM5YlhxNUVVMmZQRDBrR0NDT1NVS1ZySE1YNFdDYnN4Tm1ZdUpzTTdhcEsxMnZIYVUzZ3lVeTdDUWVR?oc=5",
-          "reports": 2,
+          "reports": 3,
           "publishers": 2,
           "signal_tags": [
             "physical_shortage"
@@ -74,6 +74,18 @@
           "source": "TechPowerUp"
         },
         {
+          "headline": "SK Hynix sees memory shortage lasting through 2030 - Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4ZW5MT0dYOVU1OHVKYzJBR2ttbWl6ckpoQWJZRjZXYjlITl9VVmJsajJjNERtUG1NOFMzOHZlRy1NTWljczdyMVM5Q3JmSUNacGZibURSZlJNYmdjQjM0eV9wYW5WUV93bnRrYQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-28T12:11:55+00:00",
+          "first_seen_at": "2026-10-28T15:05:24+00:00",
+          "source": "Cryptopolitan"
+        },
+        {
           "headline": "Why a memory chip glut could be Korea's weapon against China - The Investor",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QZmNxZFp0VmFxVDBYdlRJODJULWRjVEJWWGFjaXpWcFdkN1Ywa2ZoTGxDTDhsZlhNNHRPanhPdTIxSnVpdXZkUG1ZaDc0a25HdlR3Zmh3TGZaQQ?oc=5",
           "reports": 2,
@@ -86,7 +98,7 @@
         {
           "headline": "Dell CEO Says the Memory Shortage Will Get Worse in 2027 - TechPowerUp",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpva9IBmwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpvaw?oc=5",
-          "reports": 2,
+          "reports": 3,
           "publishers": 1,
           "signal_tags": [
             "physical_shortage"
@@ -94,33 +106,21 @@
           "feed_published_at": "2026-10-21T00:33:20+00:00",
           "first_seen_at": "2026-10-21T13:46:06+00:00",
           "source": "TechPowerUp"
-        },
-        {
-          "headline": "HBM Prices to More Than Double Next Year as Shortage Persists - Seoul Economic Daily",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUktMW9YQkZMSTdJVWdfSTJSWHFOMWEyXzByRjYzV0p1cVdYQUU3b0VRMVJqeGo5YkJNV0ZQM3BhN2ZYTkVkY1B1Y0RNU2M4S1B4SjVFVjgxOWZRQzlzclBQeEt6V0hjYVMzZGstM25FSWQ1QzEtRkQ5cWpkbGtZRmJpenlkbnR5akZZanBCQ09UcFlybExsYXJn?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-01T08:56:14+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Seoul Economic Daily"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 191,
-      "unique_report_clusters": 156,
-      "estimated_duplicate_headlines": 35,
-      "publishers": 79,
+      "articles": 203,
+      "unique_report_clusters": 167,
+      "estimated_duplicate_headlines": 36,
+      "publishers": 82,
       "early_signal_strength": 59,
       "evidence_headlines": 8,
-      "general_headlines": 183,
+      "general_headlines": 195,
       "older_than_7_days_on_first_seen": 45,
-      "first_seen_days": 19,
+      "first_seen_days": 20,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 7,
@@ -205,18 +205,18 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 98,
-      "unique_report_clusters": 90,
-      "estimated_duplicate_headlines": 8,
-      "publishers": 60,
+      "articles": 107,
+      "unique_report_clusters": 98,
+      "estimated_duplicate_headlines": 9,
+      "publishers": 64,
       "early_signal_strength": 63,
-      "evidence_headlines": 18,
-      "general_headlines": 80,
-      "older_than_7_days_on_first_seen": 9,
-      "first_seen_days": 19,
+      "evidence_headlines": 19,
+      "general_headlines": 88,
+      "older_than_7_days_on_first_seen": 10,
+      "first_seen_days": 20,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 9,
+        "lead_time": 10,
         "physical_shortage": 9,
         "demand_accel": 1
       },
@@ -256,6 +256,16 @@
           "source": "www.irishsun.com"
         },
         {
+          "headline": "Zetwerk completes US power transformer installation amid rising grid demand - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXlEb2w3XzdEZDFKV3hEaTZCdncwdU0zdWZBTDBCUl8yTGdrUkY4OWQxZjZtOXd5dHlzS1NFc2tCaFNMZjhmU29oSUlfMEdoTW9qMVlyZGFYMEUyV1FjQmd0LTVWdmtmcG1feEVwRlh1N2ZIOVoxVVZCYnU0enJQTy1IaE5zUzlGcjJJNzFORTRlV0xiSXBwaFpkYXEwVEM3SE5BN21zWlByeXRfYnJGZlY2YUNGZ3psS2pOVng0ZmZFMjdmR2ZMcjY0dw?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-27T16:30:00+00:00",
+          "first_seen_at": "2026-10-28T15:05:24+00:00",
+          "source": "PR Newswire"
+        },
+        {
           "headline": "UEDCL Boss Explains Why Power Outages Persist And How They Are Fixing It - Nilepost",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUY4eDFIYUY4ZmplU0pibmFpSzJhblBQVWY0YmsteFkwLTdhM0p2c1dUbU1MMWtaZlFqTjhJd1daOFYxZVBHZHlGVXo0eTh4N19uWlhMZEhLLTdtYlFIaVJwVzdBU1NKOGd5WWV2bVVYemExYnRDMUhJY0VwTW51RGZjNHFGbzA4YXUwTzBjR05CS19Uempwa2VVR1VpZzNHWDFpTDZTd2FlYU3SAbMBQVVfeXFMTmpTTFJRX0VYaXVjcjJwdlhiZXBiN29PQldBTXkybDJTQ1FxdFlwT2VBdUp1TUZ3eG1sbUM2QmpOWkhTN1F4TFlTY0h6eGh5N084MTlEajFwMmhkMUtYNVgtalh6dktGRWFYT0VQcHJ0TjRnY210eW1Ec3VpYVpqWE50aG1YcktzWW4wekpKZFBXQVdYblgzczZvTlhFQUM4ZDNJRzJUdWpJbzhTSGhyNUtySm8?oc=5",
           "reports": 3,
@@ -284,34 +294,24 @@
           "feed_published_at": "2026-10-06T14:05:05+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "VCCircle"
-        },
-        {
-          "headline": "3 Stocks Retail Investors Are Watching As AI Data Centers Strain Power Grids - Simply Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN2NRY19aYWdJalF6emZxS2k4WmlsZTRhQ29uc2luTF9mX1U4b2JHR09nZ2pSaHBESk9CdWhmcFlKV1lPWTRGVVhhUUpET1VjYVpxeHVEeDBZWFlDc1BrNXlXM2M5ODFNZGMySHoxcWJ1dDVUc3JwSnR0TDAtQS1tZUxNVnJzbGxoZkFXYkNMemcycUJMV0FCWnRWMXN5UlRlNWs5N3hON0lNTW9mMVdiTEQxTTAxYmo4VVN4cU5ycVJsMDdkeVNKTURyTk15bnMwSl9z0gHTAUFVX3lxTE83Y1FjX1phZ0lqUXp6ZnFLaThaaWxlNGFDb25zaW5MX2ZfVThvYkdHT2dnalJocERKT0J1aGZwWUpXWU9ZNEZVWGFRSkRPVWNhWnF4dUR4MFlYWUNzUGs1eVczYzk4MU1kYzJIejFxYnV0NVRzcnBKdHRMMC1BLW1lTE1WcnNsbGhmQVdiQ0x6ZzJxQkxXQUJadFYxc3lSVGU1azk3eE43SU1Nb2YxV2JMRDFNMDFiajhVU3hxTnJxUmwwN2R5U0pNRHJOTXluczBKX3M?oc=5",
-          "reports": 1,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-27T18:51:55+00:00",
-          "first_seen_at": "2026-10-28T15:05:24+00:00",
-          "source": "Simply Wall Street"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 208,
-      "unique_report_clusters": 178,
-      "estimated_duplicate_headlines": 30,
-      "publishers": 125,
+      "articles": 215,
+      "unique_report_clusters": 184,
+      "estimated_duplicate_headlines": 31,
+      "publishers": 130,
       "early_signal_strength": 65,
-      "evidence_headlines": 44,
-      "general_headlines": 164,
-      "older_than_7_days_on_first_seen": 42,
-      "first_seen_days": 19,
+      "evidence_headlines": 46,
+      "general_headlines": 169,
+      "older_than_7_days_on_first_seen": 43,
+      "first_seen_days": 20,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 44,
+        "physical_shortage": 46,
         "demand_accel": 1,
         "price_power": 1
       },
@@ -391,20 +391,20 @@
     },
     {
       "theme": "Shipping",
-      "articles": 185,
-      "unique_report_clusters": 168,
-      "estimated_duplicate_headlines": 17,
-      "publishers": 133,
-      "early_signal_strength": 65,
-      "evidence_headlines": 59,
-      "general_headlines": 126,
-      "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 19,
+      "articles": 203,
+      "unique_report_clusters": 183,
+      "estimated_duplicate_headlines": 20,
+      "publishers": 145,
+      "early_signal_strength": 67,
+      "evidence_headlines": 62,
+      "general_headlines": 141,
+      "older_than_7_days_on_first_seen": 52,
+      "first_seen_days": 20,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 57,
-        "price_power": 1,
-        "lead_time": 1
+        "physical_shortage": 58,
+        "price_power": 2,
+        "lead_time": 2
       },
       "stories": [
         {
@@ -468,14 +468,14 @@
           "source": "Global Trade Magazine"
         },
         {
-          "headline": "GRDA Hauls 220 Containers Daily as It Moves to Ease Tema Port Congestion - Modern Ghana",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGeTVIM2I4ZXFuWHVRTktNakp4TG1OYkplaml5NlZaOHZ3Q09CVUJrRXdmTi1najlvTlZVT2V1a1BhZThLVVItMkEzd2J1V1ZYa2VFRjlOcDdXbG90NVRYTGRFUdIBXEFVX3lxTFBtWDI4cEJTNmFDZFU4OTdqQmpoRS1yeGRqZGUyU3VYT05rN1hCOFpGMzg4QTVTQ0pMT0xQeTRfRUR0YTg1WTRYakRRdlJwSHN3bEM1OUdGVHp5b3R2?oc=5",
-          "reports": 4,
-          "publishers": 1,
+          "headline": "‘Slick operation’: Flying into Sydney’s new airport beats Mascot congestion - SMH.com.au",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLUd5WW9XMTdSM2xfaHhqV09KNHlJVWFQYlU5S2pURVJEYmdVUEVGNWcwdkhkNkZ3VXBtODlvQmlPQzJXVGRlMGR0RmwwZWI0RjJFSHVJczJReFlTbVA3WVVzWHByRlQxcnBQcmJ2WGVSTkhYSEtmQk9SZUllUldSS2hXV20tVFVIdndOakdLMGdPS3ZPcHU2N1dWdm9BaUg3cUh3bWo5ZUpUNEtPVC1NSHM1YS04M0lHSVEwazdsWXpWZ24xN29PYg?oc=5",
+          "reports": 2,
+          "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-13T16:03:48+00:00",
-          "first_seen_at": "2026-10-14T13:42:23+00:00",
-          "source": "Modern Ghana"
+          "feed_published_at": "2026-10-18T18:00:00+00:00",
+          "first_seen_at": "2026-10-19T15:34:50+00:00",
+          "source": "SMH.com.au"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
