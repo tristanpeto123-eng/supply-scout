@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-29T16:28:21+00:00",
-  "archive_count": 958,
-  "cluster_count": 845,
-  "dates_first_seen": 20,
+  "built_at": "2026-10-30T15:02:21+00:00",
+  "archive_count": 993,
+  "cluster_count": 872,
+  "dates_first_seen": 21,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 230,
-      "unique_report_clusters": 213,
-      "estimated_duplicate_headlines": 17,
-      "publishers": 103,
+      "articles": 239,
+      "unique_report_clusters": 219,
+      "estimated_duplicate_headlines": 20,
+      "publishers": 108,
       "early_signal_strength": 75,
-      "evidence_headlines": 130,
+      "evidence_headlines": 139,
       "general_headlines": 100,
       "older_than_7_days_on_first_seen": 68,
-      "first_seen_days": 20,
+      "first_seen_days": 21,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 113,
+        "physical_shortage": 122,
         "price_power": 21,
         "lead_time": 8
       },
@@ -38,6 +38,18 @@
           "feed_published_at": "2026-10-23T02:29:58+00:00",
           "first_seen_at": "2026-10-23T13:24:27+00:00",
           "source": "Global Sources"
+        },
+        {
+          "headline": "Citi Says the NAND Shortage Will Last Until 2028. Here’s Why Sandisk Stock Is Still So Cheap. - Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNzRsUENfQWdQbWZzbnNUX1JKWmdja2FJaE9SdFlvWW1WYXM1TGRSQmVvMnJvYzZSdUV1ZF9NQkxicnlnanpXRXAtTmk4anEtS25pRXlwY1FoY2N0YXVwOVRyWng1SVJvaHdFazNDLVNFMEpCcV90VzlrdjlUVUZrZDQ1OEpETzBmWjNRWFFnUmZEWTY0UnRRNFI0YVVnZVB0cVBfYm9QTGFHX212MjBhQXBhWkc2eFFOUE1ndm9yS1lld2hXVERpNHk4ODJBaVE?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-29T13:09:48+00:00",
+          "first_seen_at": "2026-10-29T15:12:54+00:00",
+          "source": "Barchart.com"
         },
         {
           "headline": "Memory executives expect RAM shortage to continue through 2028 - Adafruit",
@@ -86,41 +98,31 @@
           "source": "Cryptopolitan"
         },
         {
-          "headline": "Why a memory chip glut could be Korea's weapon against China - The Investor",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QZmNxZFp0VmFxVDBYdlRJODJULWRjVEJWWGFjaXpWcFdkN1Ywa2ZoTGxDTDhsZlhNNHRPanhPdTIxSnVpdXZkUG1ZaDc0a25HdlR3Zmh3TGZaQQ?oc=5",
+          "headline": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns - WKZO",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUG1QR2VfQmd4U2JTUnBqN3NRVjdVM3NoTndCS3d4MExWRnVCZTFldHBVTVRJM3laM053RnZ6RVhBNHVDUmg3eGl2YWVucmdURjU2bjJQelBRZmFUaU9rNXFMMG9ObWdldndlZnBCVVMtbDdkTmNpakI0UUY3Y0FKeEtvRUI?oc=5",
           "reports": 2,
           "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-15T06:06:09+00:00",
-          "first_seen_at": "2026-10-15T13:24:22+00:00",
-          "source": "The Investor"
-        },
-        {
-          "headline": "Dell CEO Says the Memory Shortage Will Get Worse in 2027 - TechPowerUp",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpva9IBmwFBVV95cUxQMy16NFRqRFA0SU1lSldQSzR6c1Zkc2R3VDdjOEZ3Ymg3NDFlczlQbjlXUU1OVnRLNlkwei1IRHhaQy10TVRLcEc0ZlNOZDQ5NV94RUVJTW5vSWI5THY5Y0l1Nmk4WGluWkFUUXJ6TDFxZnpzekZNQVZyWm1aaHNGTFNvb1htdnRDdmNldXNXcDYxdlZWcW9GQWpvaw?oc=5",
-          "reports": 3,
-          "publishers": 1,
           "signal_tags": [
             "physical_shortage"
           ],
-          "feed_published_at": "2026-10-21T00:33:20+00:00",
-          "first_seen_at": "2026-10-21T13:46:06+00:00",
-          "source": "TechPowerUp"
+          "feed_published_at": "2026-10-29T05:17:59+00:00",
+          "first_seen_at": "2026-10-29T15:12:54+00:00",
+          "source": "WKZO"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 203,
-      "unique_report_clusters": 167,
-      "estimated_duplicate_headlines": 36,
-      "publishers": 82,
+      "articles": 206,
+      "unique_report_clusters": 169,
+      "estimated_duplicate_headlines": 37,
+      "publishers": 83,
       "early_signal_strength": 59,
       "evidence_headlines": 8,
-      "general_headlines": 195,
+      "general_headlines": 198,
       "older_than_7_days_on_first_seen": 45,
-      "first_seen_days": 20,
+      "first_seen_days": 21,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 7,
@@ -205,22 +207,32 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 107,
-      "unique_report_clusters": 98,
-      "estimated_duplicate_headlines": 9,
-      "publishers": 64,
+      "articles": 119,
+      "unique_report_clusters": 108,
+      "estimated_duplicate_headlines": 11,
+      "publishers": 68,
       "early_signal_strength": 63,
-      "evidence_headlines": 19,
-      "general_headlines": 88,
+      "evidence_headlines": 21,
+      "general_headlines": 98,
       "older_than_7_days_on_first_seen": 10,
-      "first_seen_days": 20,
+      "first_seen_days": 21,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 10,
-        "physical_shortage": 9,
+        "lead_time": 11,
+        "physical_shortage": 10,
         "demand_accel": 1
       },
       "stories": [
+        {
+          "headline": "Zetwerk completes US power transformer installation amid rising grid demand - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXlEb2w3XzdEZDFKV3hEaTZCdncwdU0zdWZBTDBCUl8yTGdrUkY4OWQxZjZtOXd5dHlzS1NFc2tCaFNMZjhmU29oSUlfMEdoTW9qMVlyZGFYMEUyV1FjQmd0LTVWdmtmcG1feEVwRlh1N2ZIOVoxVVZCYnU0enJQTy1IaE5zUzlGcjJJNzFORTRlV0xiSXBwaFpkYXEwVEM3SE5BN21zWlByeXRfYnJGZlY2YUNGZ3psS2pOVng0ZmZFMjdmR2ZMcjY0dw?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-27T16:30:00+00:00",
+          "first_seen_at": "2026-10-28T15:05:24+00:00",
+          "source": "PR Newswire"
+        },
         {
           "headline": "Data Centers Are Running Out of Transformers. Here's the Industrial Stock With a 3-Year Backlog. - The Globe and Mail",
           "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUGQ5ZDkwR1BzMWVSSVBUSV9WRGYxMVBSRWZTbThyT0RYcUhuaEpmc09NdmVIUXgydk5LSDVsYTNwU1dibGQ1N1NKTnF1YWZucDRuS2VhZjBNbWNOQ1Y4SnpneDZnVjRtVmxxV3RuQXBEUFBTcWtWZ2NBZVVoaHJMcTFyU1NvYk81QnU3OHZnRkxoOUZ0WWpySUZhai1IWG5adHNqUm5RUGRMamloa2VVeWMzLWZ4NS1NeF9iUVpRVFlNYmVMNUJTRGdGc3M0ZmgwRG94M0xtQmd4anhLVkxlUkJyellpY1BOQ2l5dDNGNVVmNXN5S0VXUzFJbXA2RVFsa0l5TU5fT2pRZ3Fp?oc=5",
@@ -232,6 +244,16 @@
           "feed_published_at": "2026-10-08T12:50:54+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "The Globe and Mail"
+        },
+        {
+          "headline": "Hitachi Energy expands Celonis AI collaboration - Transformer Magazine",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYTdySFJnYTFOMjJja2RjYTh6ZlJWXzVIOFVSSWJaUkRqSDBHMTMxRU1WcDZ3OUpsYW1GeXotM3ZMRi1VT2FGZ2tmazRGSWw4TDhTOEtYa2o2NXlOeUJRWnI5RkFfWVhMVERzYllVZ3JBODUzY01zTlBFdndLc05FclJINExHS19nQlRZUFkzTQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-29T06:01:16+00:00",
+          "first_seen_at": "2026-10-29T15:12:54+00:00",
+          "source": "Transformer Magazine"
         },
         {
           "headline": "Hitachi announces $479M plan to build transformer insulation factory in London, Ont. - BNN Bloomberg",
@@ -256,16 +278,6 @@
           "source": "www.irishsun.com"
         },
         {
-          "headline": "Zetwerk completes US power transformer installation amid rising grid demand - PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXlEb2w3XzdEZDFKV3hEaTZCdncwdU0zdWZBTDBCUl8yTGdrUkY4OWQxZjZtOXd5dHlzS1NFc2tCaFNMZjhmU29oSUlfMEdoTW9qMVlyZGFYMEUyV1FjQmd0LTVWdmtmcG1feEVwRlh1N2ZIOVoxVVZCYnU0enJQTy1IaE5zUzlGcjJJNzFORTRlV0xiSXBwaFpkYXEwVEM3SE5BN21zWlByeXRfYnJGZlY2YUNGZ3psS2pOVng0ZmZFMjdmR2ZMcjY0dw?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-27T16:30:00+00:00",
-          "first_seen_at": "2026-10-28T15:05:24+00:00",
-          "source": "PR Newswire"
-        },
-        {
           "headline": "UEDCL Boss Explains Why Power Outages Persist And How They Are Fixing It - Nilepost",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUY4eDFIYUY4ZmplU0pibmFpSzJhblBQVWY0YmsteFkwLTdhM0p2c1dUbU1MMWtaZlFqTjhJd1daOFYxZVBHZHlGVXo0eTh4N19uWlhMZEhLLTdtYlFIaVJwVzdBU1NKOGd5WWV2bVVYemExYnRDMUhJY0VwTW51RGZjNHFGbzA4YXUwTzBjR05CS19Uempwa2VVR1VpZzNHWDFpTDZTd2FlYU3SAbMBQVVfeXFMTmpTTFJRX0VYaXVjcjJwdlhiZXBiN29PQldBTXkybDJTQ1FxdFlwT2VBdUp1TUZ3eG1sbUM2QmpOWkhTN1F4TFlTY0h6eGh5N084MTlEajFwMmhkMUtYNVgtalh6dktGRWFYT0VQcHJ0TjRnY210eW1Ec3VpYVpqWE50aG1YcktzWW4wekpKZFBXQVdYblgzczZvTlhFQUM4ZDNJRzJUdWpJbzhTSGhyNUtySm8?oc=5",
           "reports": 3,
@@ -284,31 +296,21 @@
           "feed_published_at": "2026-10-21T06:05:00+00:00",
           "first_seen_at": "2026-10-21T13:46:06+00:00",
           "source": "Chosunbiz"
-        },
-        {
-          "headline": "PE firm Cleanhill, transformer maker Marsons plan North America joint venture - VCCircle",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUWNwTmhQNUN3THBSQ2lTMDJOT1NiQWIwUUpOeFVRSGpsTVB4Ulo5UW52U3lwOHJ5WHdKb2dBWGwyYmEyeWRUMTdfcUEwbGo5LTJsUjRaa2lqVElFeURxNkZjanNwdkFaa2ZreGF2c3ZwNzhoWTdBMFFtbGFmUVI5Wjg1eUxWb2dZbFNxVVFtSFhBNXZBeVZCOVFMWE9wTWt3cFE?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-06T14:05:05+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "VCCircle"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 215,
-      "unique_report_clusters": 184,
-      "estimated_duplicate_headlines": 31,
-      "publishers": 130,
+      "articles": 217,
+      "unique_report_clusters": 185,
+      "estimated_duplicate_headlines": 32,
+      "publishers": 132,
       "early_signal_strength": 65,
       "evidence_headlines": 46,
-      "general_headlines": 169,
+      "general_headlines": 171,
       "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 20,
+      "first_seen_days": 21,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 46,
@@ -391,20 +393,20 @@
     },
     {
       "theme": "Shipping",
-      "articles": 203,
-      "unique_report_clusters": 183,
-      "estimated_duplicate_headlines": 20,
-      "publishers": 145,
+      "articles": 212,
+      "unique_report_clusters": 191,
+      "estimated_duplicate_headlines": 21,
+      "publishers": 149,
       "early_signal_strength": 67,
-      "evidence_headlines": 62,
-      "general_headlines": 141,
-      "older_than_7_days_on_first_seen": 52,
-      "first_seen_days": 20,
+      "evidence_headlines": 66,
+      "general_headlines": 146,
+      "older_than_7_days_on_first_seen": 53,
+      "first_seen_days": 21,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 58,
+        "physical_shortage": 60,
         "price_power": 2,
-        "lead_time": 2
+        "lead_time": 4
       },
       "stories": [
         {
@@ -438,6 +440,18 @@
           "source": "Newswav"
         },
         {
+          "headline": "Backlog at China’s Ports Was Finally Shrinking. Typhoon Champi Will Test That. - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUHRvT3dGX2JRMHFCX0ZybmNINHJ1RzJsS0pIUV9ZZTE2aVdSVEdNX0xwQzdicm9PN3ZsNHNrNlh3dEZCc0I3dWVoS0VQc0EwaDJfV0FOQUVMNklDSml4OHM3MW40eEtYeDVqeDYtOGVvZjA4ZDNCUWU1RTNGbGUzLVRZempNLXE2aTAyYTR3Z3RidV9UMjZQVk02Vl9hakFUVmgwZ202SWdmLWM?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "lead_time"
+          ],
+          "feed_published_at": "2026-10-23T21:21:37+00:00",
+          "first_seen_at": "2026-10-29T15:12:54+00:00",
+          "source": "Yahoo Finance"
+        },
+        {
           "headline": "Global Container Freight Rates Rise 130% Since February on Middle East Tensions: Jefferies - KNN India",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaEc1c1NxT0lxTjFaWUtYMzdpczNINWVuWDl5MnNjQXRwTExlYVlNaVhmMDlJX1RqN0JGVVUtTnlabEpwMEtuRnRUaTVLeFUyTkdrNGIzZ3kwakVzOG43Vk5lOUY3WXBCZ0dxUi0wOHpjU1U1TF95ZThIUUllSnpIdC01MG4yTWJubG1tOFVRU3VOeXRSQjlzV2Z3eTM0aGs4bWkzaElERkVTZHFIaE9LR0prUTBQMzJZanNXTUd6OUI0WTNVdmwxTlVOR1hIR0twU0E?oc=5",
           "reports": 2,
@@ -466,16 +480,6 @@
           "feed_published_at": "2026-10-07T09:04:17+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Global Trade Magazine"
-        },
-        {
-          "headline": "‘Slick operation’: Flying into Sydney’s new airport beats Mascot congestion - SMH.com.au",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLUd5WW9XMTdSM2xfaHhqV09KNHlJVWFQYlU5S2pURVJEYmdVUEVGNWcwdkhkNkZ3VXBtODlvQmlPQzJXVGRlMGR0RmwwZWI0RjJFSHVJczJReFlTbVA3WVVzWHByRlQxcnBQcmJ2WGVSTkhYSEtmQk9SZUllUldSS2hXV20tVFVIdndOakdLMGdPS3ZPcHU2N1dWdm9BaUg3cUh3bWo5ZUpUNEtPVC1NSHM1YS04M0lHSVEwazdsWXpWZ24xN29PYg?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-18T18:00:00+00:00",
-          "first_seen_at": "2026-10-19T15:34:50+00:00",
-          "source": "SMH.com.au"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
