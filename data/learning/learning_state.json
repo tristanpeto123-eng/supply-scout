@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-10-30T16:17:36+00:00",
-  "archive_count": 993,
-  "cluster_count": 872,
-  "dates_first_seen": 21,
+  "built_at": "2026-10-31T14:31:33+00:00",
+  "archive_count": 1028,
+  "cluster_count": 901,
+  "dates_first_seen": 22,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 239,
-      "unique_report_clusters": 219,
+      "articles": 242,
+      "unique_report_clusters": 222,
       "estimated_duplicate_headlines": 20,
-      "publishers": 108,
+      "publishers": 109,
       "early_signal_strength": 75,
-      "evidence_headlines": 139,
-      "general_headlines": 100,
+      "evidence_headlines": 140,
+      "general_headlines": 102,
       "older_than_7_days_on_first_seen": 68,
-      "first_seen_days": 21,
+      "first_seen_days": 22,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 122,
+        "physical_shortage": 123,
         "price_power": 21,
         "lead_time": 8
       },
@@ -114,20 +114,21 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 206,
-      "unique_report_clusters": 169,
-      "estimated_duplicate_headlines": 37,
-      "publishers": 83,
+      "articles": 215,
+      "unique_report_clusters": 177,
+      "estimated_duplicate_headlines": 38,
+      "publishers": 87,
       "early_signal_strength": 59,
       "evidence_headlines": 8,
-      "general_headlines": 198,
+      "general_headlines": 207,
       "older_than_7_days_on_first_seen": 45,
-      "first_seen_days": 21,
+      "first_seen_days": 22,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 7,
         "demand_accel": 2,
-        "physical_shortage": 1
+        "physical_shortage": 1,
+        "capacity_additions": 1
       },
       "stories": [
         {
@@ -207,20 +208,20 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 119,
-      "unique_report_clusters": 108,
-      "estimated_duplicate_headlines": 11,
-      "publishers": 68,
+      "articles": 131,
+      "unique_report_clusters": 117,
+      "estimated_duplicate_headlines": 14,
+      "publishers": 72,
       "early_signal_strength": 63,
-      "evidence_headlines": 21,
-      "general_headlines": 98,
-      "older_than_7_days_on_first_seen": 10,
-      "first_seen_days": 21,
+      "evidence_headlines": 24,
+      "general_headlines": 107,
+      "older_than_7_days_on_first_seen": 11,
+      "first_seen_days": 22,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 11,
-        "physical_shortage": 10,
-        "demand_accel": 1
+        "lead_time": 13,
+        "physical_shortage": 11,
+        "demand_accel": 2
       },
       "stories": [
         {
@@ -266,6 +267,16 @@
           "source": "BNN Bloomberg"
         },
         {
+          "headline": "KONČAR secures $1.96 B in new orders - Transformer Magazine",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zSlV6RFlaYzF0X0xpWXRrOEdraW5oTkJJcFpfUlFPaHJMWkF2MV9sZDduSGZIWjM3WWNGcy1HVUpfQkhGMDdkV01DNnR1RG1OWmhXVE5rd0YwMmJVcVpCeU5fUVp6QmtqZEVRMHpQa1BzUTlMM3lzYjN6eWkwMnc?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-30T06:03:59+00:00",
+          "first_seen_at": "2026-10-30T15:01:54+00:00",
+          "source": "Transformer Magazine"
+        },
+        {
           "headline": "Pakistan: Doctor shortage leaves Attock's Chhab Health Centre in crisis - www.irishsun.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmNvWWRsMC1acTVDTWJKREVGZXBsekZLTWxZN3N1Sk5YRy11dWhzbU5GQ1FjMFIybkxycWNkdENsYU1scW41RlEwNVFlako4dko1MVVzd0lvcnJDS2hxNWdhUFRKS0x0N3dPM3FGci14OEVZdXBpQUVGaTlsNlNabTNKZVZPLXp4ZDBTN0JOMGxVWGFtZ0NYaXJxNnpPaE8wbXh3aUM2dGgxMF92?oc=5",
           "reports": 2,
@@ -286,36 +297,26 @@
           "feed_published_at": "2026-10-22T12:18:24+00:00",
           "first_seen_at": "2026-10-23T13:24:27+00:00",
           "source": "Nilepost"
-        },
-        {
-          "headline": "LS Electric logs record quarter as AI power boom lifts profits and orders - CHOSUNBIZ - Chosunbiz",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVG1lTUhpSmZyODAzb3hwZUhXcVlJeXJXQURsZm9VdS1hLW9xMmJfN01Bc3J3VG5ELW5lSDNOek5fZWVMTndJVTFMRGMtMDJ1U3k4d3FNX0pNMEFueHpsNmtnanJCNnlIcDFTdExzLTk4UzZIbWg4VG1oQkFvZTZka0pKY3gtUXdFT1pERFJaUkt5TmpKSGfSAZYBQVVfeXFMTlRtZU1IaUpmcjgwM294cGVIV3FZSXlyV0FEbGZvVXUtYS1vcTJiXzdNQXNyd1RuRC1uZUgzTnpOX2VlTE53SVUxTERjLTAydVN5OHdxTV9KTTBBbnh6bDZrZ2pyQjZ5SHAxU3RMcy05OFM2SG1oOFRtaEJBb2U2ZGtKSmN4LVF3RU9aRERSWlJLeU5qSkhn?oc=5",
-          "reports": 2,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-21T06:05:00+00:00",
-          "first_seen_at": "2026-10-21T13:46:06+00:00",
-          "source": "Chosunbiz"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 217,
-      "unique_report_clusters": 185,
+      "articles": 219,
+      "unique_report_clusters": 187,
       "estimated_duplicate_headlines": 32,
-      "publishers": 132,
-      "early_signal_strength": 65,
-      "evidence_headlines": 46,
-      "general_headlines": 171,
+      "publishers": 133,
+      "early_signal_strength": 67,
+      "evidence_headlines": 47,
+      "general_headlines": 172,
       "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 21,
+      "first_seen_days": 22,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 46,
         "demand_accel": 1,
-        "price_power": 1
+        "price_power": 2
       },
       "stories": [
         {
@@ -393,18 +394,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 212,
-      "unique_report_clusters": 191,
-      "estimated_duplicate_headlines": 21,
-      "publishers": 149,
+      "articles": 221,
+      "unique_report_clusters": 198,
+      "estimated_duplicate_headlines": 23,
+      "publishers": 153,
       "early_signal_strength": 67,
-      "evidence_headlines": 66,
-      "general_headlines": 146,
-      "older_than_7_days_on_first_seen": 53,
-      "first_seen_days": 21,
+      "evidence_headlines": 72,
+      "general_headlines": 149,
+      "older_than_7_days_on_first_seen": 54,
+      "first_seen_days": 22,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 60,
+        "physical_shortage": 66,
         "price_power": 2,
         "lead_time": 4
       },
@@ -418,6 +419,18 @@
           "feed_published_at": "2026-10-14T19:12:51+00:00",
           "first_seen_at": "2026-10-15T13:24:22+00:00",
           "source": "TheTrucker.com"
+        },
+        {
+          "headline": "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObTN0UnVEV2RrZW94d3ZQbm5tVU5CNjI4UExzYzJ0dzEzWlB6TlBtQ3pIajBobzBNdXlQQXljRGltdmFqN05xcjBuTE1YZklZbm9SYzFxZnBMMmtOX3pobzF5ZVFycl9xWHJ2Y2pyeUJNeVRLV0kxcm9sSzhiQUVsMUtaRmJBWUVmR090bjFKVlJrbDdNOUNsU2VsUVN2dTJzM3RwaGFHbmhIM2stVE1vdVlHdVZJeGpTWkxhTGMxZVloeFlOd2NJaE9lZ2hBR1NRcTQtNTF2aHhYTmk3aDE3TlI1N2nSAeQBQVVfeXFMTm0zdFJ1RFdka2VveHd2UG5ubVVOQjYyOFBMc2MydHcxM1pQek5QbUN6SGowaG8wTXV5UEF5Y0RpbXZhajdOcXIwbkxNWGZJWW5vUmMxcWZwTDJrTl96aG8xeWVRcnJfcVhydmNqcnlCTXlUS1dJMXJvbEs4YkFFbDFLWkZiQVlFZkdPdG4xSlZSa2w3TTlDbFNlbFFTdnUyczN0cGhhR25oSDNrLVRNb3VZR3VWSXhqU1pMYUxjMWVZaHhZTndjSWhPZWdoQUdTUXE0LTUxdmh4WE5pN2gxN05SNTdp?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-30T18:15:25+00:00",
+          "first_seen_at": "2026-10-31T14:31:09+00:00",
+          "source": "CNBC TV18"
         },
         {
           "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
@@ -470,16 +483,6 @@
           "feed_published_at": "2026-10-06T21:44:32+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "DC Velocity"
-        },
-        {
-          "headline": "Port Congestion Now Ties Up 12% of Global Container Capacity - Global Trade Magazine",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjlSeFY5V2ZocjlndmNQd2FDNnpNcnBBaHZyaG5aMS1IeGREVjBSYTdkUGNtV2pKYmo5a0lBVTVtLUxKV0ozTmw1THRkc0M3Vld4aVFFQjFLd01jWThtQXRPUDRiVmRLNHpSckJZeVhMS0JZVF9yelBzZlRNdnpEZGJUNXJYRWFqbkdLLU8wbmg4NDFkTHc?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-07T09:04:17+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Global Trade Magazine"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
