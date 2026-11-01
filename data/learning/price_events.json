@@ -489,8 +489,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-10-27"
+        "status": "RESOLVED",
+        "exit_date": "2026-10-27",
+        "stock_return_pct": -3.09,
+        "benchmark_return_pct": 0.4,
+        "excess_after_cost_pct": -4.08,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-10-27",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -534,8 +540,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-10-27"
+        "status": "RESOLVED",
+        "exit_date": "2026-10-27",
+        "stock_return_pct": 5.05,
+        "benchmark_return_pct": 0.4,
+        "excess_after_cost_pct": 4.05,
+        "label": "NEUTRAL",
+        "known_after": "2026-10-27",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -579,8 +591,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-10-27"
+        "status": "RESOLVED",
+        "exit_date": "2026-10-27",
+        "stock_return_pct": 3.34,
+        "benchmark_return_pct": 0.4,
+        "excess_after_cost_pct": 2.34,
+        "label": "NEUTRAL",
+        "known_after": "2026-10-27",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
