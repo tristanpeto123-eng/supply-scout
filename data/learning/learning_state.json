@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-01T16:28:58+00:00",
-  "archive_count": 1052,
-  "cluster_count": 924,
-  "dates_first_seen": 23,
+  "built_at": "2026-11-02T18:20:17+00:00",
+  "archive_count": 1095,
+  "cluster_count": 961,
+  "dates_first_seen": 24,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,20 +11,20 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 248,
-      "unique_report_clusters": 228,
+      "articles": 260,
+      "unique_report_clusters": 240,
       "estimated_duplicate_headlines": 20,
-      "publishers": 112,
+      "publishers": 117,
       "early_signal_strength": 75,
-      "evidence_headlines": 141,
-      "general_headlines": 107,
+      "evidence_headlines": 148,
+      "general_headlines": 112,
       "older_than_7_days_on_first_seen": 68,
-      "first_seen_days": 23,
+      "first_seen_days": 24,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 124,
-        "price_power": 21,
-        "lead_time": 9
+        "physical_shortage": 129,
+        "price_power": 22,
+        "lead_time": 10
       },
       "stories": [
         {
@@ -114,15 +114,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 222,
-      "unique_report_clusters": 183,
-      "estimated_duplicate_headlines": 39,
-      "publishers": 88,
+      "articles": 232,
+      "unique_report_clusters": 192,
+      "estimated_duplicate_headlines": 40,
+      "publishers": 91,
       "early_signal_strength": 59,
       "evidence_headlines": 8,
-      "general_headlines": 214,
+      "general_headlines": 224,
       "older_than_7_days_on_first_seen": 45,
-      "first_seen_days": 23,
+      "first_seen_days": 24,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 7,
@@ -208,20 +208,20 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 136,
-      "unique_report_clusters": 122,
+      "articles": 141,
+      "unique_report_clusters": 127,
       "estimated_duplicate_headlines": 14,
-      "publishers": 73,
+      "publishers": 75,
       "early_signal_strength": 63,
-      "evidence_headlines": 26,
-      "general_headlines": 110,
+      "evidence_headlines": 29,
+      "general_headlines": 112,
       "older_than_7_days_on_first_seen": 11,
-      "first_seen_days": 23,
+      "first_seen_days": 24,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 15,
-        "physical_shortage": 11,
-        "demand_accel": 2
+        "lead_time": 17,
+        "physical_shortage": 12,
+        "demand_accel": 3
       },
       "stories": [
         {
@@ -303,18 +303,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 224,
-      "unique_report_clusters": 192,
-      "estimated_duplicate_headlines": 32,
-      "publishers": 134,
+      "articles": 229,
+      "unique_report_clusters": 196,
+      "estimated_duplicate_headlines": 33,
+      "publishers": 137,
       "early_signal_strength": 67,
-      "evidence_headlines": 49,
-      "general_headlines": 175,
+      "evidence_headlines": 50,
+      "general_headlines": 179,
       "older_than_7_days_on_first_seen": 44,
-      "first_seen_days": 23,
+      "first_seen_days": 24,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 48,
+        "physical_shortage": 49,
         "demand_accel": 1,
         "price_power": 2
       },
@@ -394,18 +394,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 222,
-      "unique_report_clusters": 199,
-      "estimated_duplicate_headlines": 23,
-      "publishers": 153,
+      "articles": 233,
+      "unique_report_clusters": 206,
+      "estimated_duplicate_headlines": 27,
+      "publishers": 158,
       "early_signal_strength": 67,
-      "evidence_headlines": 73,
-      "general_headlines": 149,
+      "evidence_headlines": 74,
+      "general_headlines": 159,
       "older_than_7_days_on_first_seen": 54,
-      "first_seen_days": 23,
+      "first_seen_days": 24,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 67,
+        "physical_shortage": 68,
         "price_power": 2,
         "lead_time": 4
       },
@@ -443,6 +443,16 @@
           "source": "BusinessLine"
         },
         {
+          "headline": "Asia-Europe ‘double sailings’ top pandemic peak as congestion upends Golden Week cuts - Lloyd's List",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTmtZOTZIVllJbDk1elp0RmdWb3luZEVPRDFucTk0bTl5VlpYVmJJbGxwelY1X3VIazYza3pmUE5ja0t2MXptTmszaW9SeXNGTFIxeHRqQTJZeHh0OGEwOHRLWkZHbWp0WW50ZXNwZ3lZYTJPUHBPdUtONXVxazJIaHFHQ0RpYmZMY3BPaVRsSXJxRzJ6RklnbXJGSmxVZ0hIdW8xM0VMM3NLWElzUGl2V0pGUHRJMU9LVVJXSw?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-26T10:49:37+00:00",
+          "first_seen_at": "2026-10-31T14:31:09+00:00",
+          "source": "Lloyd's List"
+        },
+        {
           "headline": "Asian port congestion may prolong shipping crunch into 2027 - Newswav",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM2o0RGk0c3JWb0hVd1pjYktXeFowX0U2eHRObk9DRDc1VnFvMk9jNzRkcXNrREd1RWg1TWZOOHVOWk82bHpwY1FWVlh4WjJRcThBM3BLX3JPdEdtd0FxOHZxbUhlNENfRlVibFh0WGdkaXgwczlRcmFmenNBZjVueS1mT2ZMUGlNNW9SejVzajRFYXJpcjBSd2taRjh4VmFKa3c?oc=5",
           "reports": 2,
@@ -473,16 +483,6 @@
           "feed_published_at": "2026-10-19T12:31:35+00:00",
           "first_seen_at": "2026-10-19T15:34:50+00:00",
           "source": "KNN India"
-        },
-        {
-          "headline": "Peak season runs long as AI demand and port congestion keep capacity tight - DC Velocity",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTFRHODJOekpxOGVXQUt2Zlp2bnlMdXVfRU5VUkc5ajdfeU05T2dsOEN0VWVDbmRhN3FfcXZNTXBBYmRyMVZwejNVMFFvdTBEdDJpNkFOSmhkeXBMaS1WazFYNm9fcm1haXdaeDh3ZGxBS3RHZmF6dTZDbDBsbVZmNnRLWTE1RVBjOGpleG05M1pCSGpEeVhvRWpYZXpvMW5RNVA2T0loamVWZFl4U2VOOWpzS0tvS21EdWp5ejlzU1BXYXUyYVJtbVEyZlZqT1RRclUzQkx2blhaQWExX05z?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-06T21:44:32+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "DC Velocity"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
