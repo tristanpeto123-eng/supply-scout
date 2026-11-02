@@ -790,5 +790,113 @@
       }
     },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W45",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "snapshot_locked": true,
+    "headline": "Astor Enerji stock: Power-grid backlog sharpens growth case - ad-hoc-news.de",
+    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaTNLNmRaeWxrOHM3aDNjbDlaQTJlN0RSZFZMNzg5eXZ0TWRFdms2NkEtQXY5YnhhUTVNa0Fua1hDTzBrQ0ctdHU0Q2g2OU11WEtYbnNDM1hDVGgtV0pNcEZfc0tKeGNneUxRYnBPR2l0MXdXTFYzN0d6TjU2ang2d3hObnp5LUloTmFmRktyNXJhMHVSSEM2RzNHWm5OTTAyU3RoaEI1Y1VqQUQ1dUFYUDM5OXFCVk1i?oc=5",
+    "source_domain": "ad-hoc-news.de",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.79,
+      "prior_excess_30d": -0.126361
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W45",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "snapshot_locked": true,
+    "headline": "NAND Prices Remain Robust as AI Demand Deepens Memory Shortage, but Long-Run Risks Look Exacerbated - Morningstar",
+    "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2hXb2JyQmdZTVJUVzJoOExmTmllMDFOUm5rcDE5elBSY1EtcVdISzBXOXZmRy04MXlVcmhfN3FiS2RjU29kMHBjOW9FdHdXZEhyaC1QMFJsWXBMM3Zyd002YlAtemJZbEl0dFpOMTdNbm10QXVwTEhTVnRFZ3hhOUFRQVM0TV9wZDV3UDNtV1RuQU16LTlmdVZDUTNoWG9UMG94V19TNENEbFgzTWx4Q3d0NV9melFudzM1U19ELTRzUndyTE5pOU1NX1AxaE95YThFeDN2T2xjTkphTjVhazJWQjc?oc=5",
+    "source_domain": "Morningstar",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 5,
+      "publisher_count": 5,
+      "publication_lag": 0.2,
+      "prior_excess_30d": -0.151474
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Optical networks|LITE|2026-W45",
+    "theme": "Optical networks",
+    "ticker": "LITE",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "snapshot_locked": true,
+    "headline": "FORM Q3 deep dive: capacity constraints and photonics growth shape cautious outlook - StockStory",
+    "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNN0JyWmZjdEU5cGtiNTdZX2VqUlg2dDRzZ1pucmI3Y3F4MVFMU1JxVFlZMTJ0bTBNV0l5VS02Z3pidkZ5a3REOWhrZ0pMc2VkR0VKZjNnTWRHN2M3S1hRYW1kSG9wa1hXVUdSbTNZRmJQQmNmUENqZGNLYmlqVmZGUnVIZ0JXSFlJSWwwVnhmZ0x3cUNIVnFBOGd3ekw1QUdBOWFvempjTFY5UmhPV0JzQVVDNjZNSVJLNGpsYkxzb1BNcjNza28ySk5kQmhWdnpPX0NmSHJlVkV3X20zRTBR?oc=5",
+    "source_domain": "StockStory",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 4.47,
+      "prior_excess_30d": -0.200163
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W45",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "snapshot_locked": true,
+    "headline": "Maersk orders 26 container ships as Asian port congestion disrupts global supply chains - Automotive Logistics",
+    "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVDR0MDRYci1MVHVmQl9iU3FNLXJmUEhOSmZoWGVWUjh2SkFhT2JkaHpJaEZhSklfby0yWXRkN2hBOGc0RTMyVWlhUGhvRjJ3RGxoa1BWQ25qS0VkeU5XRHFpVDJCdEt5M2NiNlVTM3NfaTBOUVFsQTBYXzNrM2NFc08yYmNFNHVZeW9FTnNjOHZ0d0FTYkNqV0hkVGhtSEd6WTMxRnZTQlBGMlJFYTFFTTQ0a1dlUEdCdTJZT1FnY3BndEtSMzFvYWQybEo2SWVfZVBZUQ?oc=5",
+    "source_domain": "Automotive Logistics",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.08,
+      "prior_excess_30d": -0.016889
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
