@@ -1534,5 +1534,289 @@
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
     }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W45",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "headline": "Astor Enerji stock: Power-grid backlog sharpens growth case - ad-hoc-news.de",
+    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaTNLNmRaeWxrOHM3aDNjbDlaQTJlN0RSZFZMNzg5eXZ0TWRFdms2NkEtQXY5YnhhUTVNa0Fua1hDTzBrQ0ctdHU0Q2g2OU11WEtYbnNDM1hDVGgtV0pNcEZfc0tKeGNneUxRYnBPR2l0MXdXTFYzN0d6TjU2ang2d3hObnp5LUloTmFmRktyNXJhMHVSSEM2RzNHWm5OTTAyU3RoaEI1Y1VqQUQ1dUFYUDM5OXFCVk1i?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-30",
+        "close": 369.970001,
+        "sma20": 401.798502,
+        "sma50": 411.1322,
+        "sma200": 395.663678,
+        "rsi14": 29.68,
+        "atr14_pct": 4.71,
+        "volume_vs_20d": 1.48,
+        "relative_strength_20d_pct": -12.64,
+        "relative_strength_60d_pct": -14.71,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 445.089996,
+        "distance_above_sma20_pct": -7.92,
+        "completed_bars_available": 312
+      },
+      "as_of": "2026-10-30",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-02T20:25:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W45",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "headline": "NAND Prices Remain Robust as AI Demand Deepens Memory Shortage, but Long-Run Risks Look Exacerbated - Morningstar",
+    "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2hXb2JyQmdZTVJUVzJoOExmTmllMDFOUm5rcDE5elBSY1EtcVdISzBXOXZmRy04MXlVcmhfN3FiS2RjU29kMHBjOW9FdHdXZEhyaC1QMFJsWXBMM3Zyd002YlAtemJZbEl0dFpOMTdNbm10QXVwTEhTVnRFZ3hhOUFRQVM0TV9wZDV3UDNtV1RuQU16LTlmdVZDUTNoWG9UMG94V19TNENEbFgzTWx4Q3d0NV9melFudzM1U19ELTRzUndyTE5pOU1NX1AxaE95YThFeDN2T2xjTkphTjVhazJWQjc?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-30",
+        "close": 884.73999,
+        "sma20": 950.552319,
+        "sma50": 978.592152,
+        "sma200": 746.624902,
+        "rsi14": 39.13,
+        "atr14_pct": 5.76,
+        "volume_vs_20d": 1.19,
+        "relative_strength_20d_pct": -15.15,
+        "relative_strength_60d_pct": 2.92,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1087.828857,
+        "distance_above_sma20_pct": -6.92,
+        "completed_bars_available": 312
+      },
+      "as_of": "2026-10-30",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-02T20:25:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Optical networks|LITE|2026-W45",
+    "ticker": "LITE",
+    "theme": "Optical networks",
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "headline": "FORM Q3 deep dive: capacity constraints and photonics growth shape cautious outlook - StockStory",
+    "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNN0JyWmZjdEU5cGtiNTdZX2VqUlg2dDRzZ1pucmI3Y3F4MVFMU1JxVFlZMTJ0bTBNV0l5VS02Z3pidkZ5a3REOWhrZ0pMc2VkR0VKZjNnTWRHN2M3S1hRYW1kSG9wa1hXVUdSbTNZRmJQQmNmUENqZGNLYmlqVmZGUnVIZ0JXSFlJSWwwVnhmZ0x3cUNIVnFBOGd3ekw1QUdBOWFvempjTFY5UmhPV0JzQVVDNjZNSVJLNGpsYkxzb1BNcjNza28ySk5kQmhWdnpPX0NmSHJlVkV3X20zRTBR?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-30",
+        "close": 840.700012,
+        "sma20": 921.819247,
+        "sma50": 922.903802,
+        "sma200": 801.173551,
+        "rsi14": 36.33,
+        "atr14_pct": 8.54,
+        "volume_vs_20d": 1.52,
+        "relative_strength_20d_pct": -20.02,
+        "relative_strength_60d_pct": 2.85,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1133.400024,
+        "distance_above_sma20_pct": -8.8,
+        "completed_bars_available": 312
+      },
+      "as_of": "2026-10-30",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-02T20:25:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Shipping|ZIM|2026-W45",
+    "ticker": "ZIM",
+    "theme": "Shipping",
+    "signal_time": "2026-11-02T18:19:52+00:00",
+    "headline": "Maersk orders 26 container ships as Asian port congestion disrupts global supply chains - Automotive Logistics",
+    "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVDR0MDRYci1MVHVmQl9iU3FNLXJmUEhOSmZoWGVWUjh2SkFhT2JkaHpJaEZhSklfby0yWXRkN2hBOGc0RTMyVWlhUGhvRjJ3RGxoa1BWQ25qS0VkeU5XRHFpVDJCdEt5M2NiNlVTM3NfaTBOUVFsQTBYXzNrM2NFc08yYmNFNHVZeW9FTnNjOHZ0d0FTYkNqV0hkVGhtSEd6WTMxRnZTQlBGMlJFYTFFTTQ0a1dlUEdCdTJZT1FnY3BndEtSMzFvYWQybEo2SWVfZVBZUQ?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 2,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": true
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-10-30",
+        "close": 28.379999,
+        "sma20": 29.527,
+        "sma50": 29.198,
+        "sma200": 26.293014,
+        "rsi14": 19.71,
+        "atr14_pct": 2.16,
+        "volume_vs_20d": 2.06,
+        "relative_strength_20d_pct": -1.69,
+        "relative_strength_60d_pct": 10.12,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 30.9,
+        "distance_above_sma20_pct": -3.88,
+        "completed_bars_available": 312
+      },
+      "as_of": "2026-10-30",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-02T20:25:05+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
   }
 ]
