@@ -17526,5 +17526,645 @@
     ],
     "easing": false,
     "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "[News] China Reportedly Obtains Smuggled HBM via Server Packages; Huawei 960DT Faces Domestic HBM Shortage - TrendForce",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWFM0Y2hRejNFOGZobHMtYVJDeTZ0dGlvLTY1amFOaVo1eDFONWt2eVNvUllRMEFvbTJ4Yk5WVzRybThLaWw3YXVkMEl5Y3h1a3NjNTJvaG9xQnlyX2thVGJNcExjMnhnWmdUVllrRmlRTFNKN1R1ZHZIeU8wZ2xNcngzTU9FMVdBaGhwRVZicGtVV0xVM041eWtXUHpyN0lpczJmYkNIc1hLTmEyNUV1MXZ2d0RqQjBVX2NyaTdoOWRKdGV0c1NOcWhuTzY1QjB2WVNoTmxIUDEyQlNVZ2pUcA?oc=5",
+    "domain": "TrendForce",
+    "source_domain": "www.trendforce.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T09:56:06+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Even Apple Calls It \"Unprecedented Pricing\" — DRAM Shortage to Last Through 2028 - BigGo Finance",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mc2hlR0ZhM3RDMEluQnZnYzR2RzVZMHZNZmJkMmlfeXZvT1dEdTZfbFZLS0hDa19iOWY1dUVuVlVYc1B2cjZxQ0U5OUx2NDZUckRzOGVDVG9sdEpaTU12X25JNVo2bm1NY2VjNmNnNlJBRFVyOGc?oc=5",
+    "domain": "BigGo Finance",
+    "source_domain": "finance.biggo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T09:05:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "CXMT Continues to Benefit From AI-Driven DRAM Shortage, but Long-Term Cyclicality Risks Mount - Morningstar",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOS3E2T193YlVvckNzSTZMRkRZVGtYN0t6UmNmVG9tdnowMjNxcjJ6Z1o5VFJrOGZVUXJKNWsxVXgyUXl4YllfU3lJWUZ0MVpWY01SYzB5dWlMUENlclZSTml3a1lQN1RJMU9HSWJUY3U0TkdONzdqN3dONVF3aFZhNkpfM1piLTlKa0ZYWGFIQ3kxYUMweVYyRDhoUW5INTJtZFZiNTd1cm14bUwwdTJjM1pOeG1LUVNTeHFaSUtRQTgxZ2hWaTZGSXQ0a3BkWE9Cb283X0dBYm5YZlR4?oc=5",
+    "domain": "Morningstar",
+    "source_domain": "www.morningstar.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T15:04:38+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Elon Musk mocks Sam Altman Ram remarks with 5% jab - شبكة تواصل الإخبارية",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZM3htdE4yc0g1eWJzM3ZERkplMVdOQUE4UUdySkFCb0w3U0xYZWUwX0puNG44bEFocWF6bW5zeTlkSGRpTlFrSkJmZlQwUDM3NE5r?oc=5",
+    "domain": "شبكة تواصل الإخبارية",
+    "source_domain": "twaslnews1.twaslnews.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T18:38:28+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Sam Altman Says Personal Computers Holding Too Much RAM Is ‘Terrible’ Amid Global Memory Shortage - https://ascendants.in/",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU1Rla05LcXhKSkhfNXo1RkQ3NUlZWDV0bTJUTWZaNk5rb1RuR3draHhtdkYxNmIyMTVzZWUySGNfS1ltb2tIM3JDRk5OcW11THVvdGIwdktRQzFPNjdMQkQzYnRlV1ZYRGFDX0VkNkdmS1BxcW16NVZKd095dGdCN3g4WFU3VjNiTndINmltZ18?oc=5",
+    "domain": "https://ascendants.in/",
+    "source_domain": "ascendants.in",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T19:28:37+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "AIXA: AI-led photonics demand lifts Q3; backlog underpins 2026 guidance and 2027 growth - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOFFqeXAxNnJhOE0wYllIQVdFbmprd2c3anFKT3lwSktVS0JvWXdwUm5kZGNDbzM4Qk9YTWl4ak1HWkFGYjdZWXJ6ZUJUdFQyQzhKRW1ZaGx6Um0tZjZMN3IzSERsbngzWmxaeUxxaFl0NDlFYlBnWjlHM1hyUVBqakN5R3NubUJ4N0ZHQ3RLRnQzVDhWSzY1RlYtQ2x5Mm03YVczWURUSzVpLU84d3U2dkVqb1B5TG9IOHlZVUdUYzA4cmlMck1PeEp0anRocHdaZzNqSzFGbG9XRmJieVNKckgwSkdhM3dZN1BYbEUyNThWdGFGTFNyY29jbDU?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-29T06:36:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Backlog"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Marvell wants to be a copper topper, bets $115B on photonics leader to push optical networking - The Register",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWWctM3pmYVJPcXNTbjluek9ZQi0tdW9ZbUlqU3J5WUJmNzFRSDVCRkZlWFZlNm9lNWlwWmxSeXdyV0xKcGx6RTRDN3VQckRWdE9WU0hIaW9mSEV2NE9aZlVaVzVDRnVILWgxY0xfWGR4S1c4Njc3SWdBVVZ2akZmajlpR2U1Rmx2VFhGb3d2b0xrMzJFZTR1UVdJQ3RHeG9KaWFfLWw5ZEJtUXJMdUoyODh5SzhFcnV2OTZLQ0pDWm83cEVCU2RiMWRnbkpOczcxRVhyTVlMbUhiQVJMakdUNw?oc=5",
+    "domain": "The Register",
+    "source_domain": "www.theregister.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T18:02:55+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "“People are getting spooked”: Tower CEO says AI demand remains intact - CTech",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yZzcwRnM4Qkc1clo3cGNydXZmYkRuYkt2RDhNeGdoMjhfVU9iME9tUVkwQ0lfTTNPSkI3c0M4VktVX0FCMHBMNWpCMnE2N05UaEZCSWltdklaT2dWMUN4cWFXMnpqOGM?oc=5",
+    "domain": "CTech",
+    "source_domain": "www.calcalistech.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T19:14:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - The Globe and Mail",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMHFnbi1qaUx5X0oxTEExSGJhek9TYlJYSnVMUEtIeUN5RDk0MEpvZDcyOUNXcTNUd1dMTU5UUy1mb2JCaFdkTTlXNVhaZEJpc2U1ZVk1VTVhdkE1blB4bHpoT1dVSjVCYjJ2U0hyV3NiZlhjaV9pNk5NUGpsWWFSa0s5T0RjaUdnWkhCdWhQN0xsYjhoMTlKUjZwaHFEcEF5M1lZZi1OU1F3aDlsdnBBbWRCLXQ2UTQ0TlY3MDE5YlFBTEZaVU5HMXdud2ZGclpkR0hVVU5ES2hoV0ZYTW5ZMA?oc=5",
+    "domain": "The Globe and Mail",
+    "source_domain": "www.theglobeandmail.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-23T14:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdFdmcUFSRnhRZW1WYnBoQ1JRc1JJRjRydUlUYm1BYnZoTlZ4eTBIeXo3X3ppSEVGcmw2RWpDY3lSbFQ4aFhNUndHR2h4U0t0R3lJbFZmX0tPTy1QclFsZEpSMEk0M2d6Y3pxMVRmX29WWmp0blg1Z2cta2E5RFgzNlUzbTU4TkJHWnNpUlBDbGV5dHg4SjNuTA?oc=5",
+    "domain": "Yahoo Finance",
+    "source_domain": "finance.yahoo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T13:10:21+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Tower Stock Outlook Brightens After Revenue Guidance And 2028 Targets Rise - Simply Wall St",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRE9wLU5KX0dRWXdwdlNxRFZfX2pTNkNzLXJGdlpRRHBrODF6RVNMdDRmTElzYnBkcmdnVG9ZNjZ3cldOQzVsOXBQNUk4cmZKUkt3ZDR6dC01NmNmZ1ZGZW9vZGZiRU15U3R3eE5JLV96MG53dkIxZERENjZTR1o2M1BPeDhNeWk1NGNwUHA5VjV5RXJ0NmpUSXhIZTFCS1cxbXI5NnNCQmllZ3ZxRGFONXhvdjBQRXVZZDNrcGcyMXh3RmVnbm5JTFQzcHFJNktBR2ZSNDZub182UE440gHiAUFVX3lxTE9KZ2M4VE4zRDJFSW9vZ2FFWGNONlBlQXFuemRpeG1TZmxPMFZ4cHd6Q1g1WC1peV9RaDhObUNFMzVkbEs5dzMxam9ybl9UWTU4cWJXdUFNV2k0bTNuSFJ4XzA0ZVdmVWJkZFphOTlOTGxwck9GYS1Wc3BPYzNRYXBzWlVoMjdOU2o3bW9jU1ZQcWdHNjlJRk8xSENwWWRGVTlfdGtKNHROdXR2WkwxaWd6OGNlS0U4VGJremk5NEdFaFFVNTBIcS01dFZ3U0VjTjhGTUI2WlZnX0hIVlAxdzlQYVE?oc=5",
+    "domain": "Simply Wall St",
+    "source_domain": "simplywall.st",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-01T10:30:21+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Tower Semiconductor Q3 Earnings Call Highlights - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUWthNXhHUzhYN0d5Mm1MaXFqeUF0STd1emM2ZlJiRFBXTnljd1ZLSVRyR3AwQU9kZmpiRHE1cU1RUGZSaGs3b0lUTjloSkVQc2gwejg1RTBsSktLQUZrOWd2Z2ROSUM1cHIzSTE4VmEwWjBfTEFjdUJkUmRGQWFybWxNQVlqOEMxMEpMSlFNWFVHdzFYbGNCSXNWSm4tUFJSOC04WUxfRU1obHF1?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T19:13:26+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - StockStory",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG1Va1ZJbk9zQm5TZDhNMUpvX2VzaV9HaWd2QW0wZDllcUVHdjU5MFowUTBOcmJVSFJZV3VGdzVXYTFyck44d1NRNjFORUwzY3E4eU42aEg3bjBsNWpQVE13cFBWc3g2UjIxVDVqOUpjZ0VtNEJJbTAydk9RczRpYnJsS3RUdFJ1Q3phbXhqR2FMSlRaQkFDYUp6aEZGbllmUFIzWFFRaTBsWDg?oc=5",
+    "domain": "StockStory",
+    "source_domain": "stockstory.org",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T13:16:48+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "MRVL's Proposed LITE Buyout Suggests Long-Term AI Infrastructure Boom - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZEw3UTd2dEZXMXhDbmNwcktNNHRJS0s3Y3ltR25MdldFVjBfZG0yUFJ4aDZ3NWVNcVZSbTJ0QkJNOGdxR21QcTY5NnRvYXQ3ZU1fZkRaekJTQlNKYUVIYnVCRmsybk9Ta0N6LVlvVlhsdkllN0txdE9JelhLZElQSWpFZWlZTjNhYUpwTzBvdmJGMi1XaVdLOVRMOFRPdXBUbjJSUC03VGtZWHNsV2kyUWhTMWtUZU5LVUM4WVhnT25VTmM?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T11:52:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "5 Data Center Power Stocks to Watch Before Earnings - Crude Oil Prices Today | OilPrice.com",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQnhlUHpzZEdCUmF6b0gtcTlLbXlOV2hjdFVocmdVbnp3Wk44NlhxNVpYdmstOU1WUTZJazN1QUxHZDZGM0U4RzlrdWhUUnNXVnUzUnhNX0wta1p3bFZQNWZnendNV3UzTlhvV1BLV1c0ckc5dmpSM3Q3YmdXQ3hkalJpSVIyRHZ3MHVYbkt4ZUJDaXFhSFlFd2FvTEd4UU5Z0gGmAUFVX3lxTFBoX2xMbjRWQS15N29TM2tPU0JfdThvX3V2TzB2U2RQQndxa3d3VV9SNHFFTndaOVVkUFJQZjVCZUtSVF91U2hyb2hfY3RIZUY2VmUzZjc4ZjFQdm5NMHMzeTdNNWw5RGtzTzdmRnZXb1JON3NPc2JRSTBfMzNvbW56dFoxZ2pSdGdjZFIzd3J4N19hOHh5V3ZwVFhwc1FRdm5RRlhjblE?oc=5",
+    "domain": "Crude Oil Prices Today | OilPrice.com",
+    "source_domain": "oilprice.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-27T20:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Should You Buy, Sell, or Hold Vertiv Stock Post Q3 Earnings? - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVVN5OGdHNVFCTWhyVURNdjFBRy1IenRpT3JXNEtJbWE0R3lNTmxQc0VmNmgzQkN3dzZmLXRnOE41ZFl0SXgtMWtpR2x2WExzWjJEaUVSNERxVDlRVFVNbTRoUmNuNk5HRTNwWVE5Rm1TbFBtdmJLaUhZdnUwdVBvOF9kcTdxY29oRVgyeTBkTzR0Z2E2bG5fdmk0QTJsR1RNeWdHYVZXWnl5MU9HSE1XU0VMbw?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T15:55:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "OpenAI’s Abilene Builder Crusoe Cuts Power-Gear Wait by 40% - FourWeekMBA",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTENEVmtrc2RKdUFzSEtDTGwxbXdEMTRCcjBhOWVpYzRsaG1ITWwyaGhMSmNrWFlrODVmekpvMUVRNXBINV9TVU9RbDhiWjBZLU41bGhnbVZqZUdWREp6akFya1ZpUFJoUDM2UzVRWmJjczgzbXZhUWlyWmNuTXZqaENudk1TQ1k3UGNUb09B?oc=5",
+    "domain": "FourWeekMBA",
+    "source_domain": "fourweekmba.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T18:32:41+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "World's third after Hitachi and GE… HD Hyundai Electric's strategic push into Europe [R&D Inside] - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Mc1lJMGdyUUJMZTRqbUlNR1VSOHc0WkxOY0dOY21fVk5YdGU1SDhNNU5IY01XZHRMTjYwY1JubW5Ra3libU4xTnNvdHpreEZhWHExVHN1ZlVYM2dJNUZkOVRXOWtvbGlreVoyWkdNMjQ?oc=5",
+    "domain": "머니투데이",
+    "source_domain": "www.mt.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T20:30:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "LS Electric posts record quarterly earnings, extends 100-quarter profit streak - 헤럴드경제",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yUXI1S25VaTlPR0tRdGVrbjRwR3B2UUY0SVNOY0c0bUJPS0ctUnZQNHltQ0RVejJBX1ZwbTUwMXoweHY3Z2d1Nkhlby0xenVoMElnOGt0dw?oc=5",
+    "domain": "헤럴드경제",
+    "source_domain": "mbiz.heraldcorp.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-21T07:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "L&F, LG Energy Solution sign LFP cathode material supply contract worth 1 trillion won - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IVXFhNVRhM3RsNUJqTG5tam1aNVRtMExkRVQwdWlKMzNmaVpiZWNJd3pEZ3V1STdYcWc4SDZZMExvMDY5M19SUTk5cXJSdVVKMHVUd01Bc2ZDdDQ1b2RfcS1UTW1tdTZZWXFhSDBVV2k?oc=5",
+    "domain": "머니투데이",
+    "source_domain": "www.mt.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T01:28:22+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Experience 'Joseon Royal Court Culture' on LG TVs… Offering the 'K-Heritage Collection' - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kWmExUmFkeWlSRG1kRXJMOVVNMHNtcW96aW50TlpBdHdTenVuR3dLWTlVRFA4M0Rvb2l6YmlNQTdmQ3RrenVydWN0TkdVUEp5VWI3V0p4bDVvd2hkR1VwM0FQcUZtTDc5WDhnaEliY0U?oc=5",
+    "domain": "머니투데이",
+    "source_domain": "www.mt.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T01:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "KLM to introduce 'Starlink free Wi-Fi' on long-haul routes starting in 2027 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xdnRIb3drMFVLRU0yc0tRbnF2WjNpZXhfS2NJbGRHNWFBQUM1WW9rTFR4MkxXSXJIeTVIUG9SYnRzcmtNQWdyOVBzaUM2Q0pESU1ucDNiSEUzdW1MRnZ6bTcxMDJueWE2MVVrZEFWMlI?oc=5",
+    "domain": "머니투데이",
+    "source_domain": "www.mt.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T23:50:58+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Kia to supply 1,000 PBVs to Japan's MK Holdings by 2030 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKUGwxMzRnTkNRYjFpby1OMlctVXh2S2xCR21mV3VHQW5tZlUxVGlBcjJrby1UaENCb0ZoWFpvbkVkaW1JaVJxcUJFWWFoX25jNlBEVUYzYmRfLVFVN2d4d0h2aVhORmpnb3pmY0pxOUQ?oc=5",
+    "domain": "머니투데이",
+    "source_domain": "www.mt.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T23:51:59+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Hyundai Motor to expand large-scale, premium service hub 'Grand Bluehands' to 30 locations by 2029 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Rdzk0SGtOTUJKcHB6YXVQYmh5X2tHd0Y5elZxd21IX3l0aHlhQzlmTER5bjk4allwalNTU2tEaFZMTDFzdkw3c3JhYVNFU0Zpa2pNd3JGVk1kZ0FSdjhfMVRkRWEtd3QzZWdVWDlLMWs?oc=5",
+    "domain": "머니투데이",
+    "source_domain": "www.mt.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T00:03:33+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Transformer Stock to Buy Now for 48% Upside, Recommended by JPMorgan, Citi, and Other Brokerages - Trade Brains",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMGRfTGJ5NkJuaDdzd1dmVURBeTgzc0ZYYUtpd1oyVGdhZjM3MEd0RGpVU0YyQ2tGUG9ZXzlnTlRnUk1sTmpNMWs5Q2NmN2JYMmdVa1dmRzBjVUJmMmloSFRWS0g0c1BpZDc0Ry11YWM1Q1dXTDd4WkM1TlNrd3BNcXJvWGhKbXlncXBUVzgwb18zbEZBNFFhUEstWU5lN2pDcXBlOXV1TkFJZWhEbnhZWmVfYU5XYTh5WWpfRWw5OXl2NDZlT0luR05OT1dWNTRubk1CamdR?oc=5",
+    "domain": "Trade Brains",
+    "source_domain": "tradebrains.in",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T04:29:58+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "GRIDCo to construct 5th feeder in Kumasi for improved power reliability - MyJoyOnline",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlFZYkRvV0s5blBhemhxZk01eVZ5TUNPSnZjUDR2UWdDTnltUlJHZktGYW5MMm5KQTFFWEh6V2ptMTYzUUs3V1ZlQkpCSU1xSjRtLU1RQ3NDbHN6ejk1Wlp3blU1RkJLTVZybmQ3LVhKMkhPdFNnVkdzaWdUUDRKeUNnMUF0c05pVk1XWTJsZk81TVNPWDZpSmktQkdUWnVqM3c?oc=5",
+    "domain": "MyJoyOnline",
+    "source_domain": "www.myjoyonline.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T19:06:09+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "US copper pipeline could reach 1.3 million tonnes a year as critical minerals push gathers pace, says JP Morgan - Yahoo Finance UK",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUdFaElFbE1mZUZzek1oTnpwektiQXNsSVgtUmhqTkhRME96MnlDRXRvQWRXNWJEZ1ZJWGMxT3RXd0VSVW9XSWsxZ0VoOTdPR2IycEVKWHZqZlFLR1JFRUZOa0Y3WmUzRVBTMjFRcHBTZzJfR0hrS21Mb0Q1YjFubzFMQ3l3QQ?oc=5",
+    "domain": "Yahoo Finance UK",
+    "source_domain": "uk.finance.yahoo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T13:30:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Flash | Strike Countdown Begins at Teck’s Highland Valley Copper, Putting Molybdenum Target at Risk - Shanghai Metals Market",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT0VKYVBZcjZDWnR6NU0tNlpVeEw3Z0txb2FocVVGeVJ4bENGSHdESGktNXZvVXJNaDdzdThYWXE5TE5Xdm1UU0tkUUlPTVpIcTVMV0V3dVJ1SFRwdWdrbnhIOTZBRl8tdjFZWjdieE9ZUVVsdjJleVNuaUFqdlI3V2F3NEFUQWVkUUR3ZHhZU291VWJQLU43TVMwb0FmdmJ6WExSY1NyTmtLTHI2YzJXS3JLeHd2RWx3QkJlN0JWTHFvREdGSU5pY2FmSkdBMXRWUDc1bDNsYw?oc=5",
+    "domain": "Shanghai Metals Market",
+    "source_domain": "news.metal.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-22T07:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Copper prices recover after three consecutive weekly declines - AzerNews",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zVWNZM2RzVnlBQVFQMkdwZW9xbGpFZWp0a2lsQ1czZ2ZLc0dEUEwySEt1THJMNWN2M2lGa0VydTJwMXpsNmpINGNKLTZvOGVlVkwzNGs3Zw?oc=5",
+    "domain": "AzerNews",
+    "source_domain": "www.azernews.az",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T11:06:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Tax-inclusive supply \"cleared within 1-2 days\"; invoices and invoice tax rates choke off volume growth [SMM Copper Scrap Weekly Review] - Shanghai Metals Market",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPM0h1LWU2RVZSZkxDYUJ0endjcERHOTlWNXRWRl9aMmhDM1p5bG8yMGJ2c2lsV2tUeHRuZEZTd3FxbVB5WlYwUEJkN3dfS1ZSTG9iMWkyQzQ4QjJmZE5qODFET1FJZFIzdmZCUmE5NjQ4UG9YU3lHZXVvamU4eUlwS2w2UVgzMGZtTnF1aDZzaUJLM3BnTE5INkVjQ0NRdkg2UjB4RlF0RUZtT09qZjlhS1QyU0YxRnVaYTFkWGlkNks0UXd3S21JdXFzZnBqeUVXOUNzVUV6SVNEbVFpZElWbG0waTA2Vk15NUtIMUx6V2drTGxWUEhFYjdLM2JRLS1DWmFFdjhn?oc=5",
+    "domain": "Shanghai Metals Market",
+    "source_domain": "news.metal.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-30T01:59:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Fitzroy Identifies Nine Copper Targets at Buen Retiro, Chile, as 5,000-Metre Drilling Begins - Shanghai Metals Market",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTA0RUx3a2tNOWNhMUlWUldyc1hGSm5nMGhJZ005Wkpxb3ZPRDM4dkZmSDN3eHU1V0dOcGJ1WFRGMWQxUW1LeVFaeTBpT2I3cGNIaGNseVQxVS03a3ctdUQwVjZQcVo3NlgwclllSlBBZExTOVBKd2hXQi13VWt5VGswakJPa2JQQTNtemRTTlVCNWQ4ZmY0MkVMX1lLc0J6WERiMFdPUHBqcXVRNVI4dll1MVh4Z0hFZjBaYzEzSERrVmVwZ3h0WmxnQVpGaGc?oc=5",
+    "domain": "Shanghai Metals Market",
+    "source_domain": "news.metal.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-27T17:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Copper surplus masks looming $332B mine shortfall - Indonesian Mining Association",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWckdqRGFENEhjZXE3M0xrckNDQVRSeGczZnpjN1psTlpXSXRGSWVDbnM4WW03a3JsRFR4bGlDU0Y2M3pVcUNpWWNTMjY5b2VGNDN1NlhZbTIzRWxjQ0phVzU1TGZDYU9KcjZyaF9BU1piTlpPc2VfZw?oc=5",
+    "domain": "Indonesian Mining Association",
+    "source_domain": "ima-api.org",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-21T05:37:02+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Antofagasta (LSE:ANTO) Copper Recovery and Higher Cost Guidance Put Next Year in Focus - Kalkine Media",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORDl6eTBMQkZzM2RYeHlEZ0M1MkM0TFFPamFYYXdiblZZcWRGYnE0R1c3NGpiVGQ0TXNjcUhLai1LWEhiQVdHaFR4RDlkZnlyRExFWGN1YUxocnpPZW52M0NYZnVCX1JVWXB5WTE5aXNOUDFXckR2b2Z3bmhKd1M4OWIwZ0VGRUtya0pydFpwRWo0d2VHekswQ3ZUclJmaUxXVzRjcy1mYXZUTDV3RGxQaWpNWUJuYkRYa2R2NktUX1N5aEZtMFY0Rk5yUm1kSmlQcnc?oc=5",
+    "domain": "Kalkine Media",
+    "source_domain": "kalkinemedia.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-10-21T11:18:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "BHP stock weighs copper decline against Olympic Dam resource - ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYzZ4ZktpUnhjMmhuOVloTUNKRzR5X21LVTNnazlmUkRQMmRMMDZCcURVSDF5d1B2SEhibUozTzFNZkxEaXpMMm90TzNYWk91MkFMTmZsa2RQQ3R4MHdUMjlUVXBHMDdJVXJLVUFxSlFrdmRJN0J6ZkpGNWtLWm9EV1FWWFZBT2NZTkRJRE5OUzVhNGtFak5EQldoVEU4ZFhpeEZ5cWIzRm5nVmdKNVlVWTgxT0o0MEQ4RFNES2Z0cVo?oc=5",
+    "domain": "ad-hoc-news.de",
+    "source_domain": "www.ad-hoc-news.de",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T14:25:16+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Managing Port Congestion: Avoid Shipping Delays with Air Express - DHL",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbGdZZEUtSGJtUUltaEk4OC1rc2ZucG9UZVhUeXRkRVFCOFVhdXRJV0xkY2l6QWNtRzhqeVhpMjdOaDRWc2JnZVZHZXh5b1RybmZzX1BYZ2VtQ0o4TG5YNmh0RndVZE1uV1pLR0JiNDl5QWh4MEdGN2xHb1VLVGVJMjEtNDJtRURVWFdiaDZpbTktV3BsczhlNS0wY3poUEU0eFk0QnlqMi00THYyRkdQVzU3cw?oc=5",
+    "domain": "DHL",
+    "source_domain": "www.dhl.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T03:18:29+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Weekly Recap: Q2 margin pressure and Bank of America estimate cuts - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOUg1c3FVTEUyNlZwRV9oZDdheEJuRmY4NEpFN2dfcENOUzA5NkdlNkQzUURPci1ZMWM0dEhDVEpQTWNGNTZMLUhpZm1fU0FEcjhnTEU3UlVFNkVwNjVCT05WSF9GT3JrSF95cDI4QTV3M053cVFtS3MweGZ1RllLRUNaQTJuZ3pFQkNFNWNuR3M0ZlVvZmJHZXpIS2ZhSHBMOXRrWXpQcFE4VW1jS2lIQ2hjSFVkUFVha1dMajAtWWpXa2IzMVE?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T11:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Danube Corn Freight to Egypt Jumps to $120/t, Tightening Black Sea Supply - CMB News",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbE0zUjRjX1lvTG43LTZaX0k5cVk0YkVJa0lDVm1mOXBJVzhaZEdCZ0p1TU5ZYkxIbm82V2Y0VnBhcXUzVkE1QmxNTEY2dXE2bVM4ME9Wc19BaDJWckxTNlluRFllNllkWGxiTHRFazVaeHEzMlRVVS1QcHJzWTZUcHdfR0JpSEhGLWhBX1JBY3U?oc=5",
+    "domain": "CMB News",
+    "source_domain": "commodity-board.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T13:50:38+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Port operators seek cargo evacuation alternatives to road to ease congestion - Businessday NG",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYmdjRDg2NmdFM05XS1dNaTNDa0NQVHFkUUxlM3lERFpYYXU5eXhlTTIwVFNQcy1YblhHNzlhUmNUQTJrZ3FrT0JPeXdNd2JuZzVxQXhlTmdGUHc4OEg1WGRuVFRDcTI3azI5OWZmNjVDUjY4MkN0aFh1QXNQTDJFQmU5VktkVkNzRHZfU3RpZGFmOFROV0dLM3NZSGJpS3pQeGdyb0pESWhIbi1ITVF1U1Y4YTU3Vlh30gG-AUFVX3lxTE1Sa0tyS3MxOXN3V2dNR3FYTVkwT1RCckdPZmlvNDZHcGJkSXVOcmtPcG9MdjhHWnZXWk5RWkNjaVhRdHY3STcxWFZqRXhWZ3NXeXpKbklkV2llc1RmbFZ1WFFsRG1YUlZaWGJMMVJJRWN5TklLOXZLeGlUVzhnSW1rQlV6VzVGY1YzbzZ1X0IyYUk0bGNubEQ2c0wtZkpYeTRqZ21wM1RkTWEtUklXcFpfbTNuc3FCdkQwVVVEVGc?oc=5",
+    "domain": "Businessday NG",
+    "source_domain": "businessday.ng",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T18:21:19+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Operation clear the docks! Manila ports rush to move 1,000 aging containers in two weeks - Bilyonaryo Business",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbldqTnZZUExLcUxYN1U1Q2RNZVNNZXZwVzV0R1JwNVJWMGlmNEcxX0JFcExjQ096SHVMZUZaTlRiVWFONHExZmxPMTNDbTJuUjdlQ21rUjZCTXBYaFk2M3R2NFhKX2llZWs3NkJMcm1hY3lPdkd6aGEyWVVSQl84TkFFVEY5OC1OcDd2WDA0UGVjN25ucWpORHFjcWtJSTVlM0d0WnctSVFwR1BaTWxv?oc=5",
+    "domain": "Bilyonaryo Business",
+    "source_domain": "bilyonaryo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-03T14:22:55+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Port congestion costs shipping lines millions of dollars in vessel delays – SOAAG executive - GhanaWeb",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMEtDalV3YWhQS2hvSUxYbXozNGtzSElGbDlKajdVOExVbGIxTHRuSEFBZEJtcnBFckwxaFFPdlA0WklLaDlNZlZTVnA1WjhhcEZ3cUw1emIyQzhaZHIta0FkVHhMcldKS01tRHZjLUI4OEhJWVZUakVJSTNzb3BlRzY1TVloLVNvM3RMR0h4NzZ0RlhnUzczNnVlTXVBUXlHRmR0VkZxX2ZMNFhTSjRMeEFwN0RxN0dXZ2NmY3kyZ21LSERLM2lhdXZ4dl9PQnhSOElLYzM2Yk54eHlWY1E?oc=5",
+    "domain": "GhanaWeb",
+    "source_domain": "www.ghanaweb.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-03T16:13:56+00:00",
+    "feed_publication_at": "2026-11-02T22:18:09+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
   }
 ]
