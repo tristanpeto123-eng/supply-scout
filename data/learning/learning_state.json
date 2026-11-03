@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-02T19:51:18+00:00",
-  "archive_count": 1095,
-  "cluster_count": 961,
-  "dates_first_seen": 24,
+  "built_at": "2026-11-03T16:14:22+00:00",
+  "archive_count": 1135,
+  "cluster_count": 993,
+  "dates_first_seen": 25,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 260,
-      "unique_report_clusters": 240,
+      "articles": 265,
+      "unique_report_clusters": 245,
       "estimated_duplicate_headlines": 20,
-      "publishers": 117,
+      "publishers": 120,
       "early_signal_strength": 75,
-      "evidence_headlines": 148,
-      "general_headlines": 112,
+      "evidence_headlines": 152,
+      "general_headlines": 113,
       "older_than_7_days_on_first_seen": 68,
-      "first_seen_days": 24,
+      "first_seen_days": 25,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 129,
+        "physical_shortage": 133,
         "price_power": 22,
         "lead_time": 10
       },
@@ -114,23 +114,33 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 232,
-      "unique_report_clusters": 192,
-      "estimated_duplicate_headlines": 40,
-      "publishers": 91,
-      "early_signal_strength": 59,
-      "evidence_headlines": 8,
-      "general_headlines": 224,
-      "older_than_7_days_on_first_seen": 45,
-      "first_seen_days": 24,
+      "articles": 241,
+      "unique_report_clusters": 197,
+      "estimated_duplicate_headlines": 44,
+      "publishers": 93,
+      "early_signal_strength": 61,
+      "evidence_headlines": 9,
+      "general_headlines": 232,
+      "older_than_7_days_on_first_seen": 46,
+      "first_seen_days": 25,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 7,
+        "lead_time": 8,
         "demand_accel": 2,
         "physical_shortage": 1,
         "capacity_additions": 1
       },
       "stories": [
+        {
+          "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
+          "reports": 4,
+          "publishers": 4,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-23T12:19:07+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "Zacks Investment Research"
+        },
         {
           "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
@@ -140,16 +150,6 @@
           "feed_published_at": "2026-10-07T15:07:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "TradingView"
-        },
-        {
-          "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
-          "reports": 3,
-          "publishers": 3,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-23T12:19:07+00:00",
-          "first_seen_at": "2026-10-23T13:24:27+00:00",
-          "source": "Zacks Investment Research"
         },
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
@@ -194,29 +194,29 @@
           "source": "TradingView"
         },
         {
-          "headline": "Optics Stocks Rally Ahead of Earnings: Applied Optoelectronics Jumps 5%, Lumentum Adds 4%, Coherent Rises 2% - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORGhHUjJsbHdnSDc2RTl4ZE1CeE9CdDlEU01lZFVVcjVMOFVpRUNoMl91S1dUQ2w3dmVEU1hWdWtrSmtPelVXZ0JtZUkxSEhYVUFQaGNkeml3M283R0ExRmJYWlNCR1FrYWY3NTlCVjNmQXdmUTAySWJvTXlySXFveDB3UnRvbFlsNUlMSmctUml5ZUl5UXh5M2pTZ1J1Tkg3Tjl2Tnl0Q2E3TGk5ZWpfcGRmWm1ZS2lDWjk5S1hpcU5Ec3V0YTBUZHVEVXNMVE5vbWRTUHdlWGd1cjAxSFVz?oc=5",
+          "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG1Va1ZJbk9zQm5TZDhNMUpvX2VzaV9HaWd2QW0wZDllcUVHdjU5MFowUTBOcmJVSFJZV3VGdzVXYTFyck44d1NRNjFORUwzY3E4eU42aEg3bjBsNWpQVE13cFBWc3g2UjIxVDVqOUpjZ0VtNEJJbTAydk9RczRpYnJsS3RUdFJ1Q3phbXhqR2FMSlRaQkFDYUp6aEZGbllmUFIzWFFRaTBsWDg?oc=5",
           "reports": 2,
           "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-19T17:05:00+00:00",
-          "first_seen_at": "2026-10-20T13:33:04+00:00",
-          "source": "24/7 Wall St."
+          "feed_published_at": "2026-11-03T13:16:48+00:00",
+          "first_seen_at": "2026-11-03T16:13:56+00:00",
+          "source": "StockStory"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 141,
-      "unique_report_clusters": 127,
-      "estimated_duplicate_headlines": 14,
-      "publishers": 75,
+      "articles": 153,
+      "unique_report_clusters": 137,
+      "estimated_duplicate_headlines": 16,
+      "publishers": 78,
       "early_signal_strength": 63,
       "evidence_headlines": 29,
-      "general_headlines": 112,
-      "older_than_7_days_on_first_seen": 11,
-      "first_seen_days": 24,
+      "general_headlines": 124,
+      "older_than_7_days_on_first_seen": 12,
+      "first_seen_days": 25,
       "momentum": "RISING",
       "flags": {
         "lead_time": 17,
@@ -277,6 +277,16 @@
           "source": "Transformer Magazine"
         },
         {
+          "headline": "LS Electric Posts Record Profit, Extends 100-Quarter Streak - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMWpVU3JtWWZrRmVCVjB5Y3BZeFQzUHFocVo1U2pVb05ISVBzaXdlbjlNNWVTaWd2VGJqd0tSZXFQNlQtaVdSV2R2YWt5UndlYzk2dHpjaUlDaW5jMW8yVlFRdTdCQWpjd2d4UVNleFA3M1NTc3dGU2plc1d4RUZFSHNqNlFRVTNz?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-21T04:46:39+00:00",
+          "first_seen_at": "2026-10-21T13:46:06+00:00",
+          "source": "조선일보"
+        },
+        {
           "headline": "Pakistan: Doctor shortage leaves Attock's Chhab Health Centre in crisis - www.irishsun.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmNvWWRsMC1acTVDTWJKREVGZXBsekZLTWxZN3N1Sk5YRy11dWhzbU5GQ1FjMFIybkxycWNkdENsYU1scW41RlEwNVFlako4dko1MVVzd0lvcnJDS2hxNWdhUFRKS0x0N3dPM3FGci14OEVZdXBpQUVGaTlsNlNabTNKZVZPLXp4ZDBTN0JOMGxVWGFtZ0NYaXJxNnpPaE8wbXh3aUM2dGgxMF92?oc=5",
           "reports": 2,
@@ -287,34 +297,24 @@
           "feed_published_at": "2026-10-09T12:03:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "www.irishsun.com"
-        },
-        {
-          "headline": "UEDCL Boss Explains Why Power Outages Persist And How They Are Fixing It - Nilepost",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUY4eDFIYUY4ZmplU0pibmFpSzJhblBQVWY0YmsteFkwLTdhM0p2c1dUbU1MMWtaZlFqTjhJd1daOFYxZVBHZHlGVXo0eTh4N19uWlhMZEhLLTdtYlFIaVJwVzdBU1NKOGd5WWV2bVVYemExYnRDMUhJY0VwTW51RGZjNHFGbzA4YXUwTzBjR05CS19Uempwa2VVR1VpZzNHWDFpTDZTd2FlYU3SAbMBQVVfeXFMTmpTTFJRX0VYaXVjcjJwdlhiZXBiN29PQldBTXkybDJTQ1FxdFlwT2VBdUp1TUZ3eG1sbUM2QmpOWkhTN1F4TFlTY0h6eGh5N084MTlEajFwMmhkMUtYNVgtalh6dktGRWFYT0VQcHJ0TjRnY210eW1Ec3VpYVpqWE50aG1YcktzWW4wekpKZFBXQVdYblgzczZvTlhFQUM4ZDNJRzJUdWpJbzhTSGhyNUtySm8?oc=5",
-          "reports": 3,
-          "publishers": 1,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-22T12:18:24+00:00",
-          "first_seen_at": "2026-10-23T13:24:27+00:00",
-          "source": "Nilepost"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 229,
-      "unique_report_clusters": 196,
-      "estimated_duplicate_headlines": 33,
-      "publishers": 137,
+      "articles": 237,
+      "unique_report_clusters": 202,
+      "estimated_duplicate_headlines": 35,
+      "publishers": 140,
       "early_signal_strength": 67,
-      "evidence_headlines": 50,
-      "general_headlines": 179,
-      "older_than_7_days_on_first_seen": 44,
-      "first_seen_days": 24,
+      "evidence_headlines": 51,
+      "general_headlines": 186,
+      "older_than_7_days_on_first_seen": 47,
+      "first_seen_days": 25,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 49,
+        "physical_shortage": 50,
         "demand_accel": 1,
         "price_power": 2
       },
@@ -394,15 +394,15 @@
     },
     {
       "theme": "Shipping",
-      "articles": 233,
-      "unique_report_clusters": 206,
+      "articles": 239,
+      "unique_report_clusters": 212,
       "estimated_duplicate_headlines": 27,
-      "publishers": 158,
+      "publishers": 162,
       "early_signal_strength": 67,
       "evidence_headlines": 74,
-      "general_headlines": 159,
+      "general_headlines": 165,
       "older_than_7_days_on_first_seen": 54,
-      "first_seen_days": 24,
+      "first_seen_days": 25,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 68,
