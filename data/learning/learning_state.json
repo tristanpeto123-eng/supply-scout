@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-03T17:23:41+00:00",
-  "archive_count": 1135,
-  "cluster_count": 993,
-  "dates_first_seen": 25,
+  "built_at": "2026-11-04T16:26:12+00:00",
+  "archive_count": 1161,
+  "cluster_count": 1013,
+  "dates_first_seen": 26,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,20 +11,21 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 265,
-      "unique_report_clusters": 245,
-      "estimated_duplicate_headlines": 20,
-      "publishers": 120,
-      "early_signal_strength": 75,
-      "evidence_headlines": 152,
+      "articles": 270,
+      "unique_report_clusters": 249,
+      "estimated_duplicate_headlines": 21,
+      "publishers": 123,
+      "early_signal_strength": 72,
+      "evidence_headlines": 157,
       "general_headlines": 113,
-      "older_than_7_days_on_first_seen": 68,
-      "first_seen_days": 25,
+      "older_than_7_days_on_first_seen": 69,
+      "first_seen_days": 26,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 133,
+        "physical_shortage": 138,
         "price_power": 22,
-        "lead_time": 10
+        "lead_time": 11,
+        "supply_relief": 1
       },
       "stories": [
         {
@@ -114,15 +115,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 241,
-      "unique_report_clusters": 197,
-      "estimated_duplicate_headlines": 44,
+      "articles": 245,
+      "unique_report_clusters": 198,
+      "estimated_duplicate_headlines": 47,
       "publishers": 93,
       "early_signal_strength": 61,
       "evidence_headlines": 9,
-      "general_headlines": 232,
+      "general_headlines": 236,
       "older_than_7_days_on_first_seen": 46,
-      "first_seen_days": 25,
+      "first_seen_days": 26,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 8,
@@ -142,14 +143,24 @@
           "source": "Zacks Investment Research"
         },
         {
-          "headline": "AAOI Stock Gains 17% in a Month: Should You Buy, Sell or Hold? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUJNM0xFaWpBRkNPR054c0REMEVabGxuY2lDWE16REdNQTBQV2swYkdaYTZVeHJrQy1GajN6QUZQbHlVNWFaTlRoNmdEbGNFaFpTY1VPTUIxa3hBRjRINms1cGkwcFQzaHJSX1NXalM4aVdTVjFFbjJDams5dkpfWVgwcTZqMVA1LWNyYUhHdGhCNlRGd0laaDRuTk9aZE9sVFQ5bVVpejBkcGNXdjZpLUQtSGI?oc=5",
-          "reports": 5,
+          "headline": "Should You Buy, Sell, or Hold AAOI Stock Ahead of Q3 Earnings? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1pZU3R6c1RiR2xwOUVMc205V29PYmk1MlUwMUktV0I2NzI1LU1tU1ZZaWJReGlFV0Q1RW9PZ0h0dFJ2anpFWnhnZjBBb2tsdHNiWnpIaV9la3pUWXh5enVHZnhOVkgwZHV4V2VfZHpWRTV0UEM3RnJUd0JrWFNQTldaUFdlOGVSeXlMM25oT2wzX2I4dGNfQzF1ckVVQ2M5aGh1cS1Sbk9rQU0tb1F5Z2FleEMxUQ?oc=5",
+          "reports": 6,
           "publishers": 3,
           "signal_tags": [],
-          "feed_published_at": "2026-10-07T15:07:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "feed_published_at": "2026-11-03T17:23:00+00:00",
+          "first_seen_at": "2026-11-04T16:17:38+00:00",
           "source": "TradingView"
+        },
+        {
+          "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG1Va1ZJbk9zQm5TZDhNMUpvX2VzaV9HaWd2QW0wZDllcUVHdjU5MFowUTBOcmJVSFJZV3VGdzVXYTFyck44d1NRNjFORUwzY3E4eU42aEg3bjBsNWpQVE13cFBWc3g2UjIxVDVqOUpjZ0VtNEJJbTAydk9RczRpYnJsS3RUdFJ1Q3phbXhqR2FMSlRaQkFDYUp6aEZGbllmUFIzWFFRaTBsWDg?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-03T13:16:48+00:00",
+          "first_seen_at": "2026-11-03T16:13:56+00:00",
+          "source": "StockStory"
         },
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
@@ -174,6 +185,16 @@
           "source": "www.vttresearch.com"
         },
         {
+          "headline": "Buy Corning on Solid Q3 Earnings, Guidance and AI Photonics Space Rally - Yahoo Finance Australia",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3FSTW5iMk1NSVlhTVlYeG5vckxyZ0EtcXV2TWtKcjdNdDZ4bnJlcnJxSTYxN3BPbVlYbWItT2ZQc281dWI2ZHNJX2k1X0NBVUpNQ2dLS2lyQkxhNGhBZ0k3ZDlDV0pNVjFpM3RZeWVRRlhlR1Rxcy1hVTdJWVdEMHZvWXY?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-29T11:43:00+00:00",
+          "first_seen_at": "2026-10-29T15:12:54+00:00",
+          "source": "Yahoo Finance Australia"
+        },
+        {
           "headline": "Fujitsu’s 1Finity eyes India expansion as AI, data centre boom drives optical networking demand: Global CEO- Moneycontrol.com - LinkedIn",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNek1yb21GbHd3UG02M0piNlpiSWdyMFZfcnF5cjhuVHlpMzJVQzNiXzRmSW1GWGRtY0M2QndIN2ZEVmZYSHNnRlk0R05xY3lhZTAzbkhNakswamFKRVBFc1hMVndnWmtDSE9idm5fM3k2QkVzQUwwblJFRVRZVmIzY0lNdGNDQXFSQkc5NGx1dEVmV1ROVkJkeC1oQy1BelRRQ29iTU1oZTlwQ2JuNTJMS19xZ25FR1VmN1E?oc=5",
           "reports": 2,
@@ -182,46 +203,27 @@
           "feed_published_at": "2026-10-09T05:53:28+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "LinkedIn"
-        },
-        {
-          "headline": "IPG Photonics, Nova, Teradyne, NXP Semiconductors, and Microchip Technology Stocks Trade Down, What You Need To Know - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNV0FYay1Dc3FiVW9seDM0ZVpGSDdBakpITnd3V3JGQ2JORU80MWVPWnUtSnc1Vmlac3Z3eTNjRFdsbTI5akp2S0VQRzZwc3JSd1huUTFtTFBDTF9DNVk2UnBPUS1odXNEaGNmbEliUVNkZEtTUko1N3BZRGo1OTZyNXNXQU1TQlQ1U0pta0RQZXA3SUZFeXFHTERVT2JGd2c2NFhYQVJDWGhoZFRCVmVjVVU1ejlOVkt4VmV1N09BMTBRYXhNeXZRRWtwR2RfdVRLY3U3TmpyMUpEUWgwakFhdU1KdFZYRkwxMnVlSlVZZTd1b0pIN1lOU1dGU0MwVlc2N0E?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-07T19:40:44+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingView"
-        },
-        {
-          "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - StockStory",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG1Va1ZJbk9zQm5TZDhNMUpvX2VzaV9HaWd2QW0wZDllcUVHdjU5MFowUTBOcmJVSFJZV3VGdzVXYTFyck44d1NRNjFORUwzY3E4eU42aEg3bjBsNWpQVE13cFBWc3g2UjIxVDVqOUpjZ0VtNEJJbTAydk9RczRpYnJsS3RUdFJ1Q3phbXhqR2FMSlRaQkFDYUp6aEZGbllmUFIzWFFRaTBsWDg?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-03T13:16:48+00:00",
-          "first_seen_at": "2026-11-03T16:13:56+00:00",
-          "source": "StockStory"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 153,
-      "unique_report_clusters": 137,
+      "articles": 159,
+      "unique_report_clusters": 143,
       "estimated_duplicate_headlines": 16,
-      "publishers": 78,
+      "publishers": 81,
       "early_signal_strength": 63,
-      "evidence_headlines": 29,
-      "general_headlines": 124,
+      "evidence_headlines": 30,
+      "general_headlines": 129,
       "older_than_7_days_on_first_seen": 12,
-      "first_seen_days": 25,
+      "first_seen_days": 26,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 17,
+        "lead_time": 18,
         "physical_shortage": 12,
-        "demand_accel": 3
+        "demand_accel": 3,
+        "capacity_additions": 1
       },
       "stories": [
         {
@@ -303,15 +305,15 @@
     },
     {
       "theme": "Copper",
-      "articles": 237,
-      "unique_report_clusters": 202,
-      "estimated_duplicate_headlines": 35,
-      "publishers": 140,
+      "articles": 242,
+      "unique_report_clusters": 205,
+      "estimated_duplicate_headlines": 37,
+      "publishers": 143,
       "early_signal_strength": 67,
       "evidence_headlines": 51,
-      "general_headlines": 186,
-      "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 25,
+      "general_headlines": 191,
+      "older_than_7_days_on_first_seen": 48,
+      "first_seen_days": 26,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 50,
@@ -338,6 +340,16 @@
           "feed_published_at": "2026-10-02T12:04:42+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
+        },
+        {
+          "headline": "One million at risk as final deadline set for landline switch off - Essex Live",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObTc2ZGFkdGp3Z0xtWURLaFJRcnpyZDVEUV9nbTVkWVpmQnFBTWhvaWtycDNFZ1dJMmtMUzFuSFh6bE9uWXNTWkpwU0phM2xHRHJ6b0VZV1RsTHBsNXpVamdxRVVwcmo5OXQ2ZHdSN0llNTBZa2Jsa3g2WjkzWlFBOTRfY09YUm4xUEJMMmVSWQ?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-02T10:53:18+00:00",
+          "first_seen_at": "2026-11-02T18:19:52+00:00",
+          "source": "Essex Live"
         },
         {
           "headline": "Why Chile's copper output is sinking despite booming demand - eNCA",
@@ -378,34 +390,24 @@
           "feed_published_at": "2026-10-23T03:58:07+00:00",
           "first_seen_at": "2026-10-23T13:24:27+00:00",
           "source": "The Australian"
-        },
-        {
-          "headline": "Chile copper mines disruptions: production-at-risk insights for planners - Geomechanics.io",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2xaTFlKX3BRUzBWQW5SVFFURC1iVGdNUUFXZ3BKUXotNVBaQkRRMjJGRWkxY2FRaFlYX3BxX0xaeXRSZjk2SGEtZmN4Vnp3SW40TWpuekRHZWdJSWNGSG9CUHJlZmI2THg1TDdVV1IzY3F5YzdzTDcyLUR5QVdPR1oyMkpMcVZMVDE2TW5vTTRQS3JDaU9aTnRmc2lUVWY2NXIzbDk1MjhoZGJiNDUyZl9B?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-08T12:01:05+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Geomechanics.io"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 239,
-      "unique_report_clusters": 212,
+      "articles": 245,
+      "unique_report_clusters": 218,
       "estimated_duplicate_headlines": 27,
-      "publishers": 162,
+      "publishers": 165,
       "early_signal_strength": 67,
-      "evidence_headlines": 74,
-      "general_headlines": 165,
-      "older_than_7_days_on_first_seen": 54,
-      "first_seen_days": 25,
+      "evidence_headlines": 75,
+      "general_headlines": 170,
+      "older_than_7_days_on_first_seen": 55,
+      "first_seen_days": 26,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 68,
+        "physical_shortage": 69,
         "price_power": 2,
         "lead_time": 4
       },
