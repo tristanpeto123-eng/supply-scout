@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-05T17:42:06+00:00",
-  "archive_count": 1191,
-  "cluster_count": 1037,
-  "dates_first_seen": 27,
+  "built_at": "2026-11-06T15:54:58+00:00",
+  "archive_count": 1219,
+  "cluster_count": 1062,
+  "dates_first_seen": 28,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 275,
-      "unique_report_clusters": 253,
+      "articles": 277,
+      "unique_report_clusters": 255,
       "estimated_duplicate_headlines": 22,
       "publishers": 123,
       "early_signal_strength": 72,
-      "evidence_headlines": 161,
-      "general_headlines": 114,
+      "evidence_headlines": 162,
+      "general_headlines": 115,
       "older_than_7_days_on_first_seen": 69,
-      "first_seen_days": 27,
+      "first_seen_days": 28,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 142,
+        "physical_shortage": 143,
         "price_power": 22,
         "lead_time": 11,
         "supply_relief": 1
@@ -115,18 +115,18 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 252,
-      "unique_report_clusters": 203,
-      "estimated_duplicate_headlines": 49,
+      "articles": 258,
+      "unique_report_clusters": 208,
+      "estimated_duplicate_headlines": 50,
       "publishers": 93,
-      "early_signal_strength": 61,
-      "evidence_headlines": 9,
-      "general_headlines": 243,
+      "early_signal_strength": 63,
+      "evidence_headlines": 10,
+      "general_headlines": 248,
       "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 27,
+      "first_seen_days": 28,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 8,
+        "lead_time": 9,
         "demand_accel": 2,
         "physical_shortage": 1,
         "capacity_additions": 1
@@ -141,6 +141,16 @@
           "feed_published_at": "2026-10-23T12:19:07+00:00",
           "first_seen_at": "2026-10-23T13:24:27+00:00",
           "source": "Zacks Investment Research"
+        },
+        {
+          "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG1Va1ZJbk9zQm5TZDhNMUpvX2VzaV9HaWd2QW0wZDllcUVHdjU5MFowUTBOcmJVSFJZV3VGdzVXYTFyck44d1NRNjFORUwzY3E4eU42aEg3bjBsNWpQVE13cFBWc3g2UjIxVDVqOUpjZ0VtNEJJbTAydk9RczRpYnJsS3RUdFJ1Q3phbXhqR2FMSlRaQkFDYUp6aEZGbllmUFIzWFFRaTBsWDg?oc=5",
+          "reports": 4,
+          "publishers": 4,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-03T13:16:48+00:00",
+          "first_seen_at": "2026-11-03T16:13:56+00:00",
+          "source": "StockStory"
         },
         {
           "headline": "Should You Buy, Sell, or Hold AAOI Stock Ahead of Q3 Earnings? - TradingView",
@@ -161,16 +171,6 @@
           "feed_published_at": "2026-10-29T11:43:00+00:00",
           "first_seen_at": "2026-10-29T15:12:54+00:00",
           "source": "Yahoo Finance Australia"
-        },
-        {
-          "headline": "IPG Photonics’s (NASDAQ:IPGP) Q3 sales top estimates - StockStory",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG1Va1ZJbk9zQm5TZDhNMUpvX2VzaV9HaWd2QW0wZDllcUVHdjU5MFowUTBOcmJVSFJZV3VGdzVXYTFyck44d1NRNjFORUwzY3E4eU42aEg3bjBsNWpQVE13cFBWc3g2UjIxVDVqOUpjZ0VtNEJJbTAydk9RczRpYnJsS3RUdFJ1Q3phbXhqR2FMSlRaQkFDYUp6aEZGbllmUFIzWFFRaTBsWDg?oc=5",
-          "reports": 3,
-          "publishers": 3,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-03T13:16:48+00:00",
-          "first_seen_at": "2026-11-03T16:13:56+00:00",
-          "source": "StockStory"
         },
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
@@ -209,16 +209,16 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 163,
-      "unique_report_clusters": 147,
-      "estimated_duplicate_headlines": 16,
-      "publishers": 83,
+      "articles": 169,
+      "unique_report_clusters": 152,
+      "estimated_duplicate_headlines": 17,
+      "publishers": 85,
       "early_signal_strength": 63,
       "evidence_headlines": 31,
-      "general_headlines": 132,
+      "general_headlines": 138,
       "older_than_7_days_on_first_seen": 12,
-      "first_seen_days": 27,
-      "momentum": "RISING",
+      "first_seen_days": 28,
+      "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 18,
         "physical_shortage": 13,
@@ -305,15 +305,15 @@
     },
     {
       "theme": "Copper",
-      "articles": 247,
-      "unique_report_clusters": 210,
+      "articles": 255,
+      "unique_report_clusters": 218,
       "estimated_duplicate_headlines": 37,
-      "publishers": 143,
+      "publishers": 145,
       "early_signal_strength": 67,
       "evidence_headlines": 52,
-      "general_headlines": 195,
-      "older_than_7_days_on_first_seen": 48,
-      "first_seen_days": 27,
+      "general_headlines": 203,
+      "older_than_7_days_on_first_seen": 49,
+      "first_seen_days": 28,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 51,
@@ -396,18 +396,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 254,
-      "unique_report_clusters": 224,
-      "estimated_duplicate_headlines": 30,
-      "publishers": 167,
+      "articles": 260,
+      "unique_report_clusters": 229,
+      "estimated_duplicate_headlines": 31,
+      "publishers": 171,
       "early_signal_strength": 67,
-      "evidence_headlines": 76,
-      "general_headlines": 178,
+      "evidence_headlines": 77,
+      "general_headlines": 183,
       "older_than_7_days_on_first_seen": 55,
-      "first_seen_days": 27,
+      "first_seen_days": 28,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 70,
+        "physical_shortage": 71,
         "price_power": 2,
         "lead_time": 4
       },
@@ -445,6 +445,16 @@
           "source": "GhanaWeb"
         },
         {
+          "headline": "Maersk raises outlook again as AI buildout, port congestion keep freight rates high - Devdiscourse",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVZCY3JYVkNSUXB2VTR1MnhuSGgyakRiU3poZVVMVmR2aE5mT2cwdW42Nkd3cmhmRXZvT0ZWVTRlR09iYjJpbWw0RFdPS0ltajZOS2x3U0dGMEVsYjJUNnlHS0U0WTFZd2JlcGVXUFl3V0FCRm15Nm5LdmVMUGFUU2VxblFDdmtSQ2d5bzNDaWk3YUJwYmNPWVpkVUptSXdmWjYyZlk1MExHaEhRTklpajB6VU0xclowOU82cjFRcEFTWDFJNXA2NjBubFN2amZSck9WNWxKWEVoLTZjUlHSAd4BQVVfeXFMUEFWQmNyWFZDUlFwdlU0dTJ4bkhoMmpEYlN6aGVVTFZkdmhOZk9nMHVuNjZHd3JoZkV2b09GVlU0ZUdPYmIyaW1sNERXT0tJbWo2Tktsd1NHRjBFbGIyVDZ5R0tFNFkxWXdiZXBlV1BZd1dBQkZteTZuS3ZlTFBhVFNlcW5RQ3ZrUkNneW8zQ2lpN2FCcGJjT1laZFVKbUl3Zlo2MmZZNTBMR2hIUU5JaWowelVNMXJaMDlPNnIxUXBBU1gxSTVwNjYwbmxTdmpmUnJPVjVsSlhFaC02Y1JR?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-05T08:33:31+00:00",
+          "first_seen_at": "2026-11-05T16:27:41+00:00",
+          "source": "Devdiscourse"
+        },
+        {
           "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQdIB6gFBVV95cUxNTmZOby00TVFjYkhGUmhxS0NYYVZWSmlPMnVfdDJPMGhLdnBPMUhJU2JsOVBBeERleEJhZDRmM2p0blVwTUJheHB6TnY4WXVYelBqNEZpejQ0bmQwOWJ2ajdiYXNqNHd5M2FnamZiQUZGemdmR2tZUk9QWEtKdXB2djc5b0dlYU1ITkdRZDZROTBpbUJKMWVfTDEyZnBnbWUtU3hTdlViRFgyOGpUR2U4RFJEcExzaUlyZk5XMm5wVF9tVTJYOWpBNlE5b19hTVVBV05GaHpjd1hTWVFUeXQta3N4aTRkdnM5T2c?oc=5",
           "reports": 3,
@@ -473,18 +483,6 @@
           "feed_published_at": "2026-10-04T02:42:38+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "Newswav"
-        },
-        {
-          "headline": "Backlog at China’s Ports Was Finally Shrinking. Typhoon Champi Will Test That. - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUHRvT3dGX2JRMHFCX0ZybmNINHJ1RzJsS0pIUV9ZZTE2aVdSVEdNX0xwQzdicm9PN3ZsNHNrNlh3dEZCc0I3dWVoS0VQc0EwaDJfV0FOQUVMNklDSml4OHM3MW40eEtYeDVqeDYtOGVvZjA4ZDNCUWU1RTNGbGUzLVRZempNLXE2aTAyYTR3Z3RidV9UMjZQVk02Vl9hakFUVmgwZ202SWdmLWM?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [
-            "lead_time"
-          ],
-          "feed_published_at": "2026-10-23T21:21:37+00:00",
-          "first_seen_at": "2026-10-29T15:12:54+00:00",
-          "source": "Yahoo Finance"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
