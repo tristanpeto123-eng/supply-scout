@@ -642,8 +642,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-03"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-03",
+        "stock_return_pct": -0.68,
+        "benchmark_return_pct": -1.46,
+        "excess_after_cost_pct": 0.18,
+        "label": "NEUTRAL",
+        "known_after": "2026-11-03",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
