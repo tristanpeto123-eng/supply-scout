@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-07T15:56:48+00:00",
-  "archive_count": 1233,
-  "cluster_count": 1074,
-  "dates_first_seen": 29,
+  "built_at": "2026-11-08T15:10:30+00:00",
+  "archive_count": 1250,
+  "cluster_count": 1089,
+  "dates_first_seen": 30,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 278,
-      "unique_report_clusters": 256,
+      "articles": 279,
+      "unique_report_clusters": 257,
       "estimated_duplicate_headlines": 22,
       "publishers": 123,
       "early_signal_strength": 72,
-      "evidence_headlines": 163,
+      "evidence_headlines": 164,
       "general_headlines": 115,
       "older_than_7_days_on_first_seen": 69,
-      "first_seen_days": 29,
+      "first_seen_days": 30,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 144,
+        "physical_shortage": 145,
         "price_power": 22,
         "lead_time": 11,
         "supply_relief": 1
@@ -115,20 +115,20 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 259,
-      "unique_report_clusters": 209,
+      "articles": 262,
+      "unique_report_clusters": 212,
       "estimated_duplicate_headlines": 50,
-      "publishers": 93,
+      "publishers": 95,
       "early_signal_strength": 63,
-      "evidence_headlines": 11,
-      "general_headlines": 248,
+      "evidence_headlines": 12,
+      "general_headlines": 250,
       "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 29,
+      "first_seen_days": 30,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 10,
         "demand_accel": 2,
-        "physical_shortage": 1,
+        "physical_shortage": 2,
         "capacity_additions": 1
       },
       "stories": [
@@ -209,19 +209,19 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 175,
-      "unique_report_clusters": 156,
+      "articles": 181,
+      "unique_report_clusters": 162,
       "estimated_duplicate_headlines": 19,
-      "publishers": 89,
+      "publishers": 91,
       "early_signal_strength": 63,
-      "evidence_headlines": 31,
-      "general_headlines": 144,
-      "older_than_7_days_on_first_seen": 12,
-      "first_seen_days": 29,
+      "evidence_headlines": 33,
+      "general_headlines": 148,
+      "older_than_7_days_on_first_seen": 14,
+      "first_seen_days": 30,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 18,
-        "physical_shortage": 13,
+        "lead_time": 19,
+        "physical_shortage": 14,
         "demand_accel": 4,
         "capacity_additions": 1
       },
@@ -305,18 +305,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 260,
-      "unique_report_clusters": 223,
-      "estimated_duplicate_headlines": 37,
-      "publishers": 147,
+      "articles": 265,
+      "unique_report_clusters": 227,
+      "estimated_duplicate_headlines": 38,
+      "publishers": 150,
       "early_signal_strength": 67,
-      "evidence_headlines": 52,
-      "general_headlines": 208,
+      "evidence_headlines": 54,
+      "general_headlines": 211,
       "older_than_7_days_on_first_seen": 50,
-      "first_seen_days": 29,
+      "first_seen_days": 30,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 51,
+        "physical_shortage": 53,
         "demand_accel": 1,
         "price_power": 2
       },
@@ -396,22 +396,32 @@
     },
     {
       "theme": "Shipping",
-      "articles": 261,
-      "unique_report_clusters": 230,
-      "estimated_duplicate_headlines": 31,
-      "publishers": 172,
+      "articles": 263,
+      "unique_report_clusters": 231,
+      "estimated_duplicate_headlines": 32,
+      "publishers": 174,
       "early_signal_strength": 67,
-      "evidence_headlines": 78,
-      "general_headlines": 183,
+      "evidence_headlines": 79,
+      "general_headlines": 184,
       "older_than_7_days_on_first_seen": 55,
-      "first_seen_days": 29,
+      "first_seen_days": 30,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 72,
         "price_power": 2,
-        "lead_time": 4
+        "lead_time": 5
       },
       "stories": [
+        {
+          "headline": "Maersk raises outlook again as AI buildout, port congestion keep freight rates high - Devdiscourse",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVZCY3JYVkNSUXB2VTR1MnhuSGgyakRiU3poZVVMVmR2aE5mT2cwdW42Nkd3cmhmRXZvT0ZWVTRlR09iYjJpbWw0RFdPS0ltajZOS2x3U0dGMEVsYjJUNnlHS0U0WTFZd2JlcGVXUFl3V0FCRm15Nm5LdmVMUGFUU2VxblFDdmtSQ2d5bzNDaWk3YUJwYmNPWVpkVUptSXdmWjYyZlk1MExHaEhRTklpajB6VU0xclowOU82cjFRcEFTWDFJNXA2NjBubFN2amZSck9WNWxKWEVoLTZjUlHSAd4BQVVfeXFMUEFWQmNyWFZDUlFwdlU0dTJ4bkhoMmpEYlN6aGVVTFZkdmhOZk9nMHVuNjZHd3JoZkV2b09GVlU0ZUdPYmIyaW1sNERXT0tJbWo2Tktsd1NHRjBFbGIyVDZ5R0tFNFkxWXdiZXBlV1BZd1dBQkZteTZuS3ZlTFBhVFNlcW5RQ3ZrUkNneW8zQ2lpN2FCcGJjT1laZFVKbUl3Zlo2MmZZNTBMR2hIUU5JaWowelVNMXJaMDlPNnIxUXBBU1gxSTVwNjYwbmxTdmpmUnJPVjVsSlhFaC02Y1JR?oc=5",
+          "reports": 4,
+          "publishers": 4,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-05T08:33:31+00:00",
+          "first_seen_at": "2026-11-05T16:27:41+00:00",
+          "source": "Devdiscourse"
+        },
         {
           "headline": "DAT: Truckload rates rise in September as diesel tops $6 a gallon - TheTrucker.com",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjVsenBRbFJ0NlZQaGFZbnhhQlhxMGN2b3MzLW1PdTl0RlhrME0zVHl4V0ZqSmVKdHRTOVN2WVVYNTVtUWZYZWRodlhQSnVLaUFoSUY5RnNCdjYwUWJlbktoeGZNbm5aQUpPTGlFTnJRVHhzcF9VSkoxZ1dyOEZEblZwT2txYklMWnlYOFozRi1BLWNPdWxwbkRhUnJ6dkNHUnljUl9xNHZDdDBrQXQxUzZEdw?oc=5",
@@ -443,16 +453,6 @@
           "feed_published_at": "2026-11-04T13:12:10+00:00",
           "first_seen_at": "2026-11-04T16:17:38+00:00",
           "source": "GhanaWeb"
-        },
-        {
-          "headline": "Maersk raises outlook again as AI buildout, port congestion keep freight rates high - Devdiscourse",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVZCY3JYVkNSUXB2VTR1MnhuSGgyakRiU3poZVVMVmR2aE5mT2cwdW42Nkd3cmhmRXZvT0ZWVTRlR09iYjJpbWw0RFdPS0ltajZOS2x3U0dGMEVsYjJUNnlHS0U0WTFZd2JlcGVXUFl3V0FCRm15Nm5LdmVMUGFUU2VxblFDdmtSQ2d5bzNDaWk3YUJwYmNPWVpkVUptSXdmWjYyZlk1MExHaEhRTklpajB6VU0xclowOU82cjFRcEFTWDFJNXA2NjBubFN2amZSck9WNWxKWEVoLTZjUlHSAd4BQVVfeXFMUEFWQmNyWFZDUlFwdlU0dTJ4bkhoMmpEYlN6aGVVTFZkdmhOZk9nMHVuNjZHd3JoZkV2b09GVlU0ZUdPYmIyaW1sNERXT0tJbWo2Tktsd1NHRjBFbGIyVDZ5R0tFNFkxWXdiZXBlV1BZd1dBQkZteTZuS3ZlTFBhVFNlcW5RQ3ZrUkNneW8zQ2lpN2FCcGJjT1laZFVKbUl3Zlo2MmZZNTBMR2hIUU5JaWowelVNMXJaMDlPNnIxUXBBU1gxSTVwNjYwbmxTdmpmUnJPVjVsSlhFaC02Y1JR?oc=5",
-          "reports": 3,
-          "publishers": 3,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-05T08:33:31+00:00",
-          "first_seen_at": "2026-11-05T16:27:41+00:00",
-          "source": "Devdiscourse"
         },
         {
           "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
