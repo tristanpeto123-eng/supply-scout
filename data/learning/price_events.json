@@ -693,8 +693,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-04"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-04",
+        "stock_return_pct": -17.31,
+        "benchmark_return_pct": -0.33,
+        "excess_after_cost_pct": -17.58,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-04",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -1020,6 +1026,33 @@
         "target_date": "2027-02-02"
       }
     },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W46",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-09T18:45:53+00:00",
+    "snapshot_locked": true,
+    "headline": "TSMC's Statement Doesn't Rule Out 3D DRAM, and Any Fix for the Memory Shortage Is 5+ Years Away - XenoSpectrum",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaMzNRZlpqbDhkOF9sZExkLUNXWTAwdmdLX2NOaTNORzRnYlJPalNjTzdzUTRjal9qOFZzNm44ODlmWjZzZml2NE1YZVhWOVdzQWJnWnRrQmtZTUdjNThRVUdsT2JDbnllSUJ5SWtUSQ?oc=5",
+    "source_domain": "XenoSpectrum",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.42,
+      "prior_excess_30d": -0.276326
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
