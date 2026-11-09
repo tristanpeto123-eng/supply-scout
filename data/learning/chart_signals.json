@@ -1770,7 +1770,7 @@
           "close": 656.390015,
           "sma20": 895.933127,
           "sma50": 966.438547,
-          "sma200": 755.064311,
+          "sma200": 755.064314,
           "rsi14": 31.65,
           "atr14_pct": 8.74,
           "volume_vs_20d": 2.89,
@@ -2079,6 +2079,77 @@
         "rsi_ok": false,
         "passes": false
       }
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W46",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-11-09T18:45:53+00:00",
+    "headline": "TSMC's Statement Doesn't Rule Out 3D DRAM, and Any Fix for the Memory Shortage Is 5+ Years Away - XenoSpectrum",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaMzNRZlpqbDhkOF9sZExkLUNXWTAwdmdLX2NOaTNORzRnYlJPalNjTzdzUTRjal9qOFZzNm44ODlmWjZzZml2NE1YZVhWOVdzQWJnWnRrQmtZTUdjNThRVUdsT2JDbnllSUJ5SWtUSQ?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-06",
+        "close": 690.0,
+        "sma20": 878.99122,
+        "sma50": 961.533691,
+        "sma200": 756.527867,
+        "rsi14": 32.49,
+        "atr14_pct": 8.53,
+        "volume_vs_20d": 1.53,
+        "relative_strength_20d_pct": -27.63,
+        "relative_strength_60d_pct": -21.12,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 1028.838135,
+        "distance_above_sma20_pct": -21.5,
+        "completed_bars_available": 317
+      },
+      "as_of": "2026-11-06",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-09T20:51:25+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
