@@ -744,8 +744,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-05"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-05",
+        "stock_return_pct": -11.25,
+        "benchmark_return_pct": -3.91,
+        "excess_after_cost_pct": -7.94,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-05",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -789,8 +795,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-05"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-05",
+        "stock_return_pct": -15.18,
+        "benchmark_return_pct": -3.91,
+        "excess_after_cost_pct": -11.87,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-05",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -1048,6 +1060,78 @@
       "publisher_count": 1,
       "publication_lag": 0.42,
       "prior_excess_30d": -0.276326
+    },
+    "market": {
+      "status": "TRACKING",
+      "entry_date": "2026-11-10",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
+    },
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-11-17"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-12-10"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-02-08"
+      }
+    },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Copper|FCX|2026-W46",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-10T16:24:53+00:00",
+    "snapshot_locked": true,
+    "headline": "Copper consolidates after Shanghai spot premiums tripled on supply shortage - Traders Union",
+    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOXpVTTdHUEJJdVdIM2VzUTJzQU5RRTBOZ2tmNjdJNzhNRFdweXR2bE1ScE51NGFfbWlGb0hralp1Vk93eXB6V1NzT3pxLW4yUFdZVHd3dDU1V1AxeFk0ajVPRnd0dWg1aU1vLU95YWVva2JQTThPSXk0RFFscENqV1ROS1RNckQwQzRoQi1QTFpjdVA5X21TQg?oc=5",
+    "source_domain": "Traders Union",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.84,
+      "prior_excess_30d": -0.124055
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W46",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-10T16:24:53+00:00",
+    "snapshot_locked": true,
+    "headline": "News Bangkok cargo backlog spreads to exports as airlines restrict inbound freight - The Loadstar",
+    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVl0elg3aE5QSFFEYnA1M0VvY2lDaGpyYXo0ZGNaemdLT2N3OVdZODNBcU5MWnl3LVVSdTNVZ1dmXzA4T1ducm5tTmthMTV3enVYNXE1bkFrcGs0cWZpTzU0eTV3elRkWDNsbGoxdDRIRlpHdG1VNklIQW43dGh2R1FOc213alNhaHIzQWdMc3NHc0FVV1k2Z0hDN2xabng1aHZvNw?oc=5",
+    "source_domain": "The Loadstar",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 1.16,
+      "prior_excess_30d": -0.021071
     },
     "market": {
       "status": "WAITING_FOR_NEXT_TRADING_SESSION"
