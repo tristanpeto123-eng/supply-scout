@@ -2164,7 +2164,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2235,7 +2235,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2302,6 +2302,77 @@
       "as_of": "2026-11-09",
       "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
       "reconstructed_at": "2026-11-10T17:57:53+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 1
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W46",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-11-12T16:47:52+00:00",
+    "headline": "Hitachi Energy India Q2 Results: Order Backlog Hits Record Rs 33,335 Cr As Grid Investment Drives Demand - TradingView",
+    "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPU3lDeDM5bUItQk9YYUZjVHlEMVlvWkxydVRvaVlKdXFINEdrUWduS3lVaUs0eWF6bjQ0NUVvdDlkaXVsUVNtWGpCa1VYenpjc1R5SHB3b3NQZGZKR0Y4TjJxTUVpVEZuUk9nbXNDWlR3eWlZWXhtR0hZQXVVdnlSSGhlOVoyaDByUnhRUjMxWEgwU0FWakdoYm1kOE1iQ3pTRkk4YmlmQ2M0b3hGN2t6bDFCRzlEOUNvZm9keTBSX0hPZEVKb1EtOFpEdGFXYkE1MFhmN0FHMXZyV21CSVpsNzJuWUtCTXpmWkluemZWM1VWQQ?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-11",
+        "close": 360.619995,
+        "sma20": 372.100569,
+        "sma50": 401.658836,
+        "sma200": 395.383298,
+        "rsi14": 48.1,
+        "atr14_pct": 5.59,
+        "volume_vs_20d": 0.71,
+        "relative_strength_20d_pct": -10.69,
+        "relative_strength_60d_pct": -14.48,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 407.598297,
+        "distance_above_sma20_pct": -3.09,
+        "completed_bars_available": 320
+      },
+      "as_of": "2026-11-11",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-12T18:25:10+00:00",
       "historically_backfilled": false
     },
     "chart_confirmation": {
