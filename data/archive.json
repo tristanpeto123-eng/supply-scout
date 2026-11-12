@@ -21031,5 +21031,454 @@
     ],
     "easing": false,
     "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Micron and Sandisk surge as AI triggers a memory-chip shortage - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSDBBdjRjaTJtTUV3TXN2U2VIRVM5aG5fcFItLW9nWkgwZE0yY1RpYlVMTFZ0TmtoS3BQeUVTcmVlRk5LR095UF9TMEJOeFRzVHdfTl9pWHNUM1pubEYtSHJPbFNuS293NnE5cVRweHBtMmhCWDFuR29mczdzbHRzSEtmNFhtTEVUQ2EyVVlqcmR4bnFuRDU2MXdJbkZoYzl0QlVwbzF6X0g0VVZIa3FwSnBuMndXOWlleE9udW9Baw?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T11:12:33+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Beat the global SSD shortage with this massive 4TB Samsung 990 PRO deal on Amazon - PC Guide",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTnUzd1ZraTdrLWVnT3FGSXpocGFxS19KcTVlUXdnSzUtRUVxclJWNHJCY2hqU05XMElkWVN1cExpblVsX3Z1VlZXcXI1YUJ6WTRhTGZ1ZlJ6YTRsX0hORlBnLXV0R0NsWUFfYVhob3F3X3ZpZV8tRHMwY3I3ZXAxZVZ0cDZKLUVXOGtzZUlySWlBSHUtZWRMRGRydXRLNmJEUUM4TGdKUnZ4RnJXMU1CTi1n?oc=5",
+    "domain": "PC Guide",
+    "source_domain": "www.pcguide.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-10-31T07:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "DRAM crisis: Raspberry Pi 5 price rises by another $80 - Notebookcheck",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNGFXQWpDcmxqQ012Wkl4Q3pwV1puR051cGlta3lpQjBvb0doTjJjWjVwRjFxNURwM1lUd0hfZ0ozb0JRc3hIODFiWVR1X2FkMWRJQVEyUkxyWHNNckFNaUZRNThseHlOeGI1N0p5SUI2b0x4Z1pBNnM5SzZmcjhPMUNzSlY5S3dZWUYxT2ctSW1BV2VuSTFvVFRNVU1oZw?oc=5",
+    "domain": "Notebookcheck",
+    "source_domain": "www.notebookcheck.net",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-02T08:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Memory Shortage Spreads to Graphics Cards: AMD to Raise GPU and GDDR6 Supply Prices Again After Just One Month - BigGo Finance",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VRUhEM0RDVVZXVVNXS2RPREp0a05sekc1OGFocG1oXzZ6SU1KRWR5d0RSZHhTcVhDd0FjRGlIZVlYaVNIUHlPd0lyaW1ObHdlcUZrTlhzbTZ2bjFScjd1OGE3RDdBUnhFejNRSnlRN1NEaWNCcVE?oc=5",
+    "domain": "BigGo Finance",
+    "source_domain": "finance.biggo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-02T08:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "China's AI Chip Shortage Cuts eSSD Orders; Samsung, SK Shift Supply to U.S. - BigGo Finance",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2QVpVcXRPX0xnQ2ZkM1dWWVJaNVZnREZUTUFTOFB5d1JpRXJmUE1pbzZ0enhkLU9nWGd6WUtlQzU2QXVPYWMtamdhX2FmY1hDUXZyMkgzUVhxVWZGTkNlQk4xRzFvRlRqMjJxblQ4V05TOTVEUkE?oc=5",
+    "domain": "BigGo Finance",
+    "source_domain": "finance.biggo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T06:55:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Memory Crunch Drives Phone Makers to Recycle Used Chips for Budget Handsets - BigGo Finance",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ySEZZai1NQlFtUFpFMlNKVVN5VzJHMF9EdHdUcnZaaGVLQjlMZDFXeVAwZmdnZ2ItekpjczNZZkN4bzh3RGlwcExMMHRPem5iNXh1Zm1yZVlTa1FTb0hsT3NfdTJfRGRRNmZNNUxsa05LM21uQ3c?oc=5",
+    "domain": "BigGo Finance",
+    "source_domain": "finance.biggo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-09T16:25:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "There Is No End In Sight For The GPU Supply Problem - Engadget",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Rb3p6a0Nfdlg1bkJRRjlfc3ZNZEpNd0tuTUJwVU9sMm5zNXhMdmZRSWFfdTVmR2Z4OVFwMDJ5bUdJbm1jVmMxUXpmcV9OcWZ1NWNtR0NWc18zdnVHMHJzNHREdnJRVDBuTEVRQlhTNHpoZG1Fazc4?oc=5",
+    "domain": "Engadget",
+    "source_domain": "www.engadget.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-07T20:45:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "“People Deserve Their Own RAM”: Elon Musk Challenges Sam Altman Over Data Center Memory - ColombiaOne.com",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcHNpR2pWWDFDYXVSZnNQeEJacGZTLVhQYXFBdXpFaFhmZmpxc29PUnBOc0ZUam1zdmtGWTRCWEZhNDdKQmdzQUhpaG5kWFR6UTBPdWk1ZnlUMExlUVhoeV9nLUdESzdTMDducTl6am92UmtUR3RqcnkxaXYxYy1YdFc2OWdEODVtRGc?oc=5",
+    "domain": "ColombiaOne.com",
+    "source_domain": "colombiaone.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-06T23:45:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Macronix stock weighs capacity expansion as shortage lasts to 2030 - ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOemozajBLTkpDeEplNnh3aFJseXFMWHE2ZWdqVDYwQXlrSUhVUjRWY3lQNG9YZEZSSzd0eWRNekxxdkF6WTROcVctM3hFaVhDUVluTElfS0UyWkU0a2dSSkJGY3J2bm9WbmFKOGFHdE5EYUFuWXVFd2RlMlBLQ1NEQTd1bWlDczhOeHIwTTZhZ0szdGNfNGZvams2N0txTm9FdDZtdDFVMW0zc1RFdTFIODZsZ0hXWUc2RVZxOWJNVWI1V2c?oc=5",
+    "domain": "ad-hoc-news.de",
+    "source_domain": "www.ad-hoc-news.de",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-06T01:38:44+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity",
+      "Demand"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Raspberry Pi 5 Price Jumps to $385 for 16GB Model on RAM Shortage - ShiftDelete.Net",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtdUFRSXFHajEzcHh3NFpNYXY4a2FBU2tWYmZEVHQ4dXpHVFB5aE4yX2EzM2N5eE1XdnBaZm5rOU9VMHhpTFlkR1BYYXFOQW9HT2M5eTBaVXBGMGc?oc=5",
+    "domain": "ShiftDelete.Net",
+    "source_domain": "shiftdelete.net",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-02T08:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Micron's Singapore Build-Out Puts a 2027 Deadline on the Memory Shortage Trade - ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN05oVW95QnNnRnhhQ0huSjBNRl8tc1ZVTEYwZDBiLUF5eGw0Zk5CeHIwX3dDSUZkckdyXzFMUWo5WG1CWE02dnVOOThNY01vN21XN2I0QWpBcENSUjZMQUZsQWpkTl8xdnpIYTFLRnFGd0xkUGVUR0ZMMlhRWTl4eDNrNFBiZ2hiX3Myemg0Uk5oZl9TX2JKa2U2QVVCekt1eHN3VzNwU3NnYWg3c205dXJvWHNVUmN4aWVZR1ljRlpfUHZuZWVGejNxdGhKTEZwamVRSWR0Q0FidmY2TmZlSm9nS3k?oc=5",
+    "domain": "ad-hoc-news.de",
+    "source_domain": "www.ad-hoc-news.de",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T06:11:26+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "AAOI Stock Rises 7% Post Q3 Earnings: Should You Buy, Sell or Hold? - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzhCbE9hZ2lJMFhMUEhIc0V5Mm9ybHVOMTl5Z1VzUFdWcWEzNjNEdTBUR1E4aWNTN0k0NXNndHkwSThJZjlfb2p5QlNtUy13NFJRdFMzTC1VSU81VUVNVlpjbGhsVF92emJHcVdnRE5IWTlNTTBoWjdQYUI5VHljZTJ3T3gxNzNTMThIS1NfQzRYc3hrS3dIYjVrbDFNVmZYT2tEVTdGbkpkaHNLUkZjcUlpWGx3eWp0MkE?oc=5",
+    "domain": "TradingView",
+    "source_domain": "es.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-09T13:25:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Why Are Coherent (COHR) Shares Jumping On Renewed AI Infrastructure Optimism? - Simply Wall St",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNThHWk9DT2lwT2ZQTzg0ZFd2MlV0N0pxeGg2clJyQm04cUlKR0M2WUpqd2Q1T3duVGoyQTA3eHpuczBvNmZFRnBydS12Rm55M0EyREtndExOUjF5MTM3MWM4V3NEMFZ3ZFNVSUppdmR3dzRka1IxMlJuMFJaakhnRmd2RzV6SURsYkF3U0FpWFR6ZXAyb2dBcGd5M3QwR3pCNV9iSTc2bEcyY2xEV0hQeWVZVUc1Rm5JNzd6TG1R0gHDAUFVX3lxTE9naTRqY2RLTDFRQ09DMkFOQ0ZJRGRFWFBTOENESUFsZkIxdlVPbXZuZldTQ2kxellSemJGdW1WVmpMRTd0VzlsWkhKV3NxNk1DNDVJdU5jekhCQlQ3T1ZpdjliZFRsSk5mWXFLWHNpMERvSWZnYjhVbWRLdldpTU5PR2tpVHQ1Y3Q0MTZidG43MjdlYXRrb0daVGlnOVQ0ZnNJMU1aNmtxcVZrd193M1dnWHJmVTVVYXNrTDhfM0xRcnFTYw?oc=5",
+    "domain": "Simply Wall St",
+    "source_domain": "simplywall.st",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-11T18:29:21+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Earnings Beat Could Be A Game Changer For IPG Photonics (IPGP) - Simply Wall St",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVVRYQ01MTG1uamE0QlhBQVd2SEtNaS1ISmtYLUZrcVlIME1McXMtYWRLMGw2RmNOYl9tUjhFTTZuQl9DM2hENlFtblJURHc1R20wQnVYWEtKTnRGcERDZl9zaGVoNW84STV3MnlWZkNFQ1dHeXJXVTZfVlRxSjA3aUhtemRZNm9ncjFFS2ZVcUdwWktlLUxRUEpIOEZldmZNS1hORFo5OUVaMkxxSXVKdzRMMTlqVzkxT2E3Ymx0ZThqZDg2UTVv0gHMAUFVX3lxTFAtX2JzYjZTaTB6RE1ydFlnSDRXaENVZFgtNExMU282MXRnT1gyS0daU1RqMHRoSEpGZHItSHFSaTlqTEFvMHRpNVBwNHFxclZLRXRnWVE1UmIzcW1FUi1RTlRFX3VpNVlMNGUtTWRVeUkweWJVNVQyNUM1WUhsVFIwXzBFUndBd2ppRFJER2tkYjJtbUZ0WEVEX01CZ0Zic3VSS3NKSExyc21FNzhja2gyMlFpTUY1b0pET0gzRmJmZk4ydENERm9ZMGtPOA?oc=5",
+    "domain": "Simply Wall St",
+    "source_domain": "simplywall.st",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-11T11:18:16+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Tower Semiconductor stock keeps capacity execution in focus - ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVm03eHVQV3BKQXFYYUFHdlhnaXoyQks1dnVRYlZCQ0xWNkZUbndMWU00RlAzWGU0QUp0aHpFUE1wMFZ3THpDQzdqLWt5RS1yX0VTc2hrYkk4dGxObDZhdTR5NldNaE5kaXRWdXBmanVraFBCU3pwN2x2SnhCVjQzaTNjeWlEMjl0TERMa0U0VUlBYnZBeEVoNU1GelZlMzRkVGFoaW01Z0JNbk5aRWxXOUV3bGwtUExBdG5YTWVwRQ?oc=5",
+    "domain": "ad-hoc-news.de",
+    "source_domain": "www.ad-hoc-news.de",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T16:29:39+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "UEDCL blames local transformer manufacturers for power outages - Uganda Observer",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSDZseUtfVG91d2RsVFIwOGYxb0lPRmhnNjFheVdFdUZ4cUN1VmxMV092aDJfYXd4ME8wZWY0UExTU29pMEdkdUVhLUdxbVY1cEFrWVV3U2s3ajNCT3ZRUnZJWTJGdURNRjlBQW14dkpJQmlTZmNCbHJSRTUtS1NSdDZfcFNPWVVMYUR0SkRLWWljdmU3WFc4?oc=5",
+    "domain": "Uganda Observer",
+    "source_domain": "observer.ug",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T01:57:46+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Siemens Energy grid orders reach $26.7 B - Transformer Magazine",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUHJjdGUtYTRnTDNCOGhPVnNFZVJFSkV6NklIbjNaaV9XTmpOV0hPQ1UxbUtlWWxZME9GUEVyQXZEX2U4eV9SSllrN0VSeDgzNDB0SlVwX1F3bWhKZ1NoLURCRTRxWlJSTGhGTlViZ0JGMGxXRlVCOEV4QUp2MW5CZXFTVlQ?oc=5",
+    "domain": "Transformer Magazine",
+    "source_domain": "transformer-magazine.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T06:02:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "How Construction Safety Toolbox Talks Are Evolving in 2026 - Intelligent Living",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SZUVoZVpfcHhGV0ZxYy1DRGhPN2ppMV93S0FKYnlGd1EwRjdTYkc0S1JoSkpFaFRkb2FrNDFHTkVIX1BMNG5hRlFkN3JFbHFzaDZZbjY3R2lGeEd3SE1SeW93YUZDNFBnaDZYZThkai1nSFVCci1iSlcxUFU?oc=5",
+    "domain": "Intelligent Living",
+    "source_domain": "www.intelligentliving.co",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-01T00:29:32+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Hitachi Energy India Q2 Results: Order Backlog Hits Record Rs 33,335 Cr As Grid Investment Drives Demand - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPU3lDeDM5bUItQk9YYUZjVHlEMVlvWkxydVRvaVlKdXFINEdrUWduS3lVaUs0eWF6bjQ0NUVvdDlkaXVsUVNtWGpCa1VYenpjc1R5SHB3b3NQZGZKR0Y4TjJxTUVpVEZuUk9nbXNDWlR3eWlZWXhtR0hZQXVVdnlSSGhlOVoyaDByUnhRUjMxWEgwU0FWakdoYm1kOE1iQ3pTRkk4YmlmQ2M0b3hGN2t6bDFCRzlEOUNvZm9keTBSX0hPZEVKb1EtOFpEdGFXYkE1MFhmN0FHMXZyV21CSVpsNzJuWUtCTXpmWkluemZWM1VWQQ?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T13:33:53+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Backlog"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Hitachi Energy India Reports Q2 EBITDA Growth Amid Margin Compression - Sahi",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM1JuYlphZnZvdk8wOGVCdFJ1N2xqZmlMRFExcXhJaWUteF9Ka3JQR29iWVFkWHVJTlRnMVBGUEZNRkJMZVByT3ZCRDJwTm9lSzdwREpoTW5IMmRvVklZXzU0VWR5azNQMGV4MlllM1BKbVpNcWg2N3hoVzZjYnlZdVowQUdwcjNkbTgyN2U4V2tzSEF2M0lPb3Q3Yw?oc=5",
+    "domain": "Sahi",
+    "source_domain": "www.sahi.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T11:39:09+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Medieval Kingdom Had Plenty of Silver but Chose Copper Coins, Study Finds - Medievalists.net",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkpvQ1JwRXdIcU03TWdBUklfRDI1Mmd6aFhEdVd4UGxFQS03YW9HYlpja2VpN0NuamRyN3IzMTRvTFFxRDVDckFzYmRKUVJhZ2N2Y1NSVlVQMVNOUmNSenVDSGpDZnBoUzN4dTduQ3liWXV3cThOTzNiQUsyaDhTVDhCZTgyVzlWRENRVktOS3c5VFhjQlh2SWd5WDRxa0JJZXlQeFktalVWVjcyb2Ew?oc=5",
+    "domain": "Medievalists.net",
+    "source_domain": "www.medievalists.net",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-10T00:25:46+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "LUN: Record copper pricing and strong cash flow offset Caserones storm-driven production cuts - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZWRLUTVJcGtteG9JeXduVEwyR2FSN2w0Y1pRVVdhcEpZTUhhR3BJazYxeldrMVZ0UF9QS3FQUEp3VFhFOTlpamxoWVUwMkg5dXZOTWNyb2hUY0ZyVFRtOWRrTktvbEhsbHJwQzU3SjRldm4zOHZTcGROWFRyZ3I4WTZSR2NUWjNjUjFwMnpuUXNwVkpDUWhKWmZaYmhuR1AtTndxanZFamNhaXc5WUNlbDV4Mzg5cml5aTV4aExfSFk1cmp1VWRDY1dOSURaZFdQbDRzUl9YcmFwUlotMFQxQjlUVDVNY3lSM3VOOGxlSnoyQVp6TE8za1ZtYlFLeWVHX2V4OTNFWlpCa00?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-05T16:51:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Wizz Air profit falls 67% as fuel costs and Middle East disruption bite - Proactive financial news",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbjZhVXcxR21lMlUyWFRvR1Z3Q0xYOE1BOXZLdVFMZ2tWQ2I3aGxDVjgtbnFhWGNJTl9nNmVPYzBKc011VUJSeUpPT2dlS0otbDE3SDl1bVBWT1B2SjhTcWw4a0NPQlFRWUpDTm53RnhsZlFGcWhPQXEzYWlyM3NEbzdPaTk2eVVZWlFHTXVJekJvZXUyLW84bk9MM3R5TGZIeXR2cUUzTWMwN1ctdS11OWItcVBqQ2JOU3pnOWJxMkEtRzdLVURKbWNvOVQ0SF83dHFGcUQwQ2I?oc=5",
+    "domain": "Proactive financial news",
+    "source_domain": "www.proactiveinvestors.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T08:07:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "3 Great Copper Stocks To Own In November 2026 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOVFaSGhRMjQ1VHo5eFVRY1MtRFFVM1hkQ3VITnhlLUZWMlIzSnZSY0FlQ3c3YmNKNVBkUkFSdjFjY1lfb0luU3RBNUJ0Y1VKcTZUamJ0X2E3Y01Id2tDcUVuTFBobDItWjRoU1N4OEhoUGJmdFk4cDl6cFpkRnhPMTE0NXlac0hicklwQjJIZmpXQ01uRE96cjJLMA?oc=5",
+    "domain": "Yahoo Finance",
+    "source_domain": "finance.yahoo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T11:11:22+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "China’s copper crunch drives up industry costs - KLSE Screener",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRURJNkJwT3h5ZGxqMDRkQ2JtNm4ydlFsNmF2S3MzdnVvSGFEdWhNTVFGUXQ4MXBlSnllU2poM1Z3M09YWXFDU0l0NlBScHlDSFRENzhoSGpZUVQtclJoRE9nM2RFVlBCb2xjOWpDckRyMlMteUtHam5ZaE5fZ2NJZFRMNVF0U0Vxdnh6N1VWNmltd25MZ2tJVUw2T0Y?oc=5",
+    "domain": "KLSE Screener",
+    "source_domain": "www.klsescreener.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T00:19:10+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Ports could future-proof to beat box terminal congestion - The Loadstar",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV3ZaaHNMWmR0Q2hGcnM0NGVnNnZqcE1wdGRIZk1tMmpUTUNfR2lfVC05TFhXME14MDEzb1ZXVmQyTi10VTVCZXNuVk1NTXNhbmdSdzZfVWh0dHkyZHN6RTFYeGE3SC1ZX1Z4YWxGNTNxVmVsaWdvUFZGbjZ4NVhJV2xncG9md3d1?oc=5",
+    "domain": "The Loadstar",
+    "source_domain": "theloadstar.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-11T13:31:37+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Hapag-Lloyd Vows to Keep Managing Costs Despite Boost From Freight Rates - WSJ",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcGVuSnFncGVyeUdaZk9YNUh2dU40MTJnMUR0RHhoRjcxdXFQRXRTdmc0bTBSNnF0ak96QndjYlhMN3N6MmF0c01RdVM1X1B1SjdMaFpIeGlVY1ZlVXkyRjd4VEVpYWRmLXU2ZWhFenpHV05fMlhNY0pwcmJSQ18zby1UdzJ2T0NNSHFZbUh2cWFaWlJ6clRuQnB5MmRsSTZYVUhsY1ZBYlVYb1NqMS1od2tiUHkybXNfT1dObA?oc=5",
+    "domain": "WSJ",
+    "source_domain": "www.wsj.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-12T09:28:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Red Sea Return Shifts More Container Congestion to European Ports - WWD",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX0tOZVJkVjctTFFxQWlqZEtZbVdoLTA3T2hFb0g0dGVIWk9yTTJWMGNmbXNtaWhxTXgtOWE5UC1yNUVWRkkyWHZ0UXJ0RThXNTRwQjRWRzZ3OURVZ2FUTTViT004TnB1S3hiOC01T281TEo1UjBEQm85VWlvT2RlOGk0THFadGhZS0YyVURHR0VXaUoyQ1ZhNnJINnhaODFWZDczR0FQYTNwa1I1MGxzVkQ2LXgwUVZkZU4zdw?oc=5",
+    "domain": "WWD",
+    "source_domain": "wwd.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-12T16:47:52+00:00",
+    "feed_publication_at": "2026-11-11T21:58:25+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
   }
 ]
