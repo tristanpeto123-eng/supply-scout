@@ -1174,5 +1174,32 @@
       }
     },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W46",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-12T16:47:52+00:00",
+    "snapshot_locked": true,
+    "headline": "Hitachi Energy India Q2 Results: Order Backlog Hits Record Rs 33,335 Cr As Grid Investment Drives Demand - TradingView",
+    "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPU3lDeDM5bUItQk9YYUZjVHlEMVlvWkxydVRvaVlKdXFINEdrUWduS3lVaUs0eWF6bjQ0NUVvdDlkaXVsUVNtWGpCa1VYenpjc1R5SHB3b3NQZGZKR0Y4TjJxTUVpVEZuUk9nbXNDWlR3eWlZWXhtR0hZQXVVdnlSSGhlOVoyaDByUnhRUjMxWEgwU0FWakdoYm1kOE1iQ3pTRkk4YmlmQ2M0b3hGN2t6bDFCRzlEOUNvZm9keTBSX0hPZEVKb1EtOFpEdGFXYkE1MFhmN0FHMXZyV21CSVpsNzJuWUtCTXpmWkluemZWM1VWQQ?oc=5",
+    "source_domain": "TradingView",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.13,
+      "prior_excess_30d": -0.132326
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
