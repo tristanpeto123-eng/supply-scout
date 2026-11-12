@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-11T17:29:52+00:00",
-  "archive_count": 1314,
-  "cluster_count": 1146,
-  "dates_first_seen": 33,
+  "built_at": "2026-11-12T16:48:17+00:00",
+  "archive_count": 1342,
+  "cluster_count": 1172,
+  "dates_first_seen": 34,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,21 +11,22 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 286,
-      "unique_report_clusters": 264,
+      "articles": 297,
+      "unique_report_clusters": 275,
       "estimated_duplicate_headlines": 22,
-      "publishers": 125,
+      "publishers": 129,
       "early_signal_strength": 72,
-      "evidence_headlines": 169,
-      "general_headlines": 117,
-      "older_than_7_days_on_first_seen": 69,
-      "first_seen_days": 33,
+      "evidence_headlines": 177,
+      "general_headlines": 120,
+      "older_than_7_days_on_first_seen": 73,
+      "first_seen_days": 34,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 150,
-        "price_power": 22,
+        "physical_shortage": 157,
+        "price_power": 23,
         "lead_time": 11,
-        "supply_relief": 1
+        "supply_relief": 1,
+        "capacity_additions": 1
       },
       "stories": [
         {
@@ -115,15 +116,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 282,
-      "unique_report_clusters": 226,
-      "estimated_duplicate_headlines": 56,
+      "articles": 286,
+      "unique_report_clusters": 229,
+      "estimated_duplicate_headlines": 57,
       "publishers": 95,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 268,
+      "general_headlines": 272,
       "older_than_7_days_on_first_seen": 48,
-      "first_seen_days": 33,
+      "first_seen_days": 34,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 11,
@@ -155,7 +156,7 @@
         {
           "headline": "Should You Buy, Sell, or Hold AAOI Stock Ahead of Q3 Earnings? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1pZU3R6c1RiR2xwOUVMc205V29PYmk1MlUwMUktV0I2NzI1LU1tU1ZZaWJReGlFV0Q1RW9PZ0h0dFJ2anpFWnhnZjBBb2tsdHNiWnpIaV9la3pUWXh5enVHZnhOVkgwZHV4V2VfZHpWRTV0UEM3RnJUd0JrWFNQTldaUFdlOGVSeXlMM25oT2wzX2I4dGNfQzF1ckVVQ2M5aGh1cS1Sbk9rQU0tb1F5Z2FleEMxUQ?oc=5",
-          "reports": 6,
+          "reports": 7,
           "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-11-03T17:23:00+00:00",
@@ -209,18 +210,18 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 193,
-      "unique_report_clusters": 174,
+      "articles": 198,
+      "unique_report_clusters": 179,
       "estimated_duplicate_headlines": 19,
-      "publishers": 95,
+      "publishers": 96,
       "early_signal_strength": 63,
-      "evidence_headlines": 34,
-      "general_headlines": 159,
-      "older_than_7_days_on_first_seen": 18,
-      "first_seen_days": 33,
+      "evidence_headlines": 35,
+      "general_headlines": 163,
+      "older_than_7_days_on_first_seen": 19,
+      "first_seen_days": 34,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 20,
+        "lead_time": 21,
         "physical_shortage": 14,
         "demand_accel": 4,
         "capacity_additions": 1
@@ -305,15 +306,15 @@
     },
     {
       "theme": "Copper",
-      "articles": 281,
-      "unique_report_clusters": 242,
-      "estimated_duplicate_headlines": 39,
-      "publishers": 154,
+      "articles": 286,
+      "unique_report_clusters": 246,
+      "estimated_duplicate_headlines": 40,
+      "publishers": 156,
       "early_signal_strength": 67,
       "evidence_headlines": 56,
-      "general_headlines": 225,
+      "general_headlines": 230,
       "older_than_7_days_on_first_seen": 50,
-      "first_seen_days": 33,
+      "first_seen_days": 34,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 55,
@@ -372,6 +373,16 @@
           "source": "RNZ"
         },
         {
+          "headline": "3 Great Copper Stocks To Own In November 2026 - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOVFaSGhRMjQ1VHo5eFVRY1MtRFFVM1hkQ3VITnhlLUZWMlIzSnZSY0FlQ3c3YmNKNVBkUkFSdjFjY1lfb0luU3RBNUJ0Y1VKcTZUamJ0X2E3Y01Id2tDcUVuTFBobDItWjRoU1N4OEhoUGJmdFk4cDl6cFpkRnhPMTE0NXlac0hicklwQjJIZmpXQ01uRE96cjJLMA?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-12T11:11:22+00:00",
+          "first_seen_at": "2026-11-12T16:47:52+00:00",
+          "source": "Yahoo Finance"
+        },
+        {
           "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EQ1dPcFMzaUJaQjVGOHBoWFF0VVhpSXJKb0NKNTV4QTlhRXZuS1N4Szc1dVBxS0lsYnR5NWsybDIxdUUyRmlDRFc4eXhOZ2RJN29pOGI1U1ZidTB0S0kxTlZJWjRxdjRQVVVGY2J2cWNrdmJtVjFjQWpR?oc=5",
           "reports": 2,
@@ -380,31 +391,21 @@
           "feed_published_at": "2026-10-03T19:50:00+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "AOL.ca"
-        },
-        {
-          "headline": "BOA prepares for Neds Creek copper drill push - The Australian",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd19HbXJCUGY1UG9EWFIzVnlxWXJzeVJfQWlrQmltTldIaDB1cEhTZjI0VGl4aGRVT2FhN2lyZGM3Z0VOTHNqSnVSbkJOcGR6V3B3OTV2QnViNGE4WlNCVVlld3kybHNQS3V0ZzlhSUhQcTRGNFlocENYekd4WGpoWjNsdVRtLTVjWjNYLXVlbEtlNTBfT1UzeEFES21SUTU2TzhsS0FKR2VhNVBOd0RXZ1ZveFlMT2QzM1dzbGQ2VzZaQmhCOGNiMmFQeGdrN3k1anFaWEFLVjZuOHZDSmc4MnRpd1VjREFkRU9FOGE0Z19QaGFXSi1n?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-23T03:58:07+00:00",
-          "first_seen_at": "2026-10-23T13:24:27+00:00",
-          "source": "The Australian"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 272,
-      "unique_report_clusters": 240,
+      "articles": 275,
+      "unique_report_clusters": 243,
       "estimated_duplicate_headlines": 32,
-      "publishers": 179,
+      "publishers": 180,
       "early_signal_strength": 67,
       "evidence_headlines": 81,
-      "general_headlines": 191,
+      "general_headlines": 194,
       "older_than_7_days_on_first_seen": 55,
-      "first_seen_days": 33,
+      "first_seen_days": 34,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 73,
