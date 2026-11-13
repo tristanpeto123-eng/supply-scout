@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-12T17:46:12+00:00",
-  "archive_count": 1342,
-  "cluster_count": 1172,
-  "dates_first_seen": 34,
+  "built_at": "2026-11-13T16:19:48+00:00",
+  "archive_count": 1370,
+  "cluster_count": 1196,
+  "dates_first_seen": 35,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 297,
-      "unique_report_clusters": 275,
+      "articles": 299,
+      "unique_report_clusters": 277,
       "estimated_duplicate_headlines": 22,
-      "publishers": 129,
+      "publishers": 131,
       "early_signal_strength": 72,
-      "evidence_headlines": 177,
+      "evidence_headlines": 179,
       "general_headlines": 120,
       "older_than_7_days_on_first_seen": 73,
-      "first_seen_days": 34,
+      "first_seen_days": 35,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 157,
+        "physical_shortage": 159,
         "price_power": 23,
         "lead_time": 11,
         "supply_relief": 1,
@@ -116,15 +116,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 286,
-      "unique_report_clusters": 229,
-      "estimated_duplicate_headlines": 57,
-      "publishers": 95,
+      "articles": 292,
+      "unique_report_clusters": 233,
+      "estimated_duplicate_headlines": 59,
+      "publishers": 96,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 272,
-      "older_than_7_days_on_first_seen": 48,
-      "first_seen_days": 34,
+      "general_headlines": 278,
+      "older_than_7_days_on_first_seen": 49,
+      "first_seen_days": 35,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 11,
@@ -210,18 +210,18 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 198,
-      "unique_report_clusters": 179,
-      "estimated_duplicate_headlines": 19,
-      "publishers": 96,
+      "articles": 205,
+      "unique_report_clusters": 185,
+      "estimated_duplicate_headlines": 20,
+      "publishers": 99,
       "early_signal_strength": 63,
-      "evidence_headlines": 35,
-      "general_headlines": 163,
-      "older_than_7_days_on_first_seen": 19,
-      "first_seen_days": 34,
+      "evidence_headlines": 36,
+      "general_headlines": 169,
+      "older_than_7_days_on_first_seen": 20,
+      "first_seen_days": 35,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 21,
+        "lead_time": 22,
         "physical_shortage": 14,
         "demand_accel": 4,
         "capacity_additions": 1
@@ -306,18 +306,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 286,
-      "unique_report_clusters": 246,
+      "articles": 293,
+      "unique_report_clusters": 253,
       "estimated_duplicate_headlines": 40,
-      "publishers": 156,
+      "publishers": 158,
       "early_signal_strength": 67,
-      "evidence_headlines": 56,
-      "general_headlines": 230,
+      "evidence_headlines": 59,
+      "general_headlines": 234,
       "older_than_7_days_on_first_seen": 50,
-      "first_seen_days": 34,
+      "first_seen_days": 35,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 55,
+        "physical_shortage": 58,
         "demand_accel": 1,
         "price_power": 2
       },
@@ -397,22 +397,34 @@
     },
     {
       "theme": "Shipping",
-      "articles": 275,
-      "unique_report_clusters": 243,
-      "estimated_duplicate_headlines": 32,
-      "publishers": 180,
+      "articles": 281,
+      "unique_report_clusters": 248,
+      "estimated_duplicate_headlines": 33,
+      "publishers": 183,
       "early_signal_strength": 67,
-      "evidence_headlines": 81,
-      "general_headlines": 194,
-      "older_than_7_days_on_first_seen": 55,
-      "first_seen_days": 34,
+      "evidence_headlines": 82,
+      "general_headlines": 199,
+      "older_than_7_days_on_first_seen": 56,
+      "first_seen_days": 35,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 73,
+        "physical_shortage": 74,
         "price_power": 2,
         "lead_time": 6
       },
       "stories": [
+        {
+          "headline": "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say - CNBC TV18",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObTN0UnVEV2RrZW94d3ZQbm5tVU5CNjI4UExzYzJ0dzEzWlB6TlBtQ3pIajBobzBNdXlQQXljRGltdmFqN05xcjBuTE1YZklZbm9SYzFxZnBMMmtOX3pobzF5ZVFycl9xWHJ2Y2pyeUJNeVRLV0kxcm9sSzhiQUVsMUtaRmJBWUVmR090bjFKVlJrbDdNOUNsU2VsUVN2dTJzM3RwaGFHbmhIM2stVE1vdVlHdVZJeGpTWkxhTGMxZVloeFlOd2NJaE9lZ2hBR1NRcTQtNTF2aHhYTmk3aDE3TlI1N2nSAeQBQVVfeXFMTm0zdFJ1RFdka2VveHd2UG5ubVVOQjYyOFBMc2MydHcxM1pQek5QbUN6SGowaG8wTXV5UEF5Y0RpbXZhajdOcXIwbkxNWGZJWW5vUmMxcWZwTDJrTl96aG8xeWVRcnJfcVhydmNqcnlCTXlUS1dJMXJvbEs4YkFFbDFLWkZiQVlFZkdPdG4xSlZSa2w3TTlDbFNlbFFTdnUyczN0cGhhR25oSDNrLVRNb3VZR3VWSXhqU1pMYUxjMWVZaHhZTndjSWhPZWdoQUdTUXE0LTUxdmh4WE5pN2gxN05SNTdp?oc=5",
+          "reports": 4,
+          "publishers": 4,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-30T18:15:25+00:00",
+          "first_seen_at": "2026-10-31T14:31:09+00:00",
+          "source": "CNBC TV18"
+        },
         {
           "headline": "Maersk raises outlook again as AI buildout, port congestion keep freight rates high - Devdiscourse",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVZCY3JYVkNSUXB2VTR1MnhuSGgyakRiU3poZVVMVmR2aE5mT2cwdW42Nkd3cmhmRXZvT0ZWVTRlR09iYjJpbWw0RFdPS0ltajZOS2x3U0dGMEVsYjJUNnlHS0U0WTFZd2JlcGVXUFl3V0FCRm15Nm5LdmVMUGFUU2VxblFDdmtSQ2d5bzNDaWk3YUJwYmNPWVpkVUptSXdmWjYyZlk1MExHaEhRTklpajB6VU0xclowOU82cjFRcEFTWDFJNXA2NjBubFN2amZSck9WNWxKWEVoLTZjUlHSAd4BQVVfeXFMUEFWQmNyWFZDUlFwdlU0dTJ4bkhoMmpEYlN6aGVVTFZkdmhOZk9nMHVuNjZHd3JoZkV2b09GVlU0ZUdPYmIyaW1sNERXT0tJbWo2Tktsd1NHRjBFbGIyVDZ5R0tFNFkxWXdiZXBlV1BZd1dBQkZteTZuS3ZlTFBhVFNlcW5RQ3ZrUkNneW8zQ2lpN2FCcGJjT1laZFVKbUl3Zlo2MmZZNTBMR2hIUU5JaWowelVNMXJaMDlPNnIxUXBBU1gxSTVwNjYwbmxTdmpmUnJPVjVsSlhFaC02Y1JR?oc=5",
@@ -432,18 +444,6 @@
           "feed_published_at": "2026-10-14T19:12:51+00:00",
           "first_seen_at": "2026-10-15T13:24:22+00:00",
           "source": "TheTrucker.com"
-        },
-        {
-          "headline": "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say - CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObTN0UnVEV2RrZW94d3ZQbm5tVU5CNjI4UExzYzJ0dzEzWlB6TlBtQ3pIajBobzBNdXlQQXljRGltdmFqN05xcjBuTE1YZklZbm9SYzFxZnBMMmtOX3pobzF5ZVFycl9xWHJ2Y2pyeUJNeVRLV0kxcm9sSzhiQUVsMUtaRmJBWUVmR090bjFKVlJrbDdNOUNsU2VsUVN2dTJzM3RwaGFHbmhIM2stVE1vdVlHdVZJeGpTWkxhTGMxZVloeFlOd2NJaE9lZ2hBR1NRcTQtNTF2aHhYTmk3aDE3TlI1N2nSAeQBQVVfeXFMTm0zdFJ1RFdka2VveHd2UG5ubVVOQjYyOFBMc2MydHcxM1pQek5QbUN6SGowaG8wTXV5UEF5Y0RpbXZhajdOcXIwbkxNWGZJWW5vUmMxcWZwTDJrTl96aG8xeWVRcnJfcVhydmNqcnlCTXlUS1dJMXJvbEs4YkFFbDFLWkZiQVlFZkdPdG4xSlZSa2w3TTlDbFNlbFFTdnUyczN0cGhhR25oSDNrLVRNb3VZR3VWSXhqU1pMYUxjMWVZaHhZTndjSWhPZWdoQUdTUXE0LTUxdmh4WE5pN2gxN05SNTdp?oc=5",
-          "reports": 3,
-          "publishers": 3,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-30T18:15:25+00:00",
-          "first_seen_at": "2026-10-31T14:31:09+00:00",
-          "source": "CNBC TV18"
         },
         {
           "headline": "Importers propose empty container depots to ease port congestion - GhanaWeb",
