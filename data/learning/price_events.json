@@ -846,8 +846,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-10"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-10",
+        "stock_return_pct": -6.39,
+        "benchmark_return_pct": -0.28,
+        "excess_after_cost_pct": -6.71,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-10",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -891,8 +897,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-10"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-10",
+        "stock_return_pct": -15.68,
+        "benchmark_return_pct": -0.28,
+        "excess_after_cost_pct": -16.0,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-10",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -936,8 +948,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-10"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-10",
+        "stock_return_pct": -14.01,
+        "benchmark_return_pct": -0.28,
+        "excess_after_cost_pct": -14.33,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-10",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -981,8 +999,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-10"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-10",
+        "stock_return_pct": -1.23,
+        "benchmark_return_pct": -0.28,
+        "excess_after_cost_pct": -1.55,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-10",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
