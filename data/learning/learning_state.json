@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-15T16:39:28+00:00",
-  "archive_count": 1420,
-  "cluster_count": 1232,
-  "dates_first_seen": 37,
+  "built_at": "2026-11-16T18:30:54+00:00",
+  "archive_count": 1442,
+  "cluster_count": 1250,
+  "dates_first_seen": 38,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,19 +11,19 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 307,
-      "unique_report_clusters": 284,
-      "estimated_duplicate_headlines": 23,
-      "publishers": 131,
+      "articles": 311,
+      "unique_report_clusters": 287,
+      "estimated_duplicate_headlines": 24,
+      "publishers": 132,
       "early_signal_strength": 72,
-      "evidence_headlines": 184,
-      "general_headlines": 123,
-      "older_than_7_days_on_first_seen": 75,
-      "first_seen_days": 37,
+      "evidence_headlines": 187,
+      "general_headlines": 124,
+      "older_than_7_days_on_first_seen": 76,
+      "first_seen_days": 38,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 164,
-        "price_power": 23,
+        "physical_shortage": 166,
+        "price_power": 24,
         "lead_time": 11,
         "supply_relief": 1,
         "capacity_additions": 1
@@ -100,31 +100,31 @@
           "source": "TechPowerUp"
         },
         {
-          "headline": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns - WKZO",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUG1QR2VfQmd4U2JTUnBqN3NRVjdVM3NoTndCS3d4MExWRnVCZTFldHBVTVRJM3laM053RnZ6RVhBNHVDUmg3eGl2YWVucmdURjU2bjJQelBRZmFUaU9rNXFMMG9ObWdldndlZnBCVVMtbDdkTmNpakI0UUY3Y0FKeEtvRUI?oc=5",
+          "headline": "Micron Stock Holds Above $1,000 as Memory Shortage Puts $1,034 Breakout in Focus - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZUVyeUZqYUduZ2YyNkt3YnZkSHpkb2xmRXZNYUVCaFRVbjJtZjF1eHhfNjA3NHlYTlplRVU0YnMwM3RCMlRhYlJkalZQaGxNMUdtcXlNTDBpSUNydEg4MnJxLVVGZGZ4bEZyLUlaRXZwa0VaNVBjV2FfdF9rN2JiVVBpUUs2TlE5cHgxa1FXX2tjdm5CRnJYRkI1V3M5VzczWk1PWVJveUE0YktFalRTdzRDRQ?oc=5",
           "reports": 2,
           "publishers": 2,
           "signal_tags": [
             "physical_shortage"
           ],
-          "feed_published_at": "2026-10-29T05:17:59+00:00",
-          "first_seen_at": "2026-10-29T15:12:54+00:00",
-          "source": "WKZO"
+          "feed_published_at": "2026-11-15T13:28:58+00:00",
+          "first_seen_at": "2026-11-16T18:30:27+00:00",
+          "source": "TradingKey"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 301,
-      "unique_report_clusters": 240,
-      "estimated_duplicate_headlines": 61,
-      "publishers": 97,
+      "articles": 307,
+      "unique_report_clusters": 245,
+      "estimated_duplicate_headlines": 62,
+      "publishers": 99,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 287,
+      "general_headlines": 293,
       "older_than_7_days_on_first_seen": 50,
-      "first_seen_days": 37,
+      "first_seen_days": 38,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 11,
@@ -210,15 +210,15 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 215,
-      "unique_report_clusters": 192,
+      "articles": 219,
+      "unique_report_clusters": 196,
       "estimated_duplicate_headlines": 23,
-      "publishers": 104,
+      "publishers": 107,
       "early_signal_strength": 63,
       "evidence_headlines": 41,
-      "general_headlines": 174,
-      "older_than_7_days_on_first_seen": 20,
-      "first_seen_days": 37,
+      "general_headlines": 178,
+      "older_than_7_days_on_first_seen": 21,
+      "first_seen_days": 38,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 23,
@@ -306,15 +306,15 @@
     },
     {
       "theme": "Copper",
-      "articles": 311,
+      "articles": 313,
       "unique_report_clusters": 263,
-      "estimated_duplicate_headlines": 48,
-      "publishers": 166,
+      "estimated_duplicate_headlines": 50,
+      "publishers": 167,
       "early_signal_strength": 67,
       "evidence_headlines": 61,
-      "general_headlines": 250,
+      "general_headlines": 252,
       "older_than_7_days_on_first_seen": 52,
-      "first_seen_days": 37,
+      "first_seen_days": 38,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 60,
@@ -322,6 +322,16 @@
         "price_power": 2
       },
       "stories": [
+        {
+          "headline": "Repair of old copper wiring caused US flight disruption - Kuwait Times",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmFkV1AwcGRvT0RDLWFjZlU2NXNtRGFZTUZoSDRzZnJVdVJVN1dPQTU1VE92RkM3NmJkdWtzczkyMmpwOTd2OWVieWxqTTZjUnJ2d25oZ3ljdnJPQnZNZTAxdU5TRERqdGhvekZIV3ZvSVpWZlhqdEFiTHZsSENFbVFpT2drY25zaUtQeDU0MURkNzJveGs2Z1duaUQ0dW4zSFHSAaYBQVVfeXFMT2VseVFPcl9tdktaU3hNZy1majk1Z1c4b2FsbWJFSzJiVVVmQW9IcDRJN0twM05BSjdsaHFJdnNVdklWQ1h4QzNXYkNUZWpQNlBzeG9RMnRtU0VLR3kzQ0NqYlBTWkQ3VWZCb2hOeHpCczJJbWw0Z2tMbk9tZnpFR0lkQUh6RkQ4UmxOUG5MUHc1dG55b3dLSFRmUTlFRUFLRU1GWi1zUQ?oc=5",
+          "reports": 7,
+          "publishers": 5,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-15T04:27:35+00:00",
+          "first_seen_at": "2026-11-15T15:38:44+00:00",
+          "source": "Kuwait Times"
+        },
         {
           "headline": "Copper edges up on mine supply disruption, tight stocks - Business Recorder",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHeEhOcmoxTDRZd2JmQzNnX1dRWmktOXdaWTFxYmJDSjFlQUtrSDZXS0lqYVFKbWhQZFZiUWt6eTN2N3pLeTZzOTlKTVlhaTVOVjF0Wmdn0gFWQVVfeXFMUEd4SE5yajFMNFl3YmZDM2dfV1FaaS05d1pZMXFiYkNKMWVBS2tINldLSWphUUptaFBkVmJRa3p5M3Y3ekt5NnM5OUpNWWFpNU5WMXRaZ2c?oc=5",
@@ -331,16 +341,6 @@
           "feed_published_at": "2026-10-13T11:02:38+00:00",
           "first_seen_at": "2026-10-13T15:56:38+00:00",
           "source": "Business Recorder"
-        },
-        {
-          "headline": "Repair of old copper wiring caused US flight disruption - Kuwait Times",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmFkV1AwcGRvT0RDLWFjZlU2NXNtRGFZTUZoSDRzZnJVdVJVN1dPQTU1VE92RkM3NmJkdWtzczkyMmpwOTd2OWVieWxqTTZjUnJ2d25oZ3ljdnJPQnZNZTAxdU5TRERqdGhvekZIV3ZvSVpWZlhqdEFiTHZsSENFbVFpT2drY25zaUtQeDU0MURkNzJveGs2Z1duaUQ0dW4zSFHSAaYBQVVfeXFMT2VseVFPcl9tdktaU3hNZy1majk1Z1c4b2FsbWJFSzJiVVVmQW9IcDRJN0twM05BSjdsaHFJdnNVdklWQ1h4QzNXYkNUZWpQNlBzeG9RMnRtU0VLR3kzQ0NqYlBTWkQ3VWZCb2hOeHpCczJJbWw0Z2tMbk9tZnpFR0lkQUh6RkQ4UmxOUG5MUHc1dG55b3dLSFRmUTlFRUFLRU1GWi1zUQ?oc=5",
-          "reports": 5,
-          "publishers": 4,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-15T04:27:35+00:00",
-          "first_seen_at": "2026-11-15T15:38:44+00:00",
-          "source": "Kuwait Times"
         },
         {
           "headline": "Exclusive-China demands copper supply commitments for Anglo Teck merger approval, sources say - AOL.ca",
@@ -397,15 +397,15 @@
     },
     {
       "theme": "Shipping",
-      "articles": 286,
-      "unique_report_clusters": 253,
+      "articles": 292,
+      "unique_report_clusters": 259,
       "estimated_duplicate_headlines": 33,
-      "publishers": 184,
+      "publishers": 188,
       "early_signal_strength": 67,
       "evidence_headlines": 82,
-      "general_headlines": 204,
+      "general_headlines": 210,
       "older_than_7_days_on_first_seen": 58,
-      "first_seen_days": 37,
+      "first_seen_days": 38,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 74,
