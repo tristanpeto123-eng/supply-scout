@@ -2460,5 +2460,147 @@
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
     }
+  },
+  {
+    "id": "Memory chips|MU|2026-W47",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-11-16T18:30:27+00:00",
+    "headline": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge — says chipmakers acted like ‘hawks flying in formation - Tom's Hardware",
+    "source_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNWF9LOG43blJKd2xmWmthTnNHZndKUHoxUjJQWlNnbmNDN2xXdGxOcFNoRjRRYUdrZ2hxSl9hWFgtMWMyT3dsbGRuQUhHeXFXcUQ2Y09jazdpTTBEY0NtUHhnVndVMjhzQVB0TXdnLWNmbktGRnR5SlhhZFd1MjlqT3doNUZBSXF5d0JQWV8tZGE2U0M4ZWpZNHhET0V3TDFHMDVkMFlsSlE3NWtyNGU4aWNUb1duM3ZYVjNQbnlITVF3Y1dINmlHc1RfWWZkeTJvWFBTWEZ0UHl1ZjNLQVJodTJGX0hhbDRsMmo2dzJPNzJXTDRTQm1iLUgwSS1IeDMtUUgyOXBvd1hRM0lCWG90WUIwbDA3dFUtTzVuNjdVdW13QlREZElRM2JPVnhueVNjRXBVTVE4WHhjaUVzMTRkNEdPWnJHSGlrNWF0cFh4aW5qZHptbnJGaHNEMUFYMlE3NWNKbkI5bV91UUZFdnVkb1dKanZ5dUNXVms0UWNucjFESWhE?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-13",
+        "close": 778.309998,
+        "sma20": 838.0,
+        "sma50": 943.689408,
+        "sma200": 765.416732,
+        "rsi14": 40.4,
+        "atr14_pct": 8.33,
+        "volume_vs_20d": 0.9,
+        "relative_strength_20d_pct": -10.4,
+        "relative_strength_60d_pct": -17.69,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 983.22998,
+        "distance_above_sma20_pct": -7.12,
+        "completed_bars_available": 322
+      },
+      "as_of": "2026-11-13",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-16T20:34:14+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Shipping|ZIM|2026-W47",
+    "ticker": "ZIM",
+    "theme": "Shipping",
+    "signal_time": "2026-11-16T18:30:27+00:00",
+    "headline": "Namport dismisses port congestion claims - New Era",
+    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDRk5MVEVqVXJWU1FWTnJYYWlXRExtZHFsdUktZWFESmY3eDc3LU80ZVZfYVVQMlNFT3dNQVZfM0VNQ01xM1dXZmlNMkstUG9NSURqeTdDVENpVVZ5RTN6NVdyVWVsRWEzclI2cm5kM1M?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 3,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-13",
+        "close": 29.34,
+        "sma20": 28.8945,
+        "sma50": 29.3562,
+        "sma200": 26.636224,
+        "rsi14": 48.6,
+        "atr14_pct": 2.9,
+        "volume_vs_20d": 0.8,
+        "relative_strength_20d_pct": 1.48,
+        "relative_strength_60d_pct": 10.45,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 29.73,
+        "distance_above_sma20_pct": 1.54,
+        "completed_bars_available": 322
+      },
+      "as_of": "2026-11-13",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-16T20:34:14+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
   }
 ]
