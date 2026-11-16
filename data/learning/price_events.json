@@ -40,8 +40,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-11"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-11",
+        "stock_return_pct": -15.29,
+        "benchmark_return_pct": -2.24,
+        "excess_after_cost_pct": -13.65,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-11",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -91,8 +97,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-11"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-11",
+        "stock_return_pct": -15.42,
+        "benchmark_return_pct": -2.24,
+        "excess_after_cost_pct": -13.78,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-11",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -142,8 +154,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-11"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-11",
+        "stock_return_pct": -19.06,
+        "benchmark_return_pct": -2.24,
+        "excess_after_cost_pct": -17.42,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-11",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -193,8 +211,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-11"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-11",
+        "stock_return_pct": -3.46,
+        "benchmark_return_pct": -2.24,
+        "excess_after_cost_pct": -1.83,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-11",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -244,8 +268,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-11"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-11",
+        "stock_return_pct": -41.18,
+        "benchmark_return_pct": -2.24,
+        "excess_after_cost_pct": -39.54,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-11",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -1050,8 +1080,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-11"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-11",
+        "stock_return_pct": -2.17,
+        "benchmark_return_pct": -0.34,
+        "excess_after_cost_pct": -2.44,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-11",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -1242,6 +1278,60 @@
         "target_date": "2027-02-11"
       }
     },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W47",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-16T18:30:27+00:00",
+    "snapshot_locked": true,
+    "headline": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge — says chipmakers acted like ‘hawks flying in formation - Tom's Hardware",
+    "source_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNWF9LOG43blJKd2xmWmthTnNHZndKUHoxUjJQWlNnbmNDN2xXdGxOcFNoRjRRYUdrZ2hxSl9hWFgtMWMyT3dsbGRuQUhHeXFXcUQ2Y09jazdpTTBEY0NtUHhnVndVMjhzQVB0TXdnLWNmbktGRnR5SlhhZFd1MjlqT3doNUZBSXF5d0JQWV8tZGE2U0M4ZWpZNHhET0V3TDFHMDVkMFlsSlE3NWtyNGU4aWNUb1duM3ZYVjNQbnlITVF3Y1dINmlHc1RfWWZkeTJvWFBTWEZ0UHl1ZjNLQVJodTJGX0hhbDRsMmo2dzJPNzJXTDRTQm1iLUgwSS1IeDMtUUgyOXBvd1hRM0lCWG90WUIwbDA3dFUtTzVuNjdVdW13QlREZElRM2JPVnhueVNjRXBVTVE4WHhjaUVzMTRkNEdPWnJHSGlrNWF0cFh4aW5qZHptbnJGaHNEMUFYMlE3NWNKbkI5bV91UUZFdnVkb1dKanZ5dUNXVms0UWNucjFESWhE?oc=5",
+    "source_domain": "Tom's Hardware",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 3,
+      "publisher_count": 3,
+      "publication_lag": 0.67,
+      "prior_excess_30d": -0.103993
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W47",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-16T18:30:27+00:00",
+    "snapshot_locked": true,
+    "headline": "Namport dismisses port congestion claims - New Era",
+    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDRk5MVEVqVXJWU1FWTnJYYWlXRExtZHFsdUktZWFESmY3eDc3LU80ZVZfYVVQMlNFT3dNQVZfM0VNQ01xM1dXZmlNMkstUG9NSURqeTdDVENpVVZ5RTN6NVdyVWVsRWEzclI2cm5kM1M?oc=5",
+    "source_domain": "New Era",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 4,
+      "publisher_count": 4,
+      "publication_lag": 0.37,
+      "prior_excess_30d": 0.014847
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
