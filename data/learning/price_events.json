@@ -496,8 +496,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-13"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-13",
+        "stock_return_pct": -16.36,
+        "benchmark_return_pct": -2.3,
+        "excess_after_cost_pct": -14.66,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-13",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -1386,6 +1392,60 @@
         "target_date": "2027-02-15"
       }
     },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Copper|FCX|2026-W47",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-18T17:14:21+00:00",
+    "snapshot_locked": true,
+    "headline": "Copper Shortage Could Leave US Power Grid 28% Short If Demand Surges - StudyFinds",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LRWhXUmlfTm5pOVAwc3N0a3lweG45YlBvU3U0NXVURkZGWkhIeEJmS1VDM1Njd2FZdDhGZjJrVVVWNGJWMjlJeW12SXBrSkEtZ24xcjJLVUFZRU90OEFn?oc=5",
+    "source_domain": "StudyFinds",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 3,
+      "publisher_count": 3,
+      "publication_lag": 0.06,
+      "prior_excess_30d": -0.164201
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W47",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-18T17:14:21+00:00",
+    "snapshot_locked": true,
+    "headline": "Copper Shortage Could Leave US Power Grid 28% Short If Demand Surges - StudyFinds",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LRWhXUmlfTm5pOVAwc3N0a3lweG45YlBvU3U0NXVURkZGWkhIeEJmS1VDM1Njd2FZdDhGZjJrVVVWNGJWMjlJeW12SXBrSkEtZ24xcjJLVUFZRU90OEFn?oc=5",
+    "source_domain": "StudyFinds",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.24,
+      "prior_excess_30d": -0.095158
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
