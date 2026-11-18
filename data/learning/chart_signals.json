@@ -2263,34 +2263,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-11-13",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-11-17",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-11-17",
         "chart": {
-          "price_date": "2026-11-13",
-          "close": 59.240002,
-          "sma20": 63.636,
-          "sma50": 68.418461,
-          "sma200": 64.954006,
-          "rsi14": 37.64,
-          "atr14_pct": 4.93,
-          "volume_vs_20d": 0.77,
-          "relative_strength_20d_pct": -13.77,
-          "relative_strength_60d_pct": -14.22,
+          "price_date": "2026-11-17",
+          "close": 55.299999,
+          "sma20": 62.2295,
+          "sma50": 67.647697,
+          "sma200": 64.905594,
+          "rsi14": 28.81,
+          "atr14_pct": 5.6,
+          "volume_vs_20d": 1.19,
+          "relative_strength_20d_pct": -15.02,
+          "relative_strength_60d_pct": -23.24,
           "breakout_20d_close": false,
-          "prior_20d_high_close": 69.75,
-          "distance_above_sma20_pct": -6.91,
-          "completed_bars_available": 322
+          "prior_20d_high_close": 68.900002,
+          "distance_above_sma20_pct": -11.14,
+          "completed_bars_available": 324
         },
-        "post_signal_excess_pct": -3.4,
+        "post_signal_excess_pct": -6.76,
         "new_breakout": false,
-        "volume_confirmed": false,
+        "volume_confirmed": true,
         "trend_confirmed": false,
         "rsi_ok": false,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2360,34 +2363,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-11-13",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-11-17",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-11-17",
         "chart": {
-          "price_date": "2026-11-13",
-          "close": 29.34,
-          "sma20": 28.8945,
-          "sma50": 29.3562,
-          "sma200": 26.636224,
-          "rsi14": 48.6,
-          "atr14_pct": 2.9,
-          "volume_vs_20d": 0.8,
-          "relative_strength_20d_pct": 1.48,
-          "relative_strength_60d_pct": 10.45,
+          "price_date": "2026-11-17",
+          "close": 29.690001,
+          "sma20": 28.9285,
+          "sma50": 29.359,
+          "sma200": 26.71518,
+          "rsi14": 50.2,
+          "atr14_pct": 3.02,
+          "volume_vs_20d": 1.19,
+          "relative_strength_20d_pct": 6.57,
+          "relative_strength_60d_pct": 10.15,
           "breakout_20d_close": false,
           "prior_20d_high_close": 29.73,
-          "distance_above_sma20_pct": 1.54,
-          "completed_bars_available": 322
+          "distance_above_sma20_pct": 2.63,
+          "completed_bars_available": 324
         },
-        "post_signal_excess_pct": 3.45,
+        "post_signal_excess_pct": 7.72,
         "new_breakout": false,
         "volume_confirmed": true,
         "trend_confirmed": false,
         "rsi_ok": true,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2457,8 +2463,34 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 2
+      "status": "PENDING_5_SESSIONS",
+      "completed_sessions": 3,
+      "initial_check": {
+        "sessions": 3,
+        "as_of": "2026-11-17",
+        "chart": {
+          "price_date": "2026-11-17",
+          "close": 337.109985,
+          "sma20": 363.27997,
+          "sma50": 397.059088,
+          "sma200": 395.330584,
+          "rsi14": 35.25,
+          "atr14_pct": 6.14,
+          "volume_vs_20d": 1.08,
+          "relative_strength_20d_pct": -6.8,
+          "relative_strength_60d_pct": -11.73,
+          "breakout_20d_close": false,
+          "prior_20d_high_close": 392.733948,
+          "distance_above_sma20_pct": -7.2,
+          "completed_bars_available": 324
+        },
+        "post_signal_excess_pct": -3.08,
+        "new_breakout": false,
+        "volume_confirmed": false,
+        "trend_confirmed": false,
+        "rsi_ok": false,
+        "passes": false
+      }
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2529,7 +2561,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2596,6 +2628,148 @@
       "as_of": "2026-11-13",
       "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
       "reconstructed_at": "2026-11-16T20:34:14+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 1
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Copper|FCX|2026-W47",
+    "ticker": "FCX",
+    "theme": "Copper",
+    "signal_time": "2026-11-18T17:14:21+00:00",
+    "headline": "Copper Shortage Could Leave US Power Grid 28% Short If Demand Surges - StudyFinds",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LRWhXUmlfTm5pOVAwc3N0a3lweG45YlBvU3U0NXVURkZGWkhIeEJmS1VDM1Njd2FZdDhGZjJrVVVWNGJWMjlJeW12SXBrSkEtZ24xcjJLVUFZRU90OEFn?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-17",
+        "close": 55.299999,
+        "sma20": 62.2295,
+        "sma50": 67.647697,
+        "sma200": 64.905594,
+        "rsi14": 28.81,
+        "atr14_pct": 5.6,
+        "volume_vs_20d": 1.19,
+        "relative_strength_20d_pct": -15.02,
+        "relative_strength_60d_pct": -23.24,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 68.900002,
+        "distance_above_sma20_pct": -11.14,
+        "completed_bars_available": 324
+      },
+      "as_of": "2026-11-17",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-18T18:53:40+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W47",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-11-18T17:14:21+00:00",
+    "headline": "Copper Shortage Could Leave US Power Grid 28% Short If Demand Surges - StudyFinds",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LRWhXUmlfTm5pOVAwc3N0a3lweG45YlBvU3U0NXVURkZGWkhIeEJmS1VDM1Njd2FZdDhGZjJrVVVWNGJWMjlJeW12SXBrSkEtZ24xcjJLVUFZRU90OEFn?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 0,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-17",
+        "close": 337.109985,
+        "sma20": 363.27997,
+        "sma50": 397.059088,
+        "sma200": 395.330584,
+        "rsi14": 35.25,
+        "atr14_pct": 6.14,
+        "volume_vs_20d": 1.08,
+        "relative_strength_20d_pct": -6.8,
+        "relative_strength_60d_pct": -11.73,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 392.733948,
+        "distance_above_sma20_pct": -7.2,
+        "completed_bars_available": 324
+      },
+      "as_of": "2026-11-17",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-18T18:53:40+00:00",
       "historically_backfilled": false
     },
     "chart_confirmation": {
