@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-18T18:27:17+00:00",
-  "archive_count": 1489,
-  "cluster_count": 1293,
-  "dates_first_seen": 40,
+  "built_at": "2026-11-19T17:22:05+00:00",
+  "archive_count": 1500,
+  "cluster_count": 1301,
+  "dates_first_seen": 41,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,20 +11,20 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 319,
-      "unique_report_clusters": 295,
-      "estimated_duplicate_headlines": 24,
-      "publishers": 133,
+      "articles": 310,
+      "unique_report_clusters": 287,
+      "estimated_duplicate_headlines": 23,
+      "publishers": 128,
       "early_signal_strength": 72,
-      "evidence_headlines": 190,
-      "general_headlines": 129,
-      "older_than_7_days_on_first_seen": 78,
-      "first_seen_days": 40,
+      "evidence_headlines": 180,
+      "general_headlines": 130,
+      "older_than_7_days_on_first_seen": 73,
+      "first_seen_days": 41,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 169,
-        "price_power": 24,
-        "lead_time": 11,
+        "physical_shortage": 162,
+        "price_power": 22,
+        "lead_time": 10,
         "supply_relief": 1,
         "capacity_additions": 1
       },
@@ -66,18 +66,6 @@
           "source": "Barchart.com"
         },
         {
-          "headline": "Memory executives expect RAM shortage to continue through 2028 - Adafruit",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV3UydXZpNWZuT1ZCd0FyNDdNdU5OZEdtbnVqTjRZSzBaYUV1VzFFeVFLcmtYZloxRUVLMU1MZURqa1Z6Y3Y3ZFBnYWlvVW1ieVJPZ0JFQWUzcWhBbFQ1dU45QW5MbS1VNERvT3Y4emgyZ0F6MDhOQVJKQjdrQnFHVDVCQVZiRXI0eFBoazZWWkFNWXFfNXVJdFEzYVFyUmVkQUE?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-12T14:29:18+00:00",
-          "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "Adafruit"
-        },
-        {
           "headline": "Memory shortage could worsen through 2028: Micron CEO - NewsBytes",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb2ZyMnZvR3FCVjN4V0t6bW9qTVloTVE1cDBSVy1ZZHd3ZUl0ODdOQkQ0N1ZlQldWeFRUMlpxSWdQLXpfWlM5RGRRT2U4dTdKbmNBTGJSbjk5YV9tX2dmWk5kYmZsa3BQemphU3NnSFNVYmZaMjFveU1QczE2VDNVRUJ6XzJiYXVuZTVlMDJ1REZaUTVVSEZ3QzhfSjh5a1k4bEE?oc=5",
           "reports": 2,
@@ -110,21 +98,33 @@
           "feed_published_at": "2026-11-15T13:28:58+00:00",
           "first_seen_at": "2026-11-16T18:30:27+00:00",
           "source": "TradingKey"
+        },
+        {
+          "headline": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns - WKZO",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUG1QR2VfQmd4U2JTUnBqN3NRVjdVM3NoTndCS3d4MExWRnVCZTFldHBVTVRJM3laM053RnZ6RVhBNHVDUmg3eGl2YWVucmdURjU2bjJQelBRZmFUaU9rNXFMMG9ObWdldndlZnBCVVMtbDdkTmNpakI0UUY3Y0FKeEtvRUI?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-10-29T05:17:59+00:00",
+          "first_seen_at": "2026-10-29T15:12:54+00:00",
+          "source": "WKZO"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 320,
-      "unique_report_clusters": 255,
-      "estimated_duplicate_headlines": 65,
-      "publishers": 101,
+      "articles": 329,
+      "unique_report_clusters": 262,
+      "estimated_duplicate_headlines": 67,
+      "publishers": 106,
       "early_signal_strength": 63,
       "evidence_headlines": 15,
-      "general_headlines": 305,
+      "general_headlines": 314,
       "older_than_7_days_on_first_seen": 51,
-      "first_seen_days": 40,
+      "first_seen_days": 41,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 11,
@@ -210,19 +210,19 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 228,
-      "unique_report_clusters": 204,
-      "estimated_duplicate_headlines": 24,
-      "publishers": 113,
+      "articles": 232,
+      "unique_report_clusters": 207,
+      "estimated_duplicate_headlines": 25,
+      "publishers": 115,
       "early_signal_strength": 63,
-      "evidence_headlines": 46,
-      "general_headlines": 182,
+      "evidence_headlines": 47,
+      "general_headlines": 185,
       "older_than_7_days_on_first_seen": 21,
-      "first_seen_days": 40,
+      "first_seen_days": 41,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 26,
-        "physical_shortage": 20,
+        "physical_shortage": 21,
         "demand_accel": 5,
         "capacity_additions": 1
       },
@@ -306,18 +306,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 318,
-      "unique_report_clusters": 268,
-      "estimated_duplicate_headlines": 50,
-      "publishers": 169,
+      "articles": 320,
+      "unique_report_clusters": 269,
+      "estimated_duplicate_headlines": 51,
+      "publishers": 171,
       "early_signal_strength": 64,
-      "evidence_headlines": 64,
-      "general_headlines": 254,
+      "evidence_headlines": 65,
+      "general_headlines": 255,
       "older_than_7_days_on_first_seen": 52,
-      "first_seen_days": 39,
+      "first_seen_days": 40,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 63,
+        "physical_shortage": 64,
         "demand_accel": 2,
         "price_power": 2,
         "supply_relief": 1
@@ -326,8 +326,8 @@
         {
           "headline": "Repair of old copper wiring caused US flight disruption - Kuwait Times",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmFkV1AwcGRvT0RDLWFjZlU2NXNtRGFZTUZoSDRzZnJVdVJVN1dPQTU1VE92RkM3NmJkdWtzczkyMmpwOTd2OWVieWxqTTZjUnJ2d25oZ3ljdnJPQnZNZTAxdU5TRERqdGhvekZIV3ZvSVpWZlhqdEFiTHZsSENFbVFpT2drY25zaUtQeDU0MURkNzJveGs2Z1duaUQ0dW4zSFHSAaYBQVVfeXFMT2VseVFPcl9tdktaU3hNZy1majk1Z1c4b2FsbWJFSzJiVVVmQW9IcDRJN0twM05BSjdsaHFJdnNVdklWQ1h4QzNXYkNUZWpQNlBzeG9RMnRtU0VLR3kzQ0NqYlBTWkQ3VWZCb2hOeHpCczJJbWw0Z2tMbk9tZnpFR0lkQUh6RkQ4UmxOUG5MUHc1dG55b3dLSFRmUTlFRUFLRU1GWi1zUQ?oc=5",
-          "reports": 7,
-          "publishers": 5,
+          "reports": 8,
+          "publishers": 6,
           "signal_tags": [],
           "feed_published_at": "2026-11-15T04:27:35+00:00",
           "first_seen_at": "2026-11-15T15:38:44+00:00",
@@ -398,15 +398,15 @@
     },
     {
       "theme": "Shipping",
-      "articles": 304,
-      "unique_report_clusters": 271,
+      "articles": 309,
+      "unique_report_clusters": 276,
       "estimated_duplicate_headlines": 33,
-      "publishers": 192,
+      "publishers": 195,
       "early_signal_strength": 67,
       "evidence_headlines": 83,
-      "general_headlines": 221,
+      "general_headlines": 226,
       "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 40,
+      "first_seen_days": 41,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 75,
