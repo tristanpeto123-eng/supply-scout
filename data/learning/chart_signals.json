@@ -2464,7 +2464,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 3,
+      "completed_sessions": 4,
       "initial_check": {
         "sessions": 3,
         "as_of": "2026-11-17",
@@ -2473,7 +2473,7 @@
           "close": 337.109985,
           "sma20": 363.27997,
           "sma50": 397.059088,
-          "sma200": 395.330584,
+          "sma200": 395.330581,
           "rsi14": 35.25,
           "atr14_pct": 6.14,
           "volume_vs_20d": 1.08,
@@ -2561,7 +2561,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2632,7 +2632,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
