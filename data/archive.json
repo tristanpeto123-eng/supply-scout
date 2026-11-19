@@ -1,246 +1,6 @@
 [
   {
     "theme": "Memory chips",
-    "headline": "Are you ready for the RAM crisis to last another 3 years? We could see ''meaningful price increases' by the end of this year — and there's no light at the end of the tunnel - TechRadar",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMXh1OU1Vb1lpYUxQT3hPYjI2b1BOUmg2UlJCNVlIRElIRjQ1NzYzNndaSWg3UGVfLTkzelZRMmRmaWlSRnJQQlVJS2dwTVpyUzVZQ0UzeDNtbHdhaTRhd19fUHZCNlRpVVdvTXVweXAxdWJVTHB1em5kY2JqQlJjVExMRTVDT2tvSC1CR3Y5Wk44TG9xQTBxZUZLcGJ1ZmpmTUJCaVFLQTgxakZ3UmdaNXRhRjdZNmJCdjBsMG9IbE5xRVBsVGZZa0lIWnlpdlpDYnpzdTg3N2pmWUU3bGdNX2JVSmdqYUdKOVZmQ1JCVWgzS3BCSl90bndR?oc=5",
-    "domain": "TechRadar",
-    "source_domain": "www.techradar.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-06T11:04:25+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Watchlist search match - unverified"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Chinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years - TechPowerUp",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbGVldXVVUFpsdjNyaUp0QkZSTWhTMTM3N2V1UDFxcTk2YWZrdVU5cHRnaVJiOHRWZV8tc2NzalBQT2ExdW1Bd2pyMXVDeDZvZ3NnSENTdzNZbkI3SXlHa1R6QktLN2FPU184VWJERHdJUTcxelB1TmVSMExjQVF2ZEQyMHpqT1lwWXByV0JFaXJUY3JIZXIyTlIxc0ZTU3JhZDdEbnRnVDdHZmNhTVQ5ZlFYdlNmeERGdEhNYUN30gHDAUFVX3lxTE9ESFNOOG5WdUpxRUFGLVBOVGZvc1lKclpKWktYSUlqdWMzUVdlNzlJVXpHbzRpVmxUQi11UV9vZkFxLUFaUUpYbmg0OU40U1daSHY4ZTRLamtyazdXUG1PY0JqQ2p2ZW83QzlWNzhyRkVmVC1VY3I0ZHpmU3FZZVI3LXlKRW92bngzbDNSRkRkR2JkMmZ4bjRhYU5fSkZNNjRvX2JBOVp1WUktMDREM2pJdGFGSUdkdDBKeWRPeFlvZzI2Yw?oc=5",
-    "domain": "TechPowerUp",
-    "source_domain": "www.techpowerup.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-05T15:10:47+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Memory executives expect RAM shortage to continue through 2028 - Ars Technica",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMUhuS3ZteTN5NHJUNnVHYzk2ZU5BaDE4MlpVWmVNUEpuMzMyRDItaTFMS1dSZ0JVRU56ZHlJRGF4MDMyZ19UeXFVdXNScUU3NzdqdzF3a05sZjFQdTQ5eVBHTldmS29jb2tiS2R0YmRORkpWSHozQVdpaUJ5cmp4SEtnTkU2Tzl0RFNVdE0xbGREVDI0c0xIZnlIcTh6bWZES3Bya0R4TTRodWl2Rzh2T3N3?oc=5",
-    "domain": "Ars Technica",
-    "source_domain": "arstechnica.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-01T07:00:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Micron projects tightening RAM shortages through 2028 as it generates record profit — record 86.25% gross margin drives over $53 billion in quarterly profit - Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOQmo5XzdvVnMtOUVSSkJBRnc4amV4VWQwMTYzY0JsSklnVHkyc0dkTVgxdG9XR0k1VGZGRnpnYmVSS294RUd2N01tVGxqMWJicmZseUNiaVZ2MzlDVVFBZGp2NmsySlpta2NmYWdWekw0Z0ZyM0Z1ZDdmT2FnR2dRWnJzQ1VPWmwyY2JWYjNEUm5ESjBwMFNEaVhLNm9UQ09BUzBNY1hYVHpXaDZlbVFLbzBBNmh2NkJScHZEMDZQYnpTQTJmUkFhNHZkUTlVZGRtWlZyaVZBZEQzNjJOczFjZl83cTllbF9HR2tvejBKODg0MmVORTVISllpWkUzMGVHeXVXYjZuemRRQmJXTk13LTBqMUdFZmxfdWdnWFktcUF1N080cDg5bU5XLXNQRXpXREZELVZR?oc=5",
-    "domain": "Tom's Hardware",
-    "source_domain": "www.tomshardware.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-01T07:00:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Watchlist search match - unverified"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "September DRAM and NAND Flash Contract Prices Hit Record Highs, Though Gains Slow - BigGo Finance",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pNGJKd1JCYno2SURuTkRZSzdRdXY3V1UyVmJSZ3N0cjFfUXc3RE9oeHdZY09NOGYxalFtS1dyY01tTXJicWZpdDFodDJVdHN5RWF3eXNRZVQ5NE5lVklkV3NyQnpodjhHUHFqZlZFdU85cnRhMkE?oc=5",
-    "domain": "BigGo Finance",
-    "source_domain": "finance.biggo.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-09-30T12:35:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Watchlist search match - unverified"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "YMTC Warns Memory Shortage Will Last Until 2029, Confirms NAND Chip Price Hikes - eTeknix",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUGlGZjFqamlMVnFMZ1BJRzJIQUc0ampiZ1FqWVU2QXVoNEJoejZNcURYckhIMGNueTZMSHBLYnpiLUlsandkLWl2SGR4QzczSXhoYTN1a29jdEp5MWF0VDVGdjBWVExWTDJ6YTJYNHVIaFM1TXdvSG5GemI5dExiQlZVVXZlMWFLZVY0aEp5cU9QZFpjUnVvSW1ydUgzdmpfNk1ZMm9R?oc=5",
-    "domain": "eTeknix",
-    "source_domain": "www.eteknix.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-06T06:57:29+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Micron has profited from the memory shortage: DRAM revenue rose by 343% over the past year - Mezha",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92WjliLWlTR2pSTTJKVTVRdWZmdmRHTE53M01PNGowamNKcWE4bkFUUkpRaDZlWHBjMFhubWtoNmRqMFdFa2FvdHplb3E0c3k1eVE0Q05CVjhhN2RQSnMzUUlQcFdPQUFrZnFzUDEtNFhfQdIBd0FVX3lxTE41Ullvd1EwbXJWWlZ3bERqRmdzeENyYzFoaGJtcG5WZm1Hb3RDWUFGUGdjU1RPU2VoYXkyOW00RWlscGtJb015NGVxRFRVWUF5cFFYQUoyYWdiNks3XzdzOWptZklDU01XSkZFeTNkVnN3bUlQbXhZ?oc=5",
-    "domain": "Mezha",
-    "source_domain": "mezha.ua",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-01T08:01:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "DRAM Module Market Surges 59%: Supply Shortage Unlikely to Ease Before 2028 – Latest Industry Trends & Outlook - eu.36kr.com",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95OHkxSHZYclJQUjBfQWNxNzVnSnhqbnR3aVZMTUZWeEVJVUIwRWo4ZTdmQlBKTGJiMlVqNDJNaFo4TFkyRTdIb0t3Z2tNSmVwbW1J?oc=5",
-    "domain": "eu.36kr.com",
-    "source_domain": "eu.36kr.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-09-28T04:00:34+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Micron: the memory shortage is set to continue for several more years - UkrMedia News",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWlHTGFpODJ1U1lvalNNNVFiRU5BdmdTUDFiOWU4dmFXWG53VWxncHlCRVJHQmZmRU1pZW1OQVhKU1ZoMWZfLWUyU0h1SjJzTm9aUmhnRUdaem5td1BNTTlOY0l1Q0lMMzh3VmFNZHh6RlpXelFUQzZFdXgzcjNFZ2RyV3ZIcDNvdmVVbQ?oc=5",
-    "domain": "UkrMedia News",
-    "source_domain": "ukrmedia.news",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-05T14:17:55+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Micron’s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - Gizmodo",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzcwNFVWeUp2SzZtUFd0SUdyQjhrckR0S1V3WVpvcmU1Y1RfQ1JIUVRaMHN2QTNhS0dqdW4xUzFnejFnNUVkSEoxT0RoaWVuemNlNWdqUzVIQkpMVnhldUFoOFFJZnZMLWdEMkM3OFVTMnA2anItdlRjOGhEOUxvVmdsbVNkV2djajcwOXZJdFEzaEhPNUZaLUk5Zm1uY1R0UXlPRUpxWThZUG95XzNz?oc=5",
-    "domain": "Gizmodo",
-    "source_domain": "gizmodo.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-09-30T07:00:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Why Nvidia's SK Hynix Deal Leaves Little AI Memory Supply - Beth Kindig – Medium",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGRRTGh1X2t1TGV0dmRwZFkwVkNXaldkTG1kT0k3NDN0amNIVEd2X3RzQ1ExZ2g3TTh2VGdEbGxMYzZ4WnRHd2dheTREdFpRZDdYM2V0cnR0dHFnN0ZXRDdGNzNiZVhuTXdISUNNdFFYRGU0WUZwcXFjbTNWdDZ3aVhVZlJyLWJUMmNvcWlmZlBrZXZKbnl4bHZUZUsxemhwc3c?oc=5",
-    "domain": "Beth Kindig – Medium",
-    "source_domain": "beth-kindig.medium.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-07T19:00:07+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Watchlist search match - unverified"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Samsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5",
-    "domain": "Gadget Hacks",
-    "source_domain": "samsung.gadgethacks.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-09-30T07:00:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Pricing"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Dell Climbs 4% on AI Server Backlog; Hewlett Packard Enterprise Jumps 8% - 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDVjT2pTM3Bnc0djeEUzeVVDMjlnbmRET3o0NFhfc3JwVm40cE5HWmpHb1Q4YmQ5VU9SNDlFRjdfMWVjTHdIN2ZYelFfRzFzUkh0N0lBM2dHS1BodjJISFNNZ1Myeml1dEhkOWdremlPaTJ1cGZfWlc3bFUxWE96NlV6YVNvb0tZR2dKUmlnaWQ2Q0ZpN0x2YVdPWXBYVTdkY2VSakZDZ3BzVkhnV0JIUkZYTQ?oc=5",
-    "domain": "24/7 Wall St.",
-    "source_domain": "247wallst.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-02T07:00:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Backlog"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "Samsung Says the Memory Chip Shortage Will Worsen Through 2028 - Startup Fortune",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaFgtclNhUzYxTXcxOVRZZU1Id3JCNVpITzl5dkh5SF9WQWVXaTU2dlE3aG5BNkRsOVJJVkxjeGdjSUFJT1Z5RVJ4NDZRaXpQUW55Q3BnVzNrNUFIZUViQzFicDBUUllqSjk4YzJ5UUl6d1g2VVY2S0ZVWjg1d243TEpOMERUa1dZV2o2ajM4OXhNSFdG?oc=5",
-    "domain": "Startup Fortune",
-    "source_domain": "startupfortune.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-07T02:48:37+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
-    "headline": "AI Memory Shortage Could Last Years; Morgan Stanley Names Nvidia, Micron Among 6 Outperformers - BigGo Finance",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rVk1JalI4aEQ0WXpTNV9XLWFyWlJmNWU0OGRmREhCdDZTbTdLaEptNTFaczEwaU1xNGhrT3RnQ2pmVkF4SVpfQWFPVE9VcDBwdklKOG53T0NnaU0tMTBWYlp0SVlSaUozWjF2R0k3dG1yRERVd2c?oc=5",
-    "domain": "BigGo Finance",
-    "source_domain": "finance.biggo.com",
-    "news_provider": "Google News RSS",
-    "first_seen_by_agent_at": "2026-10-10T19:18:47+00:00",
-    "feed_publication_at": "2026-10-06T18:17:00+00:00",
-    "published_at_verified": null,
-    "flags": [
-      "Scarcity"
-    ],
-    "easing": false,
-    "classification": "unverified search result - verify primary report and timing"
-  },
-  {
-    "theme": "Memory chips",
     "headline": "Nanya Technology Said to Raise DRAM Contract Prices by Up to 20% as Shortage Deepens - BigGo Finance",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jTGpURk1hN0NEeVFHLTRPVXBGQ21SSE9kTlJwUllhWmlNN093Q2JvZ205a1QzQVdPM05qaTk1VVg4aURUSTBRSUVaZFE4SUU1SmV6Uzk0dmo2ckNSTjdyUllJbnZRR1N0YUJ5S1RMNG8tME1IdWc?oc=5",
     "domain": "BigGo Finance",
@@ -23826,6 +23586,422 @@
     "news_provider": "Google News RSS",
     "first_seen_by_agent_at": "2026-11-18T17:14:21+00:00",
     "feed_publication_at": "2026-11-18T12:52:30+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "CXMT Revenue Jumps 613% YoY as DRAM Shortage Set to Persist Through Q4 - Businesskorea",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55bnUtRWsyVmtFanlLNzdqX2k1VTJLekN1ZnZQS1UxblZjU1pQYk1HeWNYcHBaOWItT3FWVlpiVUNTV1AzRm92TjZjbmd6V3FlRDI2RlpUc3k3cHV3MHZkVHJBXzFxa1A3VFctZHdBeVFoVzdP?oc=5",
+    "domain": "Businesskorea",
+    "source_domain": "www.businesskorea.co.kr",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T02:30:54+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "Survey Reveals How Different Industries Are Responding to the Memory Shortage - The Detroit News",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUVU3R0szazRHVHNMRDExU0lDcF83WTJPYXNjZE9RY1FzNWRGeFNoeGJDb3hFZmlkR2EtVEhOMFBHaUVmUDlEa1ZCNC1GZnhkV085eVhWWkpUM1ZTeWpXS1owTWdTc0dEWHlydkR1OWpnVUNZUnpQYm95ZTVyUGJDOUQxQkpBS3dRQUFmVFlpbzBhWEtjODhLRzUwNmktZ1VCT2lEZEJ1em1KOE1pdTlCZDR6d3BIbWo1ekJXSGtRaGNteWV6cEZZbDY0dl9tdw?oc=5",
+    "domain": "The Detroit News",
+    "source_domain": "www.detroitnews.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T09:42:03+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "AMD Unveils MEXT Memory Solution: Leverages Flash To Mitigate DRAM Costs While Expanding Capacities & Retaining Similar Performance Even With 50% Cut In DDR5 - Wccftech",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ1J0T0tqMkdsTUNGUTZVNUZLd2Z4cWloTGY3NFpQOERrdzZ4TklsNDViOEdGTk1ETW81SEdZNk1CVUo0S0VSVG5VZHBQLUZzcUwwMlRoMzlfYXJGZlA0Yzk1eF9XZ3N0eGs5NEhVZkFGODIxN19vTUpRb2lueEd0bzBiSEt6UjEydnfSAY8BQVVfeXFMUE1oT2huM2xfTFJLeENyZ1JWeEFMc0pXZFNqODlWalJSQjlyZVRLQUNIS0VwTlJkWUhwbWFPSlhJTFpnNE9wdjJ2dWhLUGo0cnUxdUpBUFFNRzkxc1F1S0VmSUF1ZzBjcldaT2tfZUdpQzNoc2FaR3JwUXdJOXM2RTY3ZEpvdTQ4dGJSVXdWTWM?oc=5",
+    "domain": "Wccftech",
+    "source_domain": "wccftech.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-10T08:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "JEDEC Unveils Next-Gen DDR6 Memory: Starts at 12.8 GT/s & Goes Up To 14.4 GT/s, Wider Bus, 50% Bandwidth Uplift, Up To 128 Gb Dies & Narrow Design Versus DDR5 - Wccftech",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QLUttVlAwb3ozbk9QNjF5cGJ4cU9DaU5lNi1pSFZaWFBDQ0lFSmVybENxU0gwZGZvM2pQOVNrVE9aaHlBUG5SMllCRXFrSHNCQzQteFRsZEFEUzJkbUdRRnVpNVM0YmJCeGFuWtIBbEFVX3lxTE9QLUttVlAwb3ozbk9QNjF5cGJ4cU9DaU5lNi1pSFZaWFBDQ0lFSmVybENxU0gwZGZvM2pQOVNrVE9aaHlBUG5SMllCRXFrSHNCQzQteFRsZEFEUzJkbUdRRnVpNVM0YmJCeGFuWg?oc=5",
+    "domain": "Wccftech",
+    "source_domain": "wccftech.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T18:50:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "DDR5 RAM Price: $8.70 Chip Now $48, Up 450% [2026] - shattered.io",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUJPRTJqd05IZ0p5VFNXeVczVHg4WXhMeDhDVmVMTXRmYmprNzNCM1d5ajZDTjF1Uk9ReWd6UUJLMm94T2Fwc1FxVGVSUThsR0ZSd1FsczZjaHE2WnpkRkJfanFEa3hVODNYenRfQ0RsaUkzRVZ3Vlg1ZkU5d3hVUkxCR3psTWhzZnhOVA?oc=5",
+    "domain": "shattered.io",
+    "source_domain": "shattered.io",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-07T08:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Memory chips",
+    "headline": "ASML shortage spurs Samsung, SK hynix to race for EUV tools in South Korea - Chosunbiz",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04VEdjRjYwc3VqY0MyMTFUOXprVk5FUjZDVHNpVk83ZFRHWDRRSXFwamZsUDh0QnUyLXJyYm9oYTNhRjJiajlkMG9WNEpDRm9vTG80Vm5fQ1lmWjg1Tkl6YWpDbEdJOHVaRlM4eFNfV3R6ZmwtaklsZzhR0gGOAUFVX3lxTFBIQzM3SGI3akh5R2ktWFdMSGN4ZXpmV1MycW5MUDlWeE5HaFBOWm56MmRGMEJTZTdBSks5QkRTREt6ZWNOTUdQNm9ZQTlrS3hBRUVFaUhfaUZEZDZTMk95RlVKSjhYc0dDdC1aSG5YOHpWbDhlVkFwQjVQUUNKTENZWHVwdkF5b1kwR0tYZWc?oc=5",
+    "domain": "Chosunbiz",
+    "source_domain": "biz.chosun.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-08T08:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Soitec Shares Surge as AI Demand Boosts First-Half Results - Morningstar",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeXV3N2cxVzd0cHc5bnVkQXhmMWJzUDR2ZzU5Z3NaRURuUmEtcHFJMEVjYVFTZEtXMjVaMVlnZW1VOFIwVTBYeUR1ZE9WalVmOEo1V0Rham1EcEN6S2Q4SUpIMTFrd0xYZTB6ck8yZy1vUk95NEFwZHNvMWt6Q05tT0R2LTJ1eW1wdlZQclYxVnhkU1I1Yzl0eUdmcTBxS0JJ?oc=5",
+    "domain": "Morningstar",
+    "source_domain": "global.morningstar.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T12:39:40+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Soitec sees annual sales well above estimates on AI data-centre demand - Indiatimes",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR09CZU0xTHZGTks5RWNZOUxKX2JLTTEyZXRDQUE5OUdiN3dlLUJZTHZhZlRXM29maU44MU9tQXNXSmRXOXNvRGNYQm0xU1hNSEpwSDgwV1RwbkdkZmFSWVN3UVQtY25Nb0VRTUFfQU1ibFNuRmpBUE1xeWZyNmh0cTFhR2YwSEpqMFF6T2d0cTdld052ekxFWW5sWjNEZFB5U1VtNWp1MnFqUi0ydHZ4Sl9ZWTZGLTdaNGNJdHk0NnR5YW0wam5ZazRBa2ZXeVEycnVoUkFxY29uQdIB2gFBVV95cUxNR09CZU0xTHZGTks5RWNZOUxKX2JLTTEyZXRDQUE5OUdiN3dlLUJZTHZhZlRXM29maU44MU9tQXNXSmRXOXNvRGNYQm0xU1hNSEpwSDgwV1RwbkdkZmFSWVN3UVQtY25Nb0VRTUFfQU1ibFNuRmpBUE1xeWZyNmh0cTFhR2YwSEpqMFF6T2d0cTdld052ekxFWW5sWjNEZFB5U1VtNWp1MnFqUi0ydHZ4Sl9ZWTZGLTdaNGNJdHk0NnR5YW0wam5ZazRBa2ZXeVEycnVoUkFxY29uQQ?oc=5",
+    "domain": "Indiatimes",
+    "source_domain": "telecom.economictimes.indiatimes.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T02:40:49+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent? - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ3hPNXFHblVITFNzcG1hbll6OG42V2pmRmtZakRabWNta2NjdGFhcHd5LTFOQjlCc3dYSVdCekhJSlliMVZTV2RWR3lqVkVoX25IdEJScnFfa1d5cnJ2Z0otajdxa2JCR1ZOcmJDcll6bEhnMDBlN2JZYjliQncwMDdQNUZuQkFyU01JT1c3WUQ3TDQ?oc=5",
+    "domain": "Yahoo Finance",
+    "source_domain": "finance.yahoo.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T16:47:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Soitec Q2FY27 Results: Revenue up 50% on AI photonics demand - scanx.trade",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZjhpWHA5a3MwNVdGcThuTDBVVjVlQ2ozWFRYTWd3TlVfSjhFTGp1czc4YnVkVENfLXkteklCRWtxcjBJV1R5VnRUUDYxYlFDdkphX09Ib21DZXVqZDFEbThhZ3MxMi1zSmtFRVN3SXZOQUxiaVliVjhTVVZxLUtSMGd3WEFzWDBQX2FXM1FIeGx3ZXN0aFpVX01RSUdiVHhlZThzY3dfMHBUMFhhaDBhZ29n?oc=5",
+    "domain": "scanx.trade",
+    "source_domain": "scanx.trade",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T17:41:08+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Silicon Photonics Manufacturing Equipment Industry worth $12.13 billion by 2032 - MarketsandMarkets",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNREdNc01RRHNCZGZvdkM2NlFMb0VwbmJ4MnAyaVlOSHgxOEpLejZtU1BwdEZyNnJsQlhtWERVUEhDQ05zMFo5R2t6VzZpTGtrTHMzM1d2bG9WTHZucWg1UU1LN3pCY1hJRS1udFlpblBHUU50dzdNSnliVHB1V29ZdkNGd3NyRFdlTkpmNHpaYUJVQjNkSVUtWA?oc=5",
+    "domain": "MarketsandMarkets",
+    "source_domain": "www.marketsandmarkets.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T11:55:12+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Coherent Ranks #33 on TIME's America's Top Manufacturers 2027 List - Quantisnow",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEN2cldYcnpEVERhN00tZjhDaGV6cGFxNzVRSndPa3F0RFR0MHlzNUFPVGtBZVpUZk93NkNnNWpmWUI0d0J3dTNCZ0pOcEk1MG5FMWFnRy1pWndVa1FUZVlsdTNHQ3NIZHJiTktCbWZpMktWNmdDVmsyc3BId19VaUJiTDMwNm1fcTliZ2w0MEVxVktaekZrbnhZMm1JZVZTZjlLWWFwZ2dWQQ?oc=5",
+    "domain": "Quantisnow",
+    "source_domain": "www.quantisnow.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T19:25:05+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "HLMA: Record H1 growth and margins fund accelerated investment, with photonics scaling the key constraint - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQc1VETVN5V05jVUt3N1FmTHdneUN5TVNNcF9xOVBqUGhhVzVCcDZhUzZUdmZGVWp3dlB6M3hiOHR6b3oxc2NydFgxVGpfRXNOX3RicV9RUzgtY2tYaVJwY01TREFqZzFsN3hxR3g2eUtuajZURXlia012a3l1MWt5cThBN08tdWtoeDktdVFvNUNLWHJlbUx6c1RmQnRKRnFiMzgtNXRJX3R2WFZKc1JLZVdaZF90SGhBRW80SS14SkZ6MDFpSXZHaERYMkVCV0l2djgtODdXMjdMS0FiWDhPNkJHS0hlSldsMGFwcGFGMUxWd3dkV0VmaEkxOU1MXzBKeE9Fc0JHZHZXWEZ0OV80VWJnVWZPNnhrNWc?oc=5",
+    "domain": "TradingView",
+    "source_domain": "www.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T13:12:56+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "3 European Photonics Stocks Exposed To The EU Chip Buildout - Simply Wall St",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdm5pbDFieXpuTjYxVkVrSjhXYkhoT1V4SFFjUXJvYTRNbXMyZURjSnVndEUzcE5sTnMwbWRtZEREMnJsb0lmZGthUlRHSUFmWk1QQllBeF9adlg5WHBhQnpfSjM3NjBqNVRLaEl1bWEtQ0YwTkZHMDZrQ3pqaXp0aU5RRDYzc2pnZ1pLcUpwUWI4WXREQnZSYTJmUk84UWp4NHNfN0QzaWhWSkFuMWxmZGM0Uzl2MUQ4ckxmM05TRWhicGRjNVJQT2pGZVR4R2o4b3fSAdcBQVVfeXFMTnBpZ2xVU1B1RlBCelFhRTRhWllpR3BIMXhCV05KUlZGWDVDQlFiRXh6TWdKbG5HeWQ3T0JFUThvSXdpQ1BsMjdnU25CODAwQTFsMEpTOUVsR1ZjdEF5XzU3VXRqUm9tU250Rm9YUzdEQ0wwalJsX1J4UWt4cWlaZV9TaURZSWJvaHpYc0xsb2hGOXZvNzlxZ2RELXVJN3Q0Sm9PRDQ5bVNPNXVKcHFwcEVMU1JzTkxJLWRjaUJVMW9uaDNpdHk4SFRjdDhkTE1FRl9YRUZFczA?oc=5",
+    "domain": "Simply Wall St",
+    "source_domain": "simplywall.st",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T00:20:17+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Optical networks",
+    "headline": "Soitec Reports Second Quarter Revenue And Half-Year Results Of Fiscal Year 2027 - The Manila Times",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd2tOVEZZVU1GQzR6cnZhYmxVN1VMQ1BMVWdENkFJeEhyLVZJY1lwNE50ZTh5MXBGSjhVNm1SRXBmdnNQNmYyR2gyWGVwdEtJLTVadkNiZDBBWDJDVGxGbHRMLTJucGFtLWYtVUtyRGxYOG9yeWk5amtST2lUM3cxZTRnNWl5VmdOejdzSnZja2FHUDFTNG5hNjE4X0hGMW1qcmtsRW5zZjY3Z3luclhzR3ZCcXhYX0JrS2xiakU4VWwyZUQyRmlFaHV5Mjh0Y0dLZ1ZjeUtnTkRIY3oxc2JUeUZsNkhXNk020gHuAUFVX3lxTE5JbnloLTdhZzNmV0IyVHRIejhVbmtvOWN2dE9GNzdobktDa2wxN3RHWG10ZjlWMlA0eXhlQVpiSVc4NlBFaE53VjJ2ajdJRVE2MDhkRjFyRWF5bE0tUnFXQkVZOGlaZGhZZm1VOThFUHMxM28wTWxUT3NXajNmdXhIUFFtTkhHTWdZb250RTdGSG5zb0hyU2Ezbkx2bVRwVm1lQ1ctOE9adzRiaEgwQXZhMTl0Wkg1U2FhSUdhMVFJb1JNcHRNNWp4RWtmNEFWUnhRVGRXZ2NrRXhObE5kZENnQUQ1VDFYT1g2TVhsZEE?oc=5",
+    "domain": "The Manila Times",
+    "source_domain": "www.manilatimes.net",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T17:00:19+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Transformer shortages loom for strained U.S. power grid - Johns Hopkins University",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTGFVLWhkWnI5LXd3clR4WHpzOFlRLTY0RWg1bC00NGVRMnZuUnRSQXMxQWloNmFKX2xmaS1pS1A2NUJZUjBtN2poWUpUNHZMU0xXekh2clhqMHl1anhhRnJmSVRNUEJWM3pNYVlhMmQzTDZ0cU9SWURyNGNIWEtjRExQZS1KaVlSWGtnYU5n?oc=5",
+    "domain": "Johns Hopkins University",
+    "source_domain": "hub.jhu.edu",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-17T16:00:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "ElectroIQ Brings Project, Lead-Time and Procurement Intelligence to the Power Transformer Market - markets.businessinsider.com",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbl9Dem4zT3JNbEtmWFR0R0JtRU5PeWJpdXJubUNzOFdzalliU2VWdTRtaVFhVUc3MlhEeXA3a0RYcUhob09hRFBWekxOMnh0Uk5LWnJ5dHN1Rzl6ZlVRUTNtYUt6ZXFkWEpSdjAySTlfTGNZREhvczFtaFdJWnN4U1NpQTluWmxhNTdlUUhoZmtyRFpQV2V0emtKeEFlZzg2OFBqMEo5OFllUXl5MVdmNnJqRzJMRWZTZkYzZXljNW9EMVBFclcwSExNZUNTX2NmbXNrQnQ0aTFtLVlzUzhlVVk5d21TSVpNVVE?oc=5",
+    "domain": "markets.businessinsider.com",
+    "source_domain": "markets.businessinsider.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T10:57:17+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Backlog"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "Can Data Center Momentum Continue to Drive FPS Through 2027? - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZWE4YVc0SkI3ZTBkZURpNXFWMEZZWGlmWnl6bjVVTkQ1SmVidVJ0bHJTaHpKYklNcE5pTjdIU0t4amRrTGhZSkpjbzduQVppZm12YU9TWVhWdl9Vd250eW5wVkhiZER3cFJaVGlSelJhUnNQOXlOdHJscnN4aHd4eEpULXNKczhDRVJycnBqblg0WmluV3RnQkh0cEtpTml1anRQMDgyelUxdXBSd1FKYTR0OHI?oc=5",
+    "domain": "TradingView",
+    "source_domain": "es.tradingview.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T14:13:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Grid equipment",
+    "headline": "ElectroIQ Connects Switchgear Demand, Project Tracking and Procurement Intelligence Across Power Infrastructure | ElectroIQ by DataM Intelligence - Thailand Business News",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPM3NuYjliQ3FSbHVVXzBVSjVVSXpzTTBvajdwN1pMYnNmTWQ2eW1KMDgwZVhoYzNXY0FHdHFxZU9aaXhPY0JxUGVrVzFNbnl6ZWdxdkYyYmw3TXJ3dTJLX2NpeGRzdDEzdU1BWmJZN2l1d2tJRjR4Qm1IaXg2UG5YbFkxSTdtZjFqUTlGSFVabmYtZFkzOGgyQnlUeXpGdElQWkVPVVlnU29FdDJXNFFzYkhBRVZtbl9hRG5TeEZxUGk2bW4tQ0JtSzdvNFRCZzlxek9ZN1NmZXZ4NW1DU2xXai1NU1l6VVhDbUdMSklPbjZ3WWh3NV80NGFRcUl6bkdRMllEZ1lZSTd2NkxRZWNBenIwclowMU5m?oc=5",
+    "domain": "Thailand Business News",
+    "source_domain": "www.thailand-business-news.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T10:29:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "Repair of old copper wiring caused US flight disruption: Trump administration - Tech Xplore",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObWp6dkg2Um5Dc2J5VXp1dXM3MW5LeUJHa25YREZuSWduaWFNRGlBdVg1UjlKdXhCb2xfWFFVNHZ1b0NmWHVscV9xNUxmakRxNXBURnVtcmxxenV0TG52SEJVTy1MQjc1RExrUDFJbzNWaVpKTmNMYW1GTko1dVIzYzR2a0I?oc=5",
+    "domain": "Tech Xplore",
+    "source_domain": "techxplore.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-14T18:50:02+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Copper",
+    "headline": "China’s copper shortage pulls traders towards US stockpiles after tariff-driven rush - Business Upturn",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUGZMWmhHdnBZY25oYWhILW1QM3ZSWGdhOGlLdFZibm1xeXZwaFpIQmNQM3FKZm81eFE5YWhYSEpTYXZZNDNocEt4RlQ2MDBvYzJqdUliUEphZVZXNlBaSWZqMEtsX3BwYmpSaGdWdWNqSTVENzZrclV5djdrZVg3Q1RyU2Z6UHRKNUN3V0hBY3JmLUVHY1UwQUNEUjRKMERCeFFyUUhHWGV0Z3k4QjBmQW5iNERRWVdnaWxmZFAwTzNfZHVXWXFhbEtXTnA?oc=5",
+    "domain": "Business Upturn",
+    "source_domain": "businessupturn.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T14:07:44+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Scarcity"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Iron ore freight rates rise in November compared to October - GMK Center",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdnpXbW04eWpMNmd6YUVfemgxNDlTQjQzU3RXTHBfczhLNjVMUjM3MHJrTm5LN05vdm1COFdGLWY3a3JmaHZObGIzNVIyUXYwYVItbDJwa1NPZlJGVXd0NGZrbUtXWGhGZ2dYbVVqc3YzUEFhYlh1RnlqTFB5MnVfX2J3YjhMLU5hLTF4ZHBqRUfSAZYBQVVfeXFMT0FuN0lrRThBNWcwMjFicE85S0IwenAtb05RZ3piMDVkVzFxdjhoSU5wUnl1OXlvNGJMX3ZxcHRsdFdFbTZUTzlFQldTN2RseGVoWHhPWkl5a2RHdkN1VXdUcC0wb0pBbnhqSnlqOGZkakVkRjdLZTA2aS1WaUVaZjYxRGlzU29ZSlIzaFBFYVBxU0JGZW53?oc=5",
+    "domain": "GMK Center",
+    "source_domain": "gmk.center",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T06:31:13+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Port operational updates from around the world (11 Nov - 17 Nov 2026) - Kuehne+Nagel",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVU5jZXBtbHozSXJoaVhIeUZFMUNVOGFEd0FfMmpkQTVzTW9WM3NqaXh1aTFRRXBUaVZURVNkNFY1aWNZdzRibkR5eFhpY3d1dzZsTXJXbWttcUFHRTlPQkV1dUFmUFkxMkJQa2VfNFhPTHBSOGJMekh5OGZyXzRxN3BaWWJjSWRaODlr?oc=5",
+    "domain": "Kuehne+Nagel",
+    "source_domain": "mykn.kuehne-nagel.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-17T13:59:00+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "ZIM Q3 Profit Surges to $830M as Freight Rates Rise 55% - Marine News Magazine",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMTN4bXAyVEUyc25TcU9TQXRHQWExLWpqNU9OM1hqVG9pbG5jS1pBMG9TMklILTdpdUw0bmN3WG1XSDJucmYzUWl3Tmx0R1lLNDR0OHI0cS1DVl9xOXBwN2JvR2xVRDNLMUMzd3dDLXFEYXplNHhnY3hQYnRJY0ljN19VcGpSUQ?oc=5",
+    "domain": "Marine News Magazine",
+    "source_domain": "www.marinelink.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-18T15:32:14+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "Port congestion has become a new normal, says MSC chief - Shipping Telegraph",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRU50NWJtVEdTV2EwWjJ5UXZPdDlCY2pUbnNDOGt2Q2F0clhFc0l6SWZBS2NiRWVMbS1veVhoZDB2aFNxVFJzMXduaWJHVEZtZXpzcTAwY1RDbjhqck1NZ293T0ttd1BHajRYX29VV2luV295WWN1YkotSnpQb1ZpWHVCNTFhZWFNSWdhRDRRODZSaFdlSlFSb3R1ZnBUMUJkdnc?oc=5",
+    "domain": "Shipping Telegraph",
+    "source_domain": "shippingtelegraph.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-19T03:54:10+00:00",
+    "published_at_verified": null,
+    "flags": [
+      "Watchlist search match - unverified"
+    ],
+    "easing": false,
+    "classification": "unverified search result - verify primary report and timing"
+  },
+  {
+    "theme": "Shipping",
+    "headline": "global shipping congestion Archives - Global Trade Magazine",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1odHRKRF9IbjgxUEl3T1UxN3hGLUJaemJhZ2RfeC1nNXdGOUtibndZbUFqSllLZXN4RVpqcVVaLUhJZURCVzIzd1FkRHNlV0JwOE1lSjd0dWFXZFAxbG1CNEFZZHNQN0UzM1RLQWJ2dw?oc=5",
+    "domain": "Global Trade Magazine",
+    "source_domain": "www.globaltrademag.com",
+    "news_provider": "Google News RSS",
+    "first_seen_by_agent_at": "2026-11-19T17:21:37+00:00",
+    "feed_publication_at": "2026-11-17T09:40:55+00:00",
     "published_at_verified": null,
     "flags": [
       "Watchlist search match - unverified"
