@@ -1,41 +1,92 @@
 {
-  "last_attempt_at": "2026-11-19T17:21:37+00:00",
+  "last_attempt_at": "2026-11-20T16:56:31+00:00",
   "mode": "public_rss_headline_discovery",
   "providers_attempted": [
     "Google News RSS",
     "Bing News RSS"
   ],
-  "themes_fetched": 5,
+  "themes_fetched": 0,
   "themes_total": 5,
-  "new_articles": 26,
+  "new_articles": 0,
   "archive_total": 1500,
   "themes": {
     "Memory chips": {
-      "provider": "Google News RSS",
-      "items_returned": 31,
-      "new_articles": 6
+      "provider": null,
+      "items_returned": 0,
+      "new_articles": 0
     },
     "Optical networks": {
-      "provider": "Google News RSS",
-      "items_returned": 24,
-      "new_articles": 9
+      "provider": null,
+      "items_returned": 0,
+      "new_articles": 0
     },
     "Grid equipment": {
-      "provider": "Google News RSS",
-      "items_returned": 17,
-      "new_articles": 4
+      "provider": null,
+      "items_returned": 0,
+      "new_articles": 0
     },
     "Copper": {
-      "provider": "Google News RSS",
-      "items_returned": 16,
-      "new_articles": 2
+      "provider": null,
+      "items_returned": 0,
+      "new_articles": 0
     },
     "Shipping": {
-      "provider": "Google News RSS",
-      "items_returned": 36,
-      "new_articles": 5
+      "provider": null,
+      "items_returned": 0,
+      "new_articles": 0
     }
   },
-  "errors": [],
+  "errors": [
+    {
+      "theme": "Memory chips",
+      "provider": "Google News RSS",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "theme": "Memory chips",
+      "provider": "Bing News RSS",
+      "error": "ValueError: No RSS items in response"
+    },
+    {
+      "theme": "Optical networks",
+      "provider": "Google News RSS",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "theme": "Optical networks",
+      "provider": "Bing News RSS",
+      "error": "ValueError: No RSS items in response"
+    },
+    {
+      "theme": "Grid equipment",
+      "provider": "Google News RSS",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "theme": "Grid equipment",
+      "provider": "Bing News RSS",
+      "error": "ValueError: No RSS items in response"
+    },
+    {
+      "theme": "Copper",
+      "provider": "Google News RSS",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "theme": "Copper",
+      "provider": "Bing News RSS",
+      "error": "ParseError: undefined entity &nbsp;: line 20, column 10556"
+    },
+    {
+      "theme": "Shipping",
+      "provider": "Google News RSS",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "theme": "Shipping",
+      "provider": "Bing News RSS",
+      "error": "ValueError: No RSS items in response"
+    }
+  ],
   "caveat": "Headlines are unverified. This is not a trained predictive model, shortage confirmation or investment recommendation."
 }
