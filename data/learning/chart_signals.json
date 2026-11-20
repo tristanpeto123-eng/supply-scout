@@ -2463,34 +2463,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-11-17",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-11-19",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-11-19",
         "chart": {
-          "price_date": "2026-11-17",
-          "close": 337.109985,
-          "sma20": 363.27997,
-          "sma50": 397.059088,
-          "sma200": 395.330581,
-          "rsi14": 35.25,
-          "atr14_pct": 6.14,
-          "volume_vs_20d": 1.08,
-          "relative_strength_20d_pct": -6.8,
-          "relative_strength_60d_pct": -11.73,
+          "price_date": "2026-11-19",
+          "close": 330.570007,
+          "sma20": 358.695757,
+          "sma50": 394.000364,
+          "sma200": 395.078705,
+          "rsi14": 38.71,
+          "atr14_pct": 5.92,
+          "volume_vs_20d": 1.02,
+          "relative_strength_20d_pct": -3.99,
+          "relative_strength_60d_pct": -12.77,
           "breakout_20d_close": false,
-          "prior_20d_high_close": 392.733948,
-          "distance_above_sma20_pct": -7.2,
-          "completed_bars_available": 324
+          "prior_20d_high_close": 392.514618,
+          "distance_above_sma20_pct": -7.84,
+          "completed_bars_available": 326
         },
-        "post_signal_excess_pct": -3.08,
+        "post_signal_excess_pct": -2.6,
         "new_breakout": false,
         "volume_confirmed": false,
         "trend_confirmed": false,
         "rsi_ok": false,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2560,8 +2563,34 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 2
+      "status": "PENDING_5_SESSIONS",
+      "completed_sessions": 3,
+      "initial_check": {
+        "sessions": 3,
+        "as_of": "2026-11-19",
+        "chart": {
+          "price_date": "2026-11-19",
+          "close": 690.440002,
+          "sma20": 800.801001,
+          "sma50": 919.804467,
+          "sma200": 771.300918,
+          "rsi14": 32.75,
+          "atr14_pct": 9.46,
+          "volume_vs_20d": 1.1,
+          "relative_strength_20d_pct": -13.24,
+          "relative_strength_60d_pct": -18.23,
+          "breakout_20d_close": false,
+          "prior_20d_high_close": 983.22998,
+          "distance_above_sma20_pct": -13.78,
+          "completed_bars_available": 326
+        },
+        "post_signal_excess_pct": -1.71,
+        "new_breakout": false,
+        "volume_confirmed": false,
+        "trend_confirmed": false,
+        "rsi_ok": false,
+        "passes": false
+      }
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2631,8 +2660,34 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 2
+      "status": "PENDING_5_SESSIONS",
+      "completed_sessions": 3,
+      "initial_check": {
+        "sessions": 3,
+        "as_of": "2026-11-19",
+        "chart": {
+          "price_date": "2026-11-19",
+          "close": 29.620001,
+          "sma20": 28.994,
+          "sma50": 29.3728,
+          "sma200": 26.803495,
+          "rsi14": 58.96,
+          "atr14_pct": 3.02,
+          "volume_vs_20d": 1.43,
+          "relative_strength_20d_pct": 8.0,
+          "relative_strength_60d_pct": 15.34,
+          "breakout_20d_close": false,
+          "prior_20d_high_close": 29.92,
+          "distance_above_sma20_pct": 2.16,
+          "completed_bars_available": 326
+        },
+        "post_signal_excess_pct": 3.96,
+        "new_breakout": false,
+        "volume_confirmed": true,
+        "trend_confirmed": false,
+        "rsi_ok": true,
+        "passes": false
+      }
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2703,7 +2758,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2774,7 +2829,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 0
+      "completed_sessions": 1
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
