@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-20T18:03:49+00:00",
+  "built_at": "2026-11-21T16:08:12+00:00",
   "archive_count": 1500,
-  "cluster_count": 1301,
-  "dates_first_seen": 41,
+  "cluster_count": 1300,
+  "dates_first_seen": 42,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,20 +11,20 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 310,
-      "unique_report_clusters": 287,
-      "estimated_duplicate_headlines": 23,
-      "publishers": 128,
+      "articles": 268,
+      "unique_report_clusters": 248,
+      "estimated_duplicate_headlines": 20,
+      "publishers": 118,
       "early_signal_strength": 72,
-      "evidence_headlines": 180,
-      "general_headlines": 130,
-      "older_than_7_days_on_first_seen": 73,
-      "first_seen_days": 41,
+      "evidence_headlines": 151,
+      "general_headlines": 117,
+      "older_than_7_days_on_first_seen": 43,
+      "first_seen_days": 42,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 162,
-        "price_power": 22,
-        "lead_time": 10,
+        "physical_shortage": 140,
+        "price_power": 15,
+        "lead_time": 8,
         "supply_relief": 1,
         "capacity_additions": 1
       },
@@ -66,28 +66,6 @@
           "source": "Barchart.com"
         },
         {
-          "headline": "Memory shortage could worsen through 2028: Micron CEO - NewsBytes",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb2ZyMnZvR3FCVjN4V0t6bW9qTVloTVE1cDBSVy1ZZHd3ZUl0ODdOQkQ0N1ZlQldWeFRUMlpxSWdQLXpfWlM5RGRRT2U4dTdKbmNBTGJSbjk5YV9tX2dmWk5kYmZsa3BQemphU3NnSFNVYmZaMjFveU1QczE2VDNVRUJ6XzJiYXVuZTVlMDJ1REZaUTVVSEZ3QzhfSjh5a1k4bEE?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-02T05:22:29+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "NewsBytes"
-        },
-        {
-          "headline": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026 - TechPowerUp",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOemJ6Y1J3LTY4Skx1ZmFiRDVmb2NZWG51MDlrY0ZvWldkZ21PSnZ0QV8yQWhOd3hSa0Ywbktfbl94cHd4MmhYMDdrcXhGSFRGZGFkQlpROERPOHQ1TUk1QTdNckFLWU1aOEVlNGpPV1VNMHBwMUtlMlEtNzZILUwzQzktWTZ1T3JUdndhb3U5dnQ0d254eGZPU3R5WGhmMjl3cmx1Q2kwVi15d1dXbGQ0YmV1akV4Z9IBuwFBVV95cUxOMWRwUWtRZW5rajB4Ml9EUXhsYVFfV3RCZnBvLXE2TXlNVlFFVlJzMmlSUGxVRkMyZFgwajlxOWlXSk41LThDODNKOTRPMHE3YlZmWTJyRld3aFAzcmxzaXdtQzF6WGRvZGlzU29FRm5fRDFZMl9iV25WMy05dXc5dnpGTFd6VHl2SlpVTU1FMHNkY1JZVmRYOHQyMTE1aTBtenRlblV5RVJqV3dYbXFYbWtwVEk2djBIWkxv?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-01T07:00:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TechPowerUp"
-        },
-        {
           "headline": "Micron Stock Holds Above $1,000 as Memory Shortage Puts $1,034 Breakout in Focus - TradingKey",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZUVyeUZqYUduZ2YyNkt3YnZkSHpkb2xmRXZNYUVCaFRVbjJtZjF1eHhfNjA3NHlYTlplRVU0YnMwM3RCMlRhYlJkalZQaGxNMUdtcXlNTDBpSUNydEg4MnJxLVVGZGZ4bEZyLUlaRXZwa0VaNVBjV2FfdF9rN2JiVVBpUUs2TlE5cHgxa1FXX2tjdm5CRnJYRkI1V3M5VzczWk1PWVJveUE0YktFalRTdzRDRQ?oc=5",
           "reports": 2,
@@ -110,25 +88,47 @@
           "feed_published_at": "2026-10-29T05:17:59+00:00",
           "first_seen_at": "2026-10-29T15:12:54+00:00",
           "source": "WKZO"
+        },
+        {
+          "headline": "The Next AI Chip Shortage May Be the Machines That Make HBM - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdV9xZWZKTTFZMnZDWUJFQ090VEtxOW41am1BVnU4bzhGSGdabmRwQ3NscERsMzVwcENURWxPRzZqQlZQUVRRcHpLSGQ4NHVwRXRJQTU1NXE2SjdVMjBZV25aNFQtZDAwTWNrY3VDT1lXX3pib3RnUUNOc2lQeVlQd2NBSW1xUXZkNnFSRWpRcDM2d2ZtOTZUOUxkSEo3bmNBMnhjN2lB?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-11-10T15:26:00+00:00",
+          "first_seen_at": "2026-11-10T16:24:53+00:00",
+          "source": "24/7 Wall St."
+        },
+        {
+          "headline": "Why a memory chip glut could be Korea's weapon against China - The Investor",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QZmNxZFp0VmFxVDBYdlRJODJULWRjVEJWWGFjaXpWcFdkN1Ywa2ZoTGxDTDhsZlhNNHRPanhPdTIxSnVpdXZkUG1ZaDc0a25HdlR3Zmh3TGZaQQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-15T06:06:09+00:00",
+          "first_seen_at": "2026-10-15T13:24:22+00:00",
+          "source": "The Investor"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 329,
-      "unique_report_clusters": 262,
-      "estimated_duplicate_headlines": 67,
-      "publishers": 106,
+      "articles": 323,
+      "unique_report_clusters": 258,
+      "estimated_duplicate_headlines": 65,
+      "publishers": 100,
       "early_signal_strength": 63,
       "evidence_headlines": 15,
-      "general_headlines": 314,
-      "older_than_7_days_on_first_seen": 51,
-      "first_seen_days": 41,
+      "general_headlines": 308,
+      "older_than_7_days_on_first_seen": 44,
+      "first_seen_days": 42,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 11,
-        "demand_accel": 2,
+        "demand_accel": 3,
         "physical_shortage": 4,
         "capacity_additions": 1
       },
@@ -210,20 +210,20 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 232,
-      "unique_report_clusters": 207,
-      "estimated_duplicate_headlines": 25,
-      "publishers": 115,
+      "articles": 267,
+      "unique_report_clusters": 239,
+      "estimated_duplicate_headlines": 28,
+      "publishers": 126,
       "early_signal_strength": 63,
-      "evidence_headlines": 47,
-      "general_headlines": 185,
-      "older_than_7_days_on_first_seen": 21,
-      "first_seen_days": 41,
+      "evidence_headlines": 52,
+      "general_headlines": 215,
+      "older_than_7_days_on_first_seen": 30,
+      "first_seen_days": 42,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 26,
-        "physical_shortage": 21,
-        "demand_accel": 5,
+        "physical_shortage": 26,
+        "demand_accel": 6,
         "capacity_additions": 1
       },
       "stories": [
@@ -248,6 +248,26 @@
           "feed_published_at": "2026-10-08T12:50:54+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "The Globe and Mail"
+        },
+        {
+          "headline": "ElectroIQ Brings Project, Lead-Time and Procurement Intelligence to the Power Transformer Market - markets.businessinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbl9Dem4zT3JNbEtmWFR0R0JtRU5PeWJpdXJubUNzOFdzalliU2VWdTRtaVFhVUc3MlhEeXA3a0RYcUhob09hRFBWekxOMnh0Uk5LWnJ5dHN1Rzl6ZlVRUTNtYUt6ZXFkWEpSdjAySTlfTGNZREhvczFtaFdJWnN4U1NpQTluWmxhNTdlUUhoZmtyRFpQV2V0emtKeEFlZzg2OFBqMEo5OFllUXl5MVdmNnJqRzJMRWZTZkYzZXljNW9EMVBFclcwSExNZUNTX2NmbXNrQnQ0aTFtLVlzUzhlVVk5d21TSVpNVVE?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-19T10:57:17+00:00",
+          "first_seen_at": "2026-11-19T17:21:37+00:00",
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "headline": "ElectroIQ Connects Switchgear Demand, Project Tracking and Procurement Intelligence Across Power Infrastructure | ElectroIQ by DataM Intelligence - Thailand Business News",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPM3NuYjliQ3FSbHVVXzBVSjVVSXpzTTBvajdwN1pMYnNmTWQ2eW1KMDgwZVhoYzNXY0FHdHFxZU9aaXhPY0JxUGVrVzFNbnl6ZWdxdkYyYmw3TXJ3dTJLX2NpeGRzdDEzdU1BWmJZN2l1d2tJRjR4Qm1IaXg2UG5YbFkxSTdtZjFqUTlGSFVabmYtZFkzOGgyQnlUeXpGdElQWkVPVVlnU29FdDJXNFFzYkhBRVZtbl9hRG5TeEZxUGk2bW4tQ0JtSzdvNFRCZzlxek9ZN1NmZXZ4NW1DU2xXai1NU1l6VVhDbUdMSklPbjZ3WWh3NV80NGFRcUl6bkdRMllEZ1lZSTd2NkxRZWNBenIwclowMU5m?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-19T10:29:00+00:00",
+          "first_seen_at": "2026-11-19T17:21:37+00:00",
+          "source": "Thailand Business News"
         },
         {
           "headline": "Hitachi Energy expands Celonis AI collaboration - Transformer Magazine",
@@ -278,46 +298,24 @@
           "feed_published_at": "2026-10-30T06:03:59+00:00",
           "first_seen_at": "2026-10-30T15:01:54+00:00",
           "source": "Transformer Magazine"
-        },
-        {
-          "headline": "LS Electric Posts Record Profit, Extends 100-Quarter Streak - 조선일보",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMWpVU3JtWWZrRmVCVjB5Y3BZeFQzUHFocVo1U2pVb05ISVBzaXdlbjlNNWVTaWd2VGJqd0tSZXFQNlQtaVdSV2R2YWt5UndlYzk2dHpjaUlDaW5jMW8yVlFRdTdCQWpjd2d4UVNleFA3M1NTc3dGU2plc1d4RUZFSHNqNlFRVTNz?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-21T04:46:39+00:00",
-          "first_seen_at": "2026-10-21T13:46:06+00:00",
-          "source": "조선일보"
-        },
-        {
-          "headline": "Pakistan: Doctor shortage leaves Attock's Chhab Health Centre in crisis - www.irishsun.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMmNvWWRsMC1acTVDTWJKREVGZXBsekZLTWxZN3N1Sk5YRy11dWhzbU5GQ1FjMFIybkxycWNkdENsYU1scW41RlEwNVFlako4dko1MVVzd0lvcnJDS2hxNWdhUFRKS0x0N3dPM3FGci14OEVZdXBpQUVGaTlsNlNabTNKZVZPLXp4ZDBTN0JOMGxVWGFtZ0NYaXJxNnpPaE8wbXh3aUM2dGgxMF92?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-10-09T12:03:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "www.irishsun.com"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 320,
-      "unique_report_clusters": 269,
-      "estimated_duplicate_headlines": 51,
+      "articles": 324,
+      "unique_report_clusters": 272,
+      "estimated_duplicate_headlines": 52,
       "publishers": 171,
       "early_signal_strength": 64,
-      "evidence_headlines": 65,
-      "general_headlines": 255,
-      "older_than_7_days_on_first_seen": 52,
-      "first_seen_days": 40,
+      "evidence_headlines": 66,
+      "general_headlines": 258,
+      "older_than_7_days_on_first_seen": 54,
+      "first_seen_days": 41,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 64,
+        "physical_shortage": 65,
         "demand_accel": 2,
         "price_power": 2,
         "supply_relief": 1
@@ -326,8 +324,8 @@
         {
           "headline": "Repair of old copper wiring caused US flight disruption - Kuwait Times",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmFkV1AwcGRvT0RDLWFjZlU2NXNtRGFZTUZoSDRzZnJVdVJVN1dPQTU1VE92RkM3NmJkdWtzczkyMmpwOTd2OWVieWxqTTZjUnJ2d25oZ3ljdnJPQnZNZTAxdU5TRERqdGhvekZIV3ZvSVpWZlhqdEFiTHZsSENFbVFpT2drY25zaUtQeDU0MURkNzJveGs2Z1duaUQ0dW4zSFHSAaYBQVVfeXFMT2VseVFPcl9tdktaU3hNZy1majk1Z1c4b2FsbWJFSzJiVVVmQW9IcDRJN0twM05BSjdsaHFJdnNVdklWQ1h4QzNXYkNUZWpQNlBzeG9RMnRtU0VLR3kzQ0NqYlBTWkQ3VWZCb2hOeHpCczJJbWw0Z2tMbk9tZnpFR0lkQUh6RkQ4UmxOUG5MUHc1dG55b3dLSFRmUTlFRUFLRU1GWi1zUQ?oc=5",
-          "reports": 8,
-          "publishers": 6,
+          "reports": 9,
+          "publishers": 7,
           "signal_tags": [],
           "feed_published_at": "2026-11-15T04:27:35+00:00",
           "first_seen_at": "2026-11-15T15:38:44+00:00",
@@ -398,18 +396,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 309,
-      "unique_report_clusters": 276,
-      "estimated_duplicate_headlines": 33,
-      "publishers": 195,
+      "articles": 318,
+      "unique_report_clusters": 283,
+      "estimated_duplicate_headlines": 35,
+      "publishers": 200,
       "early_signal_strength": 67,
-      "evidence_headlines": 83,
-      "general_headlines": 226,
+      "evidence_headlines": 84,
+      "general_headlines": 234,
       "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 41,
+      "first_seen_days": 42,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 75,
+        "physical_shortage": 76,
         "price_power": 2,
         "lead_time": 6
       },
