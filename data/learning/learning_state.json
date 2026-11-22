@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-21T16:59:16+00:00",
+  "built_at": "2026-11-22T16:15:34+00:00",
   "archive_count": 1500,
-  "cluster_count": 1300,
-  "dates_first_seen": 42,
+  "cluster_count": 1302,
+  "dates_first_seen": 43,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 268,
-      "unique_report_clusters": 248,
+      "articles": 271,
+      "unique_report_clusters": 251,
       "estimated_duplicate_headlines": 20,
-      "publishers": 118,
+      "publishers": 119,
       "early_signal_strength": 72,
-      "evidence_headlines": 151,
-      "general_headlines": 117,
+      "evidence_headlines": 152,
+      "general_headlines": 119,
       "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 42,
+      "first_seen_days": 43,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 140,
+        "physical_shortage": 141,
         "price_power": 15,
         "lead_time": 8,
         "supply_relief": 1,
@@ -116,20 +116,20 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 323,
-      "unique_report_clusters": 258,
-      "estimated_duplicate_headlines": 65,
-      "publishers": 100,
+      "articles": 293,
+      "unique_report_clusters": 235,
+      "estimated_duplicate_headlines": 58,
+      "publishers": 93,
       "early_signal_strength": 63,
-      "evidence_headlines": 15,
-      "general_headlines": 308,
-      "older_than_7_days_on_first_seen": 44,
-      "first_seen_days": 42,
+      "evidence_headlines": 13,
+      "general_headlines": 280,
+      "older_than_7_days_on_first_seen": 38,
+      "first_seen_days": 43,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 11,
-        "demand_accel": 3,
+        "lead_time": 9,
         "physical_shortage": 4,
+        "demand_accel": 2,
         "capacity_additions": 1
       },
       "stories": [
@@ -156,7 +156,7 @@
         {
           "headline": "Should You Buy, Sell, or Hold AAOI Stock Ahead of Q3 Earnings? - TradingView",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1pZU3R6c1RiR2xwOUVMc205V29PYmk1MlUwMUktV0I2NzI1LU1tU1ZZaWJReGlFV0Q1RW9PZ0h0dFJ2anpFWnhnZjBBb2tsdHNiWnpIaV9la3pUWXh5enVHZnhOVkgwZHV4V2VfZHpWRTV0UEM3RnJUd0JrWFNQTldaUFdlOGVSeXlMM25oT2wzX2I4dGNfQzF1ckVVQ2M5aGh1cS1Sbk9rQU0tb1F5Z2FleEMxUQ?oc=5",
-          "reports": 7,
+          "reports": 6,
           "publishers": 3,
           "signal_tags": [],
           "feed_published_at": "2026-11-03T17:23:00+00:00",
@@ -174,16 +174,16 @@
           "source": "Yahoo Finance Australia"
         },
         {
-          "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzVscnFxaTA0MVA5U0x4VFJrcllpZW13SXBrRER6MWdUM0RMM3hnYmRndjlXVmRUSThMemtnVW5GN3Ntb3B4N3ZsdEZNQlpkM2dIalpnaTFFUTJITVpWSkFqMjlPWU1DN0Y0dUUxMzBYSDBqTkpEbDc4MEIxMkdBa1hwUHdFUmJlVEVic2tEYTRoV3JIWmR0S3pwZWpVNXVsOGxUTi14QjJOWWsyNWkxcHd5Z0Q?oc=5",
-          "reports": 4,
+          "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZHRJNkRSYWltbVNMVll5V2Q1d09PdEJJZVBPQUpLMGxveWktd0tCVjRRSkNZeHNiTWpfTWh3Y0JjY0NZQjZwOEVhUEw2aHl4bmFXdWtuVjVZSXkya0NYRDJzbWhXNDdaV2xLRFRadHZ0aVZzLVBqcTZkMk9sNm9KQTFfWkVtZnJyRGpRVmFkcnN5MlNNZmgwbWhEYnA2SjY2cmR6bXFiM0lZT0wxZmxIa1FZQmhwYnBKUGtNT2VMVERYbzBKSF9yWXBlQ0xaV19sVGs3bGpXcEs?oc=5",
+          "reports": 3,
           "publishers": 2,
           "signal_tags": [
             "lead_time"
           ],
-          "feed_published_at": "2026-10-09T12:41:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "TradingView"
+          "feed_published_at": "2026-10-09T14:48:00+00:00",
+          "first_seen_at": "2026-10-12T17:52:56+00:00",
+          "source": "The Globe and Mail"
         },
         {
           "headline": "Ari Alastalo appointed Vice President of VTT’s Microelectronics and Photonics research area - www.vttresearch.com",
@@ -210,23 +210,43 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 267,
-      "unique_report_clusters": 239,
-      "estimated_duplicate_headlines": 28,
-      "publishers": 126,
+      "articles": 272,
+      "unique_report_clusters": 241,
+      "estimated_duplicate_headlines": 31,
+      "publishers": 129,
       "early_signal_strength": 63,
-      "evidence_headlines": 52,
-      "general_headlines": 215,
+      "evidence_headlines": 53,
+      "general_headlines": 219,
       "older_than_7_days_on_first_seen": 30,
-      "first_seen_days": 42,
+      "first_seen_days": 43,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 26,
-        "physical_shortage": 26,
+        "physical_shortage": 27,
         "demand_accel": 6,
         "capacity_additions": 1
       },
       "stories": [
+        {
+          "headline": "ElectroIQ Brings Project, Lead-Time and Procurement Intelligence to the Power Transformer Market - markets.businessinsider.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbl9Dem4zT3JNbEtmWFR0R0JtRU5PeWJpdXJubUNzOFdzalliU2VWdTRtaVFhVUc3MlhEeXA3a0RYcUhob09hRFBWekxOMnh0Uk5LWnJ5dHN1Rzl6ZlVRUTNtYUt6ZXFkWEpSdjAySTlfTGNZREhvczFtaFdJWnN4U1NpQTluWmxhNTdlUUhoZmtyRFpQV2V0emtKeEFlZzg2OFBqMEo5OFllUXl5MVdmNnJqRzJMRWZTZkYzZXljNW9EMVBFclcwSExNZUNTX2NmbXNrQnQ0aTFtLVlzUzhlVVk5d21TSVpNVVE?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-19T10:57:17+00:00",
+          "first_seen_at": "2026-11-19T17:21:37+00:00",
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "headline": "ElectroIQ Connects Switchgear Demand, Project Tracking and Procurement Intelligence Across Power Infrastructure | ElectroIQ by DataM Intelligence - Thailand Business News",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPM3NuYjliQ3FSbHVVXzBVSjVVSXpzTTBvajdwN1pMYnNmTWQ2eW1KMDgwZVhoYzNXY0FHdHFxZU9aaXhPY0JxUGVrVzFNbnl6ZWdxdkYyYmw3TXJ3dTJLX2NpeGRzdDEzdU1BWmJZN2l1d2tJRjR4Qm1IaXg2UG5YbFkxSTdtZjFqUTlGSFVabmYtZFkzOGgyQnlUeXpGdElQWkVPVVlnU29FdDJXNFFzYkhBRVZtbl9hRG5TeEZxUGk2bW4tQ0JtSzdvNFRCZzlxek9ZN1NmZXZ4NW1DU2xXai1NU1l6VVhDbUdMSklPbjZ3WWh3NV80NGFRcUl6bkdRMllEZ1lZSTd2NkxRZWNBenIwclowMU5m?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-19T10:29:00+00:00",
+          "first_seen_at": "2026-11-19T17:21:37+00:00",
+          "source": "Thailand Business News"
+        },
         {
           "headline": "Zetwerk completes US power transformer installation amid rising grid demand - PR Newswire",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXlEb2w3XzdEZDFKV3hEaTZCdncwdU0zdWZBTDBCUl8yTGdrUkY4OWQxZjZtOXd5dHlzS1NFc2tCaFNMZjhmU29oSUlfMEdoTW9qMVlyZGFYMEUyV1FjQmd0LTVWdmtmcG1feEVwRlh1N2ZIOVoxVVZCYnU0enJQTy1IaE5zUzlGcjJJNzFORTRlV0xiSXBwaFpkYXEwVEM3SE5BN21zWlByeXRfYnJGZlY2YUNGZ3psS2pOVng0ZmZFMjdmR2ZMcjY0dw?oc=5",
@@ -248,26 +268,6 @@
           "feed_published_at": "2026-10-08T12:50:54+00:00",
           "first_seen_at": "2026-10-10T19:18:47+00:00",
           "source": "The Globe and Mail"
-        },
-        {
-          "headline": "ElectroIQ Brings Project, Lead-Time and Procurement Intelligence to the Power Transformer Market - markets.businessinsider.com",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbl9Dem4zT3JNbEtmWFR0R0JtRU5PeWJpdXJubUNzOFdzalliU2VWdTRtaVFhVUc3MlhEeXA3a0RYcUhob09hRFBWekxOMnh0Uk5LWnJ5dHN1Rzl6ZlVRUTNtYUt6ZXFkWEpSdjAySTlfTGNZREhvczFtaFdJWnN4U1NpQTluWmxhNTdlUUhoZmtyRFpQV2V0emtKeEFlZzg2OFBqMEo5OFllUXl5MVdmNnJqRzJMRWZTZkYzZXljNW9EMVBFclcwSExNZUNTX2NmbXNrQnQ0aTFtLVlzUzhlVVk5d21TSVpNVVE?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-19T10:57:17+00:00",
-          "first_seen_at": "2026-11-19T17:21:37+00:00",
-          "source": "markets.businessinsider.com"
-        },
-        {
-          "headline": "ElectroIQ Connects Switchgear Demand, Project Tracking and Procurement Intelligence Across Power Infrastructure | ElectroIQ by DataM Intelligence - Thailand Business News",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPM3NuYjliQ3FSbHVVXzBVSjVVSXpzTTBvajdwN1pMYnNmTWQ2eW1KMDgwZVhoYzNXY0FHdHFxZU9aaXhPY0JxUGVrVzFNbnl6ZWdxdkYyYmw3TXJ3dTJLX2NpeGRzdDEzdU1BWmJZN2l1d2tJRjR4Qm1IaXg2UG5YbFkxSTdtZjFqUTlGSFVabmYtZFkzOGgyQnlUeXpGdElQWkVPVVlnU29FdDJXNFFzYkhBRVZtbl9hRG5TeEZxUGk2bW4tQ0JtSzdvNFRCZzlxek9ZN1NmZXZ4NW1DU2xXai1NU1l6VVhDbUdMSklPbjZ3WWh3NV80NGFRcUl6bkdRMllEZ1lZSTd2NkxRZWNBenIwclowMU5m?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-19T10:29:00+00:00",
-          "first_seen_at": "2026-11-19T17:21:37+00:00",
-          "source": "Thailand Business News"
         },
         {
           "headline": "Hitachi Energy expands Celonis AI collaboration - Transformer Magazine",
@@ -304,15 +304,15 @@
     },
     {
       "theme": "Copper",
-      "articles": 324,
-      "unique_report_clusters": 272,
+      "articles": 325,
+      "unique_report_clusters": 273,
       "estimated_duplicate_headlines": 52,
       "publishers": 171,
       "early_signal_strength": 64,
       "evidence_headlines": 66,
-      "general_headlines": 258,
+      "general_headlines": 259,
       "older_than_7_days_on_first_seen": 54,
-      "first_seen_days": 41,
+      "first_seen_days": 42,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 65,
@@ -396,20 +396,20 @@
     },
     {
       "theme": "Shipping",
-      "articles": 318,
-      "unique_report_clusters": 283,
-      "estimated_duplicate_headlines": 35,
-      "publishers": 200,
+      "articles": 339,
+      "unique_report_clusters": 302,
+      "estimated_duplicate_headlines": 37,
+      "publishers": 213,
       "early_signal_strength": 67,
-      "evidence_headlines": 84,
-      "general_headlines": 234,
-      "older_than_7_days_on_first_seen": 59,
-      "first_seen_days": 42,
+      "evidence_headlines": 90,
+      "general_headlines": 249,
+      "older_than_7_days_on_first_seen": 67,
+      "first_seen_days": 43,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 76,
+        "physical_shortage": 81,
         "price_power": 2,
-        "lead_time": 6
+        "lead_time": 7
       },
       "stories": [
         {
