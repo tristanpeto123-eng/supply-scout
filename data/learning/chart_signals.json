@@ -2573,7 +2573,7 @@
           "close": 690.440002,
           "sma20": 800.801001,
           "sma50": 919.804467,
-          "sma200": 771.300918,
+          "sma200": 771.300914,
           "rsi14": 32.75,
           "atr14_pct": 9.46,
           "volume_vs_20d": 1.12,
@@ -2830,6 +2830,290 @@
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
       "completed_sessions": 2
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Copper|FCX|2026-W48",
+    "ticker": "FCX",
+    "theme": "Copper",
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "headline": "Copper Funds Retreat as Shanghai Faces Supply Shortage - Peradaban.id",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRYS15d0NmNS1wU0oxOHB5NmtwMDlmclJyZEZGY2pMeXlnSndlSjJHWnB4dDczb2J4V01GRFNwYnFBZFpvQk5iMnZ0dFl5VkhJQ0QxSDd0LTE3YmN6cFVETEVPd2lWR0xZV2FtenR3?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-20",
+        "close": 45.990002,
+        "sma20": 59.624,
+        "sma50": 66.218112,
+        "sma200": 64.71592,
+        "rsi14": 22.91,
+        "atr14_pct": 7.02,
+        "volume_vs_20d": 2.13,
+        "relative_strength_20d_pct": -20.38,
+        "relative_strength_60d_pct": -29.5,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 66.599998,
+        "distance_above_sma20_pct": -22.87,
+        "completed_bars_available": 327
+      },
+      "as_of": "2026-11-20",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-23T22:05:49+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W48",
+    "ticker": "ETN",
+    "theme": "Grid equipment",
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "headline": "Cuba resumes transformer production after overcoming a shortage of an essential component - CiberCuba",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmJTeGFoNkFNSUluaUVKNENEU2RtT0FEeS1seVNiY3c2UFU0bnN4TlRqd3k4RHhJbUt4WVI3bmFpVG9fQ1I2TVNNLUxlbWdVX0RDZGJKeXNUdjk3REx3WXpTOHMxbGl5NWJuVjdLU3hkNTJwcFNKb0FQNEVZY3V6cGFVNUhVN3hLbzBnSmFudjZhOGY2eFpLSGhlMlpPZlNLQ281Q3RYNFREVFBfLXVETE9BR29aOGRDM0E?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-20",
+        "close": 311.329987,
+        "sma20": 356.012799,
+        "sma50": 391.74561,
+        "sma200": 394.882098,
+        "rsi14": 35.49,
+        "atr14_pct": 6.48,
+        "volume_vs_20d": 1.49,
+        "relative_strength_20d_pct": -5.64,
+        "relative_strength_60d_pct": -13.21,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 392.514618,
+        "distance_above_sma20_pct": -12.55,
+        "completed_bars_available": 327
+      },
+      "as_of": "2026-11-20",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-23T22:05:49+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Memory chips|MU|2026-W48",
+    "ticker": "MU",
+    "theme": "Memory chips",
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "headline": "3 AI Memory Stocks Retail Investors Are Watching During The Chip Shortage - Simply Wall St",
+    "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPc3IzWFZIRGVSTzhvWmd3ZERack5STThfaTJGN280R3gtSVRIRVRQcE5nc1FSOVpia0oxSzVVMVlCdk93SGtiRnBYTlktX1NjWGJJbm4zUDNZLVYyTVZuQ1lyZ1ZubnhHR0ZnMWdWQ2F6SXExUktPc2xjcllMMVVwZ1NRYjRjaV9GNnNUdENRT1FLUHRMSTgyZE1oV0RoSExmcTFDeTd2WGRsQTBXenk2VjgybzNXYmNEZ1R5MlhEODRiR2hEaGphQjYzMTFLQ09nN2fSAdcBQVVfeXFMTmpmZDNmN0hNblRObWlyLXcxcGZySkd6Q0VDb2JRLUdjaHF4R0dnWGNFcE03cHFNb01Tc0l1RG9pUlBxMEl0UzU5WGQtbVRRbHl5Q0pSemFlTFk1SnpCbUJhM1lGdkRCVjJHTG8tM2UzbW1GeEVnRV84a0cwOG0wYWxPc1R2SGNPTUMwYlROQUJEQ1V4VkJTMmRmWnp1c050bEJXaG9iSk9iaEFGcHlxMk0xTGdXRUNKcHVIVkVIWXgtZTR2Sm5vbmhjMV9ROHZJRWpLTHZZek0?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": false
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-20",
+        "close": 594.51001,
+        "sma20": 786.649002,
+        "sma50": 912.192535,
+        "sma200": 772.360414,
+        "rsi14": 30.34,
+        "atr14_pct": 11.49,
+        "volume_vs_20d": 1.85,
+        "relative_strength_20d_pct": -23.19,
+        "relative_strength_60d_pct": -24.71,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 983.22998,
+        "distance_above_sma20_pct": -24.42,
+        "completed_bars_available": 327
+      },
+      "as_of": "2026-11-20",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-23T22:05:49+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Shipping|ZIM|2026-W48",
+    "ticker": "ZIM",
+    "theme": "Shipping",
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "headline": "Panamax freight rates rise on Asian coal demand, tighter vessel supply - Petromindo",
+    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTEtXanUwLUptaU5SOFlQYXdkS2FXYV9rUjU1b1RsbE0wS1d6dngwZkM2Y3lNQW9VOWhZX0NrdG0wQnRFdUQ1NHNjY0tsRmNKUGk2V19hdXpnU2pXOUtPNGxHVlN1TWFTMDZjX0xPS19CbEdralpHY29uNkh3V19fQVRQQWtZV3p0UVNhcXA1OEdHdTh3cXB2SWNqakVEVTVvTmUwdXdwYXdLb3NrVlE?oc=5",
+    "chart_indication": {
+      "status": "MIXED_WATCH",
+      "strength": 4,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": true
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": true
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": true
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-20",
+        "close": 29.32,
+        "sma20": 28.9925,
+        "sma50": 29.3678,
+        "sma200": 26.851763,
+        "rsi14": 56.75,
+        "atr14_pct": 2.98,
+        "volume_vs_20d": 1.83,
+        "relative_strength_20d_pct": 8.96,
+        "relative_strength_60d_pct": 16.74,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 29.92,
+        "distance_above_sma20_pct": 1.13,
+        "completed_bars_available": 327
+      },
+      "as_of": "2026-11-20",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-23T22:05:49+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"

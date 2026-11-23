@@ -1,5 +1,5 @@
 {
-  "last_attempt_at": "2026-11-22T17:54:24+00:00",
+  "last_attempt_at": "2026-11-23T22:05:49+00:00",
   "market_data_errors": [],
   "symbols_with_ohlcv": [
     "ACWI",
@@ -9,18 +9,18 @@
     "MU",
     "ZIM"
   ],
-  "tracked_events": 29,
+  "tracked_events": 33,
   "indications": {
     "TECHNICAL_INDICATION": 5,
     "POSSIBLY_PRICED_IN": 0,
-    "MIXED_WATCH": 7,
-    "WEAK_CHART": 17,
+    "MIXED_WATCH": 8,
+    "WEAK_CHART": 20,
     "INSUFFICIENT_CHART_DATA": 0
   },
   "confirmation_status": {
     "CONFIRMED": 0,
     "NOT_CONFIRMED": 25,
-    "PENDING_3_SESSIONS": 2,
+    "PENDING_3_SESSIONS": 6,
     "PENDING_5_SESSIONS": 2,
     "MISSING_OHLCV": 0
   },
