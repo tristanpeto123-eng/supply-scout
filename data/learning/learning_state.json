@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-22T17:26:48+00:00",
+  "built_at": "2026-11-23T20:12:30+00:00",
   "archive_count": 1500,
-  "cluster_count": 1302,
-  "dates_first_seen": 43,
+  "cluster_count": 1303,
+  "dates_first_seen": 44,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,21 +11,21 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 271,
-      "unique_report_clusters": 251,
+      "articles": 289,
+      "unique_report_clusters": 269,
       "estimated_duplicate_headlines": 20,
-      "publishers": 119,
-      "early_signal_strength": 72,
-      "evidence_headlines": 152,
-      "general_headlines": 119,
-      "older_than_7_days_on_first_seen": 43,
-      "first_seen_days": 43,
+      "publishers": 125,
+      "early_signal_strength": 66,
+      "evidence_headlines": 158,
+      "general_headlines": 131,
+      "older_than_7_days_on_first_seen": 47,
+      "first_seen_days": 44,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 141,
-        "price_power": 15,
+        "physical_shortage": 146,
+        "price_power": 16,
         "lead_time": 8,
-        "supply_relief": 1,
+        "supply_relief": 3,
         "capacity_additions": 1
       },
       "stories": [
@@ -116,18 +116,18 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 293,
-      "unique_report_clusters": 235,
+      "articles": 292,
+      "unique_report_clusters": 234,
       "estimated_duplicate_headlines": 58,
-      "publishers": 93,
+      "publishers": 94,
       "early_signal_strength": 63,
-      "evidence_headlines": 13,
-      "general_headlines": 280,
-      "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 43,
+      "evidence_headlines": 14,
+      "general_headlines": 278,
+      "older_than_7_days_on_first_seen": 35,
+      "first_seen_days": 44,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 9,
+        "lead_time": 10,
         "physical_shortage": 4,
         "demand_accel": 2,
         "capacity_additions": 1
@@ -136,7 +136,7 @@
         {
           "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
-          "reports": 4,
+          "reports": 5,
           "publishers": 4,
           "signal_tags": [],
           "feed_published_at": "2026-10-23T12:19:07+00:00",
@@ -210,19 +210,19 @@
     },
     {
       "theme": "Grid equipment",
-      "articles": 272,
-      "unique_report_clusters": 241,
-      "estimated_duplicate_headlines": 31,
-      "publishers": 129,
+      "articles": 260,
+      "unique_report_clusters": 232,
+      "estimated_duplicate_headlines": 28,
+      "publishers": 122,
       "early_signal_strength": 63,
-      "evidence_headlines": 53,
-      "general_headlines": 219,
-      "older_than_7_days_on_first_seen": 30,
+      "evidence_headlines": 52,
+      "general_headlines": 208,
+      "older_than_7_days_on_first_seen": 27,
       "first_seen_days": 43,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 26,
-        "physical_shortage": 27,
+        "physical_shortage": 26,
         "demand_accel": 6,
         "capacity_additions": 1
       },
@@ -259,14 +259,14 @@
         },
         {
           "headline": "Data Centers Are Running Out of Transformers. Here's the Industrial Stock With a 3-Year Backlog. - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUGQ5ZDkwR1BzMWVSSVBUSV9WRGYxMVBSRWZTbThyT0RYcUhuaEpmc09NdmVIUXgydk5LSDVsYTNwU1dibGQ1N1NKTnF1YWZucDRuS2VhZjBNbWNOQ1Y4SnpneDZnVjRtVmxxV3RuQXBEUFBTcWtWZ2NBZVVoaHJMcTFyU1NvYk81QnU3OHZnRkxoOUZ0WWpySUZhai1IWG5adHNqUm5RUGRMamloa2VVeWMzLWZ4NS1NeF9iUVpRVFlNYmVMNUJTRGdGc3M0ZmgwRG94M0xtQmd4anhLVkxlUkJyellpY1BOQ2l5dDNGNVVmNXN5S0VXUzFJbXA2RVFsa0l5TU5fT2pRZ3Fp?oc=5",
-          "reports": 3,
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQXBHdkVoX1FyVERxWGhrbHFxX1lXOXU3eVVDY05vdFBHcjhMLWhPZ1R2NHo2Q3NnclBrQVZyVndsdHRHVWxRTXBnOWEzWF9YMkJNLTVyOFI3ZnFDWC1GbjNLTTFBTDhJUXJUcGZaY0RNMjNfY1hwRmotdGRLQ0drUF9hUlROU3ZlZnpfcFpUMnZNdk9fMWl3dHJ2VGxIRTFWeVVHd2NIeGFaMWdvUzZEcV90eFdDWEFOcU93Q2tfeDJma2JWTUpleWdXa2ZpaHYwUVByOFJVZlBNN0p5RGpMeUxKalRXcXhwS0NJR3h1QnBTZ0thS1JQRUdmenlOU1lGeDNrSlhHSHI?oc=5",
+          "reports": 2,
           "publishers": 2,
           "signal_tags": [
             "lead_time"
           ],
-          "feed_published_at": "2026-10-08T12:50:54+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
+          "feed_published_at": "2026-10-08T12:35:00+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
           "source": "The Globe and Mail"
         },
         {
@@ -304,18 +304,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 325,
-      "unique_report_clusters": 273,
-      "estimated_duplicate_headlines": 52,
-      "publishers": 171,
+      "articles": 318,
+      "unique_report_clusters": 265,
+      "estimated_duplicate_headlines": 53,
+      "publishers": 170,
       "early_signal_strength": 64,
-      "evidence_headlines": 66,
-      "general_headlines": 259,
-      "older_than_7_days_on_first_seen": 54,
-      "first_seen_days": 42,
+      "evidence_headlines": 65,
+      "general_headlines": 253,
+      "older_than_7_days_on_first_seen": 46,
+      "first_seen_days": 43,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 65,
+        "physical_shortage": 64,
         "demand_accel": 2,
         "price_power": 2,
         "supply_relief": 1
@@ -396,15 +396,15 @@
     },
     {
       "theme": "Shipping",
-      "articles": 339,
-      "unique_report_clusters": 302,
-      "estimated_duplicate_headlines": 37,
-      "publishers": 213,
+      "articles": 341,
+      "unique_report_clusters": 303,
+      "estimated_duplicate_headlines": 38,
+      "publishers": 215,
       "early_signal_strength": 67,
       "evidence_headlines": 90,
-      "general_headlines": 249,
+      "general_headlines": 251,
       "older_than_7_days_on_first_seen": 67,
-      "first_seen_days": 43,
+      "first_seen_days": 44,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 81,
@@ -445,6 +445,16 @@
           "source": "TheTrucker.com"
         },
         {
+          "headline": "Government moves to ease port congestion, separates shipping line releases from cargo clearance - MyJoyOnline",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdDBBRTRIUWNSZzJycHJ1eUtTMURiTWJwcDBWM05lWXN2eWMzX3RkX2JCNDNPemhVZWRrQXp2bWdvZm83OGZ4VGNNcDdOaDFSS3Z2SXZ5cjhqZ0psTFhYVllBRkxuRHFveFI0eVg4X3d0c29ScjItWmd4elFJM2U5NmJZb0hWenZGbjBjbjc5MzI4c3kwNmhuVHVxMEhOSmJXdjFRSzJ1WlF5ejJMWVdRTng2OWJvaEh2VnY1bzJXLVc?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-23T11:52:18+00:00",
+          "first_seen_at": "2026-11-23T20:12:04+00:00",
+          "source": "MyJoyOnline"
+        },
+        {
           "headline": "Importers propose empty container depots to ease port congestion - GhanaWeb",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOURzRGZ0OUJYSk1yUzBQdWs3d2JfYmFOVlk4VUFHbGZTNUhhbFNMajZRd29ER3gxMVVSRWROZGhhTHgxMEd5QUExQ19mOUp4YUxLT1djeG81Um5oTlhiMDJmNC1kOVlLVm12cUcyRno1bU13S29yNlVZb25GaGdOckJYQjZCTkQ4SEx2T2ItUzlXNXdrajFYVkRaY3F5YUF0SXgyMEVJbV8xREhGNkRCLWhrd2lqR2tzb1l6aw?oc=5",
           "reports": 3,
@@ -473,16 +483,6 @@
           "feed_published_at": "2026-10-26T10:49:37+00:00",
           "first_seen_at": "2026-10-31T14:31:09+00:00",
           "source": "Lloyd's List"
-        },
-        {
-          "headline": "Asian port congestion may prolong shipping crunch into 2027 - Newswav",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM2o0RGk0c3JWb0hVd1pjYktXeFowX0U2eHRObk9DRDc1VnFvMk9jNzRkcXNrREd1RWg1TWZOOHVOWk82bHpwY1FWVlh4WjJRcThBM3BLX3JPdEdtd0FxOHZxbUhlNENfRlVibFh0WGdkaXgwczlRcmFmenNBZjVueS1mT2ZMUGlNNW9SejVzajRFYXJpcjBSd2taRjh4VmFKa3c?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-04T02:42:38+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "Newswav"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
