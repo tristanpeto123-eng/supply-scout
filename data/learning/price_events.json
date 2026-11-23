@@ -1206,8 +1206,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-18"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-18",
+        "stock_return_pct": -16.48,
+        "benchmark_return_pct": -3.89,
+        "excess_after_cost_pct": -13.19,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-18",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -1251,8 +1257,14 @@
     },
     "outcomes": {
       "7": {
-        "status": "PENDING",
-        "target_date": "2026-11-18"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-18",
+        "stock_return_pct": 5.06,
+        "benchmark_return_pct": -3.89,
+        "excess_after_cost_pct": 8.35,
+        "label": "OUTPERFORM",
+        "known_after": "2026-11-18",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
         "status": "PENDING",
@@ -1488,6 +1500,114 @@
         "target_date": "2027-02-17"
       }
     },
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Copper|FCX|2026-W48",
+    "theme": "Copper",
+    "ticker": "FCX",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "snapshot_locked": true,
+    "headline": "Copper Funds Retreat as Shanghai Faces Supply Shortage - Peradaban.id",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRYS15d0NmNS1wU0oxOHB5NmtwMDlmclJyZEZGY2pMeXlnSndlSjJHWnB4dDczb2J4V01GRFNwYnFBZFpvQk5iMnZ0dFl5VkhJQ0QxSDd0LTE3YmN6cFVETEVPd2lWR0xZV2FtenR3?oc=5",
+    "source_domain": "Peradaban.id",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 4,
+      "publisher_count": 4,
+      "publication_lag": 0.29,
+      "prior_excess_30d": -0.20379
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Grid equipment|ETN|2026-W48",
+    "theme": "Grid equipment",
+    "ticker": "ETN",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "snapshot_locked": true,
+    "headline": "Cuba resumes transformer production after overcoming a shortage of an essential component - CiberCuba",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmJTeGFoNkFNSUluaUVKNENEU2RtT0FEeS1seVNiY3c2UFU0bnN4TlRqd3k4RHhJbUt4WVI3bmFpVG9fQ1I2TVNNLUxlbWdVX0RDZGJKeXNUdjk3REx3WXpTOHMxbGl5NWJuVjdLU3hkNTJwcFNKb0FQNEVZY3V6cGFVNUhVN3hLbzBnSmFudjZhOGY2eFpLSGhlMlpPZlNLQ281Q3RYNFREVFBfLXVETE9BR29aOGRDM0E?oc=5",
+    "source_domain": "CiberCuba",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 1,
+      "publisher_count": 1,
+      "publication_lag": 0.03,
+      "prior_excess_30d": -0.056391
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Memory chips|MU|2026-W48",
+    "theme": "Memory chips",
+    "ticker": "MU",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "snapshot_locked": true,
+    "headline": "3 AI Memory Stocks Retail Investors Are Watching During The Chip Shortage - Simply Wall St",
+    "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPc3IzWFZIRGVSTzhvWmd3ZERack5STThfaTJGN280R3gtSVRIRVRQcE5nc1FSOVpia0oxSzVVMVlCdk93SGtiRnBYTlktX1NjWGJJbm4zUDNZLVYyTVZuQ1lyZ1ZubnhHR0ZnMWdWQ2F6SXExUktPc2xjcllMMVVwZ1NRYjRjaV9GNnNUdENRT1FLUHRMSTgyZE1oV0RoSExmcTFDeTd2WGRsQTBXenk2VjgybzNXYmNEZ1R5MlhEODRiR2hEaGphQjYzMTFLQ09nN2fSAdcBQVVfeXFMTmpmZDNmN0hNblRObWlyLXcxcGZySkd6Q0VDb2JRLUdjaHF4R0dnWGNFcE03cHFNb01Tc0l1RG9pUlBxMEl0UzU5WGQtbVRRbHl5Q0pSemFlTFk1SnpCbUJhM1lGdkRCVjJHTG8tM2UzbW1GeEVnRV84a0cwOG0wYWxPc1R2SGNPTUMwYlROQUJEQ1V4VkJTMmRmWnp1c050bEJXaG9iSk9iaEFGcHlxMk0xTGdXRUNKcHVIVkVIWXgtZTR2Sm5vbmhjMV9ROHZJRWpLTHZZek0?oc=5",
+    "source_domain": "Simply Wall St",
+    "features": {
+      "scarcity": 1,
+      "lead_times": 0,
+      "pricing": 0,
+      "demand": 0,
+      "easing": 1,
+      "n_reports": 6,
+      "publisher_count": 6,
+      "publication_lag": 0.11,
+      "prior_excess_30d": -0.231909
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
+    "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
+  },
+  {
+    "id": "Shipping|ZIM|2026-W48",
+    "theme": "Shipping",
+    "ticker": "ZIM",
+    "proxy_not_confirmed_beneficiary": true,
+    "signal_time": "2026-11-23T20:12:04+00:00",
+    "snapshot_locked": true,
+    "headline": "Panamax freight rates rise on Asian coal demand, tighter vessel supply - Petromindo",
+    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTEtXanUwLUptaU5SOFlQYXdkS2FXYV9rUjU1b1RsbE0wS1d6dngwZkM2Y3lNQW9VOWhZX0NrdG0wQnRFdUQ1NHNjY0tsRmNKUGk2V19hdXpnU2pXOUtPNGxHVlN1TWFTMDZjX0xPS19CbEdralpHY29uNkh3V19fQVRQQWtZV3p0UVNhcXA1OEdHdTh3cXB2SWNqakVEVTVvTmUwdXdwYXdLb3NrVlE?oc=5",
+    "source_domain": "Petromindo",
+    "features": {
+      "scarcity": 0,
+      "lead_times": 1,
+      "pricing": 1,
+      "demand": 0,
+      "easing": 0,
+      "n_reports": 2,
+      "publisher_count": 2,
+      "publication_lag": 0.35,
+      "prior_excess_30d": 0.089603
+    },
+    "market": {
+      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+    },
+    "outcomes": {},
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
