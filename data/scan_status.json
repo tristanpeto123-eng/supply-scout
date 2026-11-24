@@ -1,5 +1,5 @@
 {
-  "last_attempt_at": "2026-11-23T20:12:04+00:00",
+  "last_attempt_at": "2026-11-24T19:29:18+00:00",
   "mode": "public_rss_headline_discovery",
   "providers_attempted": [
     "Google News RSS",
@@ -7,33 +7,33 @@
   ],
   "themes_fetched": 5,
   "themes_total": 5,
-  "new_articles": 33,
+  "new_articles": 38,
   "archive_total": 1500,
   "themes": {
     "Memory chips": {
       "provider": "Google News RSS",
-      "items_returned": 54,
-      "new_articles": 18
+      "items_returned": 31,
+      "new_articles": 4
     },
     "Optical networks": {
       "provider": "Google News RSS",
-      "items_returned": 23,
-      "new_articles": 3
+      "items_returned": 53,
+      "new_articles": 16
     },
     "Grid equipment": {
       "provider": "Google News RSS",
-      "items_returned": 26,
-      "new_articles": 5
+      "items_returned": 25,
+      "new_articles": 4
     },
     "Copper": {
       "provider": "Google News RSS",
-      "items_returned": 20,
-      "new_articles": 5
+      "items_returned": 18,
+      "new_articles": 0
     },
     "Shipping": {
       "provider": "Google News RSS",
-      "items_returned": 31,
-      "new_articles": 2
+      "items_returned": 66,
+      "new_articles": 14
     }
   },
   "errors": [],
