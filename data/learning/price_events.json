@@ -553,8 +553,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-19"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-19",
+        "stock_return_pct": -27.82,
+        "benchmark_return_pct": -6.48,
+        "excess_after_cost_pct": -21.94,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-19",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -604,8 +610,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-19"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-19",
+        "stock_return_pct": -21.91,
+        "benchmark_return_pct": -6.48,
+        "excess_after_cost_pct": -16.03,
+        "label": "UNDERPERFORM",
+        "known_after": "2026-11-19",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -655,8 +667,14 @@
         "source": "adjusted market prices; does not prove physical shortage"
       },
       "30": {
-        "status": "PENDING",
-        "target_date": "2026-11-19"
+        "status": "RESOLVED",
+        "exit_date": "2026-11-19",
+        "stock_return_pct": 2.95,
+        "benchmark_return_pct": -6.48,
+        "excess_after_cost_pct": 8.84,
+        "label": "OUTPERFORM",
+        "known_after": "2026-11-19",
+        "source": "adjusted market prices; does not prove physical shortage"
       },
       "90": {
         "status": "PENDING",
@@ -1524,9 +1542,27 @@
       "prior_excess_30d": -0.20379
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-11-24",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-12-01"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-12-24"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-02-22"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -1551,9 +1587,27 @@
       "prior_excess_30d": -0.056391
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-11-24",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-12-01"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-12-24"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-02-22"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -1578,9 +1632,27 @@
       "prior_excess_30d": -0.231909
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-11-24",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-12-01"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-12-24"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-02-22"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   },
   {
@@ -1605,9 +1677,27 @@
       "prior_excess_30d": 0.089603
     },
     "market": {
-      "status": "WAITING_FOR_NEXT_TRADING_SESSION"
+      "status": "TRACKING",
+      "entry_date": "2026-11-24",
+      "price_source": "Yahoo Finance via yfinance",
+      "price_basis": "split/dividend adjusted Open and Close",
+      "benchmark": "ACWI",
+      "round_trip_cost": 0.006
     },
-    "outcomes": {},
+    "outcomes": {
+      "7": {
+        "status": "PENDING",
+        "target_date": "2026-12-01"
+      },
+      "30": {
+        "status": "PENDING",
+        "target_date": "2026-12-24"
+      },
+      "90": {
+        "status": "PENDING",
+        "target_date": "2027-02-22"
+      }
+    },
     "research_note": "Sector proxy only; no claim that a shortage is proven or caused returns."
   }
 ]
