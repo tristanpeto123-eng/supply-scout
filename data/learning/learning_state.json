@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-24T20:24:06+00:00",
+  "built_at": "2026-11-25T18:38:50+00:00",
   "archive_count": 1500,
-  "cluster_count": 1298,
-  "dates_first_seen": 45,
+  "cluster_count": 1295,
+  "dates_first_seen": 46,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,21 +11,21 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 293,
-      "unique_report_clusters": 272,
-      "estimated_duplicate_headlines": 21,
-      "publishers": 125,
-      "early_signal_strength": 66,
-      "evidence_headlines": 161,
-      "general_headlines": 132,
+      "articles": 301,
+      "unique_report_clusters": 279,
+      "estimated_duplicate_headlines": 22,
+      "publishers": 128,
+      "early_signal_strength": 63,
+      "evidence_headlines": 163,
+      "general_headlines": 138,
       "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 45,
+      "first_seen_days": 46,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 147,
+        "physical_shortage": 149,
         "price_power": 16,
         "lead_time": 10,
-        "supply_relief": 3,
+        "supply_relief": 4,
         "capacity_additions": 1
       },
       "stories": [
@@ -118,15 +118,15 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 308,
-      "unique_report_clusters": 245,
-      "estimated_duplicate_headlines": 63,
-      "publishers": 98,
+      "articles": 314,
+      "unique_report_clusters": 250,
+      "estimated_duplicate_headlines": 64,
+      "publishers": 99,
       "early_signal_strength": 63,
       "evidence_headlines": 14,
-      "general_headlines": 294,
-      "older_than_7_days_on_first_seen": 40,
-      "first_seen_days": 45,
+      "general_headlines": 300,
+      "older_than_7_days_on_first_seen": 42,
+      "first_seen_days": 46,
       "momentum": "FLAT/LOWER",
       "flags": {
         "lead_time": 10,
@@ -188,6 +188,16 @@
           "source": "The Globe and Mail"
         },
         {
+          "headline": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ3hPNXFHblVITFNzcG1hbll6OG42V2pmRmtZakRabWNta2NjdGFhcHd5LTFOQjlCc3dYSVdCekhJSlliMVZTV2RWR3lqVkVoX25IdEJScnFfa1d5cnJ2Z0otajdxa2JCR1ZOcmJDcll6bEhnMDBlN2JZYjliQncwMDdQNUZuQkFyU01JT1c3WUQ3TDQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-18T16:47:00+00:00",
+          "first_seen_at": "2026-11-19T17:21:37+00:00",
+          "source": "Yahoo Finance"
+        },
+        {
           "headline": "Ari Alastalo appointed Vice President of VTT’s Microelectronics and Photonics research area - www.vttresearch.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjY0OEQ3RzlveEF5ekdocDBDem0yX0VkWWpVTHNuWmxhQ2kxM1dGTGFnQmFhcHo0NVVqYm0tRXdEdWgxdVFKU2RWSW1mb2NoX1Uxb1RubXVkZXlXTlNON0Z6ckNvT2pYSHZLdWJ2YVc3MGVhQTNRME5HbGFEV3FYYTNpWjN3UEZfdjhMdFBmYURETklvWEtuSDBIdXhXTWlKNzd1N1k5VjlwM2dMcjg2MktiTmxLNmZQdW1CMl82VkhwMlpYQUM4?oc=5",
           "reports": 2,
@@ -196,35 +206,25 @@
           "feed_published_at": "2026-10-07T10:25:01+00:00",
           "first_seen_at": "2026-10-14T13:42:23+00:00",
           "source": "www.vttresearch.com"
-        },
-        {
-          "headline": "Ciena Appoints Greg Friesen Chief Product Officer as AI Drives Optical Networking Demand - citybiz",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWTkwcmxXU0tXSlZ5VWlvUF9ZZGNCVUs4SlU2QjBIRFJTaTBIcldOM3R5TG9ab3RQblVkck5wbzB6VGNIS2MyalZvYWRDbG1qYl9IU0xuYTczbHVKckJqQUt1clFIczBRa3hmMEthMjlZNGpraEtkRFJrUkZ6QnJQWWRfNlVwTDUtcTlfQzZSU3NpUU9tbThKZVJUTmU0Z0VFNHhSUERfdFBQS0ZmckRfOHVQOXUxZ0ZhTjZ0cnMtOG53WUQ3Z3c?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-16T16:17:29+00:00",
-          "first_seen_at": "2026-11-16T18:30:27+00:00",
-          "source": "citybiz"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 264,
-      "unique_report_clusters": 235,
-      "estimated_duplicate_headlines": 29,
-      "publishers": 123,
+      "articles": 280,
+      "unique_report_clusters": 247,
+      "estimated_duplicate_headlines": 33,
+      "publishers": 127,
       "early_signal_strength": 63,
-      "evidence_headlines": 55,
-      "general_headlines": 209,
-      "older_than_7_days_on_first_seen": 27,
-      "first_seen_days": 44,
-      "momentum": "FLAT/LOWER",
+      "evidence_headlines": 60,
+      "general_headlines": 220,
+      "older_than_7_days_on_first_seen": 28,
+      "first_seen_days": 45,
+      "momentum": "RISING",
       "flags": {
-        "lead_time": 27,
-        "physical_shortage": 28,
+        "lead_time": 28,
+        "physical_shortage": 32,
         "demand_accel": 6,
         "capacity_additions": 1
       },
@@ -232,8 +232,8 @@
         {
           "headline": "ElectroIQ Brings Project, Lead-Time and Procurement Intelligence to the Power Transformer Market - markets.businessinsider.com",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbl9Dem4zT3JNbEtmWFR0R0JtRU5PeWJpdXJubUNzOFdzalliU2VWdTRtaVFhVUc3MlhEeXA3a0RYcUhob09hRFBWekxOMnh0Uk5LWnJ5dHN1Rzl6ZlVRUTNtYUt6ZXFkWEpSdjAySTlfTGNZREhvczFtaFdJWnN4U1NpQTluWmxhNTdlUUhoZmtyRFpQV2V0emtKeEFlZzg2OFBqMEo5OFllUXl5MVdmNnJqRzJMRWZTZkYzZXljNW9EMVBFclcwSExNZUNTX2NmbXNrQnQ0aTFtLVlzUzhlVVk5d21TSVpNVVE?oc=5",
-          "reports": 3,
-          "publishers": 3,
+          "reports": 4,
+          "publishers": 4,
           "signal_tags": [],
           "feed_published_at": "2026-11-19T10:57:17+00:00",
           "first_seen_at": "2026-11-19T17:21:37+00:00",
@@ -258,6 +258,18 @@
           "feed_published_at": "2026-10-27T16:30:00+00:00",
           "first_seen_at": "2026-10-28T15:05:24+00:00",
           "source": "PR Newswire"
+        },
+        {
+          "headline": "Shortage of critical gears hits power transmission expansion programme in Madhya Pradesh - Deccan Herald",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZWhEY2JRNkRHR1VmS2lJdTh5UFRUUUZpa29qTkNSVWZlamM3RktjN0tpS1lMdWkzOV8zckhacVhQRW9PNVRKX2NvZUxQU1ZNZDB6dGJDVmJNblFaN1ZMMzM5Nk8xVnMxc2hTWTMxcHp3RTJGV2NJZkRSLWNuUXlUQWU2M09rdUx0Z0l1Rlp5NG1EM0tFdFc2cndkWlJYN3oxWU9jTFdqVlpLX201QTdDNV9KUks2Qnh0WmFTQWVZZWc4Yml3TUs1TnhFLXlJU1Y3MVozWnZXNHN5MXJVNEVjVjhVYlRZekJJUEFDYdIB7AFBVV95cUxOZWhEY2JRNkRHR1VmS2lJdTh5UFRUUUZpa29qTkNSVWZlamM3RktjN0tpS1lMdWkzOV8zckhacVhQRW9PNVRKX2NvZUxQU1ZNZDB6dGJDVmJNblFaN1ZMMzM5Nk8xVnMxc2hTWTMxcHp3RTJGV2NJZkRSLWNuUXlUQWU2M09rdUx0Z0l1Rlp5NG1EM0tFdFc2cndkWlJYN3oxWU9jTFdqVlpLX201QTdDNV9KUks2Qnh0WmFTQWVZZWc4Yml3TUs1TnhFLXlJU1Y3MVozWnZXNHN5MXJVNEVjVjhVYlRZekJJUEFDYQ?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-11-21T07:43:48+00:00",
+          "first_seen_at": "2026-11-21T16:07:45+00:00",
+          "source": "Deccan Herald"
         },
         {
           "headline": "Cuba resumes transformer production after overcoming a shortage of an essential component - CiberCuba",
@@ -292,31 +304,21 @@
           "feed_published_at": "2026-10-29T06:01:16+00:00",
           "first_seen_at": "2026-10-29T15:12:54+00:00",
           "source": "Transformer Magazine"
-        },
-        {
-          "headline": "Hitachi announces $479M plan to build transformer insulation factory in London, Ont. - BNN Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeXhtSHdLazNXMldPajZXQW1HZjZkTVhyb0hBa1BuTWNNcGVsNks1R3k4cjJOWVl3YUJVSEc2YnBLYVhXS1ZUN2hFNG5oU3VhWEVhWEVjc1dIX3M5Zmh2TC1nSC11amVHUnl6SkZvcW5KY25MSzdWSmt0TVA2ZDdrZVNfRERoRGZjZkQ3cW90SWpQR09iUm5NU2VtUjhZWnktOFZxSW9KenNqNGFmN0o2R3lvNWk2Rmx1RFp6WG4yWjU0S1ViVG1aVUtJUF9qRjFSTWdqMmVQU1dMbTQ?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-16T12:39:35+00:00",
-          "first_seen_at": "2026-10-16T13:14:22+00:00",
-          "source": "BNN Bloomberg"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 280,
-      "unique_report_clusters": 232,
-      "estimated_duplicate_headlines": 48,
-      "publishers": 153,
+      "articles": 273,
+      "unique_report_clusters": 227,
+      "estimated_duplicate_headlines": 46,
+      "publishers": 148,
       "early_signal_strength": 64,
       "evidence_headlines": 61,
-      "general_headlines": 219,
-      "older_than_7_days_on_first_seen": 31,
-      "first_seen_days": 43,
+      "general_headlines": 212,
+      "older_than_7_days_on_first_seen": 28,
+      "first_seen_days": 44,
       "momentum": "FLAT/LOWER",
       "flags": {
         "physical_shortage": 60,
@@ -344,16 +346,6 @@
           "feed_published_at": "2026-10-13T11:02:38+00:00",
           "first_seen_at": "2026-10-13T15:56:38+00:00",
           "source": "Business Recorder"
-        },
-        {
-          "headline": "Exclusive-China demands copper supply commitments for Anglo Teck merger approval, sources say - AOL.ca",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXNzUGRPSW5raHFLZWdvTms0LVl5bDBjSkEtbkxGZGJlcVhiSkQtOUdPME9fcGVEVHh4SlBQNElEM1EtTlhxM3BDLTFlSzJsX1U0VTBEejlSYlQ2aGJ6dUQzVUcybklvS2Q0QVRnX0NoajlzeEhIZV9PM2pXeE96TjlZeVlLZ00?oc=5",
-          "reports": 3,
-          "publishers": 3,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-02T12:04:42+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "AOL.ca"
         },
         {
           "headline": "One million at risk as final deadline set for landline switch off - Essex Live",
@@ -386,32 +378,42 @@
           "source": "RNZ"
         },
         {
-          "headline": "3 Trends That Will Push Copper Higher in 2028 - AOL.ca",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EQ1dPcFMzaUJaQjVGOHBoWFF0VVhpSXJKb0NKNTV4QTlhRXZuS1N4Szc1dVBxS0lsYnR5NWsybDIxdUUyRmlDRFc4eXhOZ2RJN29pOGI1U1ZidTB0S0kxTlZJWjRxdjRQVVVGY2J2cWNrdmJtVjFjQWpR?oc=5",
+          "headline": "BOA prepares for Neds Creek copper drill push - The Australian",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOd19HbXJCUGY1UG9EWFIzVnlxWXJzeVJfQWlrQmltTldIaDB1cEhTZjI0VGl4aGRVT2FhN2lyZGM3Z0VOTHNqSnVSbkJOcGR6V3B3OTV2QnViNGE4WlNCVVlld3kybHNQS3V0ZzlhSUhQcTRGNFlocENYekd4WGpoWjNsdVRtLTVjWjNYLXVlbEtlNTBfT1UzeEFES21SUTU2TzhsS0FKR2VhNVBOd0RXZ1ZveFlMT2QzM1dzbGQ2VzZaQmhCOGNiMmFQeGdrN3k1anFaWEFLVjZuOHZDSmc4MnRpd1VjREFkRU9FOGE0Z19QaGFXSi1n?oc=5",
           "reports": 2,
           "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-03T19:50:00+00:00",
-          "first_seen_at": "2026-10-10T19:18:47+00:00",
-          "source": "AOL.ca"
+          "feed_published_at": "2026-10-23T03:58:07+00:00",
+          "first_seen_at": "2026-10-23T13:24:27+00:00",
+          "source": "The Australian"
+        },
+        {
+          "headline": "Bedfordshire cable theft causes 'extensive' internet disruption - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZWlByanpLbHNhSjEyVHJvREZRSTVRMk8yQmp2WkFVTWh4RWhwM1Y5el9JUGFzU3pEVmxVTHNBM0FTZUpJX0hhdE9keGZ5MWZnVnN6VHBiMkhNbC0xWFE?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-06T13:57:04+00:00",
+          "first_seen_at": "2026-11-07T14:53:42+00:00",
+          "source": "BBC"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Shipping",
-      "articles": 355,
-      "unique_report_clusters": 314,
-      "estimated_duplicate_headlines": 41,
-      "publishers": 221,
+      "articles": 332,
+      "unique_report_clusters": 292,
+      "estimated_duplicate_headlines": 40,
+      "publishers": 211,
       "early_signal_strength": 67,
-      "evidence_headlines": 92,
-      "general_headlines": 263,
-      "older_than_7_days_on_first_seen": 69,
-      "first_seen_days": 45,
+      "evidence_headlines": 90,
+      "general_headlines": 242,
+      "older_than_7_days_on_first_seen": 53,
+      "first_seen_days": 46,
       "momentum": "RISING",
       "flags": {
-        "physical_shortage": 83,
+        "physical_shortage": 81,
         "price_power": 2,
         "lead_time": 7
       },
@@ -479,14 +481,14 @@
           "source": "BusinessLine"
         },
         {
-          "headline": "Asia-Europe ‘double sailings’ top pandemic peak as congestion upends Golden Week cuts - Lloyd's List",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTmtZOTZIVllJbDk1elp0RmdWb3luZEVPRDFucTk0bTl5VlpYVmJJbGxwelY1X3VIazYza3pmUE5ja0t2MXptTmszaW9SeXNGTFIxeHRqQTJZeHh0OGEwOHRLWkZHbWp0WW50ZXNwZ3lZYTJPUHBPdUtONXVxazJIaHFHQ0RpYmZMY3BPaVRsSXJxRzJ6RklnbXJGSmxVZ0hIdW8xM0VMM3NLWElzUGl2V0pGUHRJMU9LVVJXSw?oc=5",
-          "reports": 2,
+          "headline": "Durban port congestion threatens Western Cape fruit exports, with R20,000 extra cost per container - Cape Times",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11ZW5aVkx2VzJGUzZHaVdoNklwWlRhUFBMQW5PMGxoMnl6U3o3cHJXUzlVbzBTSGh0N0xoVW9xclkwbDNqNk12SW8wWE0zRnpTaUVZMFJjVE42R1JFQ3BYUA?oc=5",
+          "reports": 3,
           "publishers": 2,
           "signal_tags": [],
-          "feed_published_at": "2026-10-26T10:49:37+00:00",
-          "first_seen_at": "2026-10-31T14:31:09+00:00",
-          "source": "Lloyd's List"
+          "feed_published_at": "2026-11-24T14:00:45+00:00",
+          "first_seen_at": "2026-11-24T19:29:18+00:00",
+          "source": "Cape Times"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
