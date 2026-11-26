@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-11-25T19:38:16+00:00",
+  "built_at": "2026-11-26T18:24:40+00:00",
   "archive_count": 1500,
-  "cluster_count": 1295,
+  "cluster_count": 1287,
   "dates_first_seen": 46,
   "data_quality": {
     "all_current_archive_unverified": true,
@@ -11,21 +11,21 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 301,
-      "unique_report_clusters": 279,
-      "estimated_duplicate_headlines": 22,
-      "publishers": 128,
-      "early_signal_strength": 63,
-      "evidence_headlines": 163,
-      "general_headlines": 138,
+      "articles": 316,
+      "unique_report_clusters": 291,
+      "estimated_duplicate_headlines": 25,
+      "publishers": 133,
+      "early_signal_strength": 60,
+      "evidence_headlines": 175,
+      "general_headlines": 141,
       "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 46,
-      "momentum": "FLAT/LOWER",
+      "first_seen_days": 45,
+      "momentum": "RISING",
       "flags": {
-        "physical_shortage": 149,
-        "price_power": 16,
-        "lead_time": 10,
-        "supply_relief": 4,
+        "physical_shortage": 155,
+        "price_power": 19,
+        "lead_time": 13,
+        "supply_relief": 5,
         "capacity_additions": 1
       },
       "stories": [
@@ -66,6 +66,18 @@
           "source": "Barchart.com"
         },
         {
+          "headline": "Dell Shares Retreat as AI Backlog Faces Supply and Margin Risks - Limapagi",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95LW94N2taYnF5NVFuV3ZTc3NHekZGWnQ1NmR0UnVmRzVhZkxOODF1T2NCR3ZLMGUyWTRTUFhRWUg4SURDMmhzUEZ2X2xlZW1aZ2tLdlRPd2l2MEthSEo4MWRIZzE5UQ?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [
+            "lead_time"
+          ],
+          "feed_published_at": "2026-11-24T21:23:00+00:00",
+          "first_seen_at": "2026-11-26T18:24:13+00:00",
+          "source": "Limapagi"
+        },
+        {
           "headline": "Micron Stock Holds Above $1,000 as Memory Shortage Puts $1,034 Breakout in Focus - TradingKey",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZUVyeUZqYUduZ2YyNkt3YnZkSHpkb2xmRXZNYUVCaFRVbjJtZjF1eHhfNjA3NHlYTlplRVU0YnMwM3RCMlRhYlJkalZQaGxNMUdtcXlNTDBpSUNydEg4MnJxLVVGZGZ4bEZyLUlaRXZwa0VaNVBjV2FfdF9rN2JiVVBpUUs2TlE5cHgxa1FXX2tjdm5CRnJYRkI1V3M5VzczWk1PWVJveUE0YktFalRTdzRDRQ?oc=5",
           "reports": 2,
@@ -100,39 +112,27 @@
           "feed_published_at": "2026-10-29T05:17:59+00:00",
           "first_seen_at": "2026-10-29T15:12:54+00:00",
           "source": "WKZO"
-        },
-        {
-          "headline": "The Next AI Chip Shortage May Be the Machines That Make HBM - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdV9xZWZKTTFZMnZDWUJFQ090VEtxOW41am1BVnU4bzhGSGdabmRwQ3NscERsMzVwcENURWxPRzZqQlZQUVRRcHpLSGQ4NHVwRXRJQTU1NXE2SjdVMjBZV25aNFQtZDAwTWNrY3VDT1lXX3pib3RnUUNOc2lQeVlQd2NBSW1xUXZkNnFSRWpRcDM2d2ZtOTZUOUxkSEo3bmNBMnhjN2lB?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [
-            "physical_shortage"
-          ],
-          "feed_published_at": "2026-11-10T15:26:00+00:00",
-          "first_seen_at": "2026-11-10T16:24:53+00:00",
-          "source": "24/7 Wall St."
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Optical networks",
-      "articles": 314,
-      "unique_report_clusters": 250,
+      "articles": 311,
+      "unique_report_clusters": 247,
       "estimated_duplicate_headlines": 64,
-      "publishers": 99,
+      "publishers": 97,
       "early_signal_strength": 63,
-      "evidence_headlines": 14,
-      "general_headlines": 300,
-      "older_than_7_days_on_first_seen": 42,
+      "evidence_headlines": 13,
+      "general_headlines": 298,
+      "older_than_7_days_on_first_seen": 39,
       "first_seen_days": 46,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 10,
-        "physical_shortage": 4,
+        "lead_time": 9,
         "demand_accel": 2,
-        "capacity_additions": 1
+        "capacity_additions": 1,
+        "physical_shortage": 4
       },
       "stories": [
         {
@@ -156,16 +156,6 @@
           "source": "StockStory"
         },
         {
-          "headline": "Should You Buy, Sell, or Hold AAOI Stock Ahead of Q3 Earnings? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1pZU3R6c1RiR2xwOUVMc205V29PYmk1MlUwMUktV0I2NzI1LU1tU1ZZaWJReGlFV0Q1RW9PZ0h0dFJ2anpFWnhnZjBBb2tsdHNiWnpIaV9la3pUWXh5enVHZnhOVkgwZHV4V2VfZHpWRTV0UEM3RnJUd0JrWFNQTldaUFdlOGVSeXlMM25oT2wzX2I4dGNfQzF1ckVVQ2M5aGh1cS1Sbk9rQU0tb1F5Z2FleEMxUQ?oc=5",
-          "reports": 6,
-          "publishers": 3,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-03T17:23:00+00:00",
-          "first_seen_at": "2026-11-04T16:17:38+00:00",
-          "source": "TradingView"
-        },
-        {
           "headline": "Buy Corning on Solid Q3 Earnings, Guidance and AI Photonics Space Rally - Yahoo Finance Australia",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3FSTW5iMk1NSVlhTVlYeG5vckxyZ0EtcXV2TWtKcjdNdDZ4bnJlcnJxSTYxN3BPbVlYbWItT2ZQc281dWI2ZHNJX2k1X0NBVUpNQ2dLS2lyQkxhNGhBZ0k3ZDlDV0pNVjFpM3RZeWVRRlhlR1Rxcy1hVTdJWVdEMHZvWXY?oc=5",
           "reports": 3,
@@ -174,6 +164,26 @@
           "feed_published_at": "2026-10-29T11:43:00+00:00",
           "first_seen_at": "2026-10-29T15:12:54+00:00",
           "source": "Yahoo Finance Australia"
+        },
+        {
+          "headline": "Oasis Deploys iPronics ONE to Deliver Optical Bandwidth-on-Demand Across Dark Fiber Networks - Yahoo Finance UK",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnhiUHJzamFmT01ObmhDdHpkSHB0WWRqTTlNekhockZ4bnItbFNWazNFSk5ZYUpqMS0xQlR1eE83b3FPUmJMczNiaURfSGhLN3hYNWlBd3Y3OXJCMDJTd2JkcWNCNnQyWk1UZ3QwVnpCUWVqLWE5RkM2RmczVFJJZl9DX2Q5cS1aRlRN?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-23T13:00:00+00:00",
+          "first_seen_at": "2026-11-23T20:12:04+00:00",
+          "source": "Yahoo Finance UK"
+        },
+        {
+          "headline": "Should You Buy, Sell, or Hold AAOI Stock Ahead of Q3 Earnings? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1pZU3R6c1RiR2xwOUVMc205V29PYmk1MlUwMUktV0I2NzI1LU1tU1ZZaWJReGlFV0Q1RW9PZ0h0dFJ2anpFWnhnZjBBb2tsdHNiWnpIaV9la3pUWXh5enVHZnhOVkgwZHV4V2VfZHpWRTV0UEM3RnJUd0JrWFNQTldaUFdlOGVSeXlMM25oT2wzX2I4dGNfQzF1ckVVQ2M5aGh1cS1Sbk9rQU0tb1F5Z2FleEMxUQ?oc=5",
+          "reports": 5,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-03T17:23:00+00:00",
+          "first_seen_at": "2026-11-04T16:17:38+00:00",
+          "source": "TradingView"
         },
         {
           "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - The Globe and Mail",
@@ -196,35 +206,25 @@
           "feed_published_at": "2026-11-18T16:47:00+00:00",
           "first_seen_at": "2026-11-19T17:21:37+00:00",
           "source": "Yahoo Finance"
-        },
-        {
-          "headline": "Ari Alastalo appointed Vice President of VTT’s Microelectronics and Photonics research area - www.vttresearch.com",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjY0OEQ3RzlveEF5ekdocDBDem0yX0VkWWpVTHNuWmxhQ2kxM1dGTGFnQmFhcHo0NVVqYm0tRXdEdWgxdVFKU2RWSW1mb2NoX1Uxb1RubXVkZXlXTlNON0Z6ckNvT2pYSHZLdWJ2YVc3MGVhQTNRME5HbGFEV3FYYTNpWjN3UEZfdjhMdFBmYURETklvWEtuSDBIdXhXTWlKNzd1N1k5VjlwM2dMcjg2MktiTmxLNmZQdW1CMl82VkhwMlpYQUM4?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-07T10:25:01+00:00",
-          "first_seen_at": "2026-10-14T13:42:23+00:00",
-          "source": "www.vttresearch.com"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Grid equipment",
-      "articles": 280,
-      "unique_report_clusters": 247,
-      "estimated_duplicate_headlines": 33,
-      "publishers": 127,
+      "articles": 288,
+      "unique_report_clusters": 252,
+      "estimated_duplicate_headlines": 36,
+      "publishers": 132,
       "early_signal_strength": 63,
-      "evidence_headlines": 60,
-      "general_headlines": 220,
-      "older_than_7_days_on_first_seen": 28,
-      "first_seen_days": 45,
+      "evidence_headlines": 63,
+      "general_headlines": 225,
+      "older_than_7_days_on_first_seen": 30,
+      "first_seen_days": 46,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 28,
-        "physical_shortage": 32,
+        "lead_time": 29,
+        "physical_shortage": 34,
         "demand_accel": 6,
         "capacity_additions": 1
       },
@@ -310,18 +310,18 @@
     },
     {
       "theme": "Copper",
-      "articles": 273,
-      "unique_report_clusters": 227,
+      "articles": 274,
+      "unique_report_clusters": 228,
       "estimated_duplicate_headlines": 46,
-      "publishers": 148,
+      "publishers": 149,
       "early_signal_strength": 64,
-      "evidence_headlines": 61,
-      "general_headlines": 212,
-      "older_than_7_days_on_first_seen": 28,
+      "evidence_headlines": 63,
+      "general_headlines": 211,
+      "older_than_7_days_on_first_seen": 29,
       "first_seen_days": 44,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 60,
+        "physical_shortage": 62,
         "demand_accel": 2,
         "price_power": 2,
         "supply_relief": 1
@@ -402,26 +402,26 @@
     },
     {
       "theme": "Shipping",
-      "articles": 332,
-      "unique_report_clusters": 292,
-      "estimated_duplicate_headlines": 40,
-      "publishers": 211,
-      "early_signal_strength": 67,
-      "evidence_headlines": 90,
-      "general_headlines": 242,
-      "older_than_7_days_on_first_seen": 53,
+      "articles": 311,
+      "unique_report_clusters": 269,
+      "estimated_duplicate_headlines": 42,
+      "publishers": 192,
+      "early_signal_strength": 65,
+      "evidence_headlines": 79,
+      "general_headlines": 232,
+      "older_than_7_days_on_first_seen": 38,
       "first_seen_days": 46,
       "momentum": "RISING",
       "flags": {
-        "physical_shortage": 81,
-        "price_power": 2,
-        "lead_time": 7
+        "physical_shortage": 71,
+        "lead_time": 7,
+        "price_power": 1
       },
       "stories": [
         {
           "headline": "Government Separates Shipping Line Release From Customs Clearance to Ease Port Congestion - Modern Ghana",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WYkUycVFGYjdRdWRWd0wtSFlTeFFoa003cXpkdk9kTi1zVXFtSUtFNkM1QnZDenA1bXpkRGdaTE5tTzh4cHlCLWEydVQtdXByNEVVTVdmYjNVQjloQUNaeXlOZ9IBXEFVX3lxTE1YSDdiS0hMR2V1V3dfbDE5SVZsLV9IRUhtRzY4czQzTFVkRGhCXzBvakpKek41M2phb1VvbGwtWU1yZ2JkU2ZsMmZYVFNHSUhfblg0YlBJNEtNUklp?oc=5",
-          "reports": 5,
+          "reports": 6,
           "publishers": 4,
           "signal_tags": [],
           "feed_published_at": "2026-11-24T12:00:00+00:00",
