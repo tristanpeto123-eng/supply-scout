@@ -2763,34 +2763,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-11-23",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-11-25",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-11-25",
         "chart": {
-          "price_date": "2026-11-23",
-          "close": 49.709999,
-          "sma20": 58.8515,
-          "sma50": 65.828501,
-          "sma200": 64.66317,
-          "rsi14": 32.19,
-          "atr14_pct": 7.09,
-          "volume_vs_20d": 1.45,
-          "relative_strength_20d_pct": -18.23,
-          "relative_strength_60d_pct": -27.29,
+          "price_date": "2026-11-25",
+          "close": 48.549999,
+          "sma20": 57.038,
+          "sma50": 64.987674,
+          "sma200": 64.514507,
+          "rsi14": 34.98,
+          "atr14_pct": 6.85,
+          "volume_vs_20d": 1.06,
+          "relative_strength_20d_pct": -20.06,
+          "relative_strength_60d_pct": -25.7,
           "breakout_20d_close": false,
           "prior_20d_high_close": 66.599998,
-          "distance_above_sma20_pct": -15.53,
-          "completed_bars_available": 328
+          "distance_above_sma20_pct": -14.88,
+          "completed_bars_available": 330
         },
-        "post_signal_excess_pct": -3.04,
+        "post_signal_excess_pct": -4.64,
         "new_breakout": false,
         "volume_confirmed": true,
         "trend_confirmed": false,
         "rsi_ok": false,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2860,34 +2863,37 @@
       "historically_backfilled": false
     },
     "chart_confirmation": {
-      "status": "PENDING_5_SESSIONS",
-      "completed_sessions": 4,
-      "initial_check": {
-        "sessions": 3,
-        "as_of": "2026-11-23",
+      "status": "NOT_CONFIRMED",
+      "confirmation_date": "2026-11-25",
+      "sessions_required": 5,
+      "test": {
+        "sessions": 5,
+        "as_of": "2026-11-25",
         "chart": {
-          "price_date": "2026-11-23",
-          "close": 336.339996,
-          "sma20": 354.29073,
-          "sma50": 390.633283,
-          "sma200": 394.71588,
-          "rsi14": 35.3,
-          "atr14_pct": 6.03,
-          "volume_vs_20d": 1.05,
-          "relative_strength_20d_pct": -3.81,
-          "relative_strength_60d_pct": -8.7,
+          "price_date": "2026-11-25",
+          "close": 317.809998,
+          "sma20": 347.409682,
+          "sma50": 387.619268,
+          "sma200": 394.171381,
+          "rsi14": 47.03,
+          "atr14_pct": 5.65,
+          "volume_vs_20d": 1.02,
+          "relative_strength_20d_pct": -11.81,
+          "relative_strength_60d_pct": -11.25,
           "breakout_20d_close": false,
           "prior_20d_high_close": 392.514618,
-          "distance_above_sma20_pct": -5.07,
-          "completed_bars_available": 328
+          "distance_above_sma20_pct": -8.52,
+          "completed_bars_available": 330
         },
-        "post_signal_excess_pct": -0.57,
+        "post_signal_excess_pct": -5.33,
         "new_breakout": false,
         "volume_confirmed": true,
         "trend_confirmed": false,
-        "rsi_ok": false,
+        "rsi_ok": true,
         "passes": false
-      }
+      },
+      "reason": "Specified technical confirmation conditions not satisfied within five sessions",
+      "frozen": true
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -2958,7 +2964,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -3029,7 +3035,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -3100,7 +3106,7 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
@@ -3171,7 +3177,78 @@
     },
     "chart_confirmation": {
       "status": "PENDING_3_SESSIONS",
-      "completed_sessions": 1
+      "completed_sessions": 2
+    },
+    "chart_strategy": {
+      "status": "NO_CONFIRMED_ENTRY"
+    }
+  },
+  {
+    "id": "Optical networks|LITE|2026-W48",
+    "ticker": "LITE",
+    "theme": "Optical networks",
+    "signal_time": "2026-11-26T18:24:13+00:00",
+    "headline": "To Understand the 1.6T Optical Module Shortage, First Understand Two Chips: InP Lasers and DSPs - Simple Tech Trend",
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbDd0UlBPd2JQeGhxTFVQQU05eG1iakNLQTJaRGwzTkZtTmxia1BjZjhnSjlUbkhKRVZRRFRrNlVqdlpVZDhNbFFrUUlGenhOYWVWSGhoSmRVb0ZPNlFSWWlMWkJmcV81TkV0MXI5U19WZTNqMlNvMWdIR2wxd19vZVNHQQ?oc=5",
+    "chart_indication": {
+      "status": "WEAK_CHART",
+      "strength": 1,
+      "max_strength": 7,
+      "reasons": [
+        {
+          "criterion": "Price above 20-day average",
+          "met": false
+        },
+        {
+          "criterion": "Price above 50-day average",
+          "met": false
+        },
+        {
+          "criterion": "20-day average above 50-day",
+          "met": false
+        },
+        {
+          "criterion": "Relative strength positive vs ACWI",
+          "met": false
+        },
+        {
+          "criterion": "RSI between 45 and 75",
+          "met": true
+        },
+        {
+          "criterion": "Breakout above previous 20 daily closes",
+          "met": false
+        },
+        {
+          "criterion": "Daily volume at least 1.2x previous 20 days",
+          "met": false
+        }
+      ],
+      "cautions": [],
+      "chart": {
+        "price_date": "2026-11-25",
+        "close": 476.579987,
+        "sma20": 600.585004,
+        "sma50": 804.3499,
+        "sma200": 815.127851,
+        "rsi14": 46.86,
+        "atr14_pct": 13.31,
+        "volume_vs_20d": 0.85,
+        "relative_strength_20d_pct": -40.81,
+        "relative_strength_60d_pct": -37.99,
+        "breakout_20d_close": false,
+        "prior_20d_high_close": 919.530029,
+        "distance_above_sma20_pct": -20.65,
+        "completed_bars_available": 330
+      },
+      "as_of": "2026-11-25",
+      "source": "Adjusted daily historical OHLCV via yfinance, after-session candles only",
+      "reconstructed_at": "2026-11-26T19:42:29+00:00",
+      "historically_backfilled": false
+    },
+    "chart_confirmation": {
+      "status": "PENDING_3_SESSIONS",
+      "completed_sessions": 0
     },
     "chart_strategy": {
       "status": "NO_CONFIRMED_ENTRY"
