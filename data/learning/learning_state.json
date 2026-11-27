@@ -1,8 +1,8 @@
 {
-  "built_at": "2026-11-26T19:18:27+00:00",
+  "built_at": "2026-11-27T18:10:30+00:00",
   "archive_count": 1500,
-  "cluster_count": 1287,
-  "dates_first_seen": 46,
+  "cluster_count": 1284,
+  "dates_first_seen": 47,
   "data_quality": {
     "all_current_archive_unverified": true,
     "historical_dates_are_not_agent_first_seen": true,
@@ -11,18 +11,18 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 316,
-      "unique_report_clusters": 291,
-      "estimated_duplicate_headlines": 25,
-      "publishers": 133,
+      "articles": 324,
+      "unique_report_clusters": 298,
+      "estimated_duplicate_headlines": 26,
+      "publishers": 136,
       "early_signal_strength": 60,
-      "evidence_headlines": 175,
-      "general_headlines": 141,
+      "evidence_headlines": 177,
+      "general_headlines": 147,
       "older_than_7_days_on_first_seen": 47,
-      "first_seen_days": 45,
+      "first_seen_days": 46,
       "momentum": "RISING",
       "flags": {
-        "physical_shortage": 155,
+        "physical_shortage": 157,
         "price_power": 19,
         "lead_time": 13,
         "supply_relief": 5,
@@ -121,7 +121,7 @@
       "articles": 311,
       "unique_report_clusters": 247,
       "estimated_duplicate_headlines": 64,
-      "publishers": 97,
+      "publishers": 96,
       "early_signal_strength": 63,
       "evidence_headlines": 13,
       "general_headlines": 298,
@@ -213,17 +213,17 @@
     {
       "theme": "Grid equipment",
       "articles": 288,
-      "unique_report_clusters": 252,
-      "estimated_duplicate_headlines": 36,
-      "publishers": 132,
+      "unique_report_clusters": 250,
+      "estimated_duplicate_headlines": 38,
+      "publishers": 133,
       "early_signal_strength": 63,
-      "evidence_headlines": 63,
-      "general_headlines": 225,
+      "evidence_headlines": 64,
+      "general_headlines": 224,
       "older_than_7_days_on_first_seen": 30,
       "first_seen_days": 46,
       "momentum": "RISING",
       "flags": {
-        "lead_time": 29,
+        "lead_time": 30,
         "physical_shortage": 34,
         "demand_accel": 6,
         "capacity_additions": 1
@@ -310,14 +310,14 @@
     },
     {
       "theme": "Copper",
-      "articles": 274,
-      "unique_report_clusters": 228,
-      "estimated_duplicate_headlines": 46,
-      "publishers": 149,
+      "articles": 265,
+      "unique_report_clusters": 220,
+      "estimated_duplicate_headlines": 45,
+      "publishers": 146,
       "early_signal_strength": 64,
       "evidence_headlines": 63,
-      "general_headlines": 211,
-      "older_than_7_days_on_first_seen": 29,
+      "general_headlines": 202,
+      "older_than_7_days_on_first_seen": 21,
       "first_seen_days": 44,
       "momentum": "FLAT/LOWER",
       "flags": {
@@ -402,18 +402,18 @@
     },
     {
       "theme": "Shipping",
-      "articles": 311,
+      "articles": 312,
       "unique_report_clusters": 269,
-      "estimated_duplicate_headlines": 42,
+      "estimated_duplicate_headlines": 43,
       "publishers": 192,
       "early_signal_strength": 65,
-      "evidence_headlines": 79,
-      "general_headlines": 232,
-      "older_than_7_days_on_first_seen": 38,
-      "first_seen_days": 46,
+      "evidence_headlines": 76,
+      "general_headlines": 236,
+      "older_than_7_days_on_first_seen": 36,
+      "first_seen_days": 47,
       "momentum": "RISING",
       "flags": {
-        "physical_shortage": 71,
+        "physical_shortage": 68,
         "lead_time": 7,
         "price_power": 1
       },
@@ -471,6 +471,16 @@
           "source": "GhanaWeb"
         },
         {
+          "headline": "Return of container shipping to Suez Canal is causing European port congestion and impacting Asia-UK shipments, says Davies Turner - American Journal of Transportation",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbHhKcEsyRGZEeEVCTFg3eTRudjZzVjRGa3hrWkQ2UE5ZR093NTF3aHNLYzc5V3hxZzl3RHJVRlJFU1VYbURkRVRvZFJWdVljaE1yd1BLQjFvcGpXS1dKa0pxc1YzQ3kyQXNXN3FEd1FPVjJPRGNuNldGNGNLN0JwVktxaUQwQTNjb1hyZHh4V0NRMXJpZTlfaXRiczc2UVl3MlQtUGIzZkx4b1BheDBYdDlKRWpXZlBDbkJ0Wl9iUWl5OWNJRG9telZ6SkZqdUpyRm51R2t3ODJCSWdpdHRDUVE2RGQ2XzF3Y213?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-25T16:14:00+00:00",
+          "first_seen_at": "2026-11-25T18:38:22+00:00",
+          "source": "American Journal of Transportation"
+        },
+        {
           "headline": "Corrugated box makers face a rough ride as raw material, input, $ and freight rates rise - BusinessLine",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVgzLXE3S2pqcFRDNDZuRmxUblowbGY4aXNBUVBvOUZYLUNJZFZHbmZBSUpucFF0YllwaXNXRm1PRXM5bUNLMnhnN1RhSEJ3Ul8yWFNaNkJIZk1Ic3VUeDkxN0RxTUV6QldTbjRydVJjUC11MkhObWFDLUp4N0NVVjlxLTV3dnB6LThwNkpraFVQWjV0eTMyVmNwR0tsYVFsRnBQMWtGbHhnaUZvRkwyZ0tpWFRmblRMbVNpT3V2Z1VxenpxcEVKU1hQT2txX3VuSG9uRVdvMnJNQm1XTDRxVE5wQdIB6gFBVV95cUxNTmZOby00TVFjYkhGUmhxS0NYYVZWSmlPMnVfdDJPMGhLdnBPMUhJU2JsOVBBeERleEJhZDRmM2p0blVwTUJheHB6TnY4WXVYelBqNEZpejQ0bmQwOWJ2ajdiYXNqNHd5M2FnamZiQUZGemdmR2tZUk9QWEtKdXB2djc5b0dlYU1ITkdRZDZROTBpbUJKMWVfTDEyZnBnbWUtU3hTdlViRFgyOGpUR2U4RFJEcExzaUlyZk5XMm5wVF9tVTJYOWpBNlE5b19hTVVBV05GaHpjd1hTWVFUeXQta3N4aTRkdnM5T2c?oc=5",
           "reports": 3,
@@ -479,16 +489,6 @@
           "feed_published_at": "2026-10-12T05:49:05+00:00",
           "first_seen_at": "2026-10-12T17:52:56+00:00",
           "source": "BusinessLine"
-        },
-        {
-          "headline": "Durban port congestion threatens Western Cape fruit exports, with R20,000 extra cost per container - Cape Times",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11ZW5aVkx2VzJGUzZHaVdoNklwWlRhUFBMQW5PMGxoMnl6U3o3cHJXUzlVbzBTSGh0N0xoVW9xclkwbDNqNk12SW8wWE0zRnpTaUVZMFJjVE42R1JFQ3BYUA?oc=5",
-          "reports": 3,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-11-24T14:00:45+00:00",
-          "first_seen_at": "2026-11-24T19:29:18+00:00",
-          "source": "Cape Times"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
