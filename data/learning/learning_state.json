@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-11-27T19:12:25+00:00",
+  "built_at": "2026-11-28T16:52:39+00:00",
   "archive_count": 1500,
-  "cluster_count": 1284,
+  "cluster_count": 1278,
   "dates_first_seen": 47,
   "data_quality": {
     "all_current_archive_unverified": true,
@@ -11,20 +11,20 @@
   "themes": [
     {
       "theme": "Memory chips",
-      "articles": 324,
-      "unique_report_clusters": 298,
-      "estimated_duplicate_headlines": 26,
-      "publishers": 136,
+      "articles": 327,
+      "unique_report_clusters": 300,
+      "estimated_duplicate_headlines": 27,
+      "publishers": 137,
       "early_signal_strength": 60,
-      "evidence_headlines": 177,
+      "evidence_headlines": 180,
       "general_headlines": 147,
       "older_than_7_days_on_first_seen": 47,
       "first_seen_days": 46,
       "momentum": "RISING",
       "flags": {
-        "physical_shortage": 157,
-        "price_power": 19,
-        "lead_time": 13,
+        "physical_shortage": 158,
+        "price_power": 20,
+        "lead_time": 14,
         "supply_relief": 5,
         "capacity_additions": 1
       },
@@ -118,14 +118,14 @@
     },
     {
       "theme": "Optical networks",
-      "articles": 311,
-      "unique_report_clusters": 247,
+      "articles": 309,
+      "unique_report_clusters": 245,
       "estimated_duplicate_headlines": 64,
       "publishers": 96,
       "early_signal_strength": 63,
       "evidence_headlines": 13,
-      "general_headlines": 298,
-      "older_than_7_days_on_first_seen": 39,
+      "general_headlines": 296,
+      "older_than_7_days_on_first_seen": 38,
       "first_seen_days": 46,
       "momentum": "FLAT/LOWER",
       "flags": {
@@ -138,7 +138,7 @@
         {
           "headline": "Ciena vs. Nokia: Which Optical Networking Stock is the Better Buy? - Zacks Investment Research",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWGNVNFN6TzE3U2o2b29UNHdjY21menhRdklsTWltdTA0eGx2SVVpb29uU2JrcEU5YlllSF8zNVVDNG9ZX2RXaERTa0Z1TlZ4RkgyQXFWWkVwNGhUcHduc215TVdVbzBtMGdMVEZXQTRUZmZIdXhOVU1wOU5XcXBuQmlraXA4ekpYN1pBelJiQTBQSFd2Q3huaFRkVUhtZHV1cVJZTVRjVQ?oc=5",
-          "reports": 6,
+          "reports": 7,
           "publishers": 4,
           "signal_tags": [],
           "feed_published_at": "2026-10-23T12:19:07+00:00",
@@ -186,18 +186,6 @@
           "source": "TradingView"
         },
         {
-          "headline": "ONTO's $1.1 Billion Backlog: Can Growth Accelerate Into 2027? - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZHRJNkRSYWltbVNMVll5V2Q1d09PdEJJZVBPQUpLMGxveWktd0tCVjRRSkNZeHNiTWpfTWh3Y0JjY0NZQjZwOEVhUEw2aHl4bmFXdWtuVjVZSXkya0NYRDJzbWhXNDdaV2xLRFRadHZ0aVZzLVBqcTZkMk9sNm9KQTFfWkVtZnJyRGpRVmFkcnN5MlNNZmgwbWhEYnA2SjY2cmR6bXFiM0lZT0wxZmxIa1FZQmhwYnBKUGtNT2VMVERYbzBKSF9yWXBlQ0xaV19sVGs3bGpXcEs?oc=5",
-          "reports": 3,
-          "publishers": 2,
-          "signal_tags": [
-            "lead_time"
-          ],
-          "feed_published_at": "2026-10-09T14:48:00+00:00",
-          "first_seen_at": "2026-10-12T17:52:56+00:00",
-          "source": "The Globe and Mail"
-        },
-        {
           "headline": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent? - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ3hPNXFHblVITFNzcG1hbll6OG42V2pmRmtZakRabWNta2NjdGFhcHd5LTFOQjlCc3dYSVdCekhJSlliMVZTV2RWR3lqVkVoX25IdEJScnFfa1d5cnJ2Z0otajdxa2JCR1ZOcmJDcll6bEhnMDBlN2JZYjliQncwMDdQNUZuQkFyU01JT1c3WUQ3TDQ?oc=5",
           "reports": 2,
@@ -206,6 +194,16 @@
           "feed_published_at": "2026-11-18T16:47:00+00:00",
           "first_seen_at": "2026-11-19T17:21:37+00:00",
           "source": "Yahoo Finance"
+        },
+        {
+          "headline": "Ari Alastalo appointed Vice President of VTT’s Microelectronics and Photonics research area - www.vttresearch.com",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjY0OEQ3RzlveEF5ekdocDBDem0yX0VkWWpVTHNuWmxhQ2kxM1dGTGFnQmFhcHo0NVVqYm0tRXdEdWgxdVFKU2RWSW1mb2NoX1Uxb1RubXVkZXlXTlNON0Z6ckNvT2pYSHZLdWJ2YVc3MGVhQTNRME5HbGFEV3FYYTNpWjN3UEZfdjhMdFBmYURETklvWEtuSDBIdXhXTWlKNzd1N1k5VjlwM2dMcjg2MktiTmxLNmZQdW1CMl82VkhwMlpYQUM4?oc=5",
+          "reports": 2,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-10-07T10:25:01+00:00",
+          "first_seen_at": "2026-10-14T13:42:23+00:00",
+          "source": "www.vttresearch.com"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
@@ -213,18 +211,18 @@
     {
       "theme": "Grid equipment",
       "articles": 288,
-      "unique_report_clusters": 250,
-      "estimated_duplicate_headlines": 38,
-      "publishers": 133,
+      "unique_report_clusters": 246,
+      "estimated_duplicate_headlines": 42,
+      "publishers": 132,
       "early_signal_strength": 63,
       "evidence_headlines": 64,
       "general_headlines": 224,
-      "older_than_7_days_on_first_seen": 30,
+      "older_than_7_days_on_first_seen": 31,
       "first_seen_days": 46,
-      "momentum": "RISING",
+      "momentum": "FLAT/LOWER",
       "flags": {
-        "lead_time": 30,
-        "physical_shortage": 34,
+        "lead_time": 29,
+        "physical_shortage": 35,
         "demand_accel": 6,
         "capacity_additions": 1
       },
@@ -250,6 +248,18 @@
           "source": "Thailand Business News"
         },
         {
+          "headline": "US grid equipment shortage looms as study warns of higher power bills and more outages - Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeUhpUHNmRzRraVpQc0FRbkRpb2NMMnZPa0pqaWg3dnlQZGhkSnpnWEhDZVlOQnhfNnNWNnRjSlNMeWVkQWltMWZZdnZzalZhMWdSVm9leWpSV1MzQjdjYVZrQThjaEtzVkdRZmQ0YmJNSmZoVXRnWXNGSjhzU09zNzVKa3p3U2ZlNDZxVHd2NA?oc=5",
+          "reports": 3,
+          "publishers": 3,
+          "signal_tags": [
+            "physical_shortage"
+          ],
+          "feed_published_at": "2026-11-25T17:15:00+00:00",
+          "first_seen_at": "2026-11-25T18:38:22+00:00",
+          "source": "Yahoo"
+        },
+        {
           "headline": "Zetwerk completes US power transformer installation amid rising grid demand - PR Newswire",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXlEb2w3XzdEZDFKV3hEaTZCdncwdU0zdWZBTDBCUl8yTGdrUkY4OWQxZjZtOXd5dHlzS1NFc2tCaFNMZjhmU29oSUlfMEdoTW9qMVlyZGFYMEUyV1FjQmd0LTVWdmtmcG1feEVwRlh1N2ZIOVoxVVZCYnU0enJQTy1IaE5zUzlGcjJJNzFORTRlV0xiSXBwaFpkYXEwVEM3SE5BN21zWlByeXRfYnJGZlY2YUNGZ3psS2pOVng0ZmZFMjdmR2ZMcjY0dw?oc=5",
           "reports": 3,
@@ -272,6 +282,16 @@
           "source": "Deccan Herald"
         },
         {
+          "headline": "Siemens Energy India Reports Over INR 10,000 Crore Revenue in FY2026 - Energetica India Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU0J0SFNNOVhqWTRBeGQyR3phYVVqTlhETnp3N0ZLMnpzTHRIQjZqY3c3NzZWcVVFNHFQZlJ1WGdqM3lQTldYQktPaFlOSkFRWGFQb2ljZTNaRE41bUtneS1KaWdjZXdxNWMzemd2Q0hvUk90V2F5aFBjR1RUd09hY3ZMemJTWk9uSFlKLUFXMFRFZkJkMWhRVGN4WnlmY0lmUVg0?oc=5",
+          "reports": 3,
+          "publishers": 2,
+          "signal_tags": [],
+          "feed_published_at": "2026-11-26T08:52:57+00:00",
+          "first_seen_at": "2026-11-26T18:24:13+00:00",
+          "source": "Energetica India Magazine"
+        },
+        {
           "headline": "Cuba resumes transformer production after overcoming a shortage of an essential component - CiberCuba",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmJTeGFoNkFNSUluaUVKNENEU2RtT0FEeS1seVNiY3c2UFU0bnN4TlRqd3k4RHhJbUt4WVI3bmFpVG9fQ1I2TVNNLUxlbWdVX0RDZGJKeXNUdjk3REx3WXpTOHMxbGl5NWJuVjdLU3hkNTJwcFNKb0FQNEVZY3V6cGFVNUhVN3hLbzBnSmFudjZhOGY2eFpLSGhlMlpPZlNLQ281Q3RYNFREVFBfLXVETE9BR29aOGRDM0E?oc=5",
           "reports": 2,
@@ -282,46 +302,24 @@
           "feed_published_at": "2026-11-23T19:26:25+00:00",
           "first_seen_at": "2026-11-23T20:12:04+00:00",
           "source": "CiberCuba"
-        },
-        {
-          "headline": "Data Centers Are Running Out of Transformers. Here's the Industrial Stock With a 3-Year Backlog. - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQXBHdkVoX1FyVERxWGhrbHFxX1lXOXU3eVVDY05vdFBHcjhMLWhPZ1R2NHo2Q3NnclBrQVZyVndsdHRHVWxRTXBnOWEzWF9YMkJNLTVyOFI3ZnFDWC1GbjNLTTFBTDhJUXJUcGZaY0RNMjNfY1hwRmotdGRLQ0drUF9hUlROU3ZlZnpfcFpUMnZNdk9fMWl3dHJ2VGxIRTFWeVVHd2NIeGFaMWdvUzZEcV90eFdDWEFOcU93Q2tfeDJma2JWTUpleWdXa2ZpaHYwUVByOFJVZlBNN0p5RGpMeUxKalRXcXhwS0NJR3h1QnBTZ0thS1JQRUdmenlOU1lGeDNrSlhHSHI?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [
-            "lead_time"
-          ],
-          "feed_published_at": "2026-10-08T12:35:00+00:00",
-          "first_seen_at": "2026-10-14T13:42:23+00:00",
-          "source": "The Globe and Mail"
-        },
-        {
-          "headline": "Hitachi Energy expands Celonis AI collaboration - Transformer Magazine",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYTdySFJnYTFOMjJja2RjYTh6ZlJWXzVIOFVSSWJaUkRqSDBHMTMxRU1WcDZ3OUpsYW1GeXotM3ZMRi1VT2FGZ2tmazRGSWw4TDhTOEtYa2o2NXlOeUJRWnI5RkFfWVhMVERzYllVZ3JBODUzY01zTlBFdndLc05FclJINExHS19nQlRZUFkzTQ?oc=5",
-          "reports": 2,
-          "publishers": 2,
-          "signal_tags": [],
-          "feed_published_at": "2026-10-29T06:01:16+00:00",
-          "first_seen_at": "2026-10-29T15:12:54+00:00",
-          "source": "Transformer Magazine"
         }
       ],
       "note": "Research priority only. The score does not test valuations or future stock returns."
     },
     {
       "theme": "Copper",
-      "articles": 265,
-      "unique_report_clusters": 220,
+      "articles": 263,
+      "unique_report_clusters": 218,
       "estimated_duplicate_headlines": 45,
-      "publishers": 146,
+      "publishers": 144,
       "early_signal_strength": 64,
-      "evidence_headlines": 63,
+      "evidence_headlines": 61,
       "general_headlines": 202,
       "older_than_7_days_on_first_seen": 21,
-      "first_seen_days": 44,
+      "first_seen_days": 45,
       "momentum": "FLAT/LOWER",
       "flags": {
-        "physical_shortage": 62,
+        "physical_shortage": 60,
         "demand_accel": 2,
         "price_power": 2,
         "supply_relief": 1
@@ -402,14 +400,14 @@
     },
     {
       "theme": "Shipping",
-      "articles": 312,
+      "articles": 313,
       "unique_report_clusters": 269,
-      "estimated_duplicate_headlines": 43,
+      "estimated_duplicate_headlines": 44,
       "publishers": 192,
       "early_signal_strength": 65,
       "evidence_headlines": 76,
-      "general_headlines": 236,
-      "older_than_7_days_on_first_seen": 36,
+      "general_headlines": 237,
+      "older_than_7_days_on_first_seen": 37,
       "first_seen_days": 47,
       "momentum": "RISING",
       "flags": {
@@ -421,7 +419,7 @@
         {
           "headline": "Government Separates Shipping Line Release From Customs Clearance to Ease Port Congestion - Modern Ghana",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WYkUycVFGYjdRdWRWd0wtSFlTeFFoa003cXpkdk9kTi1zVXFtSUtFNkM1QnZDenA1bXpkRGdaTE5tTzh4cHlCLWEydVQtdXByNEVVTVdmYjNVQjloQUNaeXlOZ9IBXEFVX3lxTE1YSDdiS0hMR2V1V3dfbDE5SVZsLV9IRUhtRzY4czQzTFVkRGhCXzBvakpKek41M2phb1VvbGwtWU1yZ2JkU2ZsMmZYVFNHSUhfblg0YlBJNEtNUklp?oc=5",
-          "reports": 6,
+          "reports": 7,
           "publishers": 4,
           "signal_tags": [],
           "feed_published_at": "2026-11-24T12:00:00+00:00",
